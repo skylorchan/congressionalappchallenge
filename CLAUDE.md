@@ -34,4 +34,4 @@ Each of these files starts with a `[STUDENT-OWNED]` header comment.
 
 - `npm run dev` / `npm run build` / `npm run preview`
 - `npm run lint`, `npm run typecheck`, `npm test`, `npm run e2e`
-- Deployed base path is `/2425/` (GitHub Pages). Routing uses hash URLs.
+- Deployed base path is `/congressionalappchallenge/` (GitHub Pages). Routing uses hash URLs.

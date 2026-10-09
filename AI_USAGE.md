@@ -61,3 +61,35 @@ control proving the offline test fails when the service worker is disabled.
 **Open items for Skylor:** review the Japanese strings; walk through `src/sw.ts` and
 `src/i18n/index.ts` and explain them back; decide on the M2/M3 design questions (tsunami
 "safe place" definition, offline address entry, which extra modules to own).
+
+---
+
+## 2026-10-09: Session 2, move to `congressionalappchallenge` repo
+
+**AI generated**
+
+- Planning: re-reviewed the brief, listed risks/ambiguities (including declining the
+  brief's "ghostwriter" framing, since the student-owned modules stay student-written),
+  and proposed the migration plan (approved by Skylor).
+- Moved the M1 history from `skylorchan/2425` into this repo unchanged (same 4 commits).
+- Changed the deploy base path from `/2425/` to `/congressionalappchallenge/` in
+  `vite.config.ts`, `playwright.config.ts`, `tests/e2e/pwa.spec.ts`, `src/App.tsx`
+  (comment), `README.md`, and `CLAUDE.md`.
+- This log entry.
+
+**Student wrote**
+
+- Decisions: move the project to this repo, keep the git history, leave the old `2425`
+  repo untouched for Skylor to archive.
+- No application code this session.
+
+**AI reviewed**
+
+- Nothing (no student code this session).
+
+**Verification run by AI:** lint, format check, typecheck, 20/20 unit tests, production
+build, 4/4 Playwright tests (airplane-mode reload, offline language switch, manifest
+scope at `/congressionalappchallenge/`).
+
+**Open items for Skylor:** enable GitHub Pages (Settings → Pages → Source: GitHub
+Actions); archive `skylorchan/2425`; plus the open items from Session 1.

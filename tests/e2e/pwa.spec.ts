@@ -12,8 +12,8 @@ test('web app manifest meets install requirements', async ({ page, request }) =>
 
   expect(manifest.name).toBeTruthy();
   expect(manifest.short_name).toBeTruthy();
-  expect(manifest.start_url).toBe('/2425/');
-  expect(manifest.scope).toBe('/2425/');
+  expect(manifest.start_url).toBe('/congressionalappchallenge/');
+  expect(manifest.scope).toBe('/congressionalappchallenge/');
   expect(['standalone', 'fullscreen', 'minimal-ui']).toContain(manifest.display);
 
   const sizes = manifest.icons.map((i: { sizes: string }) => i.sizes);

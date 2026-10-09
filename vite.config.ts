@@ -2,9 +2,9 @@ import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
-// GitHub Pages serves this repo at https://<user>.github.io/2425/, so every asset URL,
-// the manifest scope, and the service worker scope must live under /2425/.
-export const BASE = '/2425/';
+// GitHub Pages serves this repo at https://<user>.github.io/congressionalappchallenge/, so every asset URL,
+// the manifest scope, and the service worker scope must live under /congressionalappchallenge/.
+export const BASE = '/congressionalappchallenge/';
 
 export default defineConfig({
   base: BASE,

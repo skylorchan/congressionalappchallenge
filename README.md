@@ -66,7 +66,7 @@ flowchart TD
   `reviewed` (with the reviewer and date). Safety instructions (`safety.*` keys) are only
   shown in another language once a human has reviewed them; until then, the app shows the
   English original plus a note. A test fails the build if any string is unflagged.
-- **Hash URLs** (`/2425/#/places`) so links work on GitHub Pages, which can't rewrite URLs.
+- **Hash URLs** (`/congressionalappchallenge/#/places`) so links work on GitHub Pages, which can't rewrite URLs.
 - **No accounts, no API keys, no tracking.** Everything personal stays on the device.
 
 ## Development
@@ -77,7 +77,7 @@ Requires Node 22.
 npm install
 npm run dev          # dev server (no service worker)
 npm run build        # production build to dist/
-npm run preview      # serve the build at http://localhost:4173/2425/
+npm run preview      # serve the build at http://localhost:4173/congressionalappchallenge/
 npm run lint         # ESLint, including accessibility rules
 npm run typecheck
 npm test             # unit tests (Vitest)

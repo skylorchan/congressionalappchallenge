@@ -5,7 +5,7 @@ import { PlacesScreen } from './features/places/PlacesScreen';
 import { AlertsScreen } from './features/alerts/AlertsScreen';
 import { PlanScreen } from './features/plan/PlanScreen';
 
-// Hash URLs (/2425/#/places) because GitHub Pages can't rewrite unknown paths to
+// Hash URLs (/congressionalappchallenge/#/places) because GitHub Pages can't rewrite unknown paths to
 // index.html. The part after # never reaches the server, so deep links always work.
 export function App() {
   return (
