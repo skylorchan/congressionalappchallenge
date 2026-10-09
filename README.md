@@ -70,7 +70,7 @@ flowchart TD
     SW["Service worker (Workbox)<br/>precaches app, data, basemap;<br/>slices byte ranges from cache"]
   end
   subgraph Net["Internet, when available"]
-    PAGES["GitHub Pages"]
+    PAGES["Vercel"]
     NWS["api.weather.gov"]
   end
   BUILD --> PAGES
@@ -147,7 +147,7 @@ npm install
 npm run data:build   # raw downloads in data/raw/ -> public/data/ and public/map/
 npm run dev          # dev server (no service worker)
 npm run build        # production build (runs data:build first)
-npm run preview      # serve the build at http://localhost:4173/congressionalappchallenge/
+npm run preview      # serve the build at http://localhost:4173/
 npm run lint         # ESLint, including jsx-a11y
 npm run typecheck
 npm test             # unit tests
@@ -163,8 +163,10 @@ npm run i18n:sync    # flag new translated strings as "machine"
 **Testing offline by hand.** `npm run build && npm run preview`, open the site in Chrome,
 wait for "ready to work offline", then DevTools → Network → Offline, and reload.
 
-**Deploying.** Pushing to `main` runs the GitHub Pages workflow. On a free GitHub account,
-Pages needs the repository to be public (or deploy to Netlify or Vercel instead).
+**Deploying.** Hosted on Vercel, configured by [`vercel.json`](vercel.json): Vercel builds
+with `npm run build` (which runs `data:build` first) and serves `dist/` from the domain
+root. Connect the GitHub repo in Vercel once and every push to `main` deploys, and every
+other branch gets a preview URL. Private repos work on Vercel's free plan.
 
 ## Data sources
 

@@ -145,3 +145,23 @@ Playwright tests, Lighthouse (mobile) 96/100/100/100.
 **Not done / needs a human:** native-speaker review of every translation; testing on a
 real low-end Android phone; making the repo public (or another host) so GitHub Pages can
 deploy.
+
+---
+
+## 2026-10-09: Session 4, move hosting to Vercel
+
+**Skylor**
+
+- Decided to host on Vercel instead of GitHub Pages.
+
+**AI generated**
+
+- `vercel.json` (build settings; headers so the service worker is never cached stale and
+  the basemap is served as binary with byte ranges).
+- Base path changed from `/congressionalappchallenge/` to `/` in `vite.config.ts`,
+  `playwright.config.ts`, `tests/e2e/pwa.spec.ts`, `src/App.tsx`, `README.md`,
+  `CLAUDE.md`. The GitHub Pages workflow is now manual-only.
+
+**Verification run by the AI:** clean-clone `npm ci && npm run build` (as Vercel runs
+it), lint, typecheck, 86/86 unit tests, 11/11 Playwright tests. The dev container can't
+reach vercel.com, so the first deploy is done by connecting the repo in Vercel.

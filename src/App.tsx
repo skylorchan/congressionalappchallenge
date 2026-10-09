@@ -34,9 +34,9 @@ function Home() {
   return settings.kupuna ? page(<KupunaScreen />) : <ZoneScreen />;
 }
 
-// Hash URLs (/congressionalappchallenge/#/places) because GitHub Pages can't rewrite
-// unknown paths to index.html. The part after # never reaches the server, so deep links
-// (including the alert-sharing QR links) always work, online or off.
+// Hash URLs (/#/places) so the app needs no server rewrites on any static host. The part
+// after # never reaches the server, so deep links (including the alert-sharing QR links)
+// always work, online or off.
 export function App() {
   return (
     <SettingsProvider>

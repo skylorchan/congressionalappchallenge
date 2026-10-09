@@ -2,9 +2,9 @@ import { defineConfig, type Plugin } from 'vite';
 import react from '@vitejs/plugin-react';
 import { VitePWA } from 'vite-plugin-pwa';
 
-// GitHub Pages serves this repo at https://<user>.github.io/congressionalappchallenge/, so every asset URL,
-// the manifest scope, and the service worker scope must live under /congressionalappchallenge/.
-export const BASE = '/congressionalappchallenge/';
+// Served from the root of its domain (Vercel). Every asset URL, the manifest scope and the
+// service worker scope are relative to this.
+export const BASE = '/';
 
 /**
  * `vite preview` doesn't know the .pmtiles type, serves it with an empty Content-Type,

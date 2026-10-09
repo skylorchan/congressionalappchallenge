@@ -1,8 +1,8 @@
-name: Deploy to GitHub Pages
+# Kōkua is hosted on Vercel (see vercel.json). This GitHub Pages workflow is kept for
+# manual use only; Pages on a free account also needs the repo to be public.
+name: Deploy to GitHub Pages (manual)
 
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:

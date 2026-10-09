@@ -9,13 +9,13 @@ export default defineConfig({
   retries: process.env.CI ? 1 : 0,
   reporter: process.env.CI ? [['github'], ['html', { open: 'never' }]] : 'list',
   use: {
-    baseURL: `http://localhost:${PORT}/congressionalappchallenge/`,
+    baseURL: `http://localhost:${PORT}/`,
     trace: 'retain-on-failure',
   },
   // Test the production build, because the service worker only exists there.
   webServer: {
     command: `npm run build && npm run preview -- --port ${PORT} --strictPort`,
-    url: `http://localhost:${PORT}/congressionalappchallenge/`,
+    url: `http://localhost:${PORT}/`,
     reuseExistingServer: !process.env.CI,
     timeout: 120_000,
   },

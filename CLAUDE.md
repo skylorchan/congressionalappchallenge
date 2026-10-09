@@ -29,4 +29,4 @@ The dev container cannot reach the data hosts. `.github/workflows/fetch-data.yml
 - `npm run dev` / `npm run build` / `npm run preview`
 - `npm run lint`, `npm run typecheck`, `npm test`, `npm run e2e`
 - `npm run data:build`, `npm run i18n:sync`
-- Deployed base path is `/congressionalappchallenge/` (GitHub Pages). Routing uses hash URLs.
+- Hosted on Vercel from the repo root (`vercel.json`); base path `/`. Routing uses hash URLs.
