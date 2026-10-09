@@ -53,7 +53,23 @@
   },
   "direction": {
     "distanceToward": "{{distance}} to the {{direction}}",
-    "walk": "at least {{minutes}} min on foot"
+    "walk": "at least {{minutes}} min on foot",
+    "walkRoute": "{{distance}} walk",
+    "walkAbout": "about {{minutes}} min on foot",
+    "headToward": "Head {{direction}}",
+    "straight": "straight line"
+  },
+  "route": {
+    "stepsHeading": "Walking directions",
+    "depart": "Head {{direction}} on {{street}}, {{distance}}",
+    "left": "Turn left onto {{street}}, {{distance}}",
+    "right": "Turn right onto {{street}}, {{distance}}",
+    "continue": "Continue onto {{street}}, {{distance}}",
+    "unnamed": "a path",
+    "arriveSafe": "You are out of the zone.",
+    "arrivePlace": "Arrive at {{name}}.",
+    "loading": "Finding walking routes… Straight-line distances are shown until then.",
+    "disclaimer": "Walking routes follow OpenStreetMap roads and paths. They don't know about closures, flooding or damage. Follow evacuation signs and officials."
   },
   "data": {
     "source": "Source:",
@@ -76,7 +92,8 @@
     "legendRefuge": "Hurricane refuge area (numbered)",
     "tapHint": "Tap the map to check a different spot. Use two fingers to move the map.",
     "gestureDesktop": "Use Ctrl + scroll to zoom the map",
-    "gestureMobile": "Use two fingers to move the map"
+    "gestureMobile": "Use two fingers to move the map",
+    "legendRoute": "Walking route"
   },
   "zone": {
     "status": {
@@ -88,7 +105,6 @@
     "noDataHelp": "Kōkua has evacuation zone maps for Oʻahu only. Pick a spot on land, or use your location while on Oʻahu.",
     "exitTsunami": "Nearest way out for a Tsunami Warning:",
     "exitExtreme": "Nearest way out for an Extreme Tsunami Warning:",
-    "straightLine": "Distances are in a straight line. Follow roads and paths, and move inland or uphill.",
     "seePlaces": "See safe places and refuge areas near here",
     "disclaimer": "Zone lines are approximate. Always follow instructions from officials."
   },

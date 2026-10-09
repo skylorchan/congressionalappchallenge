@@ -329,6 +329,17 @@ button:disabled {
   display: block;
   color: var(--color-text-muted);
 }
+.route-steps summary {
+  min-height: 2.5rem;
+  font-size: 0.95rem;
+}
+.route-steps ol {
+  margin: 0.25rem 0 0.5rem;
+  padding-left: 1.5rem;
+}
+.route-steps li {
+  margin-bottom: 0.25rem;
+}
 
 /* ---------- Map ---------- */
 .map-wrap {
@@ -370,6 +381,11 @@ button:disabled {
   height: 1rem;
   border-radius: 0.2rem;
   opacity: 0.8;
+}
+.swatch-line {
+  height: 0.3rem;
+  border-radius: 0.15rem;
+  opacity: 1;
 }
 .swatch-dot {
   border-radius: 50%;

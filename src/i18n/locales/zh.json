@@ -53,7 +53,23 @@
   },
   "direction": {
     "distanceToward": "往{{direction}} {{distance}}",
-    "walk": "步行至少 {{minutes}} 分鐘"
+    "walk": "步行至少 {{minutes}} 分鐘",
+    "walkRoute": "步行 {{distance}}",
+    "walkAbout": "步行約 {{minutes}} 分鐘",
+    "headToward": "往{{direction}}出發",
+    "straight": "直線距離"
+  },
+  "route": {
+    "stepsHeading": "步行路線指引",
+    "depart": "沿{{street}}往{{direction}}走，{{distance}}",
+    "left": "左轉進入{{street}}，{{distance}}",
+    "right": "右轉進入{{street}}，{{distance}}",
+    "continue": "直行進入{{street}}，{{distance}}",
+    "unnamed": "小路",
+    "arriveSafe": "您已離開疏散區。",
+    "arrivePlace": "抵達{{name}}。",
+    "loading": "正在尋找步行路線… 在此之前顯示直線距離。",
+    "disclaimer": "步行路線依據 OpenStreetMap 的道路和小徑，不包含封路、淹水或損壞資訊。請遵循疏散標誌和官方指示。"
   },
   "data": {
     "source": "資料來源：",
@@ -76,7 +92,8 @@
     "legendRefuge": "颶風避難處（編號）",
     "tapHint": "點選地圖可檢查其他地點。用兩根手指移動地圖。",
     "gestureDesktop": "按住 Ctrl 並捲動即可縮放地圖",
-    "gestureMobile": "用兩根手指移動地圖"
+    "gestureMobile": "用兩根手指移動地圖",
+    "legendRoute": "步行路線"
   },
   "zone": {
     "status": {
@@ -88,7 +105,6 @@
     "noDataHelp": "Kōkua 只有歐胡島的疏散區地圖。請選擇陸地上的地點，或在歐胡島上使用您的位置。",
     "exitTsunami": "海嘯警報時最近的離開點：",
     "exitExtreme": "極端海嘯警報時最近的離開點：",
-    "straightLine": "距離為直線距離。請沿著道路和小徑，往內陸或高處移動。",
     "seePlaces": "查看附近的安全地點和避難處",
     "disclaimer": "疏散區界線僅為大概位置。請一律遵從官方指示。"
   },

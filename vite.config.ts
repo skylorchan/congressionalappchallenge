@@ -46,8 +46,9 @@ export default defineConfig({
       registerType: 'prompt',
       injectRegister: false,
       injectManifest: {
-        // Everything, including zone data (json), map fonts (pbf) and the basemap.
-        globPatterns: ['**/*.{js,mjs,css,html,svg,png,ico,webmanifest,json,pbf,pmtiles}'],
+        // Everything, including zone data (json), the walking network (bin), map fonts (pbf)
+        // and the basemap.
+        globPatterns: ['**/*.{js,mjs,css,html,svg,png,ico,webmanifest,json,pbf,pmtiles,bin}'],
         // The Oʻahu basemap is ~11 MB; the default limit (2 MB) would silently skip it.
         maximumFileSizeToCacheInBytes: 16 * 1024 * 1024,
       },

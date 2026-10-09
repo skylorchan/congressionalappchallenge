@@ -53,7 +53,23 @@
   },
   "direction": {
     "distanceToward": "{{distance}} papuntang {{direction}}",
-    "walk": "hindi bababa sa {{minutes}} minutong lakad"
+    "walk": "hindi bababa sa {{minutes}} minutong lakad",
+    "walkRoute": "{{distance}} na lakad",
+    "walkAbout": "mga {{minutes}} minutong lakad",
+    "headToward": "Pumunta pa-{{direction}}",
+    "straight": "tuwid na linya"
+  },
+  "route": {
+    "stepsHeading": "Direksyon sa paglakad",
+    "depart": "Pumunta pa-{{direction}} sa {{street}}, {{distance}}",
+    "left": "Kumaliwa sa {{street}}, {{distance}}",
+    "right": "Kumanan sa {{street}}, {{distance}}",
+    "continue": "Diretso sa {{street}}, {{distance}}",
+    "unnamed": "isang daan",
+    "arriveSafe": "Nakalabas ka na sa zone.",
+    "arrivePlace": "Dumating sa {{name}}.",
+    "loading": "Hinahanap ang ruta sa paglakad… Tuwid na linya muna ang ipinapakita.",
+    "disclaimer": "Ang mga ruta sa paglakad ay sumusunod sa mga kalsada at daan ng OpenStreetMap. Hindi nito alam ang mga sarado, baha o sira. Sundin ang mga karatula ng paglikas at ang mga opisyal."
   },
   "data": {
     "source": "Pinagmulan:",
@@ -76,7 +92,8 @@
     "legendRefuge": "Hurricane refuge area (may numero)",
     "tapHint": "Pindutin ang mapa para suriin ang ibang lugar. Gumamit ng dalawang daliri para igalaw ang mapa.",
     "gestureDesktop": "Pindutin ang Ctrl habang nag-i-scroll para mag-zoom",
-    "gestureMobile": "Gumamit ng dalawang daliri para igalaw ang mapa"
+    "gestureMobile": "Gumamit ng dalawang daliri para igalaw ang mapa",
+    "legendRoute": "Ruta sa paglakad"
   },
   "zone": {
     "status": {
@@ -88,7 +105,6 @@
     "noDataHelp": "Ang Kōkua ay may mapa ng evacuation zone para sa Oʻahu lamang. Pumili ng lugar sa lupa, o gamitin ang iyong lokasyon habang nasa Oʻahu.",
     "exitTsunami": "Pinakamalapit na labasan kapag may Tsunami Warning:",
     "exitExtreme": "Pinakamalapit na labasan kapag may Extreme Tsunami Warning:",
-    "straightLine": "Tuwid na linya ang mga distansya. Sundan ang mga kalsada at daan, at pumunta sa loob ng isla o paakyat.",
     "seePlaces": "Tingnan ang mga ligtas na lugar at refuge area sa malapit",
     "disclaimer": "Tantiya lamang ang mga linya ng zone. Laging sundin ang mga tagubilin ng mga opisyal."
   },

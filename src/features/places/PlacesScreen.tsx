@@ -6,7 +6,7 @@ import { LocationPicker } from '../../components/LocationPicker';
 import { Page } from '../../components/Page';
 import { SafeText } from '../../components/SafeText';
 import { SourceNote } from '../../components/SourceNote';
-import { useAppData } from '../../data/appData';
+import { useAppData, useWalkGraph } from '../../data/appData';
 import { useAnalysis } from '../zone/analysis';
 
 const MapView = lazy(() => import('../../components/MapView'));
@@ -19,7 +19,8 @@ export function PlacesScreen() {
   const [mapOpened, setMapOpened] = useState(false);
   const showMap = mapOpened || !!location;
   const { data, error } = useAppData(showMap);
-  const analysis = useAnalysis(data, location?.coord, 5);
+  const graph = useWalkGraph(!!location);
+  const analysis = useAnalysis(data, location?.coord, 5, graph);
 
   return (
     <Page title={t('screens.places.title')}>
@@ -35,17 +36,18 @@ export function PlacesScreen() {
             <p>
               <strong>{t('zone.exitTsunami')}</strong>
               <br />
-              <Direction {...analysis.exitTsunami} />
+              <Direction {...analysis.exitTsunami} arrival={t('route.arriveSafe')} />
             </p>
           )}
           {analysis.exitExtreme && (
             <p>
               <strong>{t('zone.exitExtreme')}</strong>
               <br />
-              <Direction {...analysis.exitExtreme} />
+              <Direction {...analysis.exitExtreme} arrival={t('route.arriveSafe')} />
             </p>
           )}
           <SafeText k="safety.tsunamiGoUp" />
+          <p className="hint">{analysis.walking ? t('route.disclaimer') : t('route.loading')}</p>
         </section>
       )}
 
@@ -54,7 +56,7 @@ export function PlacesScreen() {
           <h2 id="refuges">{t('places.refugeHeading')}</h2>
           <SafeText k="safety.refugeNotOpen" />
           <ol className="place-list">
-            {analysis.refuges.map(({ item, distance, bearing }, i) => (
+            {analysis.refuges.map(({ item, distance, bearing, route }, i) => (
               <li key={item.id} className="place">
                 <span className="place-number" aria-hidden="true">
                   {i + 1}
@@ -65,7 +67,12 @@ export function PlacesScreen() {
                     {item.address}, {item.place}
                   </p>
                   <p>
-                    <Direction distance={distance} bearing={bearing} />
+                    <Direction
+                      distance={distance}
+                      bearing={bearing}
+                      route={route}
+                      arrival={t('route.arrivePlace', { name: item.name })}
+                    />
                   </p>
                   {(item.zone === 'tsunami' || item.zone === 'extreme') && (
                     <p className="badge badge-danger">
@@ -101,6 +108,7 @@ export function PlacesScreen() {
               label={t('map.placesLabel')}
               zones={data.zonesGeoJSON}
               user={location?.coord}
+              routes={analysis?.refuges[0]?.route ? [analysis.refuges[0].route.coords] : []}
               places={(analysis?.refuges ?? []).map((r, i) => ({
                 coord: r.item.coord,
                 label: String(i + 1),

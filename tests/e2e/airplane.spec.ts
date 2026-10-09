@@ -64,7 +64,11 @@ test('the whole app works in airplane mode after one online visit', async ({ pag
     page.getByRole('heading', { name: 'You are in the Tsunami Evacuation Zone' }),
   ).toBeVisible();
   await expect(page.getByText('Nearest way out for a Tsunami Warning:')).toBeVisible();
-  await expect(page.getByText(/to the northeast/).first()).toBeVisible();
+  // Walking route along real streets, computed on the phone with no signal.
+  await expect(page.getByText(/^Head northeast/).first()).toBeVisible();
+  await page.getByText('Walking directions').first().click();
+  await expect(page.getByText(/Kalākaua Avenue/).first()).toBeVisible();
+  await expect(page.getByText('You are out of the zone.').first()).toBeVisible();
   await page.locator('.map-slot').scrollIntoViewIfNeeded();
   await expect(page.locator('.map canvas')).toBeVisible();
   await expect(page.getByText(/mapped Apr 2025/)).toBeVisible();

@@ -53,7 +53,23 @@
   },
   "direction": {
     "distanceToward": "{{distance}} về phía {{direction}}",
-    "walk": "đi bộ ít nhất {{minutes}} phút"
+    "walk": "đi bộ ít nhất {{minutes}} phút",
+    "walkRoute": "Đi bộ {{distance}}",
+    "walkAbout": "đi bộ khoảng {{minutes}} phút",
+    "headToward": "Đi về phía {{direction}}",
+    "straight": "đường thẳng"
+  },
+  "route": {
+    "stepsHeading": "Chỉ đường đi bộ",
+    "depart": "Đi về phía {{direction}} trên {{street}}, {{distance}}",
+    "left": "Rẽ trái vào {{street}}, {{distance}}",
+    "right": "Rẽ phải vào {{street}}, {{distance}}",
+    "continue": "Đi tiếp vào {{street}}, {{distance}}",
+    "unnamed": "một lối đi",
+    "arriveSafe": "Bạn đã ra khỏi khu vực.",
+    "arrivePlace": "Đến {{name}}.",
+    "loading": "Đang tìm đường đi bộ… Tạm thời hiển thị khoảng cách đường thẳng.",
+    "disclaimer": "Đường đi bộ theo đường phố và lối đi của OpenStreetMap. Không biết về đường bị chặn, ngập lụt hay hư hại. Hãy theo biển chỉ dẫn sơ tán và nhà chức trách."
   },
   "data": {
     "source": "Nguồn:",
@@ -76,7 +92,8 @@
     "legendRefuge": "Nơi trú bão (đánh số)",
     "tapHint": "Chạm vào bản đồ để kiểm tra điểm khác. Dùng hai ngón tay để di chuyển bản đồ.",
     "gestureDesktop": "Giữ Ctrl và cuộn để phóng to bản đồ",
-    "gestureMobile": "Dùng hai ngón tay để di chuyển bản đồ"
+    "gestureMobile": "Dùng hai ngón tay để di chuyển bản đồ",
+    "legendRoute": "Đường đi bộ"
   },
   "zone": {
     "status": {
@@ -88,7 +105,6 @@
     "noDataHelp": "Kōkua chỉ có bản đồ khu sơ tán của Oʻahu. Hãy chọn một điểm trên đất liền, hoặc dùng vị trí của bạn khi ở Oʻahu.",
     "exitTsunami": "Lối ra gần nhất khi có Cảnh báo sóng thần:",
     "exitExtreme": "Lối ra gần nhất khi có Cảnh báo sóng thần cực đại:",
-    "straightLine": "Khoảng cách là đường thẳng. Hãy đi theo đường và lối đi, di chuyển vào đất liền hoặc lên cao.",
     "seePlaces": "Xem các nơi an toàn và nơi trú gần đây",
     "disclaimer": "Ranh giới khu vực chỉ là gần đúng. Luôn làm theo hướng dẫn của nhà chức trách."
   },

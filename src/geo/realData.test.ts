@@ -51,3 +51,83 @@ describe.skipIf(!existsSync(path))('real Oʻahu zone data', () => {
     expect(idx.lookup(beyond).status).toBe('safe');
   });
 });
+
+describe.skipIf(!existsSync(path))('makePolygonTester', () => {
+  it('gives exactly the same answers as pointInPolygon on the real zones', async () => {
+    const { makePolygonTester, pointInPolygon } = await import('./pointInPolygon');
+    const fc = JSON.parse(readFileSync(path, 'utf8')) as ZoneCollection;
+    const polys = fc.features.flatMap((f) =>
+      f.geometry.type === 'Polygon' ? [f.geometry.coordinates] : f.geometry.coordinates,
+    );
+    // Deterministic pseudo-random points across Oʻahu, plus every 50th polygon vertex
+    // (exactly on a boundary, the hardest case).
+    let seed = 42;
+    const rand = () => (seed = (seed * 1_103_515_245 + 12_345) % 2 ** 31) / 2 ** 31;
+    const pts: LngLat[] = Array.from({ length: 3000 }, () => [
+      -158.3 + rand() * 0.68,
+      21.24 + rand() * 0.48,
+    ]);
+    for (const poly of polys) poly[0]!.forEach((v, i) => i % 50 === 0 && pts.push(v));
+    let mismatches = 0;
+    for (const poly of polys) {
+      const fast = makePolygonTester(poly);
+      for (const p of pts) if (fast(p) !== pointInPolygon(p, poly)) mismatches++;
+    }
+    expect(mismatches).toBe(0);
+  }, 60_000);
+});
+
+const walkPath = join(process.cwd(), 'public/data/walk.bin');
+
+describe.skipIf(!existsSync(walkPath) || !existsSync(path))(
+  'walking routes on real Oʻahu streets',
+  async () => {
+    const { WalkGraph } = await import('./route');
+    const { decodeWalkGraph, ZONE_CODE } = await import('./walkGraph');
+    const { distanceMeters } = await import('./distance');
+    const buf = readFileSync(walkPath);
+    const names = JSON.parse(
+      readFileSync(join(process.cwd(), 'public/data/walk.json'), 'utf8'),
+    ).names;
+    const t0 = performance.now();
+    const graph = new WalkGraph(
+      decodeWalkGraph(buf.buffer.slice(buf.byteOffset, buf.byteOffset + buf.byteLength), names),
+    );
+    const loadMs = performance.now() - t0;
+    const idx = ZoneIndex.fromGeoJSON(JSON.parse(readFileSync(path, 'utf8')) as ZoneCollection);
+
+    const places: [string, LngLat][] = [
+      ['Waikīkī Beach', [-157.8268, 21.276]],
+      ['Haleʻiwa town', [-158.103, 21.592]],
+      ['Aloha Tower', [-157.8663, 21.3069]],
+      ['Kailua Beach', [-157.728, 21.397]],
+    ];
+
+    it('loads quickly enough for a phone', () => {
+      expect(loadMs).toBeLessThan(3000);
+    });
+
+    it.each(places)('%s: route out of the tsunami zone ends on safe ground', (_, origin) => {
+      const t = performance.now();
+      const r = graph.routeToZone(origin, [ZONE_CODE.extreme, ZONE_CODE.safe])!;
+      const ms = performance.now() - t;
+      expect(r).not.toBeNull();
+      expect(ms).toBeLessThan(500);
+      expect(['extreme', 'safe']).toContain(idx.lookup(r.end).status);
+      // A walk can't be shorter than the straight line to where it ends...
+      expect(r.distance).toBeGreaterThanOrEqual(distanceMeters(origin, r.end) - 1);
+      // ...and the drawn line is the route that was measured.
+      let drawn = 0;
+      for (let i = 1; i < r.coords.length; i++)
+        drawn += distanceMeters(r.coords[i - 1]!, r.coords[i]!);
+      expect(Math.abs(drawn - r.distance) / r.distance).toBeLessThan(0.02);
+      expect(r.steps.length).toBeGreaterThan(0);
+    });
+
+    it('Waikīkī: route for an Extreme Tsunami Warning reaches a safe zone', () => {
+      const r = graph.routeToZone([-157.8268, 21.276], [ZONE_CODE.safe])!;
+      expect(idx.lookup(r.end).status).toBe('safe');
+      expect(r.distance).toBeLessThan(5000);
+    });
+  },
+);

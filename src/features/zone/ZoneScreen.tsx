@@ -7,7 +7,7 @@ import { LocationPicker } from '../../components/LocationPicker';
 import { Page } from '../../components/Page';
 import { SafeText } from '../../components/SafeText';
 import { SourceNote } from '../../components/SourceNote';
-import { useAppData } from '../../data/appData';
+import { useAppData, useWalkGraph } from '../../data/appData';
 import type { ZoneStatus } from '../../geo/zoneLookup';
 import { useAnalysis } from './analysis';
 
@@ -28,7 +28,8 @@ export function ZoneScreen() {
   const [mapOpened, setMapOpened] = useState(false);
   const showMap = mapOpened || !!location;
   const { data, error } = useAppData(showMap);
-  const analysis = useAnalysis(data, location?.coord);
+  const graph = useWalkGraph(!!location);
+  const analysis = useAnalysis(data, location?.coord, 5, graph);
   const status = analysis?.zone.status;
 
   return (
@@ -56,18 +57,18 @@ export function ZoneScreen() {
             <p>
               <strong>{t('zone.exitTsunami')}</strong>
               <br />
-              <Direction {...analysis.exitTsunami} />
+              <Direction {...analysis.exitTsunami} arrival={t('route.arriveSafe')} />
             </p>
           )}
           {analysis.exitExtreme && (
             <p>
               <strong>{t('zone.exitExtreme')}</strong>
               <br />
-              <Direction {...analysis.exitExtreme} />
+              <Direction {...analysis.exitExtreme} arrival={t('route.arriveSafe')} />
             </p>
           )}
           {(analysis.exitTsunami || analysis.exitExtreme) && (
-            <p className="hint">{t('zone.straightLine')}</p>
+            <p className="hint">{analysis.walking ? t('route.disclaimer') : t('route.loading')}</p>
           )}
           {status !== 'no-data' && (
             <p>
@@ -106,10 +107,22 @@ export function ZoneScreen() {
               user={location?.coord}
               exits={[
                 ...(analysis?.exitTsunami
-                  ? [{ point: analysis.exitTsunami.point, kind: 'tsunami' as const }]
+                  ? [
+                      {
+                        point: analysis.exitTsunami.point,
+                        kind: 'tsunami' as const,
+                        line: analysis.exitTsunami.route?.coords,
+                      },
+                    ]
                   : []),
                 ...(analysis?.exitExtreme
-                  ? [{ point: analysis.exitExtreme.point, kind: 'extreme' as const }]
+                  ? [
+                      {
+                        point: analysis.exitExtreme.point,
+                        kind: 'extreme' as const,
+                        line: analysis.exitExtreme.route?.coords,
+                      },
+                    ]
                   : []),
               ]}
               onPick={(p) => setLocation(p, 'map')}

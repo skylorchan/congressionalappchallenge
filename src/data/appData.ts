@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 import type { LngLat } from '../geo/types';
+import { WalkGraph } from '../geo/route';
+import { decodeWalkGraph } from '../geo/walkGraph';
 import { ZoneIndex, type ZoneCollection, type ZoneStatus } from '../geo/zoneLookup';
 
 export type Refuge = {
@@ -8,6 +10,8 @@ export type Refuge = {
   address: string;
   place: string;
   coord: LngLat;
+  /** Nearest walking-graph intersection, or -1 if none within 300 m. */
+  node: number;
 };
 
 /** A refuge plus which tsunami zone it sits in, computed once when the data loads. */
@@ -24,7 +28,12 @@ export type SourceInfo = {
   retrieved: string | null;
 };
 
-export type Manifest = { zones: SourceInfo; refuges: SourceInfo; basemap: SourceInfo };
+export type Manifest = {
+  zones: SourceInfo;
+  refuges: SourceInfo;
+  walk: SourceInfo;
+  basemap: SourceInfo;
+};
 
 export type AppData = {
   zones: ZoneIndex;
@@ -89,4 +98,41 @@ export function useAppData(enabled = true): { data: AppData | null; error: Error
     };
   }, [enabled]);
   return state;
+}
+
+let graphCached: Promise<WalkGraph> | null = null;
+
+/**
+ * The offline walking network (~3 MB, precached). Loaded separately from the zone data
+ * so the zone answer can show first; routes appear a moment later.
+ */
+export function loadWalkGraph(): Promise<WalkGraph> {
+  graphCached ??= Promise.all([
+    fetch(dataUrl('walk.bin')).then((r) => {
+      if (!r.ok) throw new Error(`walk.bin: HTTP ${r.status}`);
+      return r.arrayBuffer();
+    }),
+    getJSON<{ names: string[] }>('walk.json'),
+  ]).then(([buf, meta]) => new WalkGraph(decodeWalkGraph(buf, meta.names)));
+  graphCached.catch(() => {
+    graphCached = null;
+  });
+  return graphCached;
+}
+
+/** The walking graph once `enabled` and loaded; null before that (or if it failed). */
+export function useWalkGraph(enabled: boolean): WalkGraph | null {
+  const [graph, setGraph] = useState<WalkGraph | null>(null);
+  useEffect(() => {
+    if (!enabled) return;
+    let live = true;
+    loadWalkGraph().then(
+      (g) => live && setGraph(g),
+      () => {}, // no graph: the app keeps using straight-line directions
+    );
+    return () => {
+      live = false;
+    };
+  }, [enabled]);
+  return graph;
 }

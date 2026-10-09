@@ -201,9 +201,6 @@
     "zone.exitExtreme": {
       "status": "machine"
     },
-    "zone.straightLine": {
-      "status": "machine"
-    },
     "zone.seePlaces": {
       "status": "machine"
     },
@@ -682,6 +679,51 @@
       "status": "machine"
     },
     "map.show": {
+      "status": "machine"
+    },
+    "direction.walkRoute": {
+      "status": "machine"
+    },
+    "direction.walkAbout": {
+      "status": "machine"
+    },
+    "direction.headToward": {
+      "status": "machine"
+    },
+    "direction.straight": {
+      "status": "machine"
+    },
+    "route.stepsHeading": {
+      "status": "machine"
+    },
+    "route.depart": {
+      "status": "machine"
+    },
+    "route.left": {
+      "status": "machine"
+    },
+    "route.right": {
+      "status": "machine"
+    },
+    "route.continue": {
+      "status": "machine"
+    },
+    "route.unnamed": {
+      "status": "machine"
+    },
+    "route.arriveSafe": {
+      "status": "machine"
+    },
+    "route.arrivePlace": {
+      "status": "machine"
+    },
+    "route.loading": {
+      "status": "machine"
+    },
+    "route.disclaimer": {
+      "status": "machine"
+    },
+    "map.legendRoute": {
       "status": "machine"
     }
   },
@@ -974,9 +1016,6 @@
     "zone.exitExtreme": {
       "status": "machine"
     },
-    "zone.straightLine": {
-      "status": "machine"
-    },
     "zone.seePlaces": {
       "status": "machine"
     },
@@ -1473,6 +1512,51 @@
       "status": "machine"
     },
     "map.show": {
+      "status": "machine"
+    },
+    "direction.walkRoute": {
+      "status": "machine"
+    },
+    "direction.walkAbout": {
+      "status": "machine"
+    },
+    "direction.headToward": {
+      "status": "machine"
+    },
+    "direction.straight": {
+      "status": "machine"
+    },
+    "route.stepsHeading": {
+      "status": "machine"
+    },
+    "route.depart": {
+      "status": "machine"
+    },
+    "route.left": {
+      "status": "machine"
+    },
+    "route.right": {
+      "status": "machine"
+    },
+    "route.continue": {
+      "status": "machine"
+    },
+    "route.unnamed": {
+      "status": "machine"
+    },
+    "route.arriveSafe": {
+      "status": "machine"
+    },
+    "route.arrivePlace": {
+      "status": "machine"
+    },
+    "route.loading": {
+      "status": "machine"
+    },
+    "route.disclaimer": {
+      "status": "machine"
+    },
+    "map.legendRoute": {
       "status": "machine"
     }
   },
@@ -1660,9 +1744,6 @@
     "zone.exitExtreme": {
       "status": "machine"
     },
-    "zone.straightLine": {
-      "status": "machine"
-    },
     "zone.seePlaces": {
       "status": "machine"
     },
@@ -2159,6 +2240,51 @@
       "status": "machine"
     },
     "map.show": {
+      "status": "machine"
+    },
+    "direction.walkRoute": {
+      "status": "machine"
+    },
+    "direction.walkAbout": {
+      "status": "machine"
+    },
+    "direction.headToward": {
+      "status": "machine"
+    },
+    "direction.straight": {
+      "status": "machine"
+    },
+    "route.stepsHeading": {
+      "status": "machine"
+    },
+    "route.depart": {
+      "status": "machine"
+    },
+    "route.left": {
+      "status": "machine"
+    },
+    "route.right": {
+      "status": "machine"
+    },
+    "route.continue": {
+      "status": "machine"
+    },
+    "route.unnamed": {
+      "status": "machine"
+    },
+    "route.arriveSafe": {
+      "status": "machine"
+    },
+    "route.arrivePlace": {
+      "status": "machine"
+    },
+    "route.loading": {
+      "status": "machine"
+    },
+    "route.disclaimer": {
+      "status": "machine"
+    },
+    "map.legendRoute": {
       "status": "machine"
     }
   },
@@ -2347,9 +2473,6 @@
     "zone.exitExtreme": {
       "status": "machine"
     },
-    "zone.straightLine": {
-      "status": "machine"
-    },
     "zone.seePlaces": {
       "status": "machine"
     },
@@ -2846,6 +2969,51 @@
       "status": "machine"
     },
     "map.show": {
+      "status": "machine"
+    },
+    "direction.walkRoute": {
+      "status": "machine"
+    },
+    "direction.walkAbout": {
+      "status": "machine"
+    },
+    "direction.headToward": {
+      "status": "machine"
+    },
+    "direction.straight": {
+      "status": "machine"
+    },
+    "route.stepsHeading": {
+      "status": "machine"
+    },
+    "route.depart": {
+      "status": "machine"
+    },
+    "route.left": {
+      "status": "machine"
+    },
+    "route.right": {
+      "status": "machine"
+    },
+    "route.continue": {
+      "status": "machine"
+    },
+    "route.unnamed": {
+      "status": "machine"
+    },
+    "route.arriveSafe": {
+      "status": "machine"
+    },
+    "route.arrivePlace": {
+      "status": "machine"
+    },
+    "route.loading": {
+      "status": "machine"
+    },
+    "route.disclaimer": {
+      "status": "machine"
+    },
+    "map.legendRoute": {
       "status": "machine"
     }
   },
@@ -3033,9 +3201,6 @@
     "zone.exitExtreme": {
       "status": "machine"
     },
-    "zone.straightLine": {
-      "status": "machine"
-    },
     "zone.seePlaces": {
       "status": "machine"
     },
@@ -3532,6 +3697,51 @@
       "status": "machine"
     },
     "map.show": {
+      "status": "machine"
+    },
+    "direction.walkRoute": {
+      "status": "machine"
+    },
+    "direction.walkAbout": {
+      "status": "machine"
+    },
+    "direction.headToward": {
+      "status": "machine"
+    },
+    "direction.straight": {
+      "status": "machine"
+    },
+    "route.stepsHeading": {
+      "status": "machine"
+    },
+    "route.depart": {
+      "status": "machine"
+    },
+    "route.left": {
+      "status": "machine"
+    },
+    "route.right": {
+      "status": "machine"
+    },
+    "route.continue": {
+      "status": "machine"
+    },
+    "route.unnamed": {
+      "status": "machine"
+    },
+    "route.arriveSafe": {
+      "status": "machine"
+    },
+    "route.arrivePlace": {
+      "status": "machine"
+    },
+    "route.loading": {
+      "status": "machine"
+    },
+    "route.disclaimer": {
+      "status": "machine"
+    },
+    "map.legendRoute": {
       "status": "machine"
     }
   },
@@ -3719,9 +3929,6 @@
     "zone.exitExtreme": {
       "status": "machine"
     },
-    "zone.straightLine": {
-      "status": "machine"
-    },
     "zone.seePlaces": {
       "status": "machine"
     },
@@ -4218,6 +4425,51 @@
       "status": "machine"
     },
     "map.show": {
+      "status": "machine"
+    },
+    "direction.walkRoute": {
+      "status": "machine"
+    },
+    "direction.walkAbout": {
+      "status": "machine"
+    },
+    "direction.headToward": {
+      "status": "machine"
+    },
+    "direction.straight": {
+      "status": "machine"
+    },
+    "route.stepsHeading": {
+      "status": "machine"
+    },
+    "route.depart": {
+      "status": "machine"
+    },
+    "route.left": {
+      "status": "machine"
+    },
+    "route.right": {
+      "status": "machine"
+    },
+    "route.continue": {
+      "status": "machine"
+    },
+    "route.unnamed": {
+      "status": "machine"
+    },
+    "route.arriveSafe": {
+      "status": "machine"
+    },
+    "route.arrivePlace": {
+      "status": "machine"
+    },
+    "route.loading": {
+      "status": "machine"
+    },
+    "route.disclaimer": {
+      "status": "machine"
+    },
+    "map.legendRoute": {
       "status": "machine"
     }
   }

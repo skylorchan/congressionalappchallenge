@@ -5,7 +5,7 @@ import { useSettings } from '../../app/settings';
 import { Direction } from '../../components/Direction';
 import { Page } from '../../components/Page';
 import { SafeText } from '../../components/SafeText';
-import { useAppData } from '../../data/appData';
+import { useAppData, useWalkGraph } from '../../data/appData';
 import { useAnalysis } from '../zone/analysis';
 
 /**
@@ -18,7 +18,8 @@ export function KupunaScreen() {
   const { change } = useSettings();
   const { data } = useAppData();
   const { location, locate, gps } = useLocation();
-  const analysis = useAnalysis(data, location?.coord, 1);
+  const graph = useWalkGraph(!!location);
+  const analysis = useAnalysis(data, location?.coord, 1, graph);
   const status = analysis?.zone.status;
 
   return (
@@ -44,7 +45,7 @@ export function KupunaScreen() {
               <p>
                 <strong>{t('kupuna.goThisWay')}</strong>
                 <br />
-                <Direction {...analysis.exitTsunami} />
+                <Direction {...analysis.exitTsunami} arrival={t('route.arriveSafe')} />
               </p>
             )}
           </section>

@@ -43,6 +43,8 @@ const MAX_SNAP_M = 400;
 const CELL = 0.002;
 /** Turns smaller than this (degrees) count as carrying straight on. */
 const STRAIGHT_DEG = 35;
+/** Steps shorter than this (metres) are merged into the previous one. */
+const MIN_STEP_M = 15;
 
 /** Min-heap of (cost, node) pairs, for Dijkstra. */
 class Heap {
@@ -327,6 +329,13 @@ export class WalkGraph {
       steps.push({ kind, street: name, distance: leg.length, bearing: startBearing });
     }
     if (steps[0]) steps[0].distance += snap.offset;
+    // Fold tiny steps (a few metres of driveway or crossing) into the step before, so the
+    // directions don't say "turn right, 7 m" at the very end.
+    for (let i = steps.length - 1; i > 0; i--)
+      if (steps[i]!.distance < MIN_STEP_M) {
+        steps[i - 1]!.distance += steps[i]!.distance;
+        steps.splice(i, 1);
+      }
 
     return { distance: dist[end]!, coords, steps, endNode: end, end: this.node(end) };
   }

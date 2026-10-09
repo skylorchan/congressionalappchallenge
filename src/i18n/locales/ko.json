@@ -53,7 +53,23 @@
   },
   "direction": {
     "distanceToward": "{{direction}}으로 {{distance}}",
-    "walk": "걸어서 최소 {{minutes}}분"
+    "walk": "걸어서 최소 {{minutes}}분",
+    "walkRoute": "걸어서 {{distance}}",
+    "walkAbout": "걸어서 약 {{minutes}}분",
+    "headToward": "{{direction}}으로 출발",
+    "straight": "직선 거리"
+  },
+  "route": {
+    "stepsHeading": "도보 길 안내",
+    "depart": "{{street}}에서 {{direction}}으로, {{distance}}",
+    "left": "좌회전하여 {{street}}, {{distance}}",
+    "right": "우회전하여 {{street}}, {{distance}}",
+    "continue": "계속 {{street}}, {{distance}}",
+    "unnamed": "길",
+    "arriveSafe": "구역 밖으로 나왔습니다.",
+    "arrivePlace": "{{name}} 도착.",
+    "loading": "도보 경로를 찾는 중… 그때까지 직선 거리를 표시합니다.",
+    "disclaimer": "도보 경로는 OpenStreetMap의 도로와 길을 따릅니다. 통제, 침수, 피해는 반영되지 않습니다. 대피 표지판과 당국의 지시를 따르세요."
   },
   "data": {
     "source": "출처:",
@@ -76,7 +92,8 @@
     "legendRefuge": "허리케인 대피소(번호)",
     "tapHint": "다른 장소를 확인하려면 지도를 누르세요. 지도를 움직이려면 두 손가락을 사용하세요.",
     "gestureDesktop": "Ctrl 키를 누른 채 스크롤하면 지도를 확대·축소할 수 있습니다",
-    "gestureMobile": "지도를 움직이려면 두 손가락을 사용하세요"
+    "gestureMobile": "지도를 움직이려면 두 손가락을 사용하세요",
+    "legendRoute": "도보 경로"
   },
   "zone": {
     "status": {
@@ -88,7 +105,6 @@
     "noDataHelp": "Kōkua에는 오아후의 대피 구역 지도만 있습니다. 육지의 장소를 선택하거나 오아후에서 내 위치를 사용하세요.",
     "exitTsunami": "쓰나미 경보 시 가장 가까운 구역 밖:",
     "exitExtreme": "극한 쓰나미 경보 시 가장 가까운 구역 밖:",
-    "straightLine": "거리는 직선 거리입니다. 도로와 길을 따라 내륙이나 높은 곳으로 이동하세요.",
     "seePlaces": "이 근처의 안전한 장소와 대피소 보기",
     "disclaimer": "구역 경계선은 대략적입니다. 항상 당국의 지시를 따르세요."
   },

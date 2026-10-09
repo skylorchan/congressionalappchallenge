@@ -10,6 +10,7 @@
 import { cpSync, existsSync, mkdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 import mapshaper from 'mapshaper';
+import { buildWalkGraph } from './build-graph.mjs';
 
 const root = new URL('../../', import.meta.url).pathname;
 const RAW = join(root, 'data/raw');
@@ -93,6 +94,17 @@ const basemapSource = JSON.parse(readFileSync(join(RAW, 'basemap/source.json'), 
 const basemapShow = readFileSync(join(RAW, 'basemap/show.txt'), 'utf8');
 const osmTime = /osmosisreplicationtime (\S+)/.exec(basemapShow)?.[1] ?? null;
 
+// Walking network for offline routes. Each refuge is linked to its nearest intersection.
+const t0 = Date.now();
+const walk = buildWalkGraph(join(RAW, 'osm-walk.geojsonseq.gz'), features);
+for (const r of refuges) {
+  const { node, distance } = walk.nearestNode(r.coord);
+  r.node = distance <= 300 ? node : -1; // farther than that: straight line only
+}
+const walkSource = JSON.parse(readFileSync(join(RAW, 'meta/osm-walk-source.json'), 'utf8'));
+const walkInfo = readFileSync(join(RAW, 'meta/osm-walk-fileinfo.txt'), 'utf8');
+const osmWalkTime = /timestamp=(\S+)/.exec(walkInfo)?.[1] ?? null;
+
 const manifest = {
   zones: {
     publisher: 'Hawaiʻi Statewide GIS Program (Oʻahu zones from the City & County of Honolulu)',
@@ -110,6 +122,13 @@ const manifest = {
     layerUpdated: new Date(refugeLayerMeta.editingInfo.dataLastEditDate).toISOString().slice(0, 10),
     retrieved: retrieved(`${REFUGE_FILE}`),
   },
+  walk: {
+    publisher: 'OpenStreetMap contributors, via Geofabrik',
+    url: walkSource.url,
+    license: 'ODbL (© OpenStreetMap contributors)',
+    layerUpdated: osmWalkTime?.slice(0, 10) ?? null,
+    retrieved: walkSource.retrieved,
+  },
   basemap: {
     publisher: 'Protomaps basemap from OpenStreetMap data',
     url: basemapSource.url,
@@ -126,6 +145,8 @@ writeFileSync(
   JSON.stringify({ type: 'FeatureCollection', coverage: COVERAGE, features }),
 );
 writeFileSync(join(OUT_DATA, 'refuges.json'), JSON.stringify(refuges));
+writeFileSync(join(OUT_DATA, 'walk.bin'), new Uint8Array(walk.buffer));
+writeFileSync(join(OUT_DATA, 'walk.json'), JSON.stringify({ names: walk.names }));
 writeFileSync(join(OUT_DATA, 'manifest.json'), JSON.stringify(manifest, null, 2));
 
 rmSync(OUT_MAP, { recursive: true, force: true });
@@ -136,6 +157,10 @@ cpSync(join(RAW, 'basemap/sprites'), join(OUT_MAP, 'sprites'), { recursive: true
 if (!existsSync(join(OUT_MAP, 'oahu.pmtiles'))) throw new Error('basemap missing');
 
 const verts = JSON.stringify(features).match(/\],\[/g)?.length ?? 0;
+console.log(
+  `walk graph: ${JSON.stringify(walk.stats)}, ${(walk.buffer.byteLength / 1e6).toFixed(1)} MB, ` +
+    `refuges linked ${refuges.filter((r) => r.node >= 0).length}/${refuges.length}, ${Date.now() - t0} ms`,
+);
 console.log(
   `data:build → ${features.length} zone features (~${verts} vertices), ${refuges.length} refuges`,
 );

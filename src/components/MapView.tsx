@@ -13,7 +13,8 @@ import { useTranslation } from 'react-i18next';
 import type { LngLat } from '../geo/types';
 import type { ZoneCollection } from '../geo/zoneLookup';
 
-export type MapExit = { point: LngLat; kind: 'tsunami' | 'extreme' };
+/** A way out: where it ends, and (if walking) the route's line along the streets. */
+export type MapExit = { point: LngLat; kind: 'tsunami' | 'extreme'; line?: LngLat[] };
 export type MapPlace = { coord: LngLat; label: string; inZone: boolean };
 
 type Props = {
@@ -21,6 +22,8 @@ type Props = {
   user?: LngLat | null;
   exits?: MapExit[];
   places?: MapPlace[];
+  /** Extra walking routes to draw (e.g. to the nearest refuge). */
+  routes?: LngLat[][];
   /** Called with the tapped point. Omit to make the map view-only. */
   onPick?: (point: LngLat) => void;
   /** Accessible name for the map region. */
@@ -80,18 +83,26 @@ const point = (coord: LngLat, properties: GeoJsonProperties = {}): Feature => ({
   geometry: { type: 'Point', coordinates: [...coord] },
 });
 
-function overlayData(user: LngLat | null | undefined, exits: MapExit[], places: MapPlace[]) {
+function overlayData(
+  user: LngLat | null | undefined,
+  exits: MapExit[],
+  places: MapPlace[],
+  routes: LngLat[][],
+) {
+  const line = (coords: LngLat[], kind: string): Feature => ({
+    type: 'Feature',
+    properties: { kind },
+    geometry: { type: 'LineString', coordinates: coords.map((c) => [...c]) },
+  });
   return {
     user: fc(user ? [point(user)] : []),
     exits: fc([
       ...exits.map((e) => point(e.point, { kind: e.kind })),
-      ...(user
-        ? exits.map((e): Feature => ({
-            type: 'Feature',
-            properties: { kind: e.kind },
-            geometry: { type: 'LineString', coordinates: [[...user], [...e.point]] },
-          }))
-        : []),
+      // The walking route if there is one, otherwise a straight line from the user.
+      ...exits.flatMap((e) =>
+        e.line ? [line(e.line, e.kind)] : user ? [line([user, e.point], e.kind)] : [],
+      ),
+      ...routes.map((r) => line(r, 'refuge')),
     ]),
     places: fc(places.map((p) => point(p.coord, { label: p.label, inZone: p.inZone }))),
   };
@@ -108,7 +119,7 @@ export default function MapView(props: Props) {
   return <MapViewInner key={i18n.language} {...props} />;
 }
 
-function MapViewInner({ zones, user, exits = [], places = [], onPick, label }: Props) {
+function MapViewInner({ zones, user, exits = [], places = [], routes = [], onPick, label }: Props) {
   const { t } = useTranslation();
   const container = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -199,14 +210,16 @@ function MapViewInner({ zones, user, exits = [], places = [], onPick, label }: P
         source: 'exits',
         filter: ['==', ['geometry-type'], 'LineString'],
         paint: {
-          'line-color': EXIT_COLOR,
+          // Tsunami-warning route: solid green. Extreme-warning route: dashed green.
+          // Route to the nearest refuge: solid blue.
+          'line-color': ['match', ['get', 'kind'], 'refuge', PLACE_COLOR, EXIT_COLOR],
           'line-width': 4,
           'line-dasharray': [
             'match',
             ['get', 'kind'],
-            'tsunami',
-            ['literal', [1, 0]],
+            'extreme',
             ['literal', [2, 1.5]],
+            ['literal', [1, 0]],
           ],
         },
       });
@@ -280,19 +293,20 @@ function MapViewInner({ zones, user, exits = [], places = [], onPick, label }: P
   }, []);
 
   // Keep overlays in sync and frame what matters.
-  const key = JSON.stringify([user, exits, places]);
+  const key = JSON.stringify([user, exits, places, routes]);
   useEffect(() => {
     const map = mapRef.current;
     if (!map || !ready) return;
-    const data = overlayData(user, exits, places);
+    const data = overlayData(user, exits, places, routes);
     (map.getSource('user') as GeoJSONSource).setData(data.user);
     (map.getSource('exits') as GeoJSONSource).setData(data.exits);
     (map.getSource('places') as GeoJSONSource).setData(data.places);
 
     const pts: LngLat[] = [
       ...(user ? [user] : []),
-      ...exits.map((e) => e.point),
+      ...exits.flatMap((e) => e.line ?? [e.point]),
       ...places.map((p) => p.coord),
+      ...routes.flat(),
     ];
     if (pts.length === 1) map.easeTo({ center: [...pts[0]!], zoom: 14, duration: 0 });
     else if (pts.length > 1) {
@@ -340,6 +354,16 @@ function MapViewInner({ zones, user, exits = [], places = [], onPick, label }: P
               aria-hidden="true"
             />
             {t('map.legendExit')}
+          </li>
+        )}
+        {(exits.some((e) => e.line) || routes.length > 0) && (
+          <li>
+            <span
+              className="swatch swatch-line"
+              style={{ background: EXIT_COLOR }}
+              aria-hidden="true"
+            />
+            {t('map.legendRoute')}
           </li>
         )}
         {places.length > 0 && (

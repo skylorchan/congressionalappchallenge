@@ -53,7 +53,23 @@
   },
   "direction": {
     "distanceToward": "{{direction}}へ {{distance}}",
-    "walk": "徒歩で最低 {{minutes}} 分"
+    "walk": "徒歩で最低 {{minutes}} 分",
+    "walkRoute": "徒歩 {{distance}}",
+    "walkAbout": "徒歩で約 {{minutes}} 分",
+    "headToward": "{{direction}}へ向かう",
+    "straight": "直線距離"
+  },
+  "route": {
+    "stepsHeading": "徒歩ルートの案内",
+    "depart": "{{street}}を{{direction}}へ、{{distance}}",
+    "left": "左折して{{street}}へ、{{distance}}",
+    "right": "右折して{{street}}へ、{{distance}}",
+    "continue": "そのまま{{street}}へ、{{distance}}",
+    "unnamed": "道",
+    "arriveSafe": "区域の外に出ました。",
+    "arrivePlace": "{{name}}に到着。",
+    "loading": "徒歩ルートを探しています…それまでは直線距離を表示します。",
+    "disclaimer": "徒歩ルートは OpenStreetMap の道路と歩道に基づきます。通行止め、浸水、被害は反映されていません。避難標識と公的機関の指示に従ってください。"
   },
   "data": {
     "source": "出典：",
@@ -76,7 +92,8 @@
     "legendRefuge": "ハリケーン避難所（番号付き）",
     "tapHint": "別の場所を確認するには地図をタップしてください。地図を動かすには2本の指を使ってください。",
     "gestureDesktop": "Ctrl を押しながらスクロールすると地図を拡大・縮小できます",
-    "gestureMobile": "地図を動かすには2本の指を使ってください"
+    "gestureMobile": "地図を動かすには2本の指を使ってください",
+    "legendRoute": "徒歩ルート"
   },
   "zone": {
     "status": {
@@ -88,7 +105,6 @@
     "noDataHelp": "Kōkua にはオアフ島の避難区域の地図しかありません。陸地の場所を選ぶか、オアフ島で現在地を使ってください。",
     "exitTsunami": "津波警報のときに最も近い区域の外：",
     "exitExtreme": "最大級津波警報のときに最も近い区域の外：",
-    "straightLine": "距離は直線距離です。道路や歩道に沿って、内陸または高い場所へ移動してください。",
     "seePlaces": "この近くの安全な場所と避難所を見る",
     "disclaimer": "区域の線はおおよそのものです。必ず公的機関の指示に従ってください。"
   },

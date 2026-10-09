@@ -53,7 +53,23 @@
   },
   "direction": {
     "distanceToward": "{{distance}} nga agturong iti {{direction}}",
-    "walk": "saan a basbassit ngem {{minutes}} a minuto a pagnaen"
+    "walk": "saan a basbassit ngem {{minutes}} a minuto a pagnaen",
+    "walkRoute": "{{distance}} a pagnaen",
+    "walkAbout": "agarup {{minutes}} a minuto a pagnaen",
+    "headToward": "Mapan iti {{direction}}",
+    "straight": "nalinteg a linia"
+  },
+  "route": {
+    "stepsHeading": "Direksion iti panagpagna",
+    "depart": "Mapan iti {{direction}} iti {{street}}, {{distance}}",
+    "left": "Lumiko iti kanigid iti {{street}}, {{distance}}",
+    "right": "Lumiko iti kanawan iti {{street}}, {{distance}}",
+    "continue": "Agtuloy iti {{street}}, {{distance}}",
+    "unnamed": "maysa a dalan",
+    "arriveSafe": "Nakaruar kan iti zone.",
+    "arrivePlace": "Dumanon iti {{name}}.",
+    "loading": "Birbirokenna ti dalan a pagnaen… Nalinteg a linia pay laeng ti maipakita.",
+    "disclaimer": "Suroten dagiti dalan a pagnaen dagiti kalsada ken dalan ti OpenStreetMap. Saanna nga ammo dagiti nakaserra, layus wenno nadadael. Suroten dagiti pagilasinan ti panagbakuit ken dagiti opisial."
   },
   "data": {
     "source": "Naggapuan:",
@@ -76,7 +92,8 @@
     "legendRefuge": "Hurricane refuge area (addaan numero)",
     "tapHint": "Pinduten ti mapa tapno kitaen ti sabali a lugar. Usaren ti dua a ramay tapno ipanaw ti mapa.",
     "gestureDesktop": "Usaren ti Ctrl + scroll tapno i-zoom ti mapa",
-    "gestureMobile": "Usaren ti dua a ramay tapno ipanaw ti mapa"
+    "gestureMobile": "Usaren ti dua a ramay tapno ipanaw ti mapa",
+    "legendRoute": "Dalan a pagnaen"
   },
   "zone": {
     "status": {
@@ -88,7 +105,6 @@
     "noDataHelp": "Mapa laeng ti evacuation zone ti Oʻahu ti adda iti Kōkua. Agpili iti lugar iti daga, wenno usarem ti lokasionmo bayat nga adda ka iti Oʻahu.",
     "exitTsunami": "Kaasitgan a ruangan no adda Tsunami Warning:",
     "exitExtreme": "Kaasitgan a ruangan no adda Extreme Tsunami Warning:",
-    "straightLine": "Nalinteg a linia dagiti distansia. Suroten dagiti kalsada ken dalan, ken mapan iti uneg ti isla wenno agpangato.",
     "seePlaces": "Kitaen dagiti natalged a lugar ken refuge area iti asideg",
     "disclaimer": "Tantia laeng dagiti linia ti zone. Kanayon a suroten dagiti bilin dagiti opisial."
   },
