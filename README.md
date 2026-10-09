@@ -23,25 +23,26 @@ are, and what your family's plan is, in your language.
 
 ## What it does
 
-| Feature                                                                                                           | Works offline   |
-| ----------------------------------------------------------------------------------------------------------------- | --------------- |
-| **Am I in an evacuation zone?** GPS or tap on the map, checked against official zone polygons                     | ✅              |
-| **Nearest way out** for a Tsunami Warning and for an Extreme Tsunami Warning, with distance and compass direction | ✅              |
-| **Hurricane refuge areas**: the 5 nearest, flagging any that sit inside a tsunami zone                            | ✅              |
-| **Offline map of Oʻahu** (streets, place names, zones), 11 MB, cached on first visit                              | ✅              |
-| **NWS alerts** for Hawaiʻi: live when online, last copy offline, always labelled with its age                     | ✅ (saved copy) |
-| **Share alerts phone to phone** by QR code or text-message link, with no internet or server                       | ✅              |
-| **Family plan**: household, home location, meeting places, contacts, 14-day kit checklist                         | ✅              |
-| **Print or QR** the family plan (one page)                                                                        | ✅              |
-| **"I'm safe" check-in**: a queued message sent by your phone's SMS app (no data needed)                           | ✅              |
-| **10 languages** with a safety-translation guard                                                                  | ✅              |
-| **Accessibility**: large and extra-large text, high contrast, kūpuna (one-screen) mode                            | ✅              |
+| Feature                                                                                                                                                         | Works offline   |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------- |
+| **Am I in an evacuation zone?** GPS or tap on the map, checked against official zone polygons                                                                   | ✅              |
+| **Nearest way out** for a Tsunami Warning and for an Extreme Tsunami Warning, as a **walking route** along real streets and paths, with turn-by-turn directions | ✅              |
+| **Hurricane refuge areas**: the 5 nearest by walking distance, with routes, flagging any that sit inside a tsunami zone                                         | ✅              |
+| **Offline map of Oʻahu** (streets, place names, zones), 11 MB, cached on first visit                                                                            | ✅              |
+| **NWS alerts** for Hawaiʻi: live when online, last copy offline, always labelled with its age                                                                   | ✅ (saved copy) |
+| **Share alerts phone to phone** by QR code or text-message link, with no internet or server                                                                     | ✅              |
+| **Family plan**: household, home location, meeting places, contacts, 14-day kit checklist                                                                       | ✅              |
+| **Print or QR** the family plan (one page)                                                                                                                      | ✅              |
+| **"I'm safe" check-in**: a queued message sent by your phone's SMS app (no data needed)                                                                         | ✅              |
+| **10 languages** with a safety-translation guard                                                                                                                | ✅              |
+| **Accessibility**: large and extra-large text, high contrast, kūpuna (one-screen) mode                                                                          | ✅              |
 
 ## What it deliberately doesn't do
 
-- **No turn-by-turn routing.** Distances and directions are straight-line, and the app
-  says so. Offline routing would need a road graph and a routing engine, and a confident
-  wrong route is worse than an honest compass bearing.
+- **Routes don't know about closures, flooding or damage.** Walking routes follow
+  OpenStreetMap's roads and paths as mapped, and the app says to follow evacuation signs
+  and officials. Where no route is found (far from any path), it falls back to a
+  straight line and labels it.
 - **No "this shelter is open" status.** The City's refuge layer has internal status fields
   with no published meaning, so Kōkua drops them. It always says refuges open only when
   officials announce it.
@@ -57,13 +58,13 @@ are, and what your family's plan is, in your language.
 flowchart TD
   subgraph Build["GitHub Actions (internet)"]
     FETCH["fetch-data.yml<br/>fetch-raw.mjs"]
-    RAW[("data/raw/<br/>official GeoJSON + metadata,<br/>Oʻahu PMTiles extract")]
-    BUILD["npm run data:build<br/>mapshaper simplify (2 m)"]
+    RAW[("data/raw/<br/>official GeoJSON + metadata,<br/>OSM roads/paths, PMTiles extract")]
+    BUILD["npm run data:build<br/>simplify zones, build walking graph"]
     FETCH --> RAW --> BUILD
   end
   subgraph Device["Phone (works offline)"]
     UI["React screens<br/>Zone · Safe places · Alerts · Plan · Kūpuna"]
-    GEO["geo/<br/>point-in-polygon, zone lookup,<br/>haversine, nearest exit"]
+    GEO["geo/<br/>point-in-polygon, zone lookup,<br/>haversine, offline walking router"]
     I18N["react-i18next<br/>+ SafeText guard"]
     MAP["MapLibre GL + PMTiles<br/>(loaded on demand)"]
     DB[("IndexedDB (Dexie)<br/>alert snapshot, family plan,<br/>check-in queue")]
@@ -86,6 +87,15 @@ flowchart TD
 
 ### Key design decisions
 
+- **Offline walking routes, on the phone.** An online routing service would fail exactly
+  when it matters. The build turns OpenStreetMap's roads, footpaths and stairs on Oʻahu
+  (about 7,000 km; no freeways, nothing marked no-foot or private) into a 3 MB graph of
+  86,000 intersections, each tagged with its tsunami zone. The phone snaps you to the
+  nearest path and runs Dijkstra's algorithm until it reaches the first intersection on
+  safe ground: the nearest way out _by walking_, which isn't always the one nearest as
+  the crow flies. Routes take a few milliseconds; refuges are ranked by walking distance
+  in one search ([`src/geo/route.ts`](src/geo/route.ts),
+  [`scripts/data/build-graph.mjs`](scripts/data/build-graph.mjs)).
 - **"Nearest way out" aims at safe ground, not the zone edge.** The seaward edge of a
   tsunami zone is the shoreline, so "nearest edge of the zone you're in" pointed into the
   ocean from Waikīkī. Kōkua measures to the nearest point of a polygon you should go
@@ -101,7 +111,8 @@ flowchart TD
   ([`src/sw.ts`](src/sw.ts)).
 - **Fast first screen on a cheap phone.** The map (a 1 MB library plus WebGL) and the
   1 MB zone file load only once there's a location to check or the user taps "Show the
-  map". Lighthouse mobile performance went from 54 to 96.
+  map". Lighthouse mobile performance went from 54 to 96. The walking graph loads the
+  same way, after the zone answer is on screen.
 - **Safety-translation guard.** Every non-English string is flagged `machine` or
   `reviewed` in [`translation-status.json`](src/i18n/translation-status.json). Safety
   instructions (`safety.*`) appear in another language only after human review. Until
@@ -127,13 +138,13 @@ name and the date, and the matching safety instructions start appearing in that 
 
 ## Quality
 
-| Check                              | Result                                                                                                                                                                                    |
-| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Unit tests (Vitest)                | 86 passing: geometry (synthetic and real Oʻahu zones), alert parsing (real NWS feed), staleness, share codec, translation coverage and placeholders, language detection, UI guards        |
-| End-to-end (Playwright, Pixel 5)   | 11 passing, including a full **airplane-mode run**: zone check by GPS, refuges, cached alerts, family plan surviving a restart, language switch, basemap range requests served from cache |
-| Accessibility                      | axe-core WCAG 2.1 A/AA on every screen (normal, high contrast, kūpuna, Japanese): 0 violations. No sideways scrolling at 320 px wide at any text size                                     |
-| Lighthouse (mobile, local preview) | Performance 96, Accessibility 100, Best Practices 100, SEO 100                                                                                                                            |
-| Print                              | The family plan prints on one Letter page                                                                                                                                                 |
+| Check                              | Result                                                                                                                                                                                                                                                                  |
+| ---------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Unit tests (Vitest)                | 100 passing: geometry (synthetic and real Oʻahu zones), walking router (synthetic grids, and real streets: every route ends on safe ground and is never shorter than the straight line), alert parsing (real NWS feed), staleness, share codec, translations, UI guards |
+| End-to-end (Playwright, Pixel 5)   | 11 passing, including a full **airplane-mode run**: zone check by GPS, refuges, cached alerts, family plan surviving a restart, language switch, basemap range requests served from cache                                                                               |
+| Accessibility                      | axe-core WCAG 2.1 A/AA on every screen (normal, high contrast, kūpuna, Japanese): 0 violations. No sideways scrolling at 320 px wide at any text size                                                                                                                   |
+| Lighthouse (mobile, local preview) | Performance 96, Accessibility 100, Best Practices 100, SEO 100                                                                                                                                                                                                          |
+| Print                              | The family plan prints on one Letter page                                                                                                                                                                                                                               |
 
 Not yet done: testing on a real low-end Android phone, and review of any translation by
 a native speaker.

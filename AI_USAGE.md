@@ -165,3 +165,28 @@ deploy.
 **Verification run by the AI:** clean-clone `npm ci && npm run build` (as Vercel runs
 it), lint, typecheck, 86/86 unit tests, 11/11 Playwright tests. The dev container can't
 reach vercel.com, so the first deploy is done by connecting the repo in Vercel.
+
+---
+
+## 2026-10-09: Session 5, walking routes
+
+**Skylor**
+
+- Asked for walking routes instead of straight lines.
+
+**AI generated**
+
+- Data: OpenStreetMap walk network for Oʻahu via Geofabrik + osmium in
+  `fetch-data.yml` (Overpass failed); basemap re-downloads made opt-in.
+- `scripts/data/build-graph.mjs` (graph build: intersections, edges, largest
+  component, shape simplification, zone tags, refuge links).
+- `src/geo/walkGraph.ts` (binary format), `src/geo/route.ts` (snapping, Dijkstra,
+  route geometry, turn-by-turn steps), `makePolygonTester` in `pointInPolygon.ts` (cut
+  the data build from 4 m 19 s to 5 s) and a faster `pointInRing`.
+- App: routes for both ways out and for refuges (ranked by walking distance), map route
+  lines, step lists, straight-line fallback; strings in 7 languages (machine, flagged).
+- Tests: router on synthetic grids, router on real streets, banded-tester equivalence,
+  airplane-mode e2e now checks an offline walking route.
+
+**Verification run by the AI:** typecheck, lint, 100/100 unit tests, 11/11 Playwright
+tests.
