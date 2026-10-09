@@ -63,6 +63,7 @@
     "loadError": "Hindi ma-load ang datos ng zone. Kumonekta sa internet nang isang beses at buksan muli ang Kōkua."
   },
   "map": {
+    "show": "Ipakita ang mapa",
     "loading": "Nilo-load ang mapa…",
     "unavailable": "Hindi maipakita ang mapa sa device na ito, pero gumagana pa rin ang lahat ng nasa itaas.",
     "zoneLabel": "Mapa ng mga tsunami evacuation zone sa Oʻahu",

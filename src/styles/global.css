@@ -328,6 +328,10 @@ button:disabled {
 .map-wrap {
   margin-block: var(--space);
 }
+.map-open {
+  width: 100%;
+  margin-block: var(--space);
+}
 .map {
   height: min(60vh, 26rem);
   border-radius: var(--radius);
@@ -578,7 +582,8 @@ legend {
   background: var(--color-warning-bg);
 }
 .alert-ended {
-  opacity: 0.75;
+  /* Not faded (that would fail contrast): a dashed edge plus the "may have ended" badge. */
+  border-left-style: dashed;
 }
 .alert-event {
   margin-bottom: 0.25rem;

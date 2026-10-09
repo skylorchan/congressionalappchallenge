@@ -63,6 +63,7 @@
     "loadError": "Không tải được dữ liệu khu vực. Hãy kết nối internet một lần rồi mở lại Kōkua."
   },
   "map": {
+    "show": "Hiện bản đồ",
     "loading": "Đang tải bản đồ…",
     "unavailable": "Thiết bị này không hiển thị được bản đồ, nhưng mọi thông tin ở trên vẫn dùng được.",
     "zoneLabel": "Bản đồ các khu sơ tán sóng thần trên Oʻahu",

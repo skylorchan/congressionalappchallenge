@@ -680,6 +680,9 @@
     },
     "share.orLink": {
       "status": "machine"
+    },
+    "map.show": {
+      "status": "machine"
     }
   },
   "chk": {},
@@ -781,6 +784,9 @@
       "status": "machine"
     },
     "kupuna.alerts": {
+      "status": "machine"
+    },
+    "map.show": {
       "status": "machine"
     }
   },
@@ -1465,6 +1471,9 @@
     },
     "share.orLink": {
       "status": "machine"
+    },
+    "map.show": {
+      "status": "machine"
     }
   },
   "ko": {
@@ -2147,6 +2156,9 @@
       "status": "machine"
     },
     "share.orLink": {
+      "status": "machine"
+    },
+    "map.show": {
       "status": "machine"
     }
   },
@@ -2832,6 +2844,9 @@
     },
     "share.orLink": {
       "status": "machine"
+    },
+    "map.show": {
+      "status": "machine"
     }
   },
   "vi": {
@@ -3515,6 +3530,9 @@
     },
     "share.orLink": {
       "status": "machine"
+    },
+    "map.show": {
+      "status": "machine"
     }
   },
   "zh": {
@@ -4197,6 +4215,9 @@
       "status": "machine"
     },
     "share.orLink": {
+      "status": "machine"
+    },
+    "map.show": {
       "status": "machine"
     }
   }

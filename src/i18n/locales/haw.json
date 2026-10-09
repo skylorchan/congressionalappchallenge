@@ -57,5 +57,8 @@
   "kupuna": {
     "call911": "Kāhea iā 911",
     "alerts": "Nā kāhea"
+  },
+  "map": {
+    "show": "Hōʻike i ka palapala ʻāina"
   }
 }

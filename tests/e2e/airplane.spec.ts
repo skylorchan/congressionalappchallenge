@@ -65,6 +65,7 @@ test('the whole app works in airplane mode after one online visit', async ({ pag
   ).toBeVisible();
   await expect(page.getByText('Nearest way out for a Tsunami Warning:')).toBeVisible();
   await expect(page.getByText(/to the northeast/).first()).toBeVisible();
+  await page.locator('.map-slot').scrollIntoViewIfNeeded();
   await expect(page.locator('.map canvas')).toBeVisible();
   await expect(page.getByText(/mapped Apr 2025/)).toBeVisible();
 

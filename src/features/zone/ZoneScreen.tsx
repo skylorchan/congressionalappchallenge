@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Link } from 'react-router';
 import { useLocation } from '../../app/location';
@@ -22,8 +22,12 @@ const ICON: Record<ZoneStatus, string> = {
 
 export function ZoneScreen() {
   const { t } = useTranslation();
-  const { data, error } = useAppData();
   const { location, setLocation } = useLocation();
+  // The map (a 1 MB library plus WebGL) waits until there's something to show or the
+  // user asks for it, so the first screen stays fast on an old phone.
+  const [mapOpened, setMapOpened] = useState(false);
+  const showMap = mapOpened || !!location;
+  const { data, error } = useAppData(showMap);
   const analysis = useAnalysis(data, location?.coord);
   const status = analysis?.zone.status;
 
@@ -73,27 +77,6 @@ export function ZoneScreen() {
         </section>
       )}
 
-      {data && (
-        <Suspense fallback={<div className="map map-loading">{t('map.loading')}</div>}>
-          <MapView
-            label={t('map.zoneLabel')}
-            zones={data.zonesGeoJSON}
-            user={location?.coord}
-            exits={[
-              ...(analysis?.exitTsunami
-                ? [{ point: analysis.exitTsunami.point, kind: 'tsunami' as const }]
-                : []),
-              ...(analysis?.exitExtreme
-                ? [{ point: analysis.exitExtreme.point, kind: 'extreme' as const }]
-                : []),
-            ]}
-            onPick={(p) => setLocation(p, 'map')}
-          />
-        </Suspense>
-      )}
-      {data && <SourceNote source={data.manifest.zones} />}
-      <p className="hint">{t('zone.disclaimer')}</p>
-
       <section className="card card-warning" aria-labelledby="natural-warning">
         <h2 id="natural-warning">{t('screens.zone.naturalWarningHeading')}</h2>
         <SafeText k="safety.naturalWarning" />
@@ -103,6 +86,39 @@ export function ZoneScreen() {
           </a>
         </p>
       </section>
+
+      <div className="map-slot">
+        {!showMap && (
+          <button
+            type="button"
+            className="button-secondary map-open"
+            onClick={() => setMapOpened(true)}
+          >
+            <span aria-hidden="true">🗺️ </span>
+            {t('map.show')}
+          </button>
+        )}
+        {data && showMap && (
+          <Suspense fallback={<div className="map map-loading">{t('map.loading')}</div>}>
+            <MapView
+              label={t('map.zoneLabel')}
+              zones={data.zonesGeoJSON}
+              user={location?.coord}
+              exits={[
+                ...(analysis?.exitTsunami
+                  ? [{ point: analysis.exitTsunami.point, kind: 'tsunami' as const }]
+                  : []),
+                ...(analysis?.exitExtreme
+                  ? [{ point: analysis.exitExtreme.point, kind: 'extreme' as const }]
+                  : []),
+              ]}
+              onPick={(p) => setLocation(p, 'map')}
+            />
+          </Suspense>
+        )}
+      </div>
+      {data && <SourceNote source={data.manifest.zones} />}
+      <p className="hint">{t('zone.disclaimer')}</p>
     </Page>
   );
 }

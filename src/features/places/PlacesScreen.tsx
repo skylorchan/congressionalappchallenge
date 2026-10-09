@@ -1,4 +1,4 @@
-import { lazy, Suspense } from 'react';
+import { lazy, Suspense, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useLocation } from '../../app/location';
 import { Direction } from '../../components/Direction';
@@ -13,8 +13,12 @@ const MapView = lazy(() => import('../../components/MapView'));
 
 export function PlacesScreen() {
   const { t } = useTranslation();
-  const { data, error } = useAppData();
   const { location, setLocation } = useLocation();
+  // The map (a 1 MB library plus WebGL) waits until there's something to show or the
+  // user asks for it, so the first screen stays fast on an old phone.
+  const [mapOpened, setMapOpened] = useState(false);
+  const showMap = mapOpened || !!location;
+  const { data, error } = useAppData(showMap);
   const analysis = useAnalysis(data, location?.coord, 5);
 
   return (
@@ -80,21 +84,33 @@ export function PlacesScreen() {
         </section>
       )}
 
-      {data && (
-        <Suspense fallback={<div className="map map-loading">{t('map.loading')}</div>}>
-          <MapView
-            label={t('map.placesLabel')}
-            zones={data.zonesGeoJSON}
-            user={location?.coord}
-            places={(analysis?.refuges ?? []).map((r, i) => ({
-              coord: r.item.coord,
-              label: String(i + 1),
-              inZone: r.item.zone === 'tsunami' || r.item.zone === 'extreme',
-            }))}
-            onPick={(p) => setLocation(p, 'map')}
-          />
-        </Suspense>
-      )}
+      <div className="map-slot">
+        {!showMap && (
+          <button
+            type="button"
+            className="button-secondary map-open"
+            onClick={() => setMapOpened(true)}
+          >
+            <span aria-hidden="true">🗺️ </span>
+            {t('map.show')}
+          </button>
+        )}
+        {data && showMap && (
+          <Suspense fallback={<div className="map map-loading">{t('map.loading')}</div>}>
+            <MapView
+              label={t('map.placesLabel')}
+              zones={data.zonesGeoJSON}
+              user={location?.coord}
+              places={(analysis?.refuges ?? []).map((r, i) => ({
+                coord: r.item.coord,
+                label: String(i + 1),
+                inZone: r.item.zone === 'tsunami' || r.item.zone === 'extreme',
+              }))}
+              onPick={(p) => setLocation(p, 'map')}
+            />
+          </Suspense>
+        )}
+      </div>
     </Page>
   );
 }

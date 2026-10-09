@@ -63,6 +63,7 @@
     "loadError": "Saan a na-load ti datos ti zone. Agkonekta iti internet iti maminsan ken lukatam manen ti Kōkua."
   },
   "map": {
+    "show": "Ipakita ti mapa",
     "loading": "Ilo-load ti mapa…",
     "unavailable": "Saan a maipakita ti mapa iti daytoy a device, ngem agandar latta amin dagiti adda iti ngato.",
     "zoneLabel": "Mapa dagiti tsunami evacuation zone iti Oʻahu",

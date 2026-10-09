@@ -69,12 +69,14 @@ export function loadAppData(): Promise<AppData> {
   return cached;
 }
 
-export function useAppData(): { data: AppData | null; error: Error | null } {
+/** Loads the data once `enabled` is true (it's ~1 MB, so screens wait until it's needed). */
+export function useAppData(enabled = true): { data: AppData | null; error: Error | null } {
   const [state, setState] = useState<{ data: AppData | null; error: Error | null }>({
     data: null,
     error: null,
   });
   useEffect(() => {
+    if (!enabled) return;
     let live = true;
     loadAppData().then(
       (data) => live && setState({ data, error: null }),
@@ -85,6 +87,6 @@ export function useAppData(): { data: AppData | null; error: Error | null } {
     return () => {
       live = false;
     };
-  }, []);
+  }, [enabled]);
   return state;
 }
