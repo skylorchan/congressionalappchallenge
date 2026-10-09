@@ -5,6 +5,11 @@ name: Fetch raw data
 
 on:
   workflow_dispatch:
+    inputs:
+      refresh_basemap:
+        description: Download a fresh basemap even if one is already committed
+        type: boolean
+        default: false
   push:
     paths:
       - scripts/data/fetch-raw.mjs
@@ -20,7 +25,7 @@ concurrency:
 jobs:
   fetch:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-node@v5
@@ -36,6 +41,10 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: |
           set -euo pipefail
+          # The basemap is 11 MB; don't re-commit it on every run unless asked.
+          if [ -f data/raw/basemap/oahu.pmtiles ] && [ "${{ inputs.refresh_basemap }}" != "true" ]; then
+            echo "Basemap already present, skipping"; exit 0
+          fi
           mkdir -p data/raw/basemap
           gh release download -R protomaps/go-pmtiles -p '*Linux_x86_64.tar.gz' -O /tmp/pmtiles.tgz
           tar -xzf /tmp/pmtiles.tgz -C /tmp pmtiles
@@ -53,6 +62,9 @@ jobs:
         continue-on-error: true
         run: |
           set -euo pipefail
+          if [ -d data/raw/basemap/fonts ] && [ "${{ inputs.refresh_basemap }}" != "true" ]; then
+            echo "Fonts already present, skipping"; exit 0
+          fi
           BASE=https://raw.githubusercontent.com/protomaps/basemaps-assets/main
           for font in "Noto Sans Regular" "Noto Sans Medium" "Noto Sans Italic"; do
             mkdir -p "data/raw/basemap/fonts/$font"
