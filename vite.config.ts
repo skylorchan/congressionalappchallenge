@@ -22,7 +22,10 @@ export default defineConfig({
       registerType: 'prompt',
       injectRegister: false,
       injectManifest: {
-        globPatterns: ['**/*.{js,css,html,svg,png,ico,webmanifest}'],
+        // Everything, including zone data (json), map fonts (pbf) and the basemap.
+        globPatterns: ['**/*.{js,mjs,css,html,svg,png,ico,webmanifest,json,pbf,pmtiles}'],
+        // The Oʻahu basemap is ~11 MB; the default limit (2 MB) would silently skip it.
+        maximumFileSizeToCacheInBytes: 16 * 1024 * 1024,
       },
       includeAssets: ['icons/favicon.svg'],
       manifest: {

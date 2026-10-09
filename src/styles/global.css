@@ -14,6 +14,10 @@
   --color-warning-border: #b35c00;
   --color-offline-bg: #3d3d3d; /* 11:1 with white text */
   --color-info-bg: #e3f2f8;
+  --color-danger: #a3200f; /* 7.2:1 on white, 6.1:1 on danger-bg */
+  --color-danger-bg: #fde8e4;
+  --color-safe: #0b6b3a; /* 6.6:1 on white */
+  --color-safe-bg: #e3f4ea;
 
   --font-body:
     system-ui, -apple-system, 'Segoe UI', Roboto, 'Hiragino Sans', 'Noto Sans JP',
@@ -233,4 +237,161 @@ main {
     animation: none !important;
     transition: none !important;
   }
+}
+
+/* ---------- Location, results, directions ---------- */
+.button-large {
+  width: 100%;
+  min-height: 3.5rem;
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+button:disabled {
+  opacity: 0.7;
+  cursor: progress;
+}
+.hint {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+}
+.location-picker .hint {
+  margin-top: 0.5rem;
+}
+.location-line {
+  font-size: 0.95rem;
+}
+.error-text {
+  color: var(--color-danger);
+  font-weight: 600;
+}
+
+.result {
+  border-left: 0.5rem solid var(--color-text-muted);
+}
+.result-tsunami {
+  background: var(--color-danger-bg);
+  border-left-color: var(--color-danger);
+}
+.result-extreme {
+  background: var(--color-warning-bg);
+  border-left-color: var(--color-warning-border);
+}
+.result-safe {
+  background: var(--color-safe-bg);
+  border-left-color: var(--color-safe);
+}
+
+.direction {
+  display: inline;
+}
+.direction-main {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.arrow {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 1.2rem;
+  color: var(--color-safe);
+}
+.direction-walk {
+  display: block;
+  color: var(--color-text-muted);
+}
+
+/* ---------- Map ---------- */
+.map-wrap {
+  margin-block: var(--space);
+}
+.map {
+  height: min(60vh, 26rem);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: #dfe8ec;
+}
+.map-loading,
+.map-fallback {
+  display: grid;
+  place-items: center;
+  padding: var(--space);
+  color: var(--color-text-muted);
+}
+.map-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem 1rem;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.9rem;
+}
+.map-legend li {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+.swatch {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 0.2rem;
+  opacity: 0.8;
+}
+.swatch-dot {
+  border-radius: 50%;
+  opacity: 1;
+}
+.map-hint {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  margin-top: 0.25rem;
+}
+.maplibregl-ctrl-group button {
+  min-height: 0; /* MapLibre's own controls size themselves */
+  border: 0;
+  border-radius: 0;
+}
+
+/* ---------- Places ---------- */
+.place-list {
+  list-style: none;
+  margin: var(--space) 0;
+  padding: 0;
+}
+.place {
+  display: flex;
+  gap: 0.75rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #d5dde2;
+}
+.place h3 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+.place p {
+  margin: 0.15rem 0;
+}
+.place-number {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #ffffff;
+  font-weight: 700;
+}
+.place-address {
+  color: var(--color-text-muted);
+}
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+.badge-danger {
+  background: var(--color-danger-bg);
+  color: var(--color-danger);
 }

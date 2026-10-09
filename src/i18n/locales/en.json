@@ -26,16 +26,85 @@
   "i18n": {
     "unreviewed": "This safety instruction is shown in English because its translation has not been reviewed yet."
   },
+  "location": {
+    "useMine": "Use my location",
+    "locating": "Finding your location…",
+    "orTapMap": "Or tap a spot on the map below, for example your home or work.",
+    "fromGps": "Checking your GPS location from {{time}} (accurate to about {{accuracy}}).",
+    "fromMap": "Checking the spot you picked on the map.",
+    "fromHome": "Checking your home location from My plan.",
+    "error": {
+      "denied": "Location permission is off. Turn it on in your browser settings, or tap the map instead.",
+      "unavailable": "Your phone couldn't find its location. Try again outside, or tap the map instead.",
+      "timeout": "Finding your location took too long. Try again, or tap the map instead.",
+      "unsupported": "This browser can't share your location. Tap the map instead."
+    }
+  },
+  "compass": {
+    "N": "north",
+    "NE": "northeast",
+    "E": "east",
+    "SE": "southeast",
+    "S": "south",
+    "SW": "southwest",
+    "W": "west",
+    "NW": "northwest"
+  },
+  "direction": {
+    "distanceToward": "{{distance}} to the {{direction}}",
+    "walk": "at least {{minutes}} min on foot"
+  },
+  "data": {
+    "source": "Source:",
+    "mapped": "mapped {{date}}",
+    "updated": "updated {{date}}",
+    "downloaded": "downloaded {{date}}",
+    "loadError": "The zone data couldn't load. Connect to the internet once and reopen Kōkua."
+  },
+  "map": {
+    "loading": "Loading map…",
+    "unavailable": "The map can't be shown on this device, but everything above still works.",
+    "zoneLabel": "Map of tsunami evacuation zones on Oʻahu",
+    "placesLabel": "Map of the nearest hurricane refuge areas",
+    "legend": "Map legend",
+    "legendTsunami": "Tsunami evacuation zone",
+    "legendExtreme": "Extreme tsunami evacuation zone",
+    "legendYou": "You / chosen spot",
+    "legendExit": "Nearest way out",
+    "legendRefuge": "Hurricane refuge area (numbered)",
+    "tapHint": "Tap the map to check a different spot. Use two fingers to move the map.",
+    "gestureDesktop": "Use Ctrl + scroll to zoom the map",
+    "gestureMobile": "Use two fingers to move the map"
+  },
+  "zone": {
+    "status": {
+      "tsunami": "You are in the Tsunami Evacuation Zone",
+      "extreme": "You are in the Extreme Tsunami Evacuation Zone",
+      "safe": "You are outside the tsunami evacuation zones",
+      "no-data": "This spot isn't on mapped land on Oʻahu"
+    },
+    "noDataHelp": "Kōkua has evacuation zone maps for Oʻahu only. Pick a spot on land, or use your location while on Oʻahu.",
+    "exitTsunami": "Nearest way out for a Tsunami Warning:",
+    "exitExtreme": "Nearest way out for an Extreme Tsunami Warning:",
+    "straightLine": "Distances are in a straight line. Follow roads and paths, and move inland or uphill.",
+    "seePlaces": "See safe places and refuge areas near here",
+    "disclaimer": "Zone lines are approximate. Always follow instructions from officials."
+  },
+  "places": {
+    "tsunamiHeading": "Tsunami: get out of the zone",
+    "alreadySafe": "This spot is outside the tsunami evacuation zones. During a tsunami, stay put unless officials tell you to move.",
+    "refugeHeading": "Nearest hurricane refuge areas",
+    "refugeInTsunami": "Inside the tsunami evacuation zone: do not go here during a tsunami.",
+    "refugeInExtreme": "Inside the extreme tsunami evacuation zone: avoid during an Extreme Tsunami Warning."
+  },
   "screens": {
     "zone": {
       "title": "Am I in an evacuation zone?",
-      "body": "Checking your location against official tsunami evacuation zones is coming soon.",
       "naturalWarningHeading": "Natural tsunami warning signs",
       "naturalWarningSource": "Source: National Weather Service tsunami safety guidance"
     },
     "places": {
-      "title": "Nearest safe places",
-      "body": "Finding the nearest safe places near you is coming soon."
+      "title": "Nearest safe places"
     },
     "alerts": {
       "title": "Weather alerts",
@@ -47,6 +116,11 @@
     }
   },
   "safety": {
-    "naturalWarning": "If you feel a strong earthquake or see the ocean suddenly pull back, move inland or to high ground right away. Do not wait for an official warning."
+    "naturalWarning": "If you feel a strong earthquake or see the ocean suddenly pull back, move inland or to high ground right away. Do not wait for an official warning.",
+    "tsunamiZoneAction": "If a Tsunami Warning is issued, or you feel a strong earthquake, leave this zone right away. Go inland or uphill, on foot if you can. Do not go to the shore to watch.",
+    "extremeZoneAction": "Leave this area if officials issue an Extreme Tsunami Warning. For any other tsunami warning, follow official instructions.",
+    "safeZoneAction": "During a tsunami warning, stay where you are unless officials tell you to move. Keep roads clear for people who are evacuating.",
+    "tsunamiGoUp": "Getting out of the zone matters more than reaching a shelter. If you cannot get out in time, go to an upper floor of a tall, sturdy concrete building.",
+    "refugeNotOpen": "These are possible hurricane refuge areas, not open shelters. Officials announce which ones open, and when, on radio, TV and official social media. They are a last resort and have no supplies: bring your emergency kit, food, water and medicine."
   }
 }

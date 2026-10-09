@@ -48,9 +48,6 @@
     "screens.zone.title": {
       "status": "machine"
     },
-    "screens.zone.body": {
-      "status": "machine"
-    },
     "screens.zone.naturalWarningHeading": {
       "status": "machine"
     },
@@ -58,9 +55,6 @@
       "status": "machine"
     },
     "screens.places.title": {
-      "status": "machine"
-    },
-    "screens.places.body": {
       "status": "machine"
     },
     "screens.alerts.title": {
@@ -76,6 +70,180 @@
       "status": "machine"
     },
     "safety.naturalWarning": {
+      "status": "machine"
+    },
+    "location.useMine": {
+      "status": "machine"
+    },
+    "location.locating": {
+      "status": "machine"
+    },
+    "location.orTapMap": {
+      "status": "machine"
+    },
+    "location.fromGps": {
+      "status": "machine"
+    },
+    "location.fromMap": {
+      "status": "machine"
+    },
+    "location.fromHome": {
+      "status": "machine"
+    },
+    "location.error.denied": {
+      "status": "machine"
+    },
+    "location.error.unavailable": {
+      "status": "machine"
+    },
+    "location.error.timeout": {
+      "status": "machine"
+    },
+    "location.error.unsupported": {
+      "status": "machine"
+    },
+    "compass.N": {
+      "status": "machine"
+    },
+    "compass.NE": {
+      "status": "machine"
+    },
+    "compass.E": {
+      "status": "machine"
+    },
+    "compass.SE": {
+      "status": "machine"
+    },
+    "compass.S": {
+      "status": "machine"
+    },
+    "compass.SW": {
+      "status": "machine"
+    },
+    "compass.W": {
+      "status": "machine"
+    },
+    "compass.NW": {
+      "status": "machine"
+    },
+    "direction.distanceToward": {
+      "status": "machine"
+    },
+    "direction.walk": {
+      "status": "machine"
+    },
+    "data.source": {
+      "status": "machine"
+    },
+    "data.mapped": {
+      "status": "machine"
+    },
+    "data.updated": {
+      "status": "machine"
+    },
+    "data.downloaded": {
+      "status": "machine"
+    },
+    "data.loadError": {
+      "status": "machine"
+    },
+    "map.loading": {
+      "status": "machine"
+    },
+    "map.unavailable": {
+      "status": "machine"
+    },
+    "map.zoneLabel": {
+      "status": "machine"
+    },
+    "map.placesLabel": {
+      "status": "machine"
+    },
+    "map.legend": {
+      "status": "machine"
+    },
+    "map.legendTsunami": {
+      "status": "machine"
+    },
+    "map.legendExtreme": {
+      "status": "machine"
+    },
+    "map.legendYou": {
+      "status": "machine"
+    },
+    "map.legendExit": {
+      "status": "machine"
+    },
+    "map.legendRefuge": {
+      "status": "machine"
+    },
+    "map.tapHint": {
+      "status": "machine"
+    },
+    "map.gestureDesktop": {
+      "status": "machine"
+    },
+    "map.gestureMobile": {
+      "status": "machine"
+    },
+    "zone.status.tsunami": {
+      "status": "machine"
+    },
+    "zone.status.extreme": {
+      "status": "machine"
+    },
+    "zone.status.safe": {
+      "status": "machine"
+    },
+    "zone.status.no-data": {
+      "status": "machine"
+    },
+    "zone.noDataHelp": {
+      "status": "machine"
+    },
+    "zone.exitTsunami": {
+      "status": "machine"
+    },
+    "zone.exitExtreme": {
+      "status": "machine"
+    },
+    "zone.straightLine": {
+      "status": "machine"
+    },
+    "zone.seePlaces": {
+      "status": "machine"
+    },
+    "zone.disclaimer": {
+      "status": "machine"
+    },
+    "places.tsunamiHeading": {
+      "status": "machine"
+    },
+    "places.alreadySafe": {
+      "status": "machine"
+    },
+    "places.refugeHeading": {
+      "status": "machine"
+    },
+    "places.refugeInTsunami": {
+      "status": "machine"
+    },
+    "places.refugeInExtreme": {
+      "status": "machine"
+    },
+    "safety.tsunamiZoneAction": {
+      "status": "machine"
+    },
+    "safety.extremeZoneAction": {
+      "status": "machine"
+    },
+    "safety.safeZoneAction": {
+      "status": "machine"
+    },
+    "safety.tsunamiGoUp": {
+      "status": "machine"
+    },
+    "safety.refugeNotOpen": {
       "status": "machine"
     }
   }
