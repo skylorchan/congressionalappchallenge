@@ -28,13 +28,13 @@ export function Layout() {
           <span className="app-name">{t('app.name')}</span>
           <span className="app-tagline">{t('app.tagline')}</span>
         </Link>
-        <div className="header-tools">
-          <LanguagePicker />
-          <Link to="/settings" className="header-link">
-            <span aria-hidden="true">⚙️ </span>
-            {t('nav.settings')}
-          </Link>
-        </div>
+        <Link to="/settings" className="header-link">
+          <span aria-hidden="true" className="header-icon">
+            ⚙️
+          </span>
+          {t('nav.settings')}
+        </Link>
+        <LanguagePicker />
       </header>
       <OfflineBanner />
       <TranslationNotice />

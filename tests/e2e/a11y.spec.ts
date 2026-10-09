@@ -66,3 +66,32 @@ test('kūpuna mode and Japanese UI pass WCAG 2.1 AA checks', async ({ page }) =>
   await expect(page.getByRole('heading', { level: 2 }).first()).toBeVisible();
   await scan(page, 'kupuna ja');
 });
+
+// WCAG 1.4.10 Reflow: nothing should need sideways scrolling, even at the largest text
+// size. (This caught the header overflowing in kūpuna mode.)
+test('no screen scrolls sideways at any text size, at 320 px wide', async ({ page }) => {
+  test.setTimeout(90_000);
+  // 320 CSS px is the width WCAG's reflow rule is defined at (and narrower than any phone).
+  await page.setViewportSize({ width: 320, height: 640 });
+  await page.goto('./');
+  for (const textSize of ['normal', 'large', 'xlarge']) {
+    for (const kupuna of [false, true]) {
+      await page.evaluate((s) => localStorage.setItem('kokua.settings', JSON.stringify(s)), {
+        textSize,
+        highContrast: false,
+        kupuna,
+      });
+      for (const hash of kupuna ? ['#/'] : SCREENS) {
+        await page.goto(`./${hash}`);
+        await page.reload();
+        await expect(page.getByRole('heading', { level: 1 })).toBeVisible();
+        // clientWidth, not innerWidth: on phones innerWidth grows to fit oversized content
+        // (the browser zooms out), which would hide exactly the problem we're testing for.
+        const overflow = await page.evaluate(
+          () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
+        );
+        expect(overflow, `${hash} ${textSize} kupuna=${kupuna}`).toBeLessThanOrEqual(0);
+      }
+    }
+  }
+});

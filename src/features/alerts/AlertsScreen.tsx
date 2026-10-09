@@ -63,7 +63,9 @@ export function AlertsScreen() {
   // eslint-disable-next-line react-hooks/purity
   const now = Date.now();
   const fresh = snapshot ? freshness(snapshot.fetchedAt, now) : null;
-  const alerts = snapshot?.alerts ?? [];
+  // Alerts that may have ended go below the ones still in effect (stable order otherwise).
+  const all = snapshot?.alerts ?? [];
+  const alerts = [...all.filter((a) => !hasEnded(a, now)), ...all.filter((a) => hasEnded(a, now))];
   const hasTsunami = alerts.some((a) => a.tsunami && !hasEnded(a, now));
 
   return (
