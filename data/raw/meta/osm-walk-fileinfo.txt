@@ -1,0 +1,44 @@
+File:
+  Name: /tmp/hi.pbf
+  Format: PBF
+  Compression: none
+  Size: 27310632
+Header:
+  Bounding boxes:
+    (-179.8483,10.83575,-137.5228,29.09624)
+  With history: no
+  Options:
+    generator=osmium/1.16.0
+    osmosis_replication_base_url=https://download.geofabrik.de/north-america/us/hawaii-updates
+    osmosis_replication_sequence_number=4936
+    osmosis_replication_timestamp=2026-10-08T20:21:06Z
+    pbf_dense_nodes=true
+    pbf_optional_feature_0=Sort.Type_then_ID
+    sorting=Type_then_ID
+    timestamp=2026-10-08T20:21:06Z
+Data:
+  Bounding box: (-180,-46.6831195,-104.8119327,55.5829089)
+  Timestamps:
+    First: 2006-12-08T16:41:19Z
+    Last: 2026-10-08T19:50:33Z
+  Objects ordered (by type and id): yes
+  Multiple versions of same object: no
+  CRC32: not calculated (use --crc/-c to enable)
+  Number of changesets: 0
+  Number of nodes: 3837667
+  Number of ways: 389098
+  Number of relations: 5287
+  Smallest changeset ID: 0
+  Smallest node ID: 21442033
+  Smallest way ID: 4045672
+  Smallest relation ID: 119133
+  Largest changeset ID: 0
+  Largest node ID: 14265724898
+  Largest way ID: 1566626436
+  Largest relation ID: 21568870
+  Number of buffers: 5304 (avg 797 objects per buffer)
+  Sum of buffer sizes: 333735272 (0.318 GB)
+  Sum of buffer capacities: 347602944 (0.331 GB, 96% full)
+Metadata:
+  All objects have following metadata attributes: version+timestamp
+  Some objects have following metadata attributes: version+timestamp
