@@ -1,0 +1,200 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": 1,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.900655000679,
+     21.3473274515958
+    ]
+   },
+   "properties": {
+    "OBJECTID": 1,
+    "LOCATION": "Moanalua High"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 2,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.740279441352,
+     21.2853068042291
+    ]
+   },
+   "properties": {
+    "OBJECTID": 2,
+    "LOCATION": "Niu Valley Middle"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 3,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.794596379535,
+     21.4031613235128
+    ]
+   },
+   "properties": {
+    "OBJECTID": 3,
+    "LOCATION": "Castle High"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 4,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.12647258052,
+     21.5658489898013
+    ]
+   },
+   "properties": {
+    "OBJECTID": 4,
+    "LOCATION": "Waialua High and Intermediate"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 5,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.952279998773,
+     21.4148518396665
+    ]
+   },
+   "properties": {
+    "OBJECTID": 5,
+    "LOCATION": "Pearl City High"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 6,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.806725046226,
+     21.4282424029621
+    ]
+   },
+   "properties": {
+    "OBJECTID": 6,
+    "LOCATION": "King Intermediate"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 7,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.757746559519,
+     21.4080058107044
+    ]
+   },
+   "properties": {
+    "OBJECTID": 7,
+    "LOCATION": "Kalaheo High"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 8,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.695211258195,
+     21.328129678985
+    ]
+   },
+   "properties": {
+    "OBJECTID": 8,
+    "LOCATION": "Pope Elementary"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 9,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.00997590049,
+     21.45337747213
+    ]
+   },
+   "properties": {
+    "OBJECTID": 9,
+    "LOCATION": "Mililani High"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 10,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.008359383933,
+     21.3157933629601
+    ]
+   },
+   "properties": {
+    "OBJECTID": 10,
+    "LOCATION": "Campbell High"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 11,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.174381400098,
+     21.4387068068796
+    ]
+   },
+   "properties": {
+    "OBJECTID": 11,
+    "LOCATION": "Leihoku Elementary"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 12,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.132770196463,
+     21.388266981942
+    ]
+   },
+   "properties": {
+    "OBJECTID": 12,
+    "LOCATION": "Nanakuli High and Intermediate"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 13,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.836643390051,
+     21.2897822485844
+    ]
+   },
+   "properties": {
+    "OBJECTID": 13,
+    "LOCATION": "Hawaii Convention Center"
+   }
+  }
+ ]
+}

@@ -1,0 +1,70 @@
+{
+ "id": "99ea2f775f4846e4a602d4e321af654e",
+ "owner": "jhayden",
+ "ownerId": "1c09115e97c72e04e186714f8fbd46f5",
+ "orgId": "tNJpAOha4mODLkXz",
+ "created": 1595725150000,
+ "modified": 1595725157000,
+ "guid": null,
+ "name": "DouglasShelters",
+ "title": "DouglasShelters",
+ "type": "Feature Service",
+ "typeKeywords": [
+  "ArcGIS Server",
+  "Data",
+  "Feature Access",
+  "Feature Service",
+  "Metadata",
+  "Service",
+  "Singlelayer",
+  "Hosted Service"
+ ],
+ "description": "To be used prior to opening (so we don't have to touch the live public data)",
+ "tags": [
+  "DEM",
+  " Douglas"
+ ],
+ "snippet": "Locations of planned shelter openings",
+ "thumbnail": "thumbnail/thumbnail.png",
+ "documentation": null,
+ "extent": [
+  [
+   -158.17438140009844,
+   21.28530680422909
+  ],
+  [
+   -157.6952112581953,
+   21.565848989801303
+  ]
+ ],
+ "categories": [],
+ "spatialReference": "102100",
+ "accessInformation": "",
+ "classification": null,
+ "licenseInfo": "",
+ "culture": "en-us",
+ "properties": null,
+ "advancedSettings": null,
+ "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/arcgis/rest/services/DouglasShelters/FeatureServer",
+ "proxyFilter": null,
+ "access": "public",
+ "size": 32768,
+ "subInfo": 0,
+ "appCategories": [],
+ "industries": [],
+ "languages": [],
+ "largeThumbnail": null,
+ "banner": null,
+ "screenshots": [],
+ "listed": false,
+ "commentsEnabled": false,
+ "numComments": 0,
+ "numRatings": 0,
+ "avgRating": 0,
+ "numViews": 1817,
+ "scoreCompleteness": 60,
+ "groupDesignations": null,
+ "apiToken1ExpirationDate": -1,
+ "apiToken2ExpirationDate": -1,
+ "lastViewed": 1791529200000
+}

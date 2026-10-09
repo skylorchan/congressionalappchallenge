@@ -1,0 +1,69 @@
+{
+ "id": "5dcbab301711462e8cdaf0a3b69436d6",
+ "owner": "holisgis",
+ "ownerId": "6854b03c18c9b416b06f922fbeaf59a0",
+ "orgId": "tNJpAOha4mODLkXz",
+ "created": 1595450141000,
+ "modified": 1786670848000,
+ "guid": null,
+ "name": "Potential_Emergency_Shelter_Edit_EOC",
+ "title": "Potential Hurricane Refuge Area",
+ "type": "Feature Service",
+ "typeKeywords": [
+  "ArcGIS Server",
+  "Data",
+  "Feature Access",
+  "Feature Service",
+  "Metadata",
+  "Service",
+  "Singlelayer",
+  "Hosted Service"
+ ],
+ "description": "<p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' style='font-family:inherit;'><span style='font-family:inherit; font-size:24px;'><b>City and County of Honolulu</b></span></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' style='font-family:inherit;'><span style='font-family:inherit; font-size:24px;'><b>Department of Emergency Management</b></span></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' style='font-family:inherit;'><span style='font-family:inherit; font-size:24px;'><b>Oahu Hurricane Refuge Areas</b></span></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' size='3' style='font-family:inherit;'><b>Not every Hurricane Refuge Area will open during an emergency. Depending on the circumstances, the City may use facilities other than those listed here. Specific locations and opening times will be determined based on the situation and will broadcast over local radio, TV, and official social media sites. </b></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><br /></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' size='3' style='font-family:inherit;'><b>Hurricane Refuge Areas are intended to be a last resort for those without safer options. </b>In almost all cases, these facilities—often referred to as “shelters”—do NOT meet State of Hawaii guidelines for hurricane evacuation shelters. Structural engineers have evaluated “best available refuge areas,” which may be safer than remaining in areas prone to flooding, storm surge, or in older homes with wood frames or single-wall construction.</font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' size='3' style='font-family:inherit;'><b><br /></b></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' size='3' style='font-family:inherit;'><b>Whenever possible, the public should plan to shelter-in-place with family or friends in homes outside of these hazard areas</b> that were designed, built, or renovated to better withstand hurricane conditions. Based on building codes, Oahu homes with plans dated 1994 or later and built 1995 or later should have additional protective measures in place. Homeowners are also encouraged to retrofit their homes to make them safer for sheltering.</font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' size='3' style='font-family:inherit;'><b><br /></b></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' style='font-family:inherit;'><font size='3' style='font-family:inherit; font-weight:bold;'>Hurricane Refuge Areas are not stocked with supplies</font><font size='3' style='font-family:inherit;'><b>. </b>If you choose to relocate to a Hurricane Refuge Area, plan to take as much of your emergency supply kit as possible with you. Include food, water, clothing, medications, and personal hygiene supplies, as well as a mat or cot. You may have 10 square feet per person or less, depending on the number of evacuees. If you bring pets with you, you will need to provide crates or carriers of appropriate sizes and other essential items such as cleaning supplies.</font></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' size='3' style='font-family:inherit;'><b><br /></b></font></p><p style='margin-top:0px; margin-bottom:1.5rem; font-family:&quot;Avenir Next W01&quot;, &quot;Avenir Next W00&quot;, &quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px; text-align:center;'><font color='#000001' size='3' style='font-family:inherit;'><b>Additional Resources: </b></font><a href='https://seagrant.soest.hawaii.edu/homeowners-handbook-to-prepare-for-natural-hazards/' style='color:rgb(0, 121, 193); text-decoration-line:none; font-family:inherit;' target='_blank' rel='nofollow ugc noopener noreferrer'>Homeowner’s Handbook to Prepare for Natural Hazards</a><font color='#000001' size='3' style='font-family:inherit;'><b> </b>produced by the University of Hawaii Sea Grant College Program (Hawaii Sea Grant).</font></p>",
+ "tags": [
+  "Potential Emergency Shelter Edit EOC"
+ ],
+ "snippet": "Potential Hurricane Refuge Area",
+ "thumbnail": "thumbnail/thumbnail.png",
+ "documentation": null,
+ "extent": [
+  [
+   -158.19508569979993,
+   21.269194600374103
+  ],
+  [
+   -157.69498899972263,
+   21.67598494959447
+  ]
+ ],
+ "categories": [],
+ "spatialReference": "102100",
+ "accessInformation": "",
+ "classification": null,
+ "licenseInfo": "",
+ "culture": "en-us",
+ "properties": null,
+ "advancedSettings": null,
+ "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/arcgis/rest/services/Potential_Emergency_Shelter_Edit_EOC/FeatureServer",
+ "proxyFilter": null,
+ "access": "public",
+ "size": 49152,
+ "subInfo": 0,
+ "appCategories": [],
+ "industries": [],
+ "languages": [],
+ "largeThumbnail": null,
+ "banner": null,
+ "screenshots": [],
+ "listed": false,
+ "commentsEnabled": false,
+ "numComments": 0,
+ "numRatings": 0,
+ "avgRating": 0,
+ "numViews": 20171,
+ "scoreCompleteness": 56,
+ "groupDesignations": null,
+ "apiToken1ExpirationDate": -1,
+ "apiToken2ExpirationDate": -1,
+ "lastViewed": 1791532800000
+}

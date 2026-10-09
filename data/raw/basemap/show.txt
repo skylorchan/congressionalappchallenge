@@ -11,17 +11,17 @@ tile contents count: 1958
 clustered: true
 internal compression: gzip
 tile compression: gzip
+name Protomaps Basemap
+pgf:devanagari:name NotoSansDevanagari-Regular
+planetiler:githash 0e5588c4a6e8c29a270a33afe8df62027d889604
 planetiler:osm:osmosisreplicationseq 123357
+planetiler:osm:osmosisreplicationtime 2026-10-09T04:00:00Z
 planetiler:osm:osmosisreplicationurl https://planet.osm.org/replication/hour/
+description Basemap layers derived from OpenStreetMap and Natural Earth
+pgf:devanagari:version 1
+planetiler:buildtime 2026-03-28T14:41:39.524Z
+planetiler:version 0.10.2
+type baselayer
 version 4.15.2
 vector_layers <object, use --metadata to view full JSON metadata>
 attribution <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap</a>
-name Protomaps Basemap
-pgf:devanagari:name NotoSansDevanagari-Regular
-pgf:devanagari:version 1
-planetiler:osm:osmosisreplicationtime 2026-10-09T04:00:00Z
-planetiler:version 0.10.2
-type baselayer
-description Basemap layers derived from OpenStreetMap and Natural Earth
-planetiler:buildtime 2026-03-28T14:41:39.524Z
-planetiler:githash 0e5588c4a6e8c29a270a33afe8df62027d889604

@@ -1,0 +1,1995 @@
+{
+ "currentVersion": 12,
+ "services": [
+  {
+   "name": "100000_Trees_Oahu_Public_Map_Layer",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/100000_Trees_Oahu_Public_Map_Layer/FeatureServer"
+  },
+  {
+   "name": "2020CensusBlockPoints",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/2020CensusBlockPoints/FeatureServer"
+  },
+  {
+   "name": "5a4c60d8b9ca4c69af7382f3fa36cc47_public_view_1608248023580",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/5a4c60d8b9ca4c69af7382f3fa36cc47_public_view_1608248023580/FeatureServer"
+  },
+  {
+   "name": "61b6be809eb74757bb8c290ad2686f8a_public_view_1608248047874",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/61b6be809eb74757bb8c290ad2686f8a_public_view_1608248047874/FeatureServer"
+  },
+  {
+   "name": "6769416bf67f41b29ad99286e462d038_public_view_1593020037617",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/6769416bf67f41b29ad99286e462d038_public_view_1593020037617/FeatureServer"
+  },
+  {
+   "name": "6769416bf67f41b29ad99286e462d038_view_1581106386418",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/6769416bf67f41b29ad99286e462d038_view_1581106386418/FeatureServer"
+  },
+  {
+   "name": "ace20efc8eb9418b8e43fd525ce9356d_design_scenario_1600462899012",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/ace20efc8eb9418b8e43fd525ce9356d_design_scenario_1600462899012/FeatureServer"
+  },
+  {
+   "name": "Active_Frontage_Allowed",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Active_Frontage_Allowed/FeatureServer"
+  },
+  {
+   "name": "Active_Frontage_Required",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Active_Frontage_Required/FeatureServer"
+  },
+  {
+   "name": "AdministrativePolitical",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AdministrativePolitical/FeatureServer"
+  },
+  {
+   "name": "aed",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/aed/FeatureServer"
+  },
+  {
+   "name": "AFC__Pedestrian_Cross_Survey__Public_View",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AFC__Pedestrian_Cross_Survey__Public_View/FeatureServer"
+  },
+  {
+   "name": "AFCService_ProvidersPointsDR1",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AFCService_ProvidersPointsDR1/FeatureServer"
+  },
+  {
+   "name": "AffordableHousingRegistry",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AffordableHousingRegistry/FeatureServer"
+  },
+  {
+   "name": "Afternoon_Heat_Index",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Afternoon_Heat_Index/FeatureServer"
+  },
+  {
+   "name": "Age_Demo_ParkAccess_55to64",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Age_Demo_ParkAccess_55to64/FeatureServer"
+  },
+  {
+   "name": "Age_Demo_ParkAccess_65andOver",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Age_Demo_ParkAccess_65andOver/FeatureServer"
+  },
+  {
+   "name": "Age_Demo_ParkAccess_65to74",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Age_Demo_ParkAccess_65to74/FeatureServer"
+  },
+  {
+   "name": "Age_Demo_ParkAccess_75to84",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Age_Demo_ParkAccess_75to84/FeatureServer"
+  },
+  {
+   "name": "Age_Demo_ParkAccess_85andOver",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Age_Demo_ParkAccess_85andOver/FeatureServer"
+  },
+  {
+   "name": "Age_of_Housing",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Age_of_Housing/FeatureServer"
+  },
+  {
+   "name": "Age65overpopTotal",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Age65overpopTotal/FeatureServer"
+  },
+  {
+   "name": "Age65overpopulationIslandTotal",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Age65overpopulationIslandTotal/FeatureServer"
+  },
+  {
+   "name": "AgeFriendlyCity_DevPlan_Percent",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AgeFriendlyCity_DevPlan_Percent/FeatureServer"
+  },
+  {
+   "name": "AgeFriendlyCity_Tract_Percent",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AgeFriendlyCity_Tract_Percent/FeatureServer"
+  },
+  {
+   "name": "AgeFriendlyHUDStats",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AgeFriendlyHUDStats/FeatureServer"
+  },
+  {
+   "name": "AgeFriendlyHUDStats_2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AgeFriendlyHUDStats_2/FeatureServer"
+  },
+  {
+   "name": "AgeFriendlyHUDStats_3",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AgeFriendlyHUDStats_3/FeatureServer"
+  },
+  {
+   "name": "AGEHealthClinics",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AGEHealthClinics/FeatureServer"
+  },
+  {
+   "name": "AGEPUMAHHIncome",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AGEPUMAHHIncome/FeatureServer"
+  },
+  {
+   "name": "All_Parcels",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/All_Parcels/FeatureServer"
+  },
+  {
+   "name": "Approved_STR_Parcels",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Approved_STR_Parcels/FeatureServer"
+  },
+  {
+   "name": "AssistLivingFacility",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/AssistLivingFacility/FeatureServer"
+  },
+  {
+   "name": "Basemap",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Basemap/FeatureServer"
+  },
+  {
+   "name": "BigBoxStores Data Upload DEM HNL",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/BigBoxStores Data Upload DEM HNL/FeatureServer"
+  },
+  {
+   "name": "Bike_Racks_City",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Bike_Racks_City/FeatureServer"
+  },
+  {
+   "name": "Bike_Racks_Non_City",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Bike_Racks_Non_City/FeatureServer"
+  },
+  {
+   "name": "BikePaths",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/BikePaths/FeatureServer"
+  },
+  {
+   "name": "Bikeway_Proposed__Keeaumoku_St",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Bikeway_Proposed__Keeaumoku_St/FeatureServer"
+  },
+  {
+   "name": "Bldgs_over_100k_02_08_2023",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Bldgs_over_100k_02_08_2023/FeatureServer"
+  },
+  {
+   "name": "Board_of_Water_Supply_Pass_Zone",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Board_of_Water_Supply_Pass_Zone/FeatureServer"
+  },
+  {
+   "name": "Botanical_Gardens",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Botanical_Gardens/FeatureServer"
+  },
+  {
+   "name": "Building_candidates_over_100k_02_08_2023",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Building_candidates_over_100k_02_08_2023/FeatureServer"
+  },
+  {
+   "name": "Building_Footprint_Centerpoints",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Building_Footprint_Centerpoints/FeatureServer"
+  },
+  {
+   "name": "Buildings_potentially_requiring_benchmarking_in_2024",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Buildings_potentially_requiring_benchmarking_in_2024/FeatureServer"
+  },
+  {
+   "name": "Buildings_potentially_requiring_benchmarking_in_2025",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Buildings_potentially_requiring_benchmarking_in_2025/FeatureServer"
+  },
+  {
+   "name": "Bus_Stop_Walkability",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Bus_Stop_Walkability/FeatureServer"
+  },
+  {
+   "name": "Bus_Stops",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Bus_Stops/FeatureServer"
+  },
+  {
+   "name": "BusStop_Walkability_G",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/BusStop_Walkability_G/FeatureServer"
+  },
+  {
+   "name": "BusStopPedAccident_Counts3",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/BusStopPedAccident_Counts3/FeatureServer"
+  },
+  {
+   "name": "Cadastral_Public_LandOwnership",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Cadastral_Public_LandOwnership/FeatureServer"
+  },
+  {
+   "name": "Cadastral_Tables_by_TMK",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Cadastral_Tables_by_TMK/FeatureServer"
+  },
+  {
+   "name": "CadastralTables",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CadastralTables/FeatureServer"
+  },
+  {
+   "name": "Camping_Parks",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Camping_Parks/FeatureServer"
+  },
+  {
+   "name": "caresactdatatable",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/caresactdatatable/FeatureServer"
+  },
+  {
+   "name": "Category_2_Storm_Surge",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Category_2_Storm_Surge/FeatureServer"
+  },
+  {
+   "name": "Category_3_Storm_Surge",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Category_3_Storm_Surge/FeatureServer"
+  },
+  {
+   "name": "Category_4_Storm_Surge",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Category_4_Storm_Surge/FeatureServer"
+  },
+  {
+   "name": "CCHNL_Park_Buffers_HalfMile",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CCHNL_Park_Buffers_HalfMile/FeatureServer"
+  },
+  {
+   "name": "CCHNL_Parks",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CCHNL_Parks/FeatureServer"
+  },
+  {
+   "name": "Change_in_Daily_Air_Temperature_by_Scenario",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Change_in_Daily_Air_Temperature_by_Scenario/FeatureServer"
+  },
+  {
+   "name": "CIP_Road_Rehab",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CIP_Road_Rehab/FeatureServer"
+  },
+  {
+   "name": "City_Council_2023",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/City_Council_2023/FeatureServer"
+  },
+  {
+   "name": "CityCouncilDistrictBoundaries",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CityCouncilDistrictBoundaries/FeatureServer"
+  },
+  {
+   "name": "CLess",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CLess/FeatureServer"
+  },
+  {
+   "name": "Coast_Poly",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Coast_Poly/FeatureServer"
+  },
+  {
+   "name": "Community_Health_Centers",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Community_Health_Centers/FeatureServer"
+  },
+  {
+   "name": "Community_Resilience_to_Heat_2022",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Community_Resilience_to_Heat_2022/FeatureServer"
+  },
+  {
+   "name": "Communtiy_Gardens",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Communtiy_Gardens/FeatureServer"
+  },
+  {
+   "name": "Complete_Streets_Ala_Wai_Blvd_Corridor_Comments",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Complete_Streets_Ala_Wai_Blvd_Corridor_Comments/FeatureServer"
+  },
+  {
+   "name": "Complete_Streets_Ala_Wai_Blvd_Corridor_Comments_EDIT",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Complete_Streets_Ala_Wai_Blvd_Corridor_Comments_EDIT/FeatureServer"
+  },
+  {
+   "name": "Complete_Streets_Corridor_Ala_Wai_Blvd",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Complete_Streets_Corridor_Ala_Wai_Blvd/FeatureServer"
+  },
+  {
+   "name": "Complete_Streets_Corridors",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Complete_Streets_Corridors/FeatureServer"
+  },
+  {
+   "name": "Complete_Streets_Public_Engagement",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Complete_Streets_Public_Engagement/FeatureServer"
+  },
+  {
+   "name": "Complete_Streets_Public_Engagement_June2020",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Complete_Streets_Public_Engagement_June2020/FeatureServer"
+  },
+  {
+   "name": "CompleteStreets_Base",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CompleteStreets_Base/FeatureServer"
+  },
+  {
+   "name": "Composite_Map_StateParks",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Composite_Map_StateParks/FeatureServer"
+  },
+  {
+   "name": "Concentration_of_OlderAdult_Pop_to_OlderAdult_IslandPop",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Concentration_of_OlderAdult_Pop_to_OlderAdult_IslandPop/FeatureServer"
+  },
+  {
+   "name": "Concentrationof_Elderly",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Concentrationof_Elderly/FeatureServer"
+  },
+  {
+   "name": "Cool_Paving",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Cool_Paving/FeatureServer"
+  },
+  {
+   "name": "Cool_Roofing",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Cool_Roofing/FeatureServer"
+  },
+  {
+   "name": "CouncilDistrictwPhotoLink",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CouncilDistrictwPhotoLink/FeatureServer"
+  },
+  {
+   "name": "CS_ALA__TEST_DATA_to_use_Survey_May_2021",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CS_ALA__TEST_DATA_to_use_Survey_May_2021/FeatureServer"
+  },
+  {
+   "name": "CS_K_ComtsTESTOCT2020",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CS_K_ComtsTESTOCT2020/FeatureServer"
+  },
+  {
+   "name": "CS_K_ComtsTESTOCT2020_EDIT",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/CS_K_ComtsTESTOCT2020_EDIT/FeatureServer"
+  },
+  {
+   "name": "Cultural_Demographic",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Cultural_Demographic/FeatureServer"
+  },
+  {
+   "name": "Da_Bux_Retail_Locations",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Da_Bux_Retail_Locations/FeatureServer"
+  },
+  {
+   "name": "DAFieldsforVeoci_Integration",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DAFieldsforVeoci_Integration/FeatureServer"
+  },
+  {
+   "name": "Dam_Evacuation_Zones_Revised",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Dam_Evacuation_Zones_Revised/FeatureServer"
+  },
+  {
+   "name": "DefibrillatorLocationsFS",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DefibrillatorLocationsFS/FeatureServer"
+  },
+  {
+   "name": "Direct_Pay_CCH_Map_WFL1",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Direct_Pay_CCH_Map_WFL1/FeatureServer"
+  },
+  {
+   "name": "Disability",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Disability/FeatureServer"
+  },
+  {
+   "name": "DLM_Parcel_Project",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DLM_Parcel_Project/FeatureServer"
+  },
+  {
+   "name": "DLMProperties_Attributes",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DLMProperties_Attributes/FeatureServer"
+  },
+  {
+   "name": "DouglasShelters",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DouglasShelters/FeatureServer"
+  },
+  {
+   "name": "DouglasSloshModel",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DouglasSloshModel/FeatureServer"
+  },
+  {
+   "name": "DPP_Easements",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DPP_Easements/FeatureServer"
+  },
+  {
+   "name": "DRAFT_Veoci_to_ArcGIS_Integration_for_Shelters",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DRAFT_Veoci_to_ArcGIS_Integration_for_Shelters/FeatureServer"
+  },
+  {
+   "name": "Dry_Season_Precipitation_Change",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Dry_Season_Precipitation_Change/FeatureServer"
+  },
+  {
+   "name": "EBT_and_WIC_Retail_Locations",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/EBT_and_WIC_Retail_Locations/FeatureServer"
+  },
+  {
+   "name": "Electric_Vehicle_Charging_Station",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Electric_Vehicle_Charging_Station/FeatureServer"
+  },
+  {
+   "name": "Elevation",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Elevation/FeatureServer"
+  },
+  {
+   "name": "Elevation_5ft",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Elevation_5ft/FeatureServer"
+  },
+  {
+   "name": "EPA_IRA_Disadvantaged_Communities",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/EPA_IRA_Disadvantaged_Communities/FeatureServer"
+  },
+  {
+   "name": "EV_Charger_30C_Tax_Credit_Eligibility_by_Census_Tract",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/EV_Charger_30C_Tax_Credit_Eligibility_by_Census_Tract/FeatureServer"
+  },
+  {
+   "name": "Evening_Heat_Index",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Evening_Heat_Index/FeatureServer"
+  },
+  {
+   "name": "EVOA_Hawaiian_Homelands_Map",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/EVOA_Hawaiian_Homelands_Map/FeatureServer"
+  },
+  {
+   "name": "Exceptional_Trees",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Exceptional_Trees/FeatureServer"
+  },
+  {
+   "name": "Existing_Bikeways_2024",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Existing_Bikeways_2024/FeatureServer"
+  },
+  {
+   "name": "Existing_Tree_Canopy_FINAL4",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Existing_Tree_Canopy_FINAL4/FeatureServer"
+  },
+  {
+   "name": "ExistingTree_Canopy",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/ExistingTree_Canopy/FeatureServer"
+  },
+  {
+   "name": "Fall_Resources",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Fall_Resources/FeatureServer"
+  },
+  {
+   "name": "Farmers_Markets",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Farmers_Markets/FeatureServer"
+  },
+  {
+   "name": "FeaturesWithTEZclassifications",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/FeaturesWithTEZclassifications/FeatureServer"
+  },
+  {
+   "name": "Fire_Stations",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Fire_Stations/FeatureServer"
+  },
+  {
+   "name": "Fless",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Fless/FeatureServer"
+  },
+  {
+   "name": "Flood_Collection_Survey_3_view",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Flood_Collection_Survey_3_view/FeatureServer"
+  },
+  {
+   "name": "FMB_Blaisdell Raw Logger Data _ 1 WEEK",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/FMB_Blaisdell Raw Logger Data _ 1 WEEK/FeatureServer"
+  },
+  {
+   "name": "Food_Banks_and_Pantries",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Food_Banks_and_Pantries/FeatureServer"
+  },
+  {
+   "name": "Footprints_Zoning2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Footprints_Zoning2/FeatureServer"
+  },
+  {
+   "name": "Full_Address",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Full_Address/FeatureServer"
+  },
+  {
+   "name": "G30_100m_Greening_Scenario",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/G30_100m_Greening_Scenario/FeatureServer"
+  },
+  {
+   "name": "G50_100m_Greening_Scenario",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/G50_100m_Greening_Scenario/FeatureServer"
+  },
+  {
+   "name": "GrossRent30",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/GrossRent30/FeatureServer"
+  },
+  {
+   "name": "Guideway_Alignment",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Guideway_Alignment/FeatureServer"
+  },
+  {
+   "name": "Gyms_City",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Gyms_City/FeatureServer"
+  },
+  {
+   "name": "HandiVanUsage",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/HandiVanUsage/FeatureServer"
+  },
+  {
+   "name": "Harbor_View_Corridors",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Harbor_View_Corridors/FeatureServer"
+  },
+  {
+   "name": "Hawaii_State_EV_Charger_30C_Tax_Credit_Eligibility_by_Census_Tract",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Hawaii_State_EV_Charger_30C_Tax_Credit_Eligibility_by_Census_Tract/FeatureServer"
+  },
+  {
+   "name": "Hazard_Zones_Public_Facing",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Hazard_Zones_Public_Facing/FeatureServer"
+  },
+  {
+   "name": "Hazards_LFB",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Hazards_LFB/FeatureServer"
+  },
+  {
+   "name": "Heat_Scenario_Greening_30_Percent",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Heat_Scenario_Greening_30_Percent/FeatureServer"
+  },
+  {
+   "name": "Heat_Scenario_Greening_50_Percent",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Heat_Scenario_Greening_50_Percent/FeatureServer"
+  },
+  {
+   "name": "Heat_Scenario_Stormwater_Greening",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Heat_Scenario_Stormwater_Greening/FeatureServer"
+  },
+  {
+   "name": "Heat_Scenario_Street_Trees",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Heat_Scenario_Street_Trees/FeatureServer"
+  },
+  {
+   "name": "Heat_Scenario_Tree_Loss",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Heat_Scenario_Tree_Loss/FeatureServer"
+  },
+  {
+   "name": "Heat_Traverse_Pts_2019",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Heat_Traverse_Pts_2019/FeatureServer"
+  },
+  {
+   "name": "HI_TetraTech_All_SLRXA_3_2feet",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/HI_TetraTech_All_SLRXA_3_2feet/FeatureServer"
+  },
+  {
+   "name": "High_Greening",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/High_Greening/FeatureServer"
+  },
+  {
+   "name": "HighInjury_Corridors_2024",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/HighInjury_Corridors_2024/FeatureServer"
+  },
+  {
+   "name": "HighInjury_Location_2024",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/HighInjury_Location_2024/FeatureServer"
+  },
+  {
+   "name": "Hiking_Trails",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Hiking_Trails/FeatureServer"
+  },
+  {
+   "name": "Hiking_Trails_Composite",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Hiking_Trails_Composite/FeatureServer"
+  },
+  {
+   "name": "Historic_Floods_of_Oʻahu",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Historic_Floods_of_Oʻahu/FeatureServer"
+  },
+  {
+   "name": "HNL_BikeRacks_City",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/HNL_BikeRacks_City/FeatureServer"
+  },
+  {
+   "name": "HNL_BikeRacks_NonCity",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/HNL_BikeRacks_NonCity/FeatureServer"
+  },
+  {
+   "name": "HNL_Flood_Zones",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/HNL_Flood_Zones/FeatureServer"
+  },
+  {
+   "name": "Hospitals",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Hospitals/FeatureServer"
+  },
+  {
+   "name": "Hospitals_and_Clinics",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Hospitals_and_Clinics/FeatureServer"
+  },
+  {
+   "name": "Housing_Age",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Housing_Age/FeatureServer"
+  },
+  {
+   "name": "Housing_Year_Built",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Housing_Year_Built/FeatureServer"
+  },
+  {
+   "name": "hub_annotations",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/hub_annotations/FeatureServer"
+  },
+  {
+   "name": "IAL_Desgination_November2018_Datasets",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/IAL_Desgination_November2018_Datasets/FeatureServer"
+  },
+  {
+   "name": "Impervious_Surfaces_2010",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Impervious_Surfaces_2010/FeatureServer"
+  },
+  {
+   "name": "Impervious_Surfaces_FINAL2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Impervious_Surfaces_FINAL2/FeatureServer"
+  },
+  {
+   "name": "Individual_Buildings_for_Benchmarking_2026",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Individual_Buildings_for_Benchmarking_2026/FeatureServer"
+  },
+  {
+   "name": "Kalihi Raw Logger Data _ 1 WEEK",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Kalihi Raw Logger Data _ 1 WEEK/FeatureServer"
+  },
+  {
+   "name": "Landcover_MetricsTaxP",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Landcover_MetricsTaxP/FeatureServer"
+  },
+  {
+   "name": "Layer_1",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Layer_1/FeatureServer"
+  },
+  {
+   "name": "Layer_1_Test_AGOL_and_Veoci_Integration_Jan_23",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Layer_1_Test_AGOL_and_Veoci_Integration_Jan_23/FeatureServer"
+  },
+  {
+   "name": "LEGDAT_ADDRESS",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/LEGDAT_ADDRESS/FeatureServer"
+  },
+  {
+   "name": "lei_of_park",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/lei_of_park/FeatureServer"
+  },
+  {
+   "name": "Libraries",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Libraries/FeatureServer"
+  },
+  {
+   "name": "Lifeguard",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Lifeguard/FeatureServer"
+  },
+  {
+   "name": "LivingAlone",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/LivingAlone/FeatureServer"
+  },
+  {
+   "name": "Map",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Map/FeatureServer"
+  },
+  {
+   "name": "Mass_Food_Distribution",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Mass_Food_Distribution/FeatureServer"
+  },
+  {
+   "name": "MetaDataLayers07172025_V5",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/MetaDataLayers07172025_V5/FeatureServer"
+  },
+  {
+   "name": "Mod_Layer_Prop_report_pub",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Mod_Layer_Prop_report_pub/FeatureServer"
+  },
+  {
+   "name": "Morning_Heat_Index",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Morning_Heat_Index/FeatureServer"
+  },
+  {
+   "name": "MVCPedestriansAccidents200720011",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/MVCPedestriansAccidents200720011/FeatureServer"
+  },
+  {
+   "name": "MyMapService",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/MyMapService/FeatureServer"
+  },
+  {
+   "name": "Neighborhood_Boards_with_Dissolved_Subdistricts",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Neighborhood_Boards_with_Dissolved_Subdistricts/FeatureServer"
+  },
+  {
+   "name": "New_Shoreline_2019_Full_and_Thumbnails",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/New_Shoreline_2019_Full_and_Thumbnails/FeatureServer"
+  },
+  {
+   "name": "NOO_Parcels_12_11_2023",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NOO_Parcels_12_11_2023/FeatureServer"
+  },
+  {
+   "name": "NOO_Parcels_12_11_2023_V2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NOO_Parcels_12_11_2023_V2/FeatureServer"
+  },
+  {
+   "name": "NOO_Tax_and_Reg_03_22_2024",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NOO_Tax_and_Reg_03_22_2024/FeatureServer"
+  },
+  {
+   "name": "NoticesAndEvacuations_KnowYourZone_7122e0b579d049e1a49b4e1ac10e570e",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NoticesAndEvacuations_KnowYourZone_7122e0b579d049e1a49b4e1ac10e570e/FeatureServer"
+  },
+  {
+   "name": "NoticesAndEvacuations_public_7122e0b579d049e1a49b4e1ac10e570e",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NoticesAndEvacuations_public_7122e0b579d049e1a49b4e1ac10e570e/FeatureServer"
+  },
+  {
+   "name": "NOV_Parcels_12_11_2023",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NOV_Parcels_12_11_2023/FeatureServer"
+  },
+  {
+   "name": "NOV_Tax_and_Reg_03_22_2024",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NOV_Tax_and_Reg_03_22_2024/FeatureServer"
+  },
+  {
+   "name": "NOV_Tax_Parcels",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NOV_Tax_Parcels/FeatureServer"
+  },
+  {
+   "name": "NSD_LC",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NSD_LC/FeatureServer"
+  },
+  {
+   "name": "Oahu_Community_Health_Centers",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oahu_Community_Health_Centers/FeatureServer"
+  },
+  {
+   "name": "Oahu_Daily_Air_Temperature_100m",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oahu_Daily_Air_Temperature_100m/FeatureServer"
+  },
+  {
+   "name": "Oahu_Dog_Park_Locations",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oahu_Dog_Park_Locations/FeatureServer"
+  },
+  {
+   "name": "Oahu_Land_Cover",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oahu_Land_Cover/FeatureServer"
+  },
+  {
+   "name": "Oʻahu_Land_Cover_100m",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oʻahu_Land_Cover_100m/FeatureServer"
+  },
+  {
+   "name": "Oʻahu_Neighborhood_Daily_Air_Temperatures",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oʻahu_Neighborhood_Daily_Air_Temperatures/FeatureServer"
+  },
+  {
+   "name": "Oʻahu_Neighborhood_Heat_Mortality",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oʻahu_Neighborhood_Heat_Mortality/FeatureServer"
+  },
+  {
+   "name": "Oʻahu_Neighborhood_Heat_Mortality_v4_WFL1",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oʻahu_Neighborhood_Heat_Mortality_v4_WFL1/FeatureServer"
+  },
+  {
+   "name": "Oʻahu_Neighborhood_Heat_Mortality_WFL1",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oʻahu_Neighborhood_Heat_Mortality_WFL1/FeatureServer"
+  },
+  {
+   "name": "Oahu_Pedestrian_Plan_June2020",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oahu_Pedestrian_Plan_June2020/FeatureServer"
+  },
+  {
+   "name": "Oahu_Shoreline_Change_Study_Areas",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oahu_Shoreline_Change_Study_Areas/FeatureServer"
+  },
+  {
+   "name": "Oahu_Social_Vulnerability_Index",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Oahu_Social_Vulnerability_Index/FeatureServer"
+  },
+  {
+   "name": "Old_Shoreline_Photos_Revised_PLATs_472020",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Old_Shoreline_Photos_Revised_PLATs_472020/FeatureServer"
+  },
+  {
+   "name": "Overlay_Blobs",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Overlay_Blobs/FeatureServer"
+  },
+  {
+   "name": "OwnerCost30",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/OwnerCost30/FeatureServer"
+  },
+  {
+   "name": "OWNINFO",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/OWNINFO/FeatureServer"
+  },
+  {
+   "name": "Parcels_with_TC_ID",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parcels_with_TC_ID/FeatureServer"
+  },
+  {
+   "name": "Parcels_Zoning_Facilities",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parcels_Zoning_Facilities/FeatureServer"
+  },
+  {
+   "name": "Park_and_Ride",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Park_and_Ride/FeatureServer"
+  },
+  {
+   "name": "ParkAccess_Age9_Under2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/ParkAccess_Age9_Under2/FeatureServer"
+  },
+  {
+   "name": "Parking_Facilities",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parking_Facilities/FeatureServer"
+  },
+  {
+   "name": "PARKING_HNL",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/PARKING_HNL/FeatureServer"
+  },
+  {
+   "name": "Parkingv2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parkingv2/FeatureServer"
+  },
+  {
+   "name": "Parks",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parks/FeatureServer"
+  },
+  {
+   "name": "Parks_Prioritization",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parks_Prioritization/FeatureServer"
+  },
+  {
+   "name": "Parks_QuarterMi_Buffer",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parks_QuarterMi_Buffer/FeatureServer"
+  },
+  {
+   "name": "Parks_Recreation",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parks_Recreation/FeatureServer"
+  },
+  {
+   "name": "Parks_Survey_Comfort_Sta_2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parks_Survey_Comfort_Sta_2/FeatureServer"
+  },
+  {
+   "name": "Parks_Survey_SportCourts_2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parks_Survey_SportCourts_2/FeatureServer"
+  },
+  {
+   "name": "Parks_Test_September_2021",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Parks_Test_September_2021/FeatureServer"
+  },
+  {
+   "name": "ParksByActivity",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/ParksByActivity/FeatureServer"
+  },
+  {
+   "name": "Pearlridge_Rev_2022",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Pearlridge_Rev_2022/FeatureServer"
+  },
+  {
+   "name": "Ped_Crash2007_2016_CollectNoRen",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Ped_Crash2007_2016_CollectNoRen/FeatureServer"
+  },
+  {
+   "name": "PedestrianAccidentBusStopCount2_",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/PedestrianAccidentBusStopCount2_/FeatureServer"
+  },
+  {
+   "name": "PedestrianAccidents20072013",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/PedestrianAccidents20072013/FeatureServer"
+  },
+  {
+   "name": "Percentage_65over_pop_within_CensusTracts",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Percentage_65over_pop_within_CensusTracts/FeatureServer"
+  },
+  {
+   "name": "Phase 1 Heat Index and Greenery",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Phase 1 Heat Index and Greenery/FeatureServer"
+  },
+  {
+   "name": "Phase 2 Heat Index and Greenery Details",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Phase 2 Heat Index and Greenery Details/FeatureServer"
+  },
+  {
+   "name": "Phase_1_Heat_Sensor_Locations",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Phase_1_Heat_Sensor_Locations/FeatureServer"
+  },
+  {
+   "name": "Phase_2_Data_Logger_Locations",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Phase_2_Data_Logger_Locations/FeatureServer"
+  },
+  {
+   "name": "PIM",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/PIM/FeatureServer"
+  },
+  {
+   "name": "Pipelines_by_Current_Phase_View",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Pipelines_by_Current_Phase_View/FeatureServer"
+  },
+  {
+   "name": "Plat_Easement_Lines",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Plat_Easement_Lines/FeatureServer"
+  },
+  {
+   "name": "Plat_Easement_Polygons",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Plat_Easement_Polygons/FeatureServer"
+  },
+  {
+   "name": "Police",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Police/FeatureServer"
+  },
+  {
+   "name": "PollingPlacesAndElectionPrecincts",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/PollingPlacesAndElectionPrecincts/FeatureServer"
+  },
+  {
+   "name": "Possible_Tree_Canopy_FINAL_4B",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Possible_Tree_Canopy_FINAL_4B/FeatureServer"
+  },
+  {
+   "name": "Possible_Tree_Canopy2010",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Possible_Tree_Canopy2010/FeatureServer"
+  },
+  {
+   "name": "Potential_Emergency_Shelter_Edit_EOC",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Potential_Emergency_Shelter_Edit_EOC/FeatureServer"
+  },
+  {
+   "name": "PovertyLevel",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/PovertyLevel/FeatureServer"
+  },
+  {
+   "name": "Prepared_Meals",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Prepared_Meals/FeatureServer"
+  },
+  {
+   "name": "PropertyReportInfo",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/PropertyReportInfo/FeatureServer"
+  },
+  {
+   "name": "Proposed_TOD_Legend",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Proposed_TOD_Legend/FeatureServer"
+  },
+  {
+   "name": "Public_EV_Chargers_in_Honolulu",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Public_EV_Chargers_in_Honolulu/FeatureServer"
+  },
+  {
+   "name": "Public_Hearing_Locations_View",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Public_Hearing_Locations_View/FeatureServer"
+  },
+  {
+   "name": "Public_Schools",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Public_Schools/FeatureServer"
+  },
+  {
+   "name": "PUMA_AREAS",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/PUMA_AREAS/FeatureServer"
+  },
+  {
+   "name": "PUMA_DATA",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/PUMA_DATA/FeatureServer"
+  },
+  {
+   "name": "Purposed_Flood_Contour_Changes",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Purposed_Flood_Contour_Changes/FeatureServer"
+  },
+  {
+   "name": "Purposed_Flood_Zone_Changes",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Purposed_Flood_Zone_Changes/FeatureServer"
+  },
+  {
+   "name": "RA_100m_Cool_Roofing_Scenario",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/RA_100m_Cool_Roofing_Scenario/FeatureServer"
+  },
+  {
+   "name": "Refuse_Bulky_Pickup_Routes",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Refuse_Bulky_Pickup_Routes/FeatureServer"
+  },
+  {
+   "name": "Refuse_Recycling",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Refuse_Recycling/FeatureServer"
+  },
+  {
+   "name": "RefuseCollectionYard",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/RefuseCollectionYard/FeatureServer"
+  },
+  {
+   "name": "RefuseCommRecycleBin",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/RefuseCommRecycleBin/FeatureServer"
+  },
+  {
+   "name": "RefuseDropTransfer",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/RefuseDropTransfer/FeatureServer"
+  },
+  {
+   "name": "RefuseHI5",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/RefuseHI5/FeatureServer"
+  },
+  {
+   "name": "RefuseManualPickup",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/RefuseManualPickup/FeatureServer"
+  },
+  {
+   "name": "Reg_NonconformingUseCertificates",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Reg_NonconformingUseCertificates/FeatureServer"
+  },
+  {
+   "name": "Right_of_Way",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Right_of_Way/FeatureServer"
+  },
+  {
+   "name": "RPA_Easement_Centerlines",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/RPA_Easement_Centerlines/FeatureServer"
+  },
+  {
+   "name": "RPA_Easements",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/RPA_Easements/FeatureServer"
+  },
+  {
+   "name": "RS_100m_Street_Trees_Scenario",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/RS_100m_Street_Trees_Scenario/FeatureServer"
+  },
+  {
+   "name": "SatelliteCityHall",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/SatelliteCityHall/FeatureServer"
+  },
+  {
+   "name": "SatelliteCityHallsDriverLic",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/SatelliteCityHallsDriverLic/FeatureServer"
+  },
+  {
+   "name": "School_Gardens",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/School_Gardens/FeatureServer"
+  },
+  {
+   "name": "Schools_1000FtBuffer",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Schools_1000FtBuffer/FeatureServer"
+  },
+  {
+   "name": "Seniorcitizenclubparks",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Seniorcitizenclubparks/FeatureServer"
+  },
+  {
+   "name": "service_dcd477ba3c9945a8b4add5e0ade8894a",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/service_dcd477ba3c9945a8b4add5e0ade8894a/FeatureServer"
+  },
+  {
+   "name": "Sewer_Projects_Construction_",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Sewer_Projects_Construction_/FeatureServer"
+  },
+  {
+   "name": "Shoreline_Access_Pts",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Shoreline_Access_Pts/FeatureServer"
+  },
+  {
+   "name": "Shoreline_Transects",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Shoreline_Transects/FeatureServer"
+  },
+  {
+   "name": "Sless",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Sless/FeatureServer"
+  },
+  {
+   "name": "SLR_Annual_High_Wave_Flooding__2_0_Ft__Scenario",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/SLR_Annual_High_Wave_Flooding__2_0_Ft__Scenario/FeatureServer"
+  },
+  {
+   "name": "SLR_Annual_High_Wave_Flooding__3_2_Ft__Scenario",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/SLR_Annual_High_Wave_Flooding__3_2_Ft__Scenario/FeatureServer"
+  },
+  {
+   "name": "SLR_Exposure_Area__1_1_Ft__Scenario",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/SLR_Exposure_Area__1_1_Ft__Scenario/FeatureServer"
+  },
+  {
+   "name": "Social_Venues",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Social_Venues/FeatureServer"
+  },
+  {
+   "name": "Soils",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Soils/FeatureServer"
+  },
+  {
+   "name": "Sport_Fields_AllParks",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Sport_Fields_AllParks/FeatureServer"
+  },
+  {
+   "name": "Statewide_DFIRM_Flood_Hazard_Areas",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Statewide_DFIRM_Flood_Hazard_Areas/FeatureServer"
+  },
+  {
+   "name": "Stormwater_Greening",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Stormwater_Greening/FeatureServer"
+  },
+  {
+   "name": "STR_Areas",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/STR_Areas/FeatureServer"
+  },
+  {
+   "name": "STR_Parcels_12_11_2023",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/STR_Parcels_12_11_2023/FeatureServer"
+  },
+  {
+   "name": "STR_Parcels_2024_02_29",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/STR_Parcels_2024_02_29/FeatureServer"
+  },
+  {
+   "name": "STR_Records_DRAFT",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/STR_Records_DRAFT/FeatureServer"
+  },
+  {
+   "name": "STR_Tax_Point_2025_09_Prelim",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/STR_Tax_Point_2025_09_Prelim/FeatureServer"
+  },
+  {
+   "name": "STR_Units",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/STR_Units/FeatureServer"
+  },
+  {
+   "name": "STR_Units_12_11_2023",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/STR_Units_12_11_2023/FeatureServer"
+  },
+  {
+   "name": "Street_Centerlines_Portal_Copy",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Street_Centerlines_Portal_Copy/FeatureServer"
+  },
+  {
+   "name": "streetshnl",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/streetshnl/FeatureServer"
+  },
+  {
+   "name": "Structures_Facilities",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Structures_Facilities/FeatureServer"
+  },
+  {
+   "name": "Summer_Meals",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Summer_Meals/FeatureServer"
+  },
+  {
+   "name": "survey123_04881a17576f42dbb892a2afbef382cc",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_04881a17576f42dbb892a2afbef382cc/FeatureServer"
+  },
+  {
+   "name": "survey123_05902a75e2dc4444a02ca6f507aa3b28_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_05902a75e2dc4444a02ca6f507aa3b28_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_0e7cc5efb7634d1ba47f069e6e2b7ceb_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_0e7cc5efb7634d1ba47f069e6e2b7ceb_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_1055dc8b81b44b878307c0ccaf3be43b",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_1055dc8b81b44b878307c0ccaf3be43b/FeatureServer"
+  },
+  {
+   "name": "survey123_111e979c2a724614b9cfc7707a381c59_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_111e979c2a724614b9cfc7707a381c59_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_135a43b592874c75a7d033f717ae7026_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_135a43b592874c75a7d033f717ae7026_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_135a43b592874c75a7d033f717ae7026_stakeholder",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_135a43b592874c75a7d033f717ae7026_stakeholder/FeatureServer"
+  },
+  {
+   "name": "survey123_188d5a6e7c13410d8301f67d0d01e858_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_188d5a6e7c13410d8301f67d0d01e858_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_1bf72ec1f6dd4e6b964664a3f589d1e0_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_1bf72ec1f6dd4e6b964664a3f589d1e0_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_22fde826a4724acbbe1bfa77082d58c3_form",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_22fde826a4724acbbe1bfa77082d58c3_form/FeatureServer"
+  },
+  {
+   "name": "survey123_24ec8af7ee6f4c3990b4f637f8fe4794",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_24ec8af7ee6f4c3990b4f637f8fe4794/FeatureServer"
+  },
+  {
+   "name": "survey123_24ec8af7ee6f4c3990b4f637f8fe4794_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_24ec8af7ee6f4c3990b4f637f8fe4794_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_2f13173620d54431ab509a5ba59c0414_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_2f13173620d54431ab509a5ba59c0414_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_444d91776de3411e9b9d5c58579d243b",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_444d91776de3411e9b9d5c58579d243b/FeatureServer"
+  },
+  {
+   "name": "survey123_5234d9c2a87c4c4896c127aa83d5479b_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_5234d9c2a87c4c4896c127aa83d5479b_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_5955b6bae6d84f18bc8bd1b8320a958d_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_5955b6bae6d84f18bc8bd1b8320a958d_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_62fb301306fc42ee92ac80485876f971_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_62fb301306fc42ee92ac80485876f971_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_681457ba481043dca74942621c7bfd3c_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_681457ba481043dca74942621c7bfd3c_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_681457ba481043dca74942621c7bfd3c_stakeholder",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_681457ba481043dca74942621c7bfd3c_stakeholder/FeatureServer"
+  },
+  {
+   "name": "survey123_6efa33d4adb44a13afe319798dc5b6b2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_6efa33d4adb44a13afe319798dc5b6b2/FeatureServer"
+  },
+  {
+   "name": "survey123_6efa33d4adb44a13afe319798dc5b6b2_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_6efa33d4adb44a13afe319798dc5b6b2_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_7782e222e2fd4ad4a6ed9fe2f16bce8e",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_7782e222e2fd4ad4a6ed9fe2f16bce8e/FeatureServer"
+  },
+  {
+   "name": "survey123_7cddc759382a4aed85f007648eb086c9_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_7cddc759382a4aed85f007648eb086c9_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_7ea6418cd2714531a86079d24b119dc2",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_7ea6418cd2714531a86079d24b119dc2/FeatureServer"
+  },
+  {
+   "name": "survey123_8cd2c92119044b1aa8525430beab3d96_form",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_8cd2c92119044b1aa8525430beab3d96_form/FeatureServer"
+  },
+  {
+   "name": "survey123_8dc62a83579c4788bbc32056024d9e0b",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_8dc62a83579c4788bbc32056024d9e0b/FeatureServer"
+  },
+  {
+   "name": "survey123_8dc62a83579c4788bbc32056024d9e0b_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_8dc62a83579c4788bbc32056024d9e0b_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_a57674618d67444fb377b0d99c5adf55_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_a57674618d67444fb377b0d99c5adf55_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_a9cf0961596b4efd89554f87ad3019b6_form",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_a9cf0961596b4efd89554f87ad3019b6_form/FeatureServer"
+  },
+  {
+   "name": "survey123_b445ea57393b4ecb9d3db95acca2c31d_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_b445ea57393b4ecb9d3db95acca2c31d_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_bb9738f9fe324ba9aa34df82dbf6bc59",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_bb9738f9fe324ba9aa34df82dbf6bc59/FeatureServer"
+  },
+  {
+   "name": "survey123_bb9738f9fe324ba9aa34df82dbf6bc59_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_bb9738f9fe324ba9aa34df82dbf6bc59_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_bfc42e464508476cb1d4ec6e688452c2_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_bfc42e464508476cb1d4ec6e688452c2_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_c4ebaf89258c435793305140737daac1_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_c4ebaf89258c435793305140737daac1_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_cac0913aadc44701ad8e50f22a463147_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_cac0913aadc44701ad8e50f22a463147_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_cbcabfa062f2498784f5a5ec912cfbcd_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_cbcabfa062f2498784f5a5ec912cfbcd_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_d7559f7681784f59820863cc3e69647e_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_d7559f7681784f59820863cc3e69647e_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_d7559f7681784f59820863cc3e69647e_stakeholder",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_d7559f7681784f59820863cc3e69647e_stakeholder/FeatureServer"
+  },
+  {
+   "name": "survey123_e4f4ef0f6b324b03a988a5469b56c472",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_e4f4ef0f6b324b03a988a5469b56c472/FeatureServer"
+  },
+  {
+   "name": "survey123_e65cb1e51c754ac9ab5adde72911cb7a_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_e65cb1e51c754ac9ab5adde72911cb7a_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_ea17d5fec709424f8ec4559664691231_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_ea17d5fec709424f8ec4559664691231_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_ea7ec2be9e714647b1774bb1521a1622",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_ea7ec2be9e714647b1774bb1521a1622/FeatureServer"
+  },
+  {
+   "name": "survey123_ef0d953f64dd4fc3a949b1d76ed363e7",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_ef0d953f64dd4fc3a949b1d76ed363e7/FeatureServer"
+  },
+  {
+   "name": "survey123_ef0d953f64dd4fc3a949b1d76ed363e7_fieldworker",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_ef0d953f64dd4fc3a949b1d76ed363e7_fieldworker/FeatureServer"
+  },
+  {
+   "name": "survey123_ef0d953f64dd4fc3a949b1d76ed363e7_stakeholder",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_ef0d953f64dd4fc3a949b1d76ed363e7_stakeholder/FeatureServer"
+  },
+  {
+   "name": "Swimming_Pools_City",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Swimming_Pools_City/FeatureServer"
+  },
+  {
+   "name": "Tax_Plat_Maps",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Tax_Plat_Maps/FeatureServer"
+  },
+  {
+   "name": "Tax_Plats",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Tax_Plats/FeatureServer"
+  },
+  {
+   "name": "TaxMapKey",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TaxMapKey/FeatureServer"
+  },
+  {
+   "name": "Ten_Story_and_Higher_Buildings_in_Tsunami_Evac_Zones",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Ten_Story_and_Higher_Buildings_in_Tsunami_Evac_Zones/FeatureServer"
+  },
+  {
+   "name": "TOD_Areas",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Areas/FeatureServer"
+  },
+  {
+   "name": "TOD_Halawa_Approved",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Halawa_Approved/FeatureServer"
+  },
+  {
+   "name": "TOD_Halawa_Colored",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Halawa_Colored/FeatureServer"
+  },
+  {
+   "name": "TOD_Halawa_Revised",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Halawa_Revised/FeatureServer"
+  },
+  {
+   "name": "TOD_LCCPearlHighlands_Proposed",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_LCCPearlHighlands_Proposed/FeatureServer"
+  },
+  {
+   "name": "TOD_PearlRidge_Proposed",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_PearlRidge_Proposed/FeatureServer"
+  },
+  {
+   "name": "TOD_Plan_Boundary",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Plan_Boundary/FeatureServer"
+  },
+  {
+   "name": "TOD_Proposed_Zoning_Legend",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Proposed_Zoning_Legend/FeatureServer"
+  },
+  {
+   "name": "TOD_Special_District_Halawa",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Special_District_Halawa/FeatureServer"
+  },
+  {
+   "name": "TOD_Zone_Changes_Proposed_Pearlhighlands_and_LCC_August_2022",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Zone_Changes_Proposed_Pearlhighlands_and_LCC_August_2022/FeatureServer"
+  },
+  {
+   "name": "TOD_Zone_Changes_Proposed_Waipahu_Pearl_City_August_2022",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Zone_Changes_Proposed_Waipahu_Pearl_City_August_2022/FeatureServer"
+  },
+  {
+   "name": "TOD_ZoneChange_WaipahuTC_Approved",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_ZoneChange_WaipahuTC_Approved/FeatureServer"
+  },
+  {
+   "name": "TOD_ZoneChange_WestLoch_Approved",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_ZoneChange_WestLoch_Approved/FeatureServer"
+  },
+  {
+   "name": "Transit_Rail_Station",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Transit_Rail_Station/FeatureServer"
+  },
+  {
+   "name": "Transit_Station_HalfMile_Buffer",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Transit_Station_HalfMile_Buffer/FeatureServer"
+  },
+  {
+   "name": "Transit_Station_OneMile_Buffer",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Transit_Station_OneMile_Buffer/FeatureServer"
+  },
+  {
+   "name": "Tree_Canopy_Metrics_Table",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Tree_Canopy_Metrics_Table/FeatureServer"
+  },
+  {
+   "name": "Tree_Canopy2019",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Tree_Canopy2019/FeatureServer"
+  },
+  {
+   "name": "Tsunami_Map_Index",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Tsunami_Map_Index/FeatureServer"
+  },
+  {
+   "name": "TsunamiMapLineWork",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TsunamiMapLineWork/FeatureServer"
+  },
+  {
+   "name": "urban_database_view_25e378af398e403288edbe3ae7e4420d",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/urban_database_view_25e378af398e403288edbe3ae7e4420d/FeatureServer"
+  },
+  {
+   "name": "urban_database_view_4edbd64c9cb6407cb9e4dd85b80fe982",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/urban_database_view_4edbd64c9cb6407cb9e4dd85b80fe982/FeatureServer"
+  },
+  {
+   "name": "urban_design_database_69605766043b413fa07caa04ceaae147",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/urban_design_database_69605766043b413fa07caa04ceaae147/FeatureServer"
+  },
+  {
+   "name": "urban_design_database_746c6de37d3d411db8f0e46e4e7a4e0d",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/urban_design_database_746c6de37d3d411db8f0e46e4e7a4e0d/FeatureServer"
+  },
+  {
+   "name": "Utilities",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Utilities/FeatureServer"
+  },
+  {
+   "name": "Verticals_View",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Verticals_View/FeatureServer"
+  },
+  {
+   "name": "Wet_Season_Precipitation_Change",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Wet_Season_Precipitation_Change/FeatureServer"
+  },
+  {
+   "name": "Zoning",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning/FeatureServer"
+  },
+  {
+   "name": "Zoning__Effective_Height",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning__Effective_Height/FeatureServer"
+  },
+  {
+   "name": "Zoning_Amendments",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning_Amendments/FeatureServer"
+  },
+  {
+   "name": "Zoning_Composite",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning_Composite/FeatureServer"
+  },
+  {
+   "name": "Zoning_DeploymentWorkshop",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning_DeploymentWorkshop/FeatureServer"
+  },
+  {
+   "name": "Zoning_Depolyment",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning_Depolyment/FeatureServer"
+  },
+  {
+   "name": "Zoning_Effective_Height",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning_Effective_Height/FeatureServer"
+  },
+  {
+   "name": "Zoning_HNL",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning_HNL/FeatureServer"
+  },
+  {
+   "name": "Zoning_Special_District_Unit",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning_Special_District_Unit/FeatureServer"
+  },
+  {
+   "name": "Concentration_of_Older_Adult_Population_by_Cenus_TractTileLayer",
+   "type": "MapServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Concentration_of_Older_Adult_Population_by_Cenus_TractTileLayer/MapServer"
+  },
+  {
+   "name": "Concentrationof_Elderly_Tile",
+   "type": "MapServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Concentrationof_Elderly_Tile/MapServer"
+  },
+  {
+   "name": "Honolulu_Building_Multipatch_Updates",
+   "type": "SceneServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Honolulu_Building_Multipatch_Updates/SceneServer"
+  },
+  {
+   "name": "Roads",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Roads/FeatureServer"
+  },
+  {
+   "name": "Preliminary_FIRM_Panel_Map_Index",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Preliminary_FIRM_Panel_Map_Index/FeatureServer"
+  },
+  {
+   "name": "Cadastral_2020",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Cadastral_2020/FeatureServer"
+  },
+  {
+   "name": "Realtor_Neighborhoods_2012",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Realtor_Neighborhoods_2012/FeatureServer"
+  },
+  {
+   "name": "Zoning_Reg",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Zoning_Reg/FeatureServer"
+  },
+  {
+   "name": "Hazard_Layers_Test_0637c",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Hazard_Layers_Test_0637c/FeatureServer"
+  },
+  {
+   "name": "MetaDataLayers05052026v7",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/MetaDataLayers05052026v7/FeatureServer"
+  },
+  {
+   "name": "survey123_f3adc63a38b64888ac6e6ddb81890af4",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_f3adc63a38b64888ac6e6ddb81890af4/FeatureServer"
+  },
+  {
+   "name": "survey123_f3adc63a38b64888ac6e6ddb81890af4_form",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_f3adc63a38b64888ac6e6ddb81890af4_form/FeatureServer"
+  },
+  {
+   "name": "survey123_f3adc63a38b64888ac6e6ddb81890af4_results",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/survey123_f3adc63a38b64888ac6e6ddb81890af4_results/FeatureServer"
+  },
+  {
+   "name": "Kona_Low_Damages_Generalized",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Kona_Low_Damages_Generalized/FeatureServer"
+  },
+  {
+   "name": "Flood_Datasets_Prior_to_June_2026_Update",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Flood_Datasets_Prior_to_June_2026_Update/FeatureServer"
+  },
+  {
+   "name": "Street_Centerlines",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Street_Centerlines/FeatureServer"
+  },
+  {
+   "name": "Public_Safety",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Public_Safety/FeatureServer"
+  },
+  {
+   "name": "STR_NOV_and_NOO",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/STR_NOV_and_NOO/FeatureServer"
+  },
+  {
+   "name": "STR_Units_2025_01",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/STR_Units_2025_01/FeatureServer"
+  },
+  {
+   "name": "NUC_Tax_11_22_2022",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/NUC_Tax_11_22_2022/FeatureServer"
+  },
+  {
+   "name": "Indiv_Buildings_for_Benchmarking_2026",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Indiv_Buildings_for_Benchmarking_2026/FeatureServer"
+  },
+  {
+   "name": "Campus_for_Building_Benchmarking",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Campus_for_Building_Benchmarking/FeatureServer"
+  },
+  {
+   "name": "Hydrography",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Hydrography/FeatureServer"
+  },
+  {
+   "name": "Chapter32",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Chapter32/FeatureServer"
+  },
+  {
+   "name": "Transportation",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Transportation/FeatureServer"
+  },
+  {
+   "name": "TOD_Special_District_and_Zone_Change",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Special_District_and_Zone_Change/FeatureServer"
+  },
+  {
+   "name": "TOD_Legend",
+   "type": "FeatureServer",
+   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/TOD_Legend/FeatureServer"
+  }
+ ]
+}

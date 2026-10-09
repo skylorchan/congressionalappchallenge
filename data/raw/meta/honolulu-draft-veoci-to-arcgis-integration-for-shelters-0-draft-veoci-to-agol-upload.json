@@ -1,0 +1,461 @@
+{
+ "currentVersion": 12,
+ "id": 0,
+ "name": "DRAFT Veoci to AGOL Upload",
+ "type": "Feature Layer",
+ "serviceItemId": "a7f158e0cda043c08163d997b32dc895",
+ "displayField": "Name",
+ "description": "",
+ "copyrightText": "",
+ "defaultVisibility": true,
+ "editingInfo": {
+  "lastEditDate": 1681762506394,
+  "schemaLastEditDate": 1681762502658,
+  "dataLastEditDate": 1666795657886
+ },
+ "relationships": [],
+ "isDataVersioned": false,
+ "hasContingentValuesDefinition": false,
+ "supportsAppend": true,
+ "supportsCalculate": true,
+ "supportsASyncCalculate": true,
+ "supportsTruncate": true,
+ "supportsAttachmentsByUploadId": true,
+ "supportsAttachmentsResizing": true,
+ "supportsRollbackOnFailureParameter": true,
+ "supportsStatistics": true,
+ "supportsExceedsLimitStatistics": true,
+ "supportsAdvancedQueries": true,
+ "supportsValidateSql": true,
+ "supportsCoordinatesQuantization": true,
+ "supportsLayerOverrides": true,
+ "supportsTilesAndBasicQueriesMode": true,
+ "supportsFieldDescriptionProperty": true,
+ "supportsQuantizationEditMode": true,
+ "supportsColumnStoreIndex": true,
+ "supportsApplyEditsWithGlobalIds": false,
+ "supportsReturningQueryGeometry": true,
+ "enableNullGeometry": false,
+ "advancedQueryCapabilities": {
+  "supportsPagination": true,
+  "supportsPaginationOnAggregatedQueries": true,
+  "supportsQueryRelatedPagination": true,
+  "supportsQueryWithDistance": true,
+  "supportsOutDistance": true,
+  "supportsReturningQueryExtent": true,
+  "supportsStatistics": true,
+  "supportsOrderBy": true,
+  "supportsDistinct": true,
+  "supportsQueryWithResultType": true,
+  "supportsSqlExpression": true,
+  "supportsTimeRelation": true,
+  "supportsAdvancedQueryRelated": true,
+  "supportsCountDistinct": true,
+  "supportsPercentileStatistics": true,
+  "supportsApproxPercentileStatistics": true,
+  "supportsSpatialAggregationStatistics": true,
+  "supportedSpatialAggregationStatistics": [
+   "EnvelopeAggregate",
+   "CentroidAggregate",
+   "ConvexHullAggregate"
+  ],
+  "supportsLod": true,
+  "supportsQueryWithLodSR": false,
+  "supportedLodTypes": [
+   "geohash"
+  ],
+  "supportsReturningGeometryCentroid": false,
+  "supportsReturningGeometryEnvelope": false,
+  "supportsQueryWithDatumTransformation": true,
+  "supportsCurrentUserQueries": true,
+  "supportsHavingClause": true,
+  "supportsOutFieldSQLExpression": true,
+  "supportsMaxRecordCountFactor": true,
+  "supportsTopFeaturesQuery": true,
+  "supportsDisjointSpatialRel": true,
+  "supportsQueryWithCacheHint": true,
+  "supportedOperationsWithCacheHint": [
+   "query",
+   "queryTopFilter",
+   "queryAnalytics",
+   "queryAttachments",
+   "queryRelated",
+   "queryBins",
+   "queryPivot"
+  ],
+  "supportsQueryAnalytic": true,
+  "supportsQueryPivot": true,
+  "supportsQueryBins": true,
+  "supportsDefaultSR": true,
+  "supportsTranslations": false,
+  "supportsAggIds": true,
+  "supportsQueryWithCollation": true,
+  "supportsISODOW": true,
+  "supportsISOWeek": true,
+  "supportsFullTextSearch": true,
+  "fullTextSearchCapabilities": {
+   "supportsAccentSensitivity": true,
+   "supportsStopWords": true,
+   "supportsSearchOperator": true,
+   "supportsOperator": true
+  }
+ },
+ "advancedQueryAnalyticCapabilities": {
+  "supportsLinearRegression": true,
+  "supportsTrendlineRegression": true,
+  "supportsAsync": true,
+  "supportsPercentileAnalytic": true
+ },
+ "queryBinsCapabilities": {
+  "supportsAsync": true,
+  "supportsAutoIntervalBin": true,
+  "supportsFixedIntervalBin": true,
+  "supportsFixedBoundariesBin": true,
+  "supportsDateBin": true,
+  "supportsClassificationBin": true,
+  "supportsStackBy": true,
+  "supportsSplitBy": true,
+  "supportsFirstDayOfWeek": true,
+  "supportsSnapToData": true,
+  "supportsReturnFullIntervalBin": true,
+  "supportsReturnStackValueRange": true,
+  "supportsNormalization": true,
+  "supportedStatisticTypes": [
+   "COUNT",
+   "SUM",
+   "AVG",
+   "VAR",
+   "STDDEV",
+   "MIN",
+   "MAX",
+   "PERCENTILE_CONT",
+   "PERCENTILE_DISC",
+   "APPROX_PERCENTILE_CONT",
+   "APPROX_PERCENTILE_DISC",
+   "CentroidAggregate",
+   "EnvelopeAggregate",
+   "ConvexHullAggregate"
+  ],
+  "supportedNormalizationTypes": [
+   "boxCox",
+   "field",
+   "inverse",
+   "log",
+   "naturalLog",
+   "percentOfTotal",
+   "squareRoot"
+  ]
+ },
+ "supportedOperationsWithCollation": "query,addField,updateField",
+ "advancedEditingCapabilities": {
+  "supportedSqlFormatsInCalculate": [
+   "standard"
+  ],
+  "supportsAsyncApplyEdits": true,
+  "supportsReturnEditResults": true,
+  "supportsApplyEditsbyUploadID": true,
+  "supportedApplyEditsUploadIDFormats": "JSON,PBF",
+  "supportsTranslation": false,
+  "supportsMaxTranslations": 10
+ },
+ "infoInEstimates": [
+  "extent",
+  "count"
+ ],
+ "useStandardizedQueries": true,
+ "geometryType": "esriGeometryPoint",
+ "minScale": 2311163,
+ "maxScale": 0,
+ "extent": {
+  "xmin": -17612131.387148917,
+  "ymin": 2423323.680999407,
+  "xmax": -17553243.143852923,
+  "ymax": 2472721.6689518103,
+  "spatialReference": {
+   "wkid": 102100,
+   "latestWkid": 3857
+  }
+ },
+ "spatialReference": {
+  "wkid": 102100,
+  "latestWkid": 3857
+ },
+ "drawingInfo": {
+  "renderer": {
+   "type": "simple",
+   "symbol": {
+    "type": "esriPMS",
+    "url": "f39241776ff46bbbec2261820add8f02",
+    "imageData": "iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IB2cksfwAAAAlwSFlzAAAOxAAADsQBlSsOGwAAAadJREFUSInt1kFOwkAUBuCfBPYiISDCCTTe5pHpyoQTqFFjNKRl68K40YULEheGhjkKrgicoE0D4Qgs6mamKbSdGUrVmPivIG3mm9c37UwZv5TyP6wKEQtV1zl3S4XBRMwBYANAq90xndiAc9fJDcuBdKCMvC/wPZuI2aonkAkTsbBSqaDeaBqh2xNYLRcgYmEWngrvg8rUG00lnoBFT3Ohz0+P0e+X1zcAQOB7IGLOds/TKrZNe5oGTiaf+BiNo/+tdgeB79kAtLA2tdoh+g93mZhJNmAiFqqqjVc2HL5jOpsbIa12J9FrZcXHrSPcXF/mwnTJhM9OT9DrnWM0GsOyuri4ui0E1MLT2TzCLKtbKKqEvzt/A5arWrbA7t+jWj1I3GeyHnJXHH+10q7p8A2Yc7ekepfjg+2yygPfS+zVxhWrKkzLThWLDALf2/l7nZXA9wBgoIU5dx0iZq+Wi2iHyvvxWC0X0ZhaWNxYImJhHM+DrtfrzHNYZo8lHvie8dFHRjxe5eFPubgE7oj9VDsBCWLfw57AHYhN/EePt3kHLhQuMr8GfwFJWcAhu6KfUwAAAABJRU5ErkJggg==",
+    "contentType": "image/png",
+    "width": 22,
+    "height": 22,
+    "angle": 0,
+    "xoffset": 0,
+    "yoffset": 0
+   },
+   "label": "",
+   "description": ""
+  },
+  "transparency": 0,
+  "labelingInfo": null
+ },
+ "allowGeometryUpdates": true,
+ "hasAttachments": false,
+ "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+ "hasM": false,
+ "hasZ": false,
+ "objectIdField": "OBJECTID",
+ "uniqueIdField": {
+  "name": "OBJECTID",
+  "isSystemMaintained": true
+ },
+ "globalIdField": "",
+ "typeIdField": "",
+ "collation": {
+  "locale": "neutral",
+  "caseSensitive": false,
+  "accentSensitive": true
+ },
+ "fields": [
+  {
+   "name": "OBJECTID",
+   "type": "esriFieldTypeOID",
+   "alias": "OBJECTID",
+   "sqlType": "sqlTypeOther",
+   "nullable": false,
+   "editable": false,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Name",
+   "type": "esriFieldTypeString",
+   "alias": "Name",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Address",
+   "type": "esriFieldTypeString",
+   "alias": "Address",
+   "sqlType": "sqlTypeOther",
+   "length": 50,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Place",
+   "type": "esriFieldTypeString",
+   "alias": "Place",
+   "sqlType": "sqlTypeOther",
+   "length": 12,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Status",
+   "type": "esriFieldTypeSmallInteger",
+   "alias": "Status",
+   "sqlType": "sqlTypeOther",
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "Open_",
+   "type": "esriFieldTypeDate",
+   "alias": "Open",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null,
+   "precision": 1
+  },
+  {
+   "name": "Close_",
+   "type": "esriFieldTypeDate",
+   "alias": "Close",
+   "sqlType": "sqlTypeOther",
+   "length": 8,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null,
+   "precision": 1
+  },
+  {
+   "name": "GoogleMapsLink",
+   "type": "esriFieldTypeString",
+   "alias": "MapLink",
+   "sqlType": "sqlTypeOther",
+   "length": 100,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "VeociID",
+   "type": "esriFieldTypeString",
+   "alias": "VeociID",
+   "sqlType": "sqlTypeOther",
+   "length": 256,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "AddressText",
+   "type": "esriFieldTypeString",
+   "alias": "AddressText",
+   "sqlType": "sqlTypeOther",
+   "length": 256,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "StatusString",
+   "type": "esriFieldTypeString",
+   "alias": "Status",
+   "sqlType": "sqlTypeOther",
+   "length": 256,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "SchoolComplexArea",
+   "type": "esriFieldTypeString",
+   "alias": "School Complex Area",
+   "sqlType": "sqlTypeOther",
+   "length": 256,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  },
+  {
+   "name": "EventName",
+   "type": "esriFieldTypeString",
+   "alias": "EventName",
+   "sqlType": "sqlTypeOther",
+   "length": 256,
+   "nullable": true,
+   "editable": true,
+   "domain": null,
+   "defaultValue": null
+  }
+ ],
+ "indexes": [
+  {
+   "name": "Status_Index",
+   "fields": "Status",
+   "isAscending": true,
+   "isUnique": false,
+   "description": "Status_Index",
+   "indexType": "Attribute"
+  },
+  {
+   "name": "undefined_Index",
+   "fields": "",
+   "isAscending": false,
+   "isUnique": false,
+   "description": "",
+   "indexType": "Attribute"
+  },
+  {
+   "name": "DRAFT_Veoci_to_ArcGIS_Integration_for_Shelters_POTENTIAL_OAHU_HURRICANE_REFUGE_AREAS_EDIT_STATUS_Shape_sidx",
+   "fields": "Shape",
+   "isAscending": false,
+   "isUnique": false,
+   "description": "Shape Index",
+   "indexType": "Spatial"
+  },
+  {
+   "name": "undefined_Index",
+   "fields": "",
+   "isAscending": false,
+   "isUnique": false,
+   "description": "",
+   "indexType": "Attribute"
+  }
+ ],
+ "dateFieldsTimeReference": {
+  "timeZone": "UTC",
+  "timeZoneIANA": "Etc/UTC",
+  "respectsDaylightSaving": false
+ },
+ "preferredTimeReference": null,
+ "types": [],
+ "templates": [
+  {
+   "name": "ShelterLocationsEdits",
+   "description": "",
+   "drawingTool": "esriFeatureEditToolPoint",
+   "prototype": {
+    "attributes": {
+     "Open_": null,
+     "Close_": null,
+     "Name": null,
+     "Address": null,
+     "Place": null,
+     "Status": null,
+     "GoogleMapsLink": null,
+     "VeociID": null,
+     "AddressText": null,
+     "StatusString": null,
+     "SchoolComplexArea": null,
+     "EventName": null
+    }
+   }
+  }
+ ],
+ "supportedQueryFormats": "JSON, geoJSON, PBF",
+ "supportedAppendFormats": "sqlite,geoPackage,shapefile,filegdb,featureCollection,geojson,csv,excel,jsonl,featureService,pbf",
+ "supportedAppendSourceFilterFormats": "sqlite,geoPackage,shapefile,filegdb,featureService",
+ "supportedExportFormats": "csv,shapefile,sqlite,geoPackage,filegdb,featureCollection,geojson,kml,excel,parquet",
+ "supportedConvertFileFormats": "JSON,PBF,Parquet",
+ "supportedConvertContentFormats": "LayerEditCollection,FeatureCollection",
+ "supportedSpatialRelationships": [
+  "esriSpatialRelIntersects",
+  "esriSpatialRelContains",
+  "esriSpatialRelCrosses",
+  "esriSpatialRelEnvelopeIntersects",
+  "esriSpatialRelIndexIntersects",
+  "esriSpatialRelOverlaps",
+  "esriSpatialRelTouches",
+  "esriSpatialRelWithin",
+  "esriSpatialRelDisjoint",
+  "esriSpatialRelRelation"
+ ],
+ "guidFormat": "",
+ "supportsContingentValues": true,
+ "supportsEditingContingentValues": true,
+ "supportedContingentValuesFormats": "JSON, PBF",
+ "supportsFieldGroups": true,
+ "supportedSyncDataOptions": 260,
+ "hasStaticData": false,
+ "maxRecordCount": 2000,
+ "standardMaxRecordCount": 16000,
+ "maxIdsCount": 1000000,
+ "standardMaxRecordCountNoGeometry": 32000,
+ "tileMaxRecordCount": 8000,
+ "maxRecordCountFactor": 1,
+ "capabilities": "Create,Delete,Query,Update,Editing"
+}

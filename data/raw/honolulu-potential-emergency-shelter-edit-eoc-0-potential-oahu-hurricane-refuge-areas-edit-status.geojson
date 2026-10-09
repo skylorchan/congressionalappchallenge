@@ -1,0 +1,803 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": 1,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.929919800373,
+     21.3848449998758
+    ]
+   },
+   "properties": {
+    "OBJECTID": 1,
+    "Name": "Aiea High",
+    "Address": "98-1276 Ulune St",
+    "Place": "AIEA",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": "https://goo.gl/maps/owHx5yJRTE2QhcHa7"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 2,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.90010300031,
+     21.3470239998742
+    ]
+   },
+   "properties": {
+    "OBJECTID": 2,
+    "Name": "Moanalua High",
+    "Address": "2825 Ala Ilima St",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 3,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.927862500268,
+     21.3594939998191
+    ]
+   },
+   "properties": {
+    "OBJECTID": 3,
+    "Name": "Radford High",
+    "Address": "4361 Salt Lake Blvd",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 4,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.009271100285,
+     21.4539577996514
+    ]
+   },
+   "properties": {
+    "OBJECTID": 4,
+    "Name": "Mililani High",
+    "Address": "95-1200 Meheula Pkwy",
+    "Place": "MILILANI",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 5,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.010043600225,
+     21.4555511003901
+    ]
+   },
+   "properties": {
+    "OBJECTID": 5,
+    "Name": "Mililani Waena Elementary",
+    "Address": "95-502 Kipapa Dr",
+    "Place": "MILILANI",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 6,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.871401599709,
+     21.3433068000212
+    ]
+   },
+   "properties": {
+    "OBJECTID": 6,
+    "Name": "Dole Middle",
+    "Address": "1803 Kamehameha IV Rd",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 7,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.881703100298,
+     21.3387873002865
+    ]
+   },
+   "properties": {
+    "OBJECTID": 7,
+    "Name": "Fern Elementary",
+    "Address": "1121 Middle St",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 8,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.875875599693,
+     21.3362284002994
+    ]
+   },
+   "properties": {
+    "OBJECTID": 8,
+    "Name": "Kalihi Waena Elementary",
+    "Address": "1240 Gulick Ave",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 9,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.695885099761,
+     21.2848596998669
+    ]
+   },
+   "properties": {
+    "OBJECTID": 9,
+    "Name": "Kaiser High",
+    "Address": "511 Lunalilo Home Rd",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 10,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.739346900256,
+     21.2858879999503
+    ]
+   },
+   "properties": {
+    "OBJECTID": 10,
+    "Name": "Niu Valley Middle",
+    "Address": "310 Halemaumau St",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 11,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.795694199864,
+     21.2691946003741
+    ]
+   },
+   "properties": {
+    "OBJECTID": 11,
+    "Name": "Kaimuki Middle",
+    "Address": "631 18th Ave",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 12,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.858818200432,
+     21.3190002996527
+    ]
+   },
+   "properties": {
+    "OBJECTID": 12,
+    "Name": "Kauluwela Elementary",
+    "Address": "1486 Aala St",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 13,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.797085900445,
+     21.2969816997525
+    ]
+   },
+   "properties": {
+    "OBJECTID": 13,
+    "Name": "Jarrett Middle",
+    "Address": "1903 Palolo Ave",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 14,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.843626399895,
+     21.3025666000991
+    ]
+   },
+   "properties": {
+    "OBJECTID": 14,
+    "Name": "Kaahumanu Elementary",
+    "Address": "1141 Kinau St",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 15,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.837432100091,
+     21.3106137003571
+    ]
+   },
+   "properties": {
+    "OBJECTID": 15,
+    "Name": "Roosevelt High",
+    "Address": "1120 Nehoa St",
+    "Place": "HONOLULU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 16,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.007437200412,
+     21.3157854002133
+    ]
+   },
+   "properties": {
+    "OBJECTID": 16,
+    "Name": "Campbell High",
+    "Address": "91-980 North Rd",
+    "Place": "EWA BEACH",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 17,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.011747200364,
+     21.3160380998441
+    ]
+   },
+   "properties": {
+    "OBJECTID": 17,
+    "Name": "Ilima Intermediate",
+    "Address": "91-884 Ft. Weaver Rd",
+    "Place": "EWA BEACH",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 18,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.020302100258,
+     21.3394502000565
+    ]
+   },
+   "properties": {
+    "OBJECTID": 18,
+    "Name": "Holomua Elementary",
+    "Address": "91-1561 Keaunui Dr",
+    "Place": "EWA BEACH",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 19,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.082197800202,
+     21.3218378000693
+    ]
+   },
+   "properties": {
+    "OBJECTID": 19,
+    "Name": "Barbers Point Elementary",
+    "Address": "3001 Boxer Rd",
+    "Place": "KAPOLEI",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 20,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.068293999628,
+     21.3279070000534
+    ]
+   },
+   "properties": {
+    "OBJECTID": 20,
+    "Name": "Kapolei High",
+    "Address": "91-5007 Kapolei Pkwy",
+    "Place": "KAPOLEI",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 21,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.132120989397,
+     21.3877438082285
+    ]
+   },
+   "properties": {
+    "OBJECTID": 21,
+    "Name": "Nanakuli High and Intermediate",
+    "Address": "89-980 Nanakuli Ave",
+    "Place": "WAIANAE",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 22,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.136287992827,
+     21.3860447774625
+    ]
+   },
+   "properties": {
+    "OBJECTID": 22,
+    "Name": "Nanakuli Elementary",
+    "Address": "89-778 Haleakala Ave",
+    "Place": "WAIANAE",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 23,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.1950856998,
+     21.4569334002326
+    ]
+   },
+   "properties": {
+    "OBJECTID": 23,
+    "Name": "Kamaile Academy PCS",
+    "Address": "85-180 Ala Akau St",
+    "Place": "WAIANAE",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 24,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.952130399634,
+     21.4119627999745
+    ]
+   },
+   "properties": {
+    "OBJECTID": 24,
+    "Name": "Pearl City High",
+    "Address": "2100 Hookiekie St",
+    "Place": "PEARL CITY",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 25,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.962540900003,
+     21.4010069998115
+    ]
+   },
+   "properties": {
+    "OBJECTID": 25,
+    "Name": "Highlands Intermediate",
+    "Address": "1460 Hoolaulea St",
+    "Place": "PEARL CITY",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 26,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.993344500303,
+     21.3882762999811
+    ]
+   },
+   "properties": {
+    "OBJECTID": 26,
+    "Name": "Waipahu High",
+    "Address": "94-1211 Farrington Hwy",
+    "Place": "WAIPAHU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 27,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.010216000403,
+     21.3830863004051
+    ]
+   },
+   "properties": {
+    "OBJECTID": 27,
+    "Name": "Waipahu Intermediate",
+    "Address": "94-445 Farrington Hwy",
+    "Place": "WAIPAHU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 28,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.026206999709,
+     21.3836539996226
+    ]
+   },
+   "properties": {
+    "OBJECTID": 28,
+    "Name": "Honowai Elementary",
+    "Address": "94-600 Honowai St",
+    "Place": "WAIPAHU",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 29,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.794145199786,
+     21.4035693997901
+    ]
+   },
+   "properties": {
+    "OBJECTID": 29,
+    "Name": "Castle High",
+    "Address": "45-386 Kaneohe Bay Dr",
+    "Place": "KANEOHE",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 30,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.806223400022,
+     21.427028699846
+    ]
+   },
+   "properties": {
+    "OBJECTID": 30,
+    "Name": "King Intermediate",
+    "Address": "46-155 Kamehameha Hwy",
+    "Place": "KANEOHE",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 31,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.851927900319,
+     21.4833778998116
+    ]
+   },
+   "properties": {
+    "OBJECTID": 31,
+    "Name": "Waiahole Elementary",
+    "Address": "48-215 Waiahole Valley Rd",
+    "Place": "KANEOHE",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 32,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.694988999723,
+     21.32818800004
+    ]
+   },
+   "properties": {
+    "OBJECTID": 32,
+    "Name": "Blanch Pope Elementary",
+    "Address": "41-133 Huli St",
+    "Place": "WAIMANALO",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 33,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.836940499747,
+     21.2897700700789
+    ]
+   },
+   "properties": {
+    "OBJECTID": 33,
+    "Name": "Hawaii Convention Center",
+    "Address": "1801 Kalakaua Ave",
+    "Place": "Honolulu",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 34,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.950723099808,
+     21.6759849495945
+    ]
+   },
+   "properties": {
+    "OBJECTID": 34,
+    "Name": "Kahuku Elementary",
+    "Address": "56-170 Pualalea St",
+    "Place": "Kahuku",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 35,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.809753900361,
+     21.4106288199462
+    ]
+   },
+   "properties": {
+    "OBJECTID": 35,
+    "Name": "Kaneohe District Park",
+    "Address": "45-660 Keaahala",
+    "Place": "Kaneohe",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 36,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.020678400039,
+     21.3236030597889
+    ]
+   },
+   "properties": {
+    "OBJECTID": 36,
+    "Name": "Keoneula Elementary",
+    "Address": "91-970 Kaileolea Dr",
+    "Place": "Ewa Beach",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 37,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.986081700283,
+     21.4796535295999
+    ]
+   },
+   "properties": {
+    "OBJECTID": 37,
+    "Name": "Mililani Ike Elementary",
+    "Address": "95-1330 Lehiwa Dr",
+    "Place": "Mililani",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 38,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.910734006649,
+     21.3533830290711
+    ]
+   },
+   "properties": {
+    "OBJECTID": 38,
+    "Name": "Salt Lake District Park",
+    "Address": "1159 Ala Lilikoi",
+    "Place": "Honolulu",
+    "Status": 0,
+    "Open_": null,
+    "Close_": null,
+    "GoogleMapsLink": null
+   }
+  }
+ ]
+}
