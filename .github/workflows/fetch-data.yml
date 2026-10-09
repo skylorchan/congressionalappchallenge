@@ -1,0 +1,75 @@
+# Downloads the raw datasets and the Oʻahu basemap on a GitHub runner (which has open
+# internet access) and commits them to data/raw/ on the same branch.
+# Then, locally: `npm run data:build` to produce public/data/.
+name: Fetch raw data
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - scripts/data/fetch-raw.mjs
+      - .github/workflows/fetch-data.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-data-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+
+      - name: Datasets
+        run: node scripts/data/fetch-raw.mjs
+
+      - name: Basemap (Protomaps / OpenStreetMap extract for Oʻahu)
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p data/raw/basemap
+          gh release download -R protomaps/go-pmtiles -p '*Linux_x86_64.tar.gz' -O /tmp/pmtiles.tgz
+          tar -xzf /tmp/pmtiles.tgz -C /tmp pmtiles
+          curl -sSf https://build-metadata.protomaps.dev/builds.json -o /tmp/builds.json
+          KEY=$(jq -r 'map(.key) | sort | last' /tmp/builds.json)
+          echo "Using build $KEY"
+          printf '{"build":"%s","url":"https://build.protomaps.com/%s","retrieved":"%s"}\n' \
+            "$KEY" "$KEY" "$(date -u +%FT%TZ)" > data/raw/basemap/source.json
+          /tmp/pmtiles extract "https://build.protomaps.com/$KEY" data/raw/basemap/oahu.pmtiles \
+            --bbox=-158.33,21.22,-157.6,21.75 --maxzoom=15
+          /tmp/pmtiles show data/raw/basemap/oahu.pmtiles > data/raw/basemap/show.txt
+          ls -la data/raw/basemap
+
+      - name: Basemap fonts and sprites (protomaps/basemaps-assets)
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          BASE=https://raw.githubusercontent.com/protomaps/basemaps-assets/main
+          for font in "Noto Sans Regular" "Noto Sans Medium" "Noto Sans Italic"; do
+            mkdir -p "data/raw/basemap/fonts/$font"
+            for range in 0-255 256-511 512-767 7680-7935 8192-8447; do
+              curl -sSf "$BASE/fonts/${font// /%20}/$range.pbf" -o "data/raw/basemap/fonts/$font/$range.pbf"
+            done
+          done
+          mkdir -p data/raw/basemap/sprites
+          for f in light.json light.png light@2x.json light@2x.png; do
+            curl -sSf "$BASE/sprites/v4/$f" -o "data/raw/basemap/sprites/$f"
+          done
+          curl -sSf "$BASE/LICENSE" -o data/raw/basemap/ASSETS-LICENSE.txt || true
+
+      - name: Commit
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/raw
+          git commit -m "Fetch raw data $(date -u +%F)" || { echo 'No changes'; exit 0; }
+          git push
