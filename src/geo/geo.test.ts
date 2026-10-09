@@ -103,11 +103,12 @@ const zone = (id: string, kind: ZoneKind, ring: Ring): Zone => ({
 });
 
 describe('ZoneIndex.lookup', () => {
-  // Coastal strip (tsunami) inside a wider strip (extreme).
+  // Coastal strip (tsunami), then a band inland (extreme), then safe ground; ocean south.
   const idx = new ZoneIndex(
     [
       zone('t1', 'tsunami', square(-157.9, 21.27, -157.8, 21.28)),
-      zone('x1', 'extreme', square(-157.9, 21.27, -157.8, 21.29)),
+      zone('x1', 'extreme', square(-157.9, 21.28, -157.8, 21.29)),
+      zone('s1', 'safe', square(-157.9, 21.29, -157.8, 21.4)),
     ],
     [-158.3, 21.2, -157.6, 21.8],
   );
@@ -116,6 +117,7 @@ describe('ZoneIndex.lookup', () => {
     expect(idx.lookup([-157.85, 21.275]).status).toBe('tsunami');
     expect(idx.lookup([-157.85, 21.285]).status).toBe('extreme');
     expect(idx.lookup([-157.85, 21.3]).status).toBe('safe');
+    expect(idx.lookup([-157.85, 21.25]).status).toBe('no-data'); // ocean
     expect(idx.lookup([-155.5, 19.6]).status).toBe('no-data'); // Big Island
   });
 
@@ -165,28 +167,42 @@ describe('nearestPoints', () => {
 });
 
 describe('nearestExit', () => {
-  it('returns null when not in a zone', () => {
-    const z = zone('t', 'tsunami', square(-157.9, 21.27, -157.8, 21.28));
-    expect(nearestExit([-157.85, 21.3], [z])).toBeNull();
+  // Ocean to the south of y=21.27. Tsunami strip, extreme band, then safe ground.
+  const tsunami = zone('t', 'tsunami', square(-157.9, 21.27, -157.8, 21.28));
+  const extreme = zone('x', 'extreme', square(-157.9, 21.28, -157.8, 21.29));
+  const safe = zone('s', 'safe', square(-157.9, 21.29, -157.8, 21.4));
+
+  it('returns null when not in a zone to leave', () => {
+    expect(nearestExit([-157.85, 21.3], [tsunami], [extreme, safe])).toBeNull();
   });
 
-  it('finds the closest boundary point', () => {
-    // Strip 0.01° tall; user is 0.002° from the north edge, 0.008° from the south.
-    const z = zone('t', 'tsunami', square(-157.9, 21.27, -157.8, 21.28));
-    const exit = nearestExit([-157.85, 21.278], [z])!;
+  it('never points into the ocean, even when the shoreline is closer', () => {
+    // 0.001° (~111 m) from the shoreline, 0.009° (~1 km) from the extreme band.
+    const exit = nearestExit([-157.85, 21.271], [tsunami], [extreme, safe])!;
     expect(exit.point[1]).toBeCloseTo(21.28, 6);
     expect(exit.point[0]).toBeCloseTo(-157.85, 6);
-    expect(exit.distance).toBeCloseTo(222, -1);
+    expect(exit.distance).toBeCloseTo(1001, -1);
     expect(compassPoint(exit.bearing)).toBe('N');
   });
 
-  it('skips a shared border with an adjacent zone polygon', () => {
-    // Two touching polygons. The user is near their shared border (x = -157.85) but that
-    // only leads into the other polygon; the real way out is north.
+  it('for an extreme warning, goes past the extreme band to safe ground', () => {
+    const exit = nearestExit([-157.85, 21.275], [tsunami, extreme], [safe])!;
+    expect(exit.point[1]).toBeCloseTo(21.29, 6);
+    expect(exit.distance).toBeCloseTo(1668, -1);
+  });
+
+  it('crosses a shared border between two polygons of the same zone', () => {
     const west = zone('w', 'tsunami', square(-157.9, 21.27, -157.85, 21.28));
     const east = zone('e', 'tsunami', square(-157.85, 21.27, -157.8, 21.28));
-    const exit = nearestExit([-157.8505, 21.277], [west, east])!;
+    const exit = nearestExit([-157.8505, 21.277], [west, east], [extreme, safe])!;
     expect(exit.point[1]).toBeCloseTo(21.28, 6);
     expect(compassPoint(exit.bearing)).toBe('N');
+  });
+
+  it('picks the nearer of two target areas', () => {
+    const hill = zone('h', 'safe', square(-157.86, 21.272, -157.855, 21.274));
+    const exit = nearestExit([-157.85, 21.273], [tsunami], [extreme, safe, hill])!;
+    expect(exit.point[0]).toBeCloseTo(-157.855, 6);
+    expect(compassPoint(exit.bearing)).toBe('W');
   });
 });

@@ -26,32 +26,36 @@ export function nearestPoints<T extends { coord: LngLat }>(
 
 export type Exit = { point: LngLat; distance: number; bearing: number };
 
-/** How far past the boundary we check that we've really left every zone. */
-const PROBE_M = 15;
-/** Candidate boundary points to try before giving up (shared borders get skipped). */
-const MAX_CANDIDATES = 500;
-
 /**
- * The closest point that gets you out of the given zones: the nearest spot on a zone
- * boundary from which a few more metres in the same direction leaves every zone.
- * That second check matters because evacuation zones are split into many adjacent
- * polygons, and the closest edge is often just the border with the next polygon.
+ * The closest point of safe ground: the nearest point on the boundary of any `reach`
+ * zone, for someone standing inside one of the `leave` zones.
  *
- * Returns null if the origin is not inside any of the zones. Distance is straight-line,
+ * Why aim at the target zones instead of just "the edge of the zone I'm in": the
+ * seaward edge of a tsunami zone is the shoreline, so "nearest way out" would happily
+ * point into the ocean. Measuring to the nearest safe polygon can only ever land on
+ * mapped safe land. Since the user is outside every target polygon, the closest point
+ * of a polygon is always on its boundary, so checking boundary segments is exact.
+ *
+ * Returns null if the origin is not inside any `leave` zone. Distance is straight-line,
  * not a walking route.
  */
-export function nearestExit(origin: LngLat, zones: readonly Zone[]): Exit | null {
-  const inAny = (p: LngLat) =>
-    zones.some((z) => inBBox(p, z.bbox) && pointInMultiPolygon(p, z.coords));
-  if (!inAny(origin)) return null;
+export function nearestExit(
+  origin: LngLat,
+  leave: readonly Zone[],
+  reach: readonly Zone[],
+): Exit | null {
+  const inLeave = leave.some(
+    (z) => inBBox(origin, z.bbox) && pointInMultiPolygon(origin, z.coords),
+  );
+  if (!inLeave) return null;
 
-  // Work in local metres centred on the user, so "closest point on a segment" is simple
-  // vector maths. The user is at (0, 0).
+  // Local metres centred on the user, so "closest point on a segment" is simple vector
+  // maths with the user at (0, 0).
   const proj = makeLocalProjection(origin);
-  const candidates: { d: number; x: number; y: number }[] = [];
-  for (const zone of zones)
+  let best: { d: number; x: number; y: number } | null = null;
+  for (const zone of reach)
     for (const poly of zone.coords)
-      for (const ring of poly) {
+      for (const ring of poly)
         for (let i = 1; i < ring.length; i++) {
           const [ax, ay] = proj.toXY(ring[i - 1]!);
           const [bx, by] = proj.toXY(ring[i]!);
@@ -62,22 +66,10 @@ export function nearestExit(origin: LngLat, zones: readonly Zone[]): Exit | null
           const t = len2 === 0 ? 0 : Math.max(0, Math.min(1, -(ax * dx + ay * dy) / len2));
           const x = ax + t * dx;
           const y = ay + t * dy;
-          candidates.push({ d: Math.hypot(x, y), x, y });
+          const d = Math.hypot(x, y);
+          if (!best || d < best.d) best = { d, x, y };
         }
-      }
-  candidates.sort((a, b) => a.d - b.d);
-
-  for (const c of candidates.slice(0, MAX_CANDIDATES)) {
-    if (c.d === 0) continue; // standing exactly on a line: direction undefined, try next
-    const scale = (c.d + PROBE_M) / c.d;
-    const probe = proj.toLngLat([c.x * scale, c.y * scale]);
-    if (inAny(probe)) continue;
-    const point = proj.toLngLat([c.x, c.y]);
-    return {
-      point,
-      distance: distanceMeters(origin, point),
-      bearing: bearingDegrees(origin, point),
-    };
-  }
-  return null;
+  if (!best) return null;
+  const point = proj.toLngLat([best.x, best.y]);
+  return { point, distance: distanceMeters(origin, point), bearing: bearingDegrees(origin, point) };
 }

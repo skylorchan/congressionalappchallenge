@@ -2,11 +2,14 @@ import { bboxOf, inBBox, pointInMultiPolygon } from './pointInPolygon';
 import type { BBox, LngLat, MultiPolygonCoords } from './types';
 
 /**
- * tsunami = Tsunami Evacuation Zone (evacuate for any tsunami warning).
- * extreme = Extreme Tsunami Evacuation Zone (evacuate only when officials call for it,
- *           e.g. a very large distant earthquake). It contains the tsunami zone.
+ * tsunami = Tsunami Evacuation Zone: evacuate for any tsunami warning.
+ * extreme = Extreme Tsunami Evacuation Zone: the band just inland of the tsunami zone,
+ *           evacuated only for an Extreme Tsunami Warning. (In the official data the two
+ *           don't overlap, so leaving both means leaving the tsunami zone too.)
+ * safe    = Tsunami Safe Zone: "Evacuate to this area." Together the three tile Oʻahu's
+ *           land, so a point in none of them is in the ocean or off the island.
  */
-export type ZoneKind = 'tsunami' | 'extreme';
+export type ZoneKind = 'tsunami' | 'extreme' | 'safe';
 
 export type Zone = {
   id: string;
@@ -20,9 +23,9 @@ export type ZoneStatus =
   | 'tsunami'
   /** Outside the tsunami zone but inside the extreme tsunami zone. */
   | 'extreme'
-  /** Outside both zones, within the area the data covers. */
+  /** In a tsunami safe zone. */
   | 'safe'
-  /** Outside the area the zone data covers, so we can't say. */
+  /** Not on any mapped land (ocean, or off Oʻahu), so we can't say. */
   | 'no-data';
 
 export type ZoneResult = { status: ZoneStatus; zones: Zone[] };
@@ -72,11 +75,14 @@ export class ZoneIndex {
   lookup(point: LngLat): ZoneResult {
     if (!inBBox(point, this.coverage)) return { status: 'no-data', zones: [] };
     const zones = this.zonesAt(point);
-    const status: ZoneStatus = zones.some((z) => z.kind === 'tsunami')
+    const has = (kind: ZoneKind) => zones.some((z) => z.kind === kind);
+    const status: ZoneStatus = has('tsunami')
       ? 'tsunami'
-      : zones.some((z) => z.kind === 'extreme')
+      : has('extreme')
         ? 'extreme'
-        : 'safe';
+        : has('safe')
+          ? 'safe'
+          : 'no-data';
     return { status, zones };
   }
 
