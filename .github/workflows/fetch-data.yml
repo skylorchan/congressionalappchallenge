@@ -35,6 +35,25 @@ jobs:
       - name: Datasets
         run: node scripts/data/fetch-raw.mjs
 
+      - name: Walkable network (OpenStreetMap via Geofabrik, roads and paths on Oʻahu)
+        continue-on-error: true
+        run: |
+          set -euo pipefail
+          sudo apt-get install -y -qq osmium-tool > /dev/null
+          URL=https://download.geofabrik.de/north-america/us/hawaii-latest.osm.pbf
+          curl -sSfL "$URL" -o /tmp/hi.pbf
+          osmium extract -b -158.33,21.22,-157.6,21.75 /tmp/hi.pbf -o /tmp/oahu.pbf --overwrite
+          osmium tags-filter /tmp/oahu.pbf w/highway -o /tmp/oahu-hw.pbf --overwrite
+          osmium export /tmp/oahu-hw.pbf -f geojsonseq --geometry-types=linestring \
+            -a type,id -o /tmp/walk.geojsonseq --overwrite
+          mkdir -p data/raw/meta
+          gzip -9 -c /tmp/walk.geojsonseq > data/raw/osm-walk.geojsonseq.gz
+          osmium fileinfo -e /tmp/hi.pbf > data/raw/meta/osm-walk-fileinfo.txt
+          printf '{"url":"%s","retrieved":"%s","license":"ODbL, (c) OpenStreetMap contributors"}\n' \
+            "$URL" "$(date -u +%FT%TZ)" > data/raw/meta/osm-walk-source.json
+          ls -la data/raw/osm-walk.geojsonseq.gz
+          grep -iE "timestamp|Number of ways" data/raw/meta/osm-walk-fileinfo.txt | head
+
       - name: Basemap (Protomaps / OpenStreetMap extract for Oʻahu)
         continue-on-error: true
         env:

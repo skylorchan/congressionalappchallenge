@@ -8,7 +8,6 @@
 // The basemap (PMTiles extract + fonts + sprites) is downloaded by the workflow itself
 // with the pmtiles CLI; see fetch-data.yml.
 import { mkdirSync, writeFileSync } from 'node:fs';
-import { gzipSync } from 'node:zlib';
 import { dirname, join } from 'node:path';
 
 const OUT = new URL('../../data/raw/', import.meta.url).pathname;
@@ -188,45 +187,8 @@ for (const [name, url] of [
   });
 }
 
-// 7. Walkable roads and paths on Oʻahu from OpenStreetMap (Overpass API), for offline
-//    walking routes. Everything with a highway tag that people can walk on: footways,
-//    paths, steps, streets. Excludes freeways and anything tagged foot/access = no or
-//    private. Saved gzipped; scripts/data/build-graph.mjs turns it into the routing graph.
-const OVERPASS = [
-  'https://overpass-api.de/api/interpreter',
-  'https://overpass.kumi.systems/api/interpreter',
-];
-const [w, s, e, n] = OAHU_BBOX;
-const WALK_QUERY = `[out:json][timeout:600][maxsize:1073741824];
-way["highway"]["highway"!~"^(motorway|motorway_link|construction|proposed|raceway|bus_guideway|platform|corridor|elevator|abandoned|razed|no)$"]["foot"!~"^(no|private)$"]["access"!~"^(no|private)$"](${s},${w},${n},${e});
-(._;>;);
-out body qt;`;
-await step('osm-walk', OVERPASS[0], async () => {
-  let lastErr;
-  for (const url of OVERPASS) {
-    try {
-      const res = await fetch(url, {
-        method: 'POST',
-        headers: { 'User-Agent': UA, 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: `data=${encodeURIComponent(WALK_QUERY)}`,
-      });
-      if (!res.ok) throw new Error(`HTTP ${res.status} from ${url}`);
-      const text = await res.text();
-      const json = JSON.parse(text);
-      save('osm-walk.json.gz', gzipSync(Buffer.from(text)));
-      save('meta/osm-walk.json', { url, query: WALK_QUERY, osm3s: json.osm3s ?? null });
-      return {
-        source: url,
-        ways: json.elements.filter((x) => x.type === 'way').length,
-        nodes: json.elements.filter((x) => x.type === 'node').length,
-        osmTimestamp: json.osm3s?.timestamp_osm_base ?? null,
-      };
-    } catch (err) {
-      lastErr = err;
-    }
-  }
-  throw lastErr;
-});
+// 7. Walkable roads and paths come from OpenStreetMap via Geofabrik + osmium, in a
+//    separate workflow step (see fetch-data.yml).
 
 save('fetch-log.json', log);
 console.log(`\n${log.filter((e) => e.ok).length}/${log.length} steps OK`);

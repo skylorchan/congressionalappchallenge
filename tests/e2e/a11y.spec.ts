@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { expect, test, type Page } from '@playwright/test';
 
 // Real NWS sample (see airplane.spec.ts) so the Alerts screen has content to check.
-const NWS_FEED = readFileSync(new URL('../../data/raw/nws-recent-hi.json', import.meta.url));
+const NWS_FEED = readFileSync(new URL('../fixtures/nws-hi-2026-10-09.json', import.meta.url));
 
 test.use({
   geolocation: { latitude: 21.276, longitude: -157.8268, accuracy: 15 },

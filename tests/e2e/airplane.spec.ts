@@ -4,7 +4,7 @@ import { expect, test, type BrowserContext, type Page } from '@playwright/test';
 // A real NWS response (alerts for Hawaiʻi, downloaded 2026-10-09 by the fetch-data
 // workflow). Served in place of api.weather.gov so the test doesn't depend on whatever
 // the weather happens to be today.
-const NWS_FEED = readFileSync(new URL('../../data/raw/nws-recent-hi.json', import.meta.url));
+const NWS_FEED = readFileSync(new URL('../fixtures/nws-hi-2026-10-09.json', import.meta.url));
 
 // Waikīkī Beach, inside the official Tsunami Evacuation Zone.
 const WAIKIKI = { latitude: 21.276, longitude: -157.8268, accuracy: 15 };

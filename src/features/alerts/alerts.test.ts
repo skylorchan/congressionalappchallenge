@@ -1,8 +1,8 @@
 /// <reference types="node" />
 import { describe, expect, it } from 'vitest';
 // A real response from https://api.weather.gov/alerts?area=HI&limit=25, downloaded
-// 2026-10-09 by the fetch-data workflow (see DATA_SOURCES.md). Not modified.
-import realFeed from '../../../data/raw/nws-recent-hi.json';
+// 2026-10-09 by the fetch-data workflow and frozen here as a fixture. Not modified.
+import realFeed from '../../../tests/fixtures/nws-hi-2026-10-09.json';
 import type { AlertSnapshot } from '../../data/db';
 import { hasEnded, parseAlert, parseAlerts, type NwsFeed } from './parseAlerts';
 import { decodeSnapshot, encodeSnapshot, shareUrl } from './shareCodec';
