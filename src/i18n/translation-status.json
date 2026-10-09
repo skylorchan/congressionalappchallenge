@@ -1,0 +1,82 @@
+{
+  "ja": {
+    "app.name": {
+      "status": "machine"
+    },
+    "app.tagline": {
+      "status": "machine"
+    },
+    "a11y.skipToContent": {
+      "status": "machine"
+    },
+    "nav.label": {
+      "status": "machine"
+    },
+    "nav.zone": {
+      "status": "machine"
+    },
+    "nav.places": {
+      "status": "machine"
+    },
+    "nav.alerts": {
+      "status": "machine"
+    },
+    "nav.plan": {
+      "status": "machine"
+    },
+    "language.label": {
+      "status": "machine"
+    },
+    "status.offline": {
+      "status": "machine"
+    },
+    "status.offlineReady": {
+      "status": "machine"
+    },
+    "status.updateAvailable": {
+      "status": "machine"
+    },
+    "status.reload": {
+      "status": "machine"
+    },
+    "status.dismiss": {
+      "status": "machine"
+    },
+    "i18n.unreviewed": {
+      "status": "machine"
+    },
+    "screens.zone.title": {
+      "status": "machine"
+    },
+    "screens.zone.body": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningHeading": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningSource": {
+      "status": "machine"
+    },
+    "screens.places.title": {
+      "status": "machine"
+    },
+    "screens.places.body": {
+      "status": "machine"
+    },
+    "screens.alerts.title": {
+      "status": "machine"
+    },
+    "screens.alerts.body": {
+      "status": "machine"
+    },
+    "screens.plan.title": {
+      "status": "machine"
+    },
+    "screens.plan.body": {
+      "status": "machine"
+    },
+    "safety.naturalWarning": {
+      "status": "machine"
+    }
+  }
+}

@@ -1,0 +1,236 @@
+/*
+ * Design tokens. Every text/background pair below meets WCAG 2.1 AA contrast (4.5:1).
+ * All sizes are in rem, so the M5 large-text mode is one change to html font-size.
+ */
+:root {
+  --color-bg: #ffffff;
+  --color-surface: #f2f6f8;
+  --color-text: #1a1a1a; /* 17.4:1 on bg */
+  --color-text-muted: #4a5560; /* 7.5:1 on bg */
+  --color-primary: #0b4f6c; /* 8.6:1 with white text */
+  --color-primary-contrast: #ffffff;
+  --color-focus: #ffbf47;
+  --color-warning-bg: #fff4d6;
+  --color-warning-border: #b35c00;
+  --color-offline-bg: #3d3d3d; /* 11:1 with white text */
+  --color-info-bg: #e3f2f8;
+
+  --font-body:
+    system-ui, -apple-system, 'Segoe UI', Roboto, 'Hiragino Sans', 'Noto Sans JP',
+    'Noto Sans CJK JP', 'Yu Gothic', sans-serif;
+  --radius: 0.75rem;
+  --space: 1rem;
+  --tap-target: 3rem; /* 48px, Android's recommended minimum touch target */
+  --tab-bar-height: 4.25rem;
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%; /* respects the user's browser font-size setting */
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+  overflow-wrap: anywhere; /* long Japanese or Chuukese strings must not overflow */
+}
+
+h1,
+h2 {
+  line-height: 1.25;
+  margin: 0 0 0.75rem;
+}
+h1 {
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 1.2rem;
+}
+p {
+  margin: 0 0 0.75rem;
+}
+
+a {
+  color: var(--color-primary);
+}
+
+:focus-visible {
+  outline: 3px solid var(--color-focus);
+  outline-offset: 2px;
+}
+h1:focus,
+main:focus {
+  outline: none; /* programmatic focus targets, not interactive controls */
+}
+
+button,
+select {
+  font: inherit;
+  min-height: var(--tap-target);
+  padding: 0.5rem 1rem;
+  border-radius: var(--radius);
+}
+button {
+  border: 2px solid var(--color-primary);
+  background: var(--color-primary);
+  color: var(--color-primary-contrast);
+  cursor: pointer;
+}
+.button-secondary {
+  background: transparent;
+  color: var(--color-primary);
+}
+select {
+  border: 2px solid var(--color-text-muted);
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+.skip-link {
+  position: absolute;
+  left: 0.5rem;
+  top: -10rem;
+  z-index: 10;
+  padding: 0.75rem 1rem;
+  background: var(--color-primary);
+  color: var(--color-primary-contrast);
+  border-radius: var(--radius);
+}
+.skip-link:focus {
+  top: 0.5rem;
+}
+
+.layout {
+  min-height: 100vh;
+  padding-bottom: calc(var(--tab-bar-height) + env(safe-area-inset-bottom));
+}
+
+.app-header {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space);
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem var(--space);
+  background: var(--color-primary);
+  color: var(--color-primary-contrast);
+}
+.app-name {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+.app-tagline {
+  margin: 0;
+  font-size: 0.95rem;
+}
+.language-picker {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 1.25rem var(--space);
+}
+
+.banner {
+  margin: 0;
+  padding: 0.75rem var(--space);
+}
+.banner p {
+  margin: 0;
+}
+.banner-offline {
+  background: var(--color-offline-bg);
+  color: #ffffff;
+  font-weight: 600;
+}
+.banner-info {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--color-info-bg);
+}
+.banner-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.card {
+  padding: var(--space);
+  border-radius: var(--radius);
+  background: var(--color-surface);
+  margin-block: var(--space);
+}
+.card-warning {
+  background: var(--color-warning-bg);
+  border-left: 0.4rem solid var(--color-warning-border);
+}
+.safety-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.safety-note,
+.source {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+}
+
+.tab-bar {
+  position: fixed;
+  inset: auto 0 0 0;
+  background: var(--color-bg);
+  border-top: 1px solid #c7d0d6;
+  padding-bottom: env(safe-area-inset-bottom);
+}
+.tab-bar ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.tab-bar a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--tab-bar-height);
+  padding: 0.25rem;
+  font-size: 0.85rem;
+  line-height: 1.2;
+  text-align: center;
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+.tab-bar a.active {
+  color: var(--color-primary);
+  font-weight: 700;
+  box-shadow: inset 0 3px 0 var(--color-primary);
+}
+.tab-icon {
+  font-size: 1.3rem;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}

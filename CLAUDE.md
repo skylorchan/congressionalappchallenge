@@ -5,6 +5,7 @@ assistance only if it is disclosed and the student does significant individual w
 AI acts as senior engineer + tutor, not ghostwriter.
 
 ## Hard rules
+
 1. **Never write or edit the implementation in a [STUDENT-OWNED] file.** You may write
    its function signatures/types (only when the student asks), failing tests, explanations,
    and review comments. If asked to "just implement it", refuse and point here.
@@ -18,6 +19,7 @@ AI acts as senior engineer + tutor, not ghostwriter.
 6. Never commit secrets. Small commits, clear messages.
 
 ## [STUDENT-OWNED] files
+
 - `src/geo/pointInPolygon.ts`
 - `src/geo/zoneLookup.ts`
 - `src/geo/distance.ts`
@@ -29,6 +31,7 @@ AI acts as senior engineer + tutor, not ghostwriter.
 Each of these files starts with a `[STUDENT-OWNED]` header comment.
 
 ## Commands
+
 - `npm run dev` / `npm run build` / `npm run preview`
 - `npm run lint`, `npm run typecheck`, `npm test`, `npm run e2e`
 - Deployed base path is `/2425/` (GitHub Pages). Routing uses hash URLs.

@@ -1,0 +1,52 @@
+{
+  "app": {
+    "name": "Kōkua",
+    "tagline": "Emergency prep for Hawaiʻi"
+  },
+  "a11y": {
+    "skipToContent": "Skip to main content"
+  },
+  "nav": {
+    "label": "Main",
+    "zone": "Zone",
+    "places": "Safe places",
+    "alerts": "Alerts",
+    "plan": "My plan"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "status": {
+    "offline": "You're offline. Saved information still works.",
+    "offlineReady": "Kōkua is ready to work offline.",
+    "updateAvailable": "A new version of Kōkua is available.",
+    "reload": "Reload",
+    "dismiss": "Dismiss"
+  },
+  "i18n": {
+    "unreviewed": "This safety instruction is shown in English because its translation has not been reviewed yet."
+  },
+  "screens": {
+    "zone": {
+      "title": "Am I in an evacuation zone?",
+      "body": "Checking your location against official tsunami evacuation zones is coming soon.",
+      "naturalWarningHeading": "Natural tsunami warning signs",
+      "naturalWarningSource": "Source: National Weather Service tsunami safety guidance"
+    },
+    "places": {
+      "title": "Nearest safe places",
+      "body": "Finding the nearest safe places near you is coming soon."
+    },
+    "alerts": {
+      "title": "Weather alerts",
+      "body": "Live alerts from the National Weather Service are coming soon."
+    },
+    "plan": {
+      "title": "Family emergency plan",
+      "body": "Your household checklist, meeting points, and emergency contacts are coming soon."
+    }
+  },
+  "safety": {
+    "naturalWarning": "If you feel a strong earthquake or see the ocean suddenly pull back, move inland or to high ground right away. Do not wait for an official warning."
+  }
+}
