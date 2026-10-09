@@ -1,0 +1,99 @@
+{
+ "id": "gxrb-rbvm",
+ "name": "Emergency Shelter",
+ "assetType": "href",
+ "averageRating": 0,
+ "createdAt": 1343157863,
+ "description": "Emergency shelters for the City & County of Honolulu. Based on data from the Department of Emergency Management (DEM) Ver2 (May18 2012)",
+ "diciBackend": false,
+ "displayType": "href",
+ "downloadCount": 140,
+ "hideFromCatalog": false,
+ "hideFromDataJson": false,
+ "locked": false,
+ "newBackend": false,
+ "numberOfComments": 0,
+ "oid": 903900,
+ "provenance": "official",
+ "publicationAppendEnabled": false,
+ "publicationDate": 1343157874,
+ "publicationGroup": 387837,
+ "publicationStage": "published",
+ "rowsUpdatedAt": 1343157863,
+ "tableId": 387837,
+ "totalTimesRated": 0,
+ "viewCount": 1508,
+ "viewLastModified": 1427846616,
+ "viewType": "href",
+ "approvals": [
+  {
+   "reviewedAt": 1343157874,
+   "reviewedAutomatically": true,
+   "state": "approved",
+   "submissionId": 491236,
+   "submissionObject": "public_audience_request",
+   "submissionOutcome": "change_audience",
+   "submittedAt": 1343157874,
+   "targetAudience": "public",
+   "workflowId": 1493,
+   "submissionDetails": {
+    "permissionType": "READ"
+   },
+   "submissionOutcomeApplication": {
+    "failureCount": 0,
+    "status": "success"
+   },
+   "submitter": {
+    "id": "gcjf-354x",
+    "displayName": "Mick Thompson"
+   }
+  }
+ ],
+ "clientContext": {
+  "clientContextVariables": [],
+  "inheritedVariables": {}
+ },
+ "columns": [],
+ "grants": [
+  {
+   "inherited": false,
+   "type": "viewer",
+   "flags": [
+    "public"
+   ]
+  }
+ ],
+ "metadata": {
+  "accessPoints": {
+   "id=8424fa2ec529494a89e607481dbb9245": "http://cchnl.maps.arcgis.com/home/item.html?id=8424fa2ec529494a89e607481dbb9245"
+  },
+  "availableDisplayTypes": [
+   "href"
+  ],
+  "renderTypeConfig": {
+   "visible": {
+    "href": true
+   }
+  }
+ },
+ "owner": {
+  "id": "gcjf-354x",
+  "displayName": "Mick Thompson",
+  "screenName": "Mick Thompson",
+  "type": "interactive"
+ },
+ "query": {},
+ "rights": [
+  "read"
+ ],
+ "tableAuthor": {
+  "id": "gcjf-354x",
+  "displayName": "Mick Thompson",
+  "screenName": "Mick Thompson",
+  "type": "interactive"
+ },
+ "flags": [
+  "default",
+  "ownerMayBeContacted"
+ ]
+}

@@ -1,0 +1,2836 @@
+{
+ "layers": [
+  {
+   "currentVersion": 11.5,
+   "cimVersion": "3.5.0",
+   "id": 0,
+   "name": "EmergMgmtPubSafety",
+   "type": "Group Layer",
+   "description": "",
+   "geometryType": null,
+   "copyrightText": "",
+   "parentLayer": null,
+   "subLayers": [
+    {
+     "id": 7,
+     "name": "Statewide Fire Stations - All Types"
+    },
+    {
+     "id": 8,
+     "name": "EMS_Stations"
+    },
+    {
+     "id": 9,
+     "name": "Trauma_Centers"
+    },
+    {
+     "id": 5,
+     "name": "Police Stations - Statewide"
+    },
+    {
+     "id": 6,
+     "name": "Fire Response Zones"
+    }
+   ],
+   "minScale": 0,
+   "maxScale": 0,
+   "defaultVisibility": true,
+   "extent": {
+    "xmin": 418663.06099999975,
+    "ymin": 2094231.1264999993,
+    "xmax": 940279.4540999997,
+    "ymax": 2458613.966499999,
+    "spatialReference": {
+     "wkid": 102202,
+     "latestWkid": 3750,
+     "xyTolerance": 0.001,
+     "zTolerance": 0.001,
+     "mTolerance": 0.001,
+     "falseX": -5120900,
+     "falseY": -9998100,
+     "xyUnits": 450445547.3910538,
+     "falseZ": -100000,
+     "zUnits": 10000,
+     "falseM": -100000,
+     "mUnits": 10000
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeNone",
+   "displayField": "",
+   "typeIdField": null,
+   "subtypeFieldName": null,
+   "subtypeField": null,
+   "defaultSubtypeCode": null,
+   "fields": null,
+   "geometryField": {},
+   "indexes": [],
+   "subtypes": [],
+   "relationships": [],
+   "canModifyLayer": false,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query",
+   "supportsStatistics": false,
+   "supportsExceedsLimitStatistics": false,
+   "supportsAdvancedQueries": false,
+   "supportedQueryFormats": "JSON, geoJSON, PBF",
+   "isDataVersioned": false,
+   "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+   },
+   "useStandardizedQueries": true,
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": false,
+    "supportsPercentileStatistics": false,
+    "supportsHavingClause": false,
+    "supportsOrderBy": false,
+    "supportsDistinct": false,
+    "supportsCountDistinct": false,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": false,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": false,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": false,
+    "supportsCurrentUserQueries": true
+   },
+   "supportsDatumTransformation": true,
+   "dateFieldsTimeReference": null,
+   "preferredTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "datesInUnknownTimezone": false,
+   "hasMetadata": true,
+   "isDataArchived": false,
+   "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+   },
+   "supportsCoordinatesQuantization": true,
+   "supportsDynamicLegends": false
+  },
+  {
+   "currentVersion": 11.5,
+   "cimVersion": "3.5.0",
+   "id": 7,
+   "name": "Statewide Fire Stations - All Types",
+   "type": "Feature Layer",
+   "description": "Fire Stations:  Locations of all Fire and Volunteer Fire Stations across the State of Hawaiʻi as of December 2025. Source:  DOH Emergency Medical Services &amp; Injury Prevention Branch, January 2026. All station information was gathered by DOH EMSIPSB staff members and first responder agencies throughout 2025. This layer includes the names and addresses of ALL stations, including volunteer fire stations. This data serves as a visualization of all Fire and Volunteer Fire Stations across the state for stakeholders and the public. The data is updated yearly, or as necessary. For more information, please see metadata at https://files.hawaii.gov/dbedt/op/gis/data/fire_stations.pdf or contact (1) Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis or (2) Hawaii State Department of Health, Emergency Medical Services and Injury Prevention Systems Branch; (808) 470-9530; email: julie.kobayashi@doh.hawaii.gov.",
+   "geometryType": "esriGeometryPoint",
+   "sourceSpatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 10000,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "spatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 450445547.3910538,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "copyrightText": "Hawaii State Department of Health, Emergency Medical Services and Injury Prevention Systems Branch; Hawaii Statewide GIS Program",
+   "parentLayer": {
+    "id": 0,
+    "name": "EmergMgmtPubSafety"
+   },
+   "subLayers": [],
+   "minScale": 0,
+   "maxScale": 0,
+   "referenceScale": 0,
+   "drawingInfo": {
+    "renderer": {
+     "type": "uniqueValue",
+     "field1": "status",
+     "uniqueValueGroups": [
+      {
+       "heading": "status",
+       "classes": [
+        {
+         "label": "Professional Fire Stations",
+         "description": "Professional Fire Stations",
+         "symbol": {
+          "type": "esriPMS",
+          "url": "331e27d567882aefb1e7d121becb9801",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA+ElEQVQokYXPMShEcRwH8M9wpbdI3UopZXDqxKIbZEIy2Rjvsl/JQEgGk2QyGCxWJqUUl1IWinIpN93q1SvdYNbJux7e47v9f78+///3n5OdEbyhmbbMpcx6BqlMUH0nuGAvYuc/2D/ERpmFOYJujLJ+xMAzy18NfsHJKfZXKBYSw0WCIuU1xu6o4roDh6mMs7VEb19K9wKOKW5zcslmyMEnDOmayUBx2rXnyd8ThPGLIec1ohJ5f6RG1OAq+cfmE1GLfPvmtLTwQB2PSeiVwzq7pQzYFhFn8bkDG5zWWM2qm6z5DcZ1bzNgsuZP6IbpF2bTYMhtcvABD9dARrUYiSUAAAAASUVORK5CYII=",
+          "contentType": "image/png",
+          "width": 10,
+          "height": 9,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0
+         },
+         "values": [
+          [
+           "professional"
+          ]
+         ]
+        },
+        {
+         "label": "Volunteer Fire Stations",
+         "description": "Volunteer Fire Stations",
+         "symbol": {
+          "type": "esriPMS",
+          "url": "54ed4334384ac668b5f0423f313b3c65",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAvElEQVQYlWNhQAPuFqxGO0/8/sfAwHABWZwFTZ2ElDhrTXooq/TM1d/8GRgYXmBVaGfMHh7mzhkoIcLEcPHmn+QTl361YlMo4e/AnuFhzQ7mxHhzZZ649GsuzFS4Qh9b9kI/Rw4NGD/YhUN6/ka2/LPXflUiKzQIdeeKVpFFWACyPj2EKzut6ddKkMdAMhKhrpxFbpbs0ughEOnJybv10M+6jQe+B4EUfvn1m4GntP/jXnSFIMDLw8AHMgwAlaA0ubDF7JEAAAAASUVORK5CYII=",
+          "contentType": "image/png",
+          "width": 7,
+          "height": 6,
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0
+         },
+         "values": [
+          [
+           "volunteer"
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "uniqueValueInfos": [
+      {
+       "symbol": {
+        "type": "esriPMS",
+        "url": "331e27d567882aefb1e7d121becb9801",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAA4AAAAMCAYAAABSgIzaAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA+ElEQVQokYXPMShEcRwH8M9wpbdI3UopZXDqxKIbZEIy2Rjvsl/JQEgGk2QyGCxWJqUUl1IWinIpN93q1SvdYNbJux7e47v9f78+///3n5OdEbyhmbbMpcx6BqlMUH0nuGAvYuc/2D/ERpmFOYJujLJ+xMAzy18NfsHJKfZXKBYSw0WCIuU1xu6o4roDh6mMs7VEb19K9wKOKW5zcslmyMEnDOmayUBx2rXnyd8ThPGLIec1ohJ5f6RG1OAq+cfmE1GLfPvmtLTwQB2PSeiVwzq7pQzYFhFn8bkDG5zWWM2qm6z5DcZ1bzNgsuZP6IbpF2bTYMhtcvABD9dARrUYiSUAAAAASUVORK5CYII=",
+        "contentType": "image/png",
+        "width": 10,
+        "height": 9,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0
+       },
+       "value": "professional",
+       "label": "Professional Fire Stations"
+      },
+      {
+       "symbol": {
+        "type": "esriPMS",
+        "url": "54ed4334384ac668b5f0423f313b3c65",
+        "imageData": "iVBORw0KGgoAAAANSUhEUgAAAAoAAAAICAYAAADA+m62AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAvElEQVQYlWNhQAPuFqxGO0/8/sfAwHABWZwFTZ2ElDhrTXooq/TM1d/8GRgYXmBVaGfMHh7mzhkoIcLEcPHmn+QTl361YlMo4e/AnuFhzQ7mxHhzZZ649GsuzFS4Qh9b9kI/Rw4NGD/YhUN6/ka2/LPXflUiKzQIdeeKVpFFWACyPj2EKzut6ddKkMdAMhKhrpxFbpbs0ughEOnJybv10M+6jQe+B4EUfvn1m4GntP/jXnSFIMDLw8AHMgwAlaA0ubDF7JEAAAAASUVORK5CYII=",
+        "contentType": "image/png",
+        "width": 7,
+        "height": 6,
+        "angle": 0,
+        "xoffset": 0,
+        "yoffset": 0
+       },
+       "value": "volunteer",
+       "label": "Volunteer Fire Stations"
+      }
+     ],
+     "fieldDelimiter": ",",
+     "authoringInfo": {
+      "colorRamp": {
+       "type": "multipart",
+       "colorRamps": [
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          229,
+          199,
+          252,
+          255
+         ],
+         "toColor": [
+          229,
+          199,
+          252,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          196,
+          252,
+          187,
+          255
+         ],
+         "toColor": [
+          196,
+          252,
+          187,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          252,
+          200,
+          179,
+          255
+         ],
+         "toColor": [
+          252,
+          200,
+          179,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          192,
+          244,
+          252,
+          255
+         ],
+         "toColor": [
+          192,
+          244,
+          252,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          252,
+          242,
+          182,
+          255
+         ],
+         "toColor": [
+          252,
+          242,
+          182,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          252,
+          182,
+          207,
+          255
+         ],
+         "toColor": [
+          252,
+          182,
+          207,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          215,
+          252,
+          222,
+          255
+         ],
+         "toColor": [
+          215,
+          252,
+          222,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          187,
+          210,
+          252,
+          255
+         ],
+         "toColor": [
+          187,
+          210,
+          252,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          252,
+          182,
+          242,
+          255
+         ],
+         "toColor": [
+          252,
+          182,
+          242,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          252,
+          215,
+          224,
+          255
+         ],
+         "toColor": [
+          252,
+          215,
+          224,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          182,
+          182,
+          252,
+          255
+         ],
+         "toColor": [
+          182,
+          182,
+          252,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          252,
+          238,
+          212,
+          255
+         ],
+         "toColor": [
+          252,
+          238,
+          212,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          235,
+          252,
+          182,
+          255
+         ],
+         "toColor": [
+          235,
+          252,
+          182,
+          255
+         ]
+        }
+       ]
+      }
+     }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+   },
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 431004.82100000046,
+    "ymin": 2108694.2322000004,
+    "xmax": 934824.0844,
+    "ymax": 2456400.4197000004,
+    "spatialReference": {
+     "wkid": 102202,
+     "latestWkid": 3750,
+     "xyTolerance": 0.001,
+     "zTolerance": 0.001,
+     "mTolerance": 0.001,
+     "falseX": -5120900,
+     "falseY": -9998100,
+     "xyUnits": 450445547.3910538,
+     "falseZ": -100000,
+     "zUnits": 10000,
+     "falseM": -100000,
+     "mUnits": 10000
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "name",
+   "typeIdField": null,
+   "subtypeFieldName": null,
+   "subtypeField": null,
+   "defaultSubtypeCode": null,
+   "fields": [
+    {
+     "name": "objectid",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "name",
+     "type": "esriFieldTypeString",
+     "alias": "name",
+     "length": 37,
+     "domain": null
+    },
+    {
+     "name": "alt_name",
+     "type": "esriFieldTypeString",
+     "alias": "alt_name",
+     "length": 254,
+     "domain": null
+    },
+    {
+     "name": "island",
+     "type": "esriFieldTypeString",
+     "alias": "island",
+     "length": 7,
+     "domain": null
+    },
+    {
+     "name": "status",
+     "type": "esriFieldTypeString",
+     "alias": "status",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "Shape",
+     "domain": null
+    }
+   ],
+   "geometryField": {
+    "name": "shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "Shape"
+   },
+   "indexes": [
+    {
+     "name": "r4437_sde_rowid_uk",
+     "fields": "objectid",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "a4398_ix1",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "subtypes": [],
+   "relationships": [],
+   "canModifyLayer": true,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 5000,
+   "maxSelectionCount": 2000,
+   "supportsStatistics": true,
+   "supportsExceedsLimitStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, geoJSON, PBF",
+   "isDataVersioned": false,
+   "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+   },
+   "useStandardizedQueries": true,
+   "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+   ],
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": true,
+    "supportsCurrentUserQueries": true
+   },
+   "supportsDatumTransformation": true,
+   "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": false
+   },
+   "dateFieldsTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "preferredTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "datesInUnknownTimezone": false,
+   "hasMetadata": true,
+   "isDataArchived": false,
+   "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+   },
+   "supportsCoordinatesQuantization": true,
+   "supportsDynamicLegends": true
+  },
+  {
+   "currentVersion": 11.5,
+   "cimVersion": "3.5.0",
+   "id": 8,
+   "name": "EMS_Stations",
+   "type": "Feature Layer",
+   "description": "EMS Stations:  Locations of all EMS Stations across the State of Hawaiʻi as of December 2025. Source:  DOH Emergency Medical Services &amp; Injury Prevention Branch, January 2026. All station information was gathered by DOH EMSIPSB staff members and first responder agencies throughout 2025. This layer includes the unit number, unit name, affiliation, latitude, longitude, and addresses of each station. This data serves as a visualization of all EMS Stations across the state for stakeholders and the public. The data is updated yearly, or as necessary. For more information, please see metadata at https://files.hawaii.gov/dbedt/op/gis/data/ems_stations.pdf or contact (1) Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis or (2) Hawaii State Department of Health, Emergency Medical Services and Injury Prevention Systems Branch; (808) 470-9530; email: julie.kobayashi@doh.hawaii.gov.",
+   "geometryType": "esriGeometryPoint",
+   "sourceSpatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 10000,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "spatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 450445547.3910538,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "copyrightText": "Hawaii State Department of Health, Emergency Medical Services and Injury Prevention Systems Branch; Hawaii Statewide GIS Program",
+   "parentLayer": {
+    "id": 0,
+    "name": "EmergMgmtPubSafety"
+   },
+   "subLayers": [],
+   "minScale": 0,
+   "maxScale": 0,
+   "referenceScale": 0,
+   "drawingInfo": {
+    "renderer": {
+     "type": "simple",
+     "symbol": {
+      "type": "esriPMS",
+      "url": "1da8a9fc56289caff0e996f8b3956f89",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAABBklEQVQ4jdWUTaqDMBSFzyDoFqSg0K4gozdocS5I9+Co69BZpg5ezbDL6NwNuIJOMskWIh2UK6bV9McifQ96QEhyj58XTxKGD4tN1BMA3Fk7ANCzgL7v7/M8X9q51hpVVW3btt3M7RBZliEIgm7cNA0BX/oZPiz2NUDued6vW0zTdDGcc84RRdGPUurkeo0xa8rNApOiKNZJQrvkJgrDBmJV1zW9c02eJIRAWZYZDZnbwZTcD7hrfxeK1rp7prpxPc+ARynlTko5KoZhGNI/s2CCxXF8VkqpOxJwHAIbY8zKdfRpjgIg2CPv923s/wMKIR6mPQtIx6k/AUN1ac4C9jezeLs9ABfoOlgV0149vgAAAABJRU5ErkJggg==",
+      "contentType": "image/png",
+      "width": 15,
+      "height": 15,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+   },
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 430793.9462000001,
+    "ymin": 2111240.0857999995,
+    "xmax": 924308.8284999998,
+    "ymax": 2455907.9353,
+    "spatialReference": {
+     "wkid": 102202,
+     "latestWkid": 3750,
+     "xyTolerance": 0.001,
+     "zTolerance": 0.001,
+     "mTolerance": 0.001,
+     "falseX": -5120900,
+     "falseY": -9998100,
+     "xyUnits": 450445547.3910538,
+     "falseZ": -100000,
+     "zUnits": 10000,
+     "falseM": -100000,
+     "mUnits": 10000
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "unit_name",
+   "typeIdField": null,
+   "subtypeFieldName": null,
+   "subtypeField": null,
+   "defaultSubtypeCode": null,
+   "fields": [
+    {
+     "name": "objectid",
+     "type": "esriFieldTypeOID",
+     "alias": "OBJECTID",
+     "domain": null
+    },
+    {
+     "name": "unit",
+     "type": "esriFieldTypeString",
+     "alias": "unit",
+     "length": 254,
+     "domain": null
+    },
+    {
+     "name": "unit_name",
+     "type": "esriFieldTypeString",
+     "alias": "unit_name",
+     "length": 50,
+     "domain": null
+    },
+    {
+     "name": "aff",
+     "type": "esriFieldTypeString",
+     "alias": "aff",
+     "length": 254,
+     "domain": null
+    },
+    {
+     "name": "county",
+     "type": "esriFieldTypeString",
+     "alias": "county",
+     "length": 10,
+     "domain": null
+    },
+    {
+     "name": "address",
+     "type": "esriFieldTypeString",
+     "alias": "address",
+     "length": 254,
+     "domain": null
+    },
+    {
+     "name": "lat",
+     "type": "esriFieldTypeDouble",
+     "alias": "lat",
+     "domain": null
+    },
+    {
+     "name": "long",
+     "type": "esriFieldTypeDouble",
+     "alias": "long",
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "Shape",
+     "domain": null
+    }
+   ],
+   "geometryField": {
+    "name": "shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "Shape"
+   },
+   "indexes": [
+    {
+     "name": "r4436_sde_rowid_uk",
+     "fields": "objectid",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "a4397_ix1",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "subtypes": [],
+   "relationships": [],
+   "canModifyLayer": true,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 5000,
+   "maxSelectionCount": 2000,
+   "supportsStatistics": true,
+   "supportsExceedsLimitStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, geoJSON, PBF",
+   "isDataVersioned": false,
+   "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+   },
+   "useStandardizedQueries": true,
+   "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+   ],
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": true,
+    "supportsCurrentUserQueries": true
+   },
+   "supportsDatumTransformation": true,
+   "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": false
+   },
+   "dateFieldsTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "preferredTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "datesInUnknownTimezone": false,
+   "hasMetadata": true,
+   "isDataArchived": false,
+   "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+   },
+   "supportsCoordinatesQuantization": true,
+   "supportsDynamicLegends": true
+  },
+  {
+   "currentVersion": 11.5,
+   "cimVersion": "3.5.0",
+   "id": 9,
+   "name": "Trauma_Centers",
+   "type": "Feature Layer",
+   "description": "Trauma Centers:  Locations of all Trauma Centers across the State of Hawaiʻi as of December 2025. Source:  DOH Emergency Medical Services &amp; Injury Prevention Branch, January 2026. All station information was gathered by DOH EMSIPSB staff members and first responder agencies throughout 2025. This layer includes the names, addresses, and a brief overview of the services provided. Note that this map contains Trauma Centers ONLY – regular, non-trauma hospitals are not included in this analysis. The data is updated yearly, or as necessary. For more information, please see metadata at https://files.hawaii.gov/dbedt/op/gis/data/fire_stations.pdf or contact (1) Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis or (2) Hawaii State Department of Health, Emergency Medical Services and Injury Prevention Systems Branch; (808) 470-9530; email: julie.kobayashi@doh.hawaii.gov.",
+   "geometryType": "esriGeometryPoint",
+   "sourceSpatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 10000,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "spatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 450445547.3910538,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "copyrightText": "Hawaii State Department of Health, Emergency Medical Services and Injury Prevention Systems Branch; Hawaii Statewide GIS",
+   "parentLayer": {
+    "id": 0,
+    "name": "EmergMgmtPubSafety"
+   },
+   "subLayers": [],
+   "minScale": 0,
+   "maxScale": 0,
+   "referenceScale": 0,
+   "drawingInfo": {
+    "renderer": {
+     "type": "simple",
+     "symbol": {
+      "type": "esriPMS",
+      "url": "bc5e8954d1e6804c48e0a1fe5948a32a",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAABMAAAATCAYAAAByUDbMAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAn0lEQVQ4je2UsRHCMAxFn4KXwGtQJqzAGKxBGIM1YISYkjWcLRBnUjm2c4SjcMErv87/dNKXDT/EFCtOLcIx0Vvp15tNnBJl0Bt7eXxjtgpTuZlTi7KNKkpYQMqGHYPGmjDSiZ/MwtYkM+wcyoUmUc9AX/vM6jVrpX8nO8bScE1ePDkAfrmz+Yk4HQsN+P85FejEc9eQ7I9ZjsbCR5jjBWd4IttAfgLsAAAAAElFTkSuQmCC",
+      "contentType": "image/png",
+      "width": 14,
+      "height": 14,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+   },
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 462241.1158999996,
+    "ymin": 2161336.905200001,
+    "xmax": 907569.2681999998,
+    "ymax": 2431296.123400001,
+    "spatialReference": {
+     "wkid": 102202,
+     "latestWkid": 3750,
+     "xyTolerance": 0.001,
+     "zTolerance": 0.001,
+     "mTolerance": 0.001,
+     "falseX": -5120900,
+     "falseY": -9998100,
+     "xyUnits": 450445547.3910538,
+     "falseZ": -100000,
+     "zUnits": 10000,
+     "falseM": -100000,
+     "mUnits": 10000
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "Facility_Name",
+   "typeIdField": null,
+   "subtypeFieldName": null,
+   "subtypeField": null,
+   "defaultSubtypeCode": null,
+   "fields": [
+    {
+     "name": "objectid",
+     "type": "esriFieldTypeOID",
+     "alias": "ObjectID",
+     "domain": null
+    },
+    {
+     "name": "facility_name",
+     "type": "esriFieldTypeString",
+     "alias": "Facility_Name",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "trauma_level",
+     "type": "esriFieldTypeString",
+     "alias": "Trauma_Level",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "island",
+     "type": "esriFieldTypeString",
+     "alias": "Island",
+     "length": 7,
+     "domain": null
+    },
+    {
+     "name": "address",
+     "type": "esriFieldTypeString",
+     "alias": "Address",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "city",
+     "type": "esriFieldTypeString",
+     "alias": "City",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "state",
+     "type": "esriFieldTypeString",
+     "alias": "State",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "zip",
+     "type": "esriFieldTypeDouble",
+     "alias": "ZIP",
+     "domain": null
+    },
+    {
+     "name": "latitude",
+     "type": "esriFieldTypeDouble",
+     "alias": "Latitude",
+     "domain": null
+    },
+    {
+     "name": "longitude",
+     "type": "esriFieldTypeDouble",
+     "alias": "Longitude",
+     "domain": null
+    },
+    {
+     "name": "anesthesia",
+     "type": "esriFieldTypeString",
+     "alias": "Anesthesia",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "burn",
+     "type": "esriFieldTypeString",
+     "alias": "Burn",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "cardiothoracic_surgery",
+     "type": "esriFieldTypeString",
+     "alias": "Cardiothoracic Surgery",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "ent",
+     "type": "esriFieldTypeString",
+     "alias": "ENT",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "hand_surgery",
+     "type": "esriFieldTypeString",
+     "alias": "Hand Surgery",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "interventional_cardiology",
+     "type": "esriFieldTypeString",
+     "alias": "Interventional Cardiology",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "interventional_radiology",
+     "type": "esriFieldTypeString",
+     "alias": "Interventional Radiology",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "microvascular",
+     "type": "esriFieldTypeString",
+     "alias": "Microvascular",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "nephrology",
+     "type": "esriFieldTypeString",
+     "alias": "Nephrology",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "neurosurgery",
+     "type": "esriFieldTypeString",
+     "alias": "Neurosurgery",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "non_accidental_trauma",
+     "type": "esriFieldTypeString",
+     "alias": "Non-Accidental Trauma",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "ob_gyn",
+     "type": "esriFieldTypeString",
+     "alias": "OB/GYN",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "omfs",
+     "type": "esriFieldTypeString",
+     "alias": "OMFS",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "ophthalmology",
+     "type": "esriFieldTypeString",
+     "alias": "Ophthalmology",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "ortho_traumatologist",
+     "type": "esriFieldTypeString",
+     "alias": "Ortho Traumatologist",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "orthopedic_surgery",
+     "type": "esriFieldTypeString",
+     "alias": "Orthopedic Surgery",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "pediatric_surgery",
+     "type": "esriFieldTypeString",
+     "alias": "Pediatric Surgery",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "pediatric_trauma_surgery",
+     "type": "esriFieldTypeString",
+     "alias": "Pediatric Trauma Surgery",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "plastic_surgery",
+     "type": "esriFieldTypeString",
+     "alias": "Plastic Surgery",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "replantation",
+     "type": "esriFieldTypeString",
+     "alias": "Replantation",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "spine_surgery",
+     "type": "esriFieldTypeString",
+     "alias": "Spine Surgery",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "urology",
+     "type": "esriFieldTypeString",
+     "alias": "Urology",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "vascular_surgery",
+     "type": "esriFieldTypeString",
+     "alias": "Vascular Surgery",
+     "length": 255,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "Shape",
+     "domain": null
+    }
+   ],
+   "geometryField": {
+    "name": "shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "Shape"
+   },
+   "indexes": [
+    {
+     "name": "r4438_sde_rowid_uk",
+     "fields": "objectid",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "a4399_ix1",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "subtypes": [],
+   "relationships": [],
+   "canModifyLayer": true,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 5000,
+   "maxSelectionCount": 2000,
+   "supportsStatistics": true,
+   "supportsExceedsLimitStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, geoJSON, PBF",
+   "isDataVersioned": false,
+   "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+   },
+   "useStandardizedQueries": true,
+   "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+   ],
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": true,
+    "supportsCurrentUserQueries": true
+   },
+   "supportsDatumTransformation": true,
+   "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": false
+   },
+   "dateFieldsTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "preferredTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "datesInUnknownTimezone": false,
+   "hasMetadata": true,
+   "isDataArchived": false,
+   "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+   },
+   "supportsCoordinatesQuantization": true,
+   "supportsDynamicLegends": true
+  },
+  {
+   "currentVersion": 11.5,
+   "cimVersion": "3.5.0",
+   "id": 5,
+   "name": "Police Stations - Statewide",
+   "type": "Feature Layer",
+   "description": "Locations of police stations within the State of Hawaii as of August, 2026.Source:  Downloaded from county websites, August, 2026.  OP GIS staff geocoded Hawaii and Maui police stations from addresses available on their websites, and downloaded shapefiles from Honolulu and Kauai open data sites.  Added Hawaii County substations and mini stations manually, using prior version of layer and verifying online.  Merged county layers into one statewide layer, normalizing so that each county's attributes were included in final combined layer.  For additional information, please refer to complete metadata at https://files.hawaii.gov/dbedt/op/gis/data/policestations.pdf or contact the Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis.",
+   "geometryType": "esriGeometryPoint",
+   "sourceSpatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 10000,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "spatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 450445547.3910538,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "copyrightText": "County of Hawaii, County of Kauai, County of Maui, City and County of Honolulu, Hawaii Statewide GIS Program",
+   "parentLayer": {
+    "id": 0,
+    "name": "EmergMgmtPubSafety"
+   },
+   "subLayers": [],
+   "minScale": 0,
+   "maxScale": 0,
+   "drawingInfo": {
+    "renderer": {
+     "type": "simple",
+     "symbol": {
+      "type": "esriPMS",
+      "url": "a2bc865878d0836219f73482f851ef86",
+      "imageData": "iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAA7EAAAOxAGVKw4bAAACH0lEQVQ4jb3UX0hTcRTA8e92949lTovKlStdUlogvYRtuSgzM+shrAeTXiqI6MHqoZfAsHpJ7CWiHoSEHkNxPUR/kIQeoiQ2amrOvC3FRGRMd1WSpdtiSbbrvVsLpAMXfpfD+XB+53fvT8cKh+5/gzqgHNgKWj3ERoHXwOy/ggZW2xooqKli5zk760rz0QgCUmCcvociYmcPkngHCGUC5rLJ1crRjiOY16+SZ7bZcDXbcN4s5/npXYgdVwB/OlD7C6vtOoFg1KQchGDUc6y9mmd1Oj4/rkvuVA5a7OepaqtOiyXH4UcHkYYamfBeVgfzK05iKcrKCFvsVEPh8f1MeLN+H1QymMfGvcWKoukR6DoLkTBUPIC8Mnm+uL6Ej3cPMRdyLwP1m1lbskEB9tyA0e7FdfdFqPfI89lbEl9EqRI0m2PEo1oFaMxJWluU245HQWtaev0DfpdEQv1hrM41soKy6xCNQEQC5y0lODUYJxJeajt5hmGCvqEEoejwwH1ShugeYcr/Qg2EmbFWxt/uxupQbl0t5oIQ9L0EFtTBgLsNU/YpLPZKzMrzkUViDG+uDfClsyH9r/eprwah8RU7zriwOtQxKQDvb/uZn60EfqQH8czT69mHYLrK16cXyNleSG6RBo0OpodhcmCMmW9P6JcuQXt0eXXq6+vDvRaghT1NBUz6HCzEDAgGL57m3nST+PsF+65pGEg8GcWK39g/AfQbnqu3JFl2AAAAAElFTkSuQmCC",
+      "contentType": "image/png",
+      "width": 15,
+      "height": 15,
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 0
+     }
+    },
+    "scaleSymbols": false,
+    "transparency": 0,
+    "labelingInfo": null
+   },
+   "defaultVisibility": false,
+   "extent": {
+    "xmin": 431006.5069000004,
+    "ymin": 2111889.6183,
+    "xmax": 924382.0131999999,
+    "ymax": 2456398.168299999,
+    "spatialReference": {
+     "wkid": 102202,
+     "latestWkid": 3750,
+     "xyTolerance": 0.001,
+     "zTolerance": 0.001,
+     "mTolerance": 0.001,
+     "falseX": -5120900,
+     "falseY": -9998100,
+     "xyUnits": 450445547.3910538,
+     "falseZ": -100000,
+     "zUnits": 10000,
+     "falseM": -100000,
+     "mUnits": 10000
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "station_name",
+   "typeIdField": null,
+   "subtypeFieldName": null,
+   "subtypeField": null,
+   "defaultSubtypeCode": null,
+   "fields": [
+    {
+     "name": "objectid",
+     "type": "esriFieldTypeOID",
+     "alias": "ObjectID",
+     "domain": null
+    },
+    {
+     "name": "station_name",
+     "type": "esriFieldTypeString",
+     "alias": "Station_Name",
+     "length": 50,
+     "domain": null
+    },
+    {
+     "name": "island",
+     "type": "esriFieldTypeString",
+     "alias": "Island",
+     "length": 15,
+     "domain": null
+    },
+    {
+     "name": "district",
+     "type": "esriFieldTypeString",
+     "alias": "District",
+     "length": 30,
+     "domain": null
+    },
+    {
+     "name": "hawaiistgrds.owner.policestations_state.area",
+     "type": "esriFieldTypeString",
+     "alias": "hawaiistgrds.owner.policestations_state.area",
+     "length": 10,
+     "domain": null
+    },
+    {
+     "name": "full_address",
+     "type": "esriFieldTypeString",
+     "alias": "Full_Address",
+     "length": 60,
+     "domain": null
+    },
+    {
+     "name": "location_notes",
+     "type": "esriFieldTypeString",
+     "alias": "Location_Notes",
+     "length": 60,
+     "domain": null
+    },
+    {
+     "name": "phone1",
+     "type": "esriFieldTypeString",
+     "alias": "Phone1",
+     "length": 15,
+     "domain": null
+    },
+    {
+     "name": "phone2",
+     "type": "esriFieldTypeString",
+     "alias": "Phone2",
+     "length": 15,
+     "domain": null
+    },
+    {
+     "name": "hyperlink",
+     "type": "esriFieldTypeString",
+     "alias": "Hyperlink",
+     "length": 200,
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    }
+   ],
+   "geometryField": {
+    "name": "shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "shape"
+   },
+   "indexes": [
+    {
+     "name": "r4477_sde_rowid_uk",
+     "fields": "objectid",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "a4438_ix1",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "subtypes": [],
+   "relationships": [],
+   "canModifyLayer": true,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 5000,
+   "maxSelectionCount": 2000,
+   "supportsStatistics": true,
+   "supportsExceedsLimitStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, geoJSON, PBF",
+   "isDataVersioned": false,
+   "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+   },
+   "useStandardizedQueries": true,
+   "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+   ],
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": true,
+    "supportsCurrentUserQueries": true
+   },
+   "supportsDatumTransformation": true,
+   "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": false
+   },
+   "dateFieldsTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "preferredTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "datesInUnknownTimezone": false,
+   "hasMetadata": true,
+   "isDataArchived": false,
+   "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+   },
+   "supportsCoordinatesQuantization": true,
+   "supportsDynamicLegends": true
+  },
+  {
+   "currentVersion": 11.5,
+   "cimVersion": "3.5.0",
+   "id": 6,
+   "name": "Fire Response Zones",
+   "type": "Feature Layer",
+   "description": "Fire Response Zones for the Main Hawaiian Islands as of April 2026.  Source: Department of Land and Natural Resources, Division of Forestry and Wildlife, Fire Management Program, 2007-2026.   For additional information, please refer to metadata at https://files.hawaii.gov/dbedt/op/gis/data/fireresponse_summary.pdf or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis.",
+   "geometryType": "esriGeometryPolygon",
+   "sourceSpatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 10000,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "spatialReference": {
+    "wkid": 102202,
+    "latestWkid": 3750,
+    "xyTolerance": 0.001,
+    "zTolerance": 0.001,
+    "mTolerance": 0.001,
+    "falseX": -5120900,
+    "falseY": -9998100,
+    "xyUnits": 450445547.3910538,
+    "falseZ": -100000,
+    "zUnits": 10000,
+    "falseM": -100000,
+    "mUnits": 10000
+   },
+   "copyrightText": "Department of Land and Natural Resources, State of Hawaii",
+   "parentLayer": {
+    "id": 0,
+    "name": "EmergMgmtPubSafety"
+   },
+   "subLayers": [],
+   "minScale": 0,
+   "maxScale": 0,
+   "referenceScale": 0,
+   "drawingInfo": {
+    "renderer": {
+     "type": "uniqueValue",
+     "field1": "description",
+     "uniqueValueGroups": [
+      {
+       "heading": "Response Agencies",
+       "classes": [
+        {
+         "label": "Army Wildland Fire Primary Response/DOFAW Co-op Response Area",
+         "description": "Army Wildland Fire Primary Response/DOFAW Co-op Response Area",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           133,
+           104,
+           161,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "Army Wildland Fire Primary Response/DOFAW Co-op Response Area"
+          ]
+         ]
+        },
+        {
+         "label": "DOD Primary Response/DOFAW Co-op Response Area",
+         "description": "DOD Primary Response/DOFAW Co-op Response Area",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           93,
+           222,
+           87,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "DOD Primary Response/DOFAW Co-op Response Area"
+          ]
+         ]
+        },
+        {
+         "label": "DOFAW Primary Response Area",
+         "description": "DOFAW Primary Response Area",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           145,
+           126,
+           61,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "DOFAW Primary Response Area"
+          ]
+         ]
+        },
+        {
+         "label": "DOI Primary Response/DOFAW Co-op Response Area",
+         "description": "DOI Primary Response/DOFAW Co-op Response Area",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           97,
+           228,
+           232,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "DOI Primary Response/DOFAW Co-op Response Area"
+          ]
+         ]
+        },
+        {
+         "label": "HFD Primary Response/DOFAW Co-op Response Area",
+         "description": "HFD Primary Response/DOFAW Co-op Response Area",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           224,
+           85,
+           90,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "HFD Primary Response/DOFAW Co-op Response Area"
+          ]
+         ]
+        },
+        {
+         "label": "HFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request",
+         "description": "HFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           245,
+           103,
+           235,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "HFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request"
+          ]
+         ]
+        },
+        {
+         "label": "HiCFD Primary Response/DOFAW Co-op Response Area",
+         "description": "HiCFD Primary Response/DOFAW Co-op Response Area",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           229,
+           247,
+           89,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "HiCFD Primary Response/DOFAW Co-op Response Area"
+          ]
+         ]
+        },
+        {
+         "label": "HiCFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request",
+         "description": "HiCFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           247,
+           180,
+           163,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "HiCFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request"
+          ]
+         ]
+        },
+        {
+         "label": "KFD Primary Response/DOFAW Co-op Response Area",
+         "description": "KFD Primary Response/DOFAW Co-op Response Area",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           105,
+           115,
+           250,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "KFD Primary Response/DOFAW Co-op Response Area"
+          ]
+         ]
+        },
+        {
+         "label": "KFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request",
+         "description": "KFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           74,
+           128,
+           143,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "KFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request"
+          ]
+         ]
+        },
+        {
+         "label": "MFD Primary Response/DOFAW Co-op Response Area",
+         "description": "MFD Primary Response/DOFAW Co-op Response Area",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           69,
+           130,
+           48,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "MFD Primary Response/DOFAW Co-op Response Area"
+          ]
+         ]
+        },
+        {
+         "label": "MFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request",
+         "description": "MFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           162,
+           250,
+           180,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "MFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request"
+          ]
+         ]
+        },
+        {
+         "label": "Military Impact Area: No DOFAW Fire-Fighting",
+         "description": "Military Impact Area: No DOFAW Fire-Fighting",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           52,
+           51,
+           130,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "Military Impact Area: No DOFAW Fire-Fighting"
+          ]
+         ]
+        },
+        {
+         "label": "US Army Primary Response/DOFAW Co-op Response Area",
+         "description": "US Army Primary Response/DOFAW Co-op Response Area",
+         "symbol": {
+          "type": "esriSFS",
+          "style": "esriSFSSolid",
+          "color": [
+           168,
+           61,
+           131,
+           255
+          ],
+          "outline": {
+           "type": "esriSLS",
+           "style": "esriSLSSolid",
+           "color": [
+            110,
+            110,
+            110,
+            255
+           ],
+           "width": 0.4
+          }
+         },
+         "values": [
+          [
+           "US Army Primary Response/DOFAW Co-op Response Area"
+          ]
+         ]
+        }
+       ]
+      }
+     ],
+     "uniqueValueInfos": [
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         133,
+         104,
+         161,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "Army Wildland Fire Primary Response/DOFAW Co-op Response Area",
+       "label": "Army Wildland Fire Primary Response/DOFAW Co-op Response Area"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         93,
+         222,
+         87,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "DOD Primary Response/DOFAW Co-op Response Area",
+       "label": "DOD Primary Response/DOFAW Co-op Response Area"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         145,
+         126,
+         61,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "DOFAW Primary Response Area",
+       "label": "DOFAW Primary Response Area"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         97,
+         228,
+         232,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "DOI Primary Response/DOFAW Co-op Response Area",
+       "label": "DOI Primary Response/DOFAW Co-op Response Area"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         224,
+         85,
+         90,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "HFD Primary Response/DOFAW Co-op Response Area",
+       "label": "HFD Primary Response/DOFAW Co-op Response Area"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         245,
+         103,
+         235,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "HFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request",
+       "label": "HFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         229,
+         247,
+         89,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "HiCFD Primary Response/DOFAW Co-op Response Area",
+       "label": "HiCFD Primary Response/DOFAW Co-op Response Area"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         247,
+         180,
+         163,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "HiCFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request",
+       "label": "HiCFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         105,
+         115,
+         250,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "KFD Primary Response/DOFAW Co-op Response Area",
+       "label": "KFD Primary Response/DOFAW Co-op Response Area"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         74,
+         128,
+         143,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "KFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request",
+       "label": "KFD Primary Response/DOFAW Co-op Response with Administrative Approval Upon HI-EMA Request"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         69,
+         130,
+         48,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "MFD Primary Response/DOFAW Co-op Response Area",
+       "label": "MFD Primary Response/DOFAW Co-op Response Area"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         162,
+         250,
+         180,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "MFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request",
+       "label": "MFD or Federal Primary Response/DOFAW Co-op Response w/ Administrative Approval Upon HI-EMA Request"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         52,
+         51,
+         130,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "Military Impact Area: No DOFAW Fire-Fighting",
+       "label": "Military Impact Area: No DOFAW Fire-Fighting"
+      },
+      {
+       "symbol": {
+        "type": "esriSFS",
+        "style": "esriSFSSolid",
+        "color": [
+         168,
+         61,
+         131,
+         255
+        ],
+        "outline": {
+         "type": "esriSLS",
+         "style": "esriSLSSolid",
+         "color": [
+          110,
+          110,
+          110,
+          255
+         ],
+         "width": 0.4
+        }
+       },
+       "value": "US Army Primary Response/DOFAW Co-op Response Area",
+       "label": "US Army Primary Response/DOFAW Co-op Response Area"
+      }
+     ],
+     "fieldDelimiter": ",",
+     "authoringInfo": {
+      "colorRamp": {
+       "type": "multipart",
+       "colorRamps": [
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          126,
+          74,
+          168,
+          255
+         ],
+         "toColor": [
+          126,
+          74,
+          168,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          81,
+          168,
+          47,
+          255
+         ],
+         "toColor": [
+          81,
+          168,
+          47,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          176,
+          37,
+          37,
+          255
+         ],
+         "toColor": [
+          176,
+          37,
+          37,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          48,
+          163,
+          176,
+          255
+         ],
+         "toColor": [
+          48,
+          163,
+          176,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          153,
+          127,
+          72,
+          255
+         ],
+         "toColor": [
+          153,
+          127,
+          72,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          133,
+          66,
+          83,
+          255
+         ],
+         "toColor": [
+          133,
+          66,
+          83,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          35,
+          80,
+          135,
+          255
+         ],
+         "toColor": [
+          35,
+          80,
+          135,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          54,
+          138,
+          90,
+          255
+         ],
+         "toColor": [
+          54,
+          138,
+          90,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          176,
+          55,
+          131,
+          255
+         ],
+         "toColor": [
+          176,
+          55,
+          131,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          32,
+          30,
+          130,
+          255
+         ],
+         "toColor": [
+          32,
+          30,
+          130,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          168,
+          173,
+          62,
+          255
+         ],
+         "toColor": [
+          168,
+          173,
+          62,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          130,
+          44,
+          46,
+          255
+         ],
+         "toColor": [
+          130,
+          44,
+          46,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          67,
+          125,
+          161,
+          255
+         ],
+         "toColor": [
+          67,
+          125,
+          161,
+          255
+         ]
+        },
+        {
+         "type": "algorithmic",
+         "algorithm": "esriCIELabAlgorithm",
+         "fromColor": [
+          164,
+          43,
+          166,
+          255
+         ],
+         "toColor": [
+          164,
+          43,
+          166,
+          255
+         ]
+        }
+       ]
+      }
+     }
+    },
+    "scaleSymbols": true,
+    "transparency": 0,
+    "labelingInfo": null
+   },
+   "defaultVisibility": true,
+   "extent": {
+    "xmin": 418663.06099999975,
+    "ymin": 2094231.1264999993,
+    "xmax": 940279.4540999997,
+    "ymax": 2458613.966499999,
+    "spatialReference": {
+     "wkid": 102202,
+     "latestWkid": 3750,
+     "xyTolerance": 0.001,
+     "zTolerance": 0.001,
+     "mTolerance": 0.001,
+     "falseX": -5120900,
+     "falseY": -9998100,
+     "xyUnits": 450445547.3910538,
+     "falseZ": -100000,
+     "zUnits": 10000,
+     "falseM": -100000,
+     "mUnits": 10000
+    }
+   },
+   "hasAttachments": false,
+   "htmlPopupType": "esriServerHTMLPopupTypeAsHTMLText",
+   "displayField": "Description",
+   "typeIdField": null,
+   "subtypeFieldName": null,
+   "subtypeField": null,
+   "defaultSubtypeCode": null,
+   "fields": [
+    {
+     "name": "objectid",
+     "type": "esriFieldTypeOID",
+     "alias": "objectid",
+     "domain": null
+    },
+    {
+     "name": "zone",
+     "type": "esriFieldTypeInteger",
+     "alias": "zone",
+     "domain": null
+    },
+    {
+     "name": "description",
+     "type": "esriFieldTypeString",
+     "alias": "description",
+     "length": 100,
+     "domain": null
+    },
+    {
+     "name": "island",
+     "type": "esriFieldTypeString",
+     "alias": "island",
+     "length": 10,
+     "domain": null
+    },
+    {
+     "name": "gisacres",
+     "type": "esriFieldTypeDouble",
+     "alias": "GISAcres",
+     "domain": null
+    },
+    {
+     "name": "shape",
+     "type": "esriFieldTypeGeometry",
+     "alias": "shape",
+     "domain": null
+    },
+    {
+     "name": "st_area(shape)",
+     "type": "esriFieldTypeDouble",
+     "alias": "st_area(shape)",
+     "domain": null
+    },
+    {
+     "name": "st_perimeter(shape)",
+     "type": "esriFieldTypeDouble",
+     "alias": "st_perimeter(shape)",
+     "domain": null
+    }
+   ],
+   "geometryField": {
+    "name": "shape",
+    "type": "esriFieldTypeGeometry",
+    "alias": "shape"
+   },
+   "indexes": [
+    {
+     "name": "r4442_sde_rowid_uk",
+     "fields": "objectid",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    },
+    {
+     "name": "a4403_ix1",
+     "fields": "shape",
+     "isAscending": true,
+     "isUnique": true,
+     "description": ""
+    }
+   ],
+   "subtypes": [],
+   "relationships": [],
+   "canModifyLayer": true,
+   "canScaleSymbols": false,
+   "hasLabels": false,
+   "capabilities": "Map,Query,Data",
+   "maxRecordCount": 5000,
+   "maxSelectionCount": 2000,
+   "supportsStatistics": true,
+   "supportsExceedsLimitStatistics": true,
+   "supportsAdvancedQueries": true,
+   "supportedQueryFormats": "JSON, geoJSON, PBF",
+   "isDataVersioned": false,
+   "ownershipBasedAccessControlForFeatures": {
+    "allowOthersToQuery": true
+   },
+   "useStandardizedQueries": true,
+   "supportedSpatialRelationships": [
+    "esriSpatialRelIntersects",
+    "esriSpatialRelContains",
+    "esriSpatialRelCrosses",
+    "esriSpatialRelEnvelopeIntersects",
+    "esriSpatialRelIndexIntersects",
+    "esriSpatialRelOverlaps",
+    "esriSpatialRelTouches",
+    "esriSpatialRelWithin",
+    "esriSpatialRelRelation"
+   ],
+   "advancedQueryCapabilities": {
+    "useStandardizedQueries": true,
+    "supportsStatistics": true,
+    "supportsPercentileStatistics": true,
+    "supportsHavingClause": true,
+    "supportsOrderBy": true,
+    "supportsDistinct": true,
+    "supportsCountDistinct": true,
+    "supportsAdvancedQueryRelated": true,
+    "supportsQueryRelatedPagination": true,
+    "supportsPagination": true,
+    "supportsLod": false,
+    "supportsQueryWithLodSR": false,
+    "supportsTrueCurve": true,
+    "supportsQueryWithDatumTransformation": true,
+    "supportsReturningQueryExtent": true,
+    "supportsQueryWithDistance": true,
+    "supportsSqlExpression": true,
+    "supportsTimeRelation": true,
+    "supportsSqlFormat": false,
+    "supportsQueryAnalytic": true,
+    "supportsCurrentUserQueries": true
+   },
+   "supportsDatumTransformation": true,
+   "advancedQueryAnalyticCapabilities": {
+    "supportsLinearRegression": true,
+    "supportsAsync": false,
+    "supportsPercentileAnalytic": false
+   },
+   "dateFieldsTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "preferredTimeReference": {
+    "timeZone": "Hawaiian Standard Time",
+    "timeZoneIANA": "Etc/GMT+10",
+    "respectsDaylightSaving": false
+   },
+   "datesInUnknownTimezone": false,
+   "hasGeometryProperties": true,
+   "geometryProperties": {
+    "shapeAreaFieldName": "st_area(shape)",
+    "shapeLengthFieldName": "st_perimeter(shape)",
+    "units": "esriMeters",
+    "mapUnits": {
+     "uwkid": 9001
+    }
+   },
+   "hasMetadata": true,
+   "isDataArchived": false,
+   "archivingInfo": {
+    "supportsQueryWithHistoricMoment": false,
+    "startArchivingMoment": -1
+   },
+   "supportsCoordinatesQuantization": true,
+   "supportsDynamicLegends": true
+  }
+ ],
+ "tables": []
+}

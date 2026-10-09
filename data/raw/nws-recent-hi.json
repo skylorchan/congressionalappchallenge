@@ -1,0 +1,3600 @@
+{
+ "@context": [
+  "https://geojson.org/geojson-ld/geojson-context.jsonld",
+  {
+   "@version": "1.1",
+   "wx": "https://api.weather.gov/ontology#",
+   "@vocab": "https://api.weather.gov/ontology#"
+  }
+ ],
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9ba57dbd57c910c4503a483b8a8a7ffa3ddbdf1.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -155.6,
+       18.97
+      ],
+      [
+       -155.75,
+       19.14
+      ],
+      [
+       -155.22,
+       19.58
+      ],
+      [
+       -155.21,
+       19.58
+      ],
+      [
+       -154.92,
+       19.36
+      ],
+      [
+       -155.03,
+       19.29
+      ],
+      [
+       -155.15,
+       19.24
+      ],
+      [
+       -155.29,
+       19.23
+      ],
+      [
+       -155.43,
+       19.13
+      ],
+      [
+       -155.44,
+       19.12
+      ],
+      [
+       -155.49,
+       19.11
+      ],
+      [
+       -155.52,
+       19.06
+      ],
+      [
+       -155.55,
+       18.98
+      ],
+      [
+       -155.59,
+       18.96
+      ],
+      [
+       -155.6,
+       18.97
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.d9ba57dbd57c910c4503a483b8a8a7ffa3ddbdf1.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.d9ba57dbd57c910c4503a483b8a8a7ffa3ddbdf1.001.1",
+    "areaDesc": "Hawaii in Hawaii, HI",
+    "geocode": {
+     "SAME": [
+      "015001"
+     ],
+     "UGC": [
+      "HIC001"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC001"
+    ],
+    "references": [],
+    "sent": "2026-10-08T21:53:00-10:00",
+    "effective": "2026-10-08T21:53:00-10:00",
+    "onset": "2026-10-08T21:53:00-10:00",
+    "expires": "2026-10-09T00:45:00-10:00",
+    "ends": "2026-10-09T00:45:00-10:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Advisory issued October 8 at 9:53PM HST until October 9 at 12:45AM HST by NWS Honolulu HI",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...Southeast slopes of the Big Island of Hawaii...\n\n* WHEN...Until 1245 AM HST.\n\n* IMPACTS...Minor flooding on roads, poor drainage areas, and in\nstreams.\n\n* ADDITIONAL DETAILS...\n- At 947 PM HST, Doppler radar indicated heavy rain over Kau and\nPuna Districts. Minor flooding is ongoing or expected to begin\nshortly in the advisory area. Rain was falling at a rate of 0.5\nto 1 inch per hour.\n- Some locations that will experience flooding include...\nHawaii Volcanoes National Park, Wood Valley, Pahala, Volcano,\nPunaluu Beach, Kawa Flats, Glenwood, Naalehu, Mountain View and\nFern Forest.",
+    "instruction": "Stay away from streams, drainage ditches and low lying areas prone to\nflooding.\n\nDo not cross fast flowing or rising water in your vehicle, or on\nfoot. Turn around, don't drown.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 090753"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY IN EFFECT UNTIL 1245 AM HST FRIDAY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.NEW.PHFO.FA.Y.0164.261009T0753Z-261009T1045Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-09T00:45:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.571f8eb00d888037debcc0647e2d08bde1284757.001.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.571f8eb00d888037debcc0647e2d08bde1284757.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.571f8eb00d888037debcc0647e2d08bde1284757.001.1",
+    "areaDesc": "Waianae Coast; Oahu North Shore; Olomana; Central Oahu; Waianae Mountains; East Honolulu; Honolulu Metro; Ewa Plain; Koolau Windward; Koolau Leeward",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIZ006",
+      "HIZ007",
+      "HIZ009",
+      "HIZ010",
+      "HIZ011",
+      "HIZ032",
+      "HIZ033",
+      "HIZ034",
+      "HIZ035",
+      "HIZ036"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/HIZ006",
+     "https://api.weather.gov/zones/forecast/HIZ007",
+     "https://api.weather.gov/zones/forecast/HIZ009",
+     "https://api.weather.gov/zones/forecast/HIZ010",
+     "https://api.weather.gov/zones/forecast/HIZ011",
+     "https://api.weather.gov/zones/forecast/HIZ032",
+     "https://api.weather.gov/zones/forecast/HIZ033",
+     "https://api.weather.gov/zones/forecast/HIZ034",
+     "https://api.weather.gov/zones/forecast/HIZ035",
+     "https://api.weather.gov/zones/forecast/HIZ036"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a378e7ae4d33b235305d5714b3fdc8318f3b5c9.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.4a378e7ae4d33b235305d5714b3fdc8318f3b5c9.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-08T01:42:00-10:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb542d9a425d7dc201ef693d3abbd5f45e6be1ba.002.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.cb542d9a425d7dc201ef693d3abbd5f45e6be1ba.002.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-08T05:08:00-10:00"
+     }
+    ],
+    "sent": "2026-10-08T17:03:00-10:00",
+    "effective": "2026-10-08T17:03:00-10:00",
+    "onset": "2026-10-08T17:03:00-10:00",
+    "expires": "2026-10-08T17:18:52-10:00",
+    "ends": "2026-10-08T18:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Cancel",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Observed",
+    "urgency": "Past",
+    "event": "Flood Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "The Flood Watch has been cancelled.",
+    "description": "The Flood Watch has been cancelled and is no longer in effect.",
+    "instruction": null,
+    "response": "AllClear",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFAHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW60 PHFO 090303"
+     ],
+     "NWSheadline": [
+      "FLOOD WATCH IS CANCELLED"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.CAN.PHFO.FA.A.0014.000000T0000Z-261009T0400Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T18:00:00-10:00"
+     ],
+     "expiredReferences": [
+      "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1,2026-10-07T01:41:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1,2026-10-07T15:07:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFA"
+     ],
+     "NationalWeatherService": [
+      "FAA"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e7da51700d0ea02c8ec59fe364d0e69016b4fe1.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -157.88,
+       21.27
+      ],
+      [
+       -157.98,
+       21.29
+      ],
+      [
+       -158.1,
+       21.27
+      ],
+      [
+       -158.25,
+       21.47
+      ],
+      [
+       -158.25,
+       21.52
+      ],
+      [
+       -158.3,
+       21.59
+      ],
+      [
+       -158.12,
+       21.61
+      ],
+      [
+       -158.01,
+       21.72
+      ],
+      [
+       -157.82,
+       21.54
+      ],
+      [
+       -157.82,
+       21.47
+      ],
+      [
+       -157.76,
+       21.49
+      ],
+      [
+       -157.71,
+       21.43
+      ],
+      [
+       -157.68,
+       21.35
+      ],
+      [
+       -157.63,
+       21.32
+      ],
+      [
+       -157.63,
+       21.3
+      ],
+      [
+       -157.68,
+       21.24
+      ],
+      [
+       -157.72,
+       21.23
+      ],
+      [
+       -157.75,
+       21.25
+      ],
+      [
+       -157.83,
+       21.23
+      ],
+      [
+       -157.88,
+       21.27
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e7da51700d0ea02c8ec59fe364d0e69016b4fe1.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.3e7da51700d0ea02c8ec59fe364d0e69016b4fe1.001.1",
+    "areaDesc": "Oahu in Honolulu, HI",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIC003"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC003"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c23a951f677b46e37da37b202984e8e20f453a5.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.4c23a951f677b46e37da37b202984e8e20f453a5.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-08T13:10:00-10:00"
+     }
+    ],
+    "sent": "2026-10-08T16:06:00-10:00",
+    "effective": "2026-10-08T16:06:00-10:00",
+    "onset": "2026-10-08T16:06:00-10:00",
+    "expires": "2026-10-08T16:16:00-10:00",
+    "ends": "2026-10-08T16:15:00-10:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Immediate",
+    "event": "Flash Flood Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flash Flood Warning issued October 8 at 4:06PM HST until October 8 at 4:15PM HST by NWS Honolulu HI",
+    "description": "The heavy rain has ended. Flooding is no longer expected to pose a\nthreat. Please continue to heed remaining road closures.\n\nA Flood Watch remains in effect until 600 PM HST for Oahu.",
+    "instruction": null,
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW70 PHFO 090206"
+     ],
+     "NWSheadline": [
+      "FLASH FLOOD WARNING WILL EXPIRE AT 415 PM HST THIS AFTERNOON FOR THE ISLAND OF OAHU IN HONOLULU COUNTY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.EXP.PHFO.FF.W.0055.000000T0000Z-261009T0215Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T16:15:00-10:00"
+     ],
+     "expiredReferences": [
+      "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.92a6a97344b063a5eb661929f4f0d9d23699668a.001.1,2026-10-08T10:21:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFS"
+     ],
+     "NationalWeatherService": [
+      "FFW"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.81dd6a13d4b4801b8f35d0c9eb084a95418fbf48.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -156.07,
+       20.64
+      ],
+      [
+       -156.21,
+       20.62
+      ],
+      [
+       -156.3,
+       20.58
+      ],
+      [
+       -156.41,
+       20.58
+      ],
+      [
+       -156.45,
+       20.64
+      ],
+      [
+       -156.46,
+       20.78
+      ],
+      [
+       -156.62,
+       20.81
+      ],
+      [
+       -156.7,
+       20.93
+      ],
+      [
+       -156.66,
+       21
+      ],
+      [
+       -156.6,
+       21.04
+      ],
+      [
+       -156.48,
+       20.9
+      ],
+      [
+       -156.32,
+       20.95
+      ],
+      [
+       -156.25,
+       20.94
+      ],
+      [
+       -156.11,
+       20.82
+      ],
+      [
+       -156.01,
+       20.79
+      ],
+      [
+       -155.98,
+       20.72
+      ],
+      [
+       -156.07,
+       20.64
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.81dd6a13d4b4801b8f35d0c9eb084a95418fbf48.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.81dd6a13d4b4801b8f35d0c9eb084a95418fbf48.001.1",
+    "areaDesc": "Maui Windward West; Maui Leeward West; Haleakala Summit; Maui Central Valley North; Maui Central Valley South; Windward Haleakala; Kipahulu; South Maui/Upcountry; South Haleakala",
+    "geocode": {
+     "SAME": [
+      "015009",
+      "015001"
+     ],
+     "UGC": [
+      "HIZ017",
+      "HIZ018",
+      "HIZ022",
+      "HIZ045",
+      "HIZ046",
+      "HIZ047",
+      "HIZ048",
+      "HIZ049",
+      "HIZ050"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/HIZ017",
+     "https://api.weather.gov/zones/forecast/HIZ018",
+     "https://api.weather.gov/zones/forecast/HIZ022",
+     "https://api.weather.gov/zones/forecast/HIZ045",
+     "https://api.weather.gov/zones/forecast/HIZ046",
+     "https://api.weather.gov/zones/forecast/HIZ047",
+     "https://api.weather.gov/zones/forecast/HIZ048",
+     "https://api.weather.gov/zones/forecast/HIZ049",
+     "https://api.weather.gov/zones/forecast/HIZ050"
+    ],
+    "references": [],
+    "sent": "2026-10-08T14:12:00-10:00",
+    "effective": "2026-10-08T14:12:00-10:00",
+    "onset": "2026-10-08T14:12:00-10:00",
+    "expires": "2026-10-08T15:15:00-10:00",
+    "ends": null,
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Observed",
+    "urgency": "Expected",
+    "event": "Special Weather Statement",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Special Weather Statement issued October 8 at 2:12PM HST by NWS Honolulu HI",
+    "description": "At 211 PM HST, emergency management reported gusty showers over\nover Kahului, moving north at 10 mph.\n\nHAZARD...Wind gusts up to 40 mph.\n\nSOURCE...Emergency management.\n\nIMPACT...Gusty winds could knock down tree limbs and blow around\nunsecured objects.\n\nLocations impacted include...\nHonokohau, Haliimaile, Kipahulu, Wailuku, Makawao, Paia, Keokea,\nOlowalu, Wailea, Waihee, Kaanapali, Launiupoko, Napili-Honokowai,\nKihei, Kula, Pukalani, Kapalua, Kanaha Beach Park, Hamoa, and\nPuunene.",
+    "instruction": "If outdoors, consider seeking shelter inside a building.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "SPSHFO"
+     ],
+     "WMOidentifier": [
+      "WWHW80 PHFO 090012"
+     ],
+     "NWSheadline": [
+      "GUSTY SHOWERS WILL IMPACT MAUI IN MAUI COUNTY THROUGH 315 PM HST"
+     ],
+     "eventMotionDescription": [
+      "2026-10-09T00:11:00-00:00...storm...188DEG...11KT...20.87,-156.44"
+     ],
+     "maxWindGust": [
+      "40 MPH"
+     ],
+     "maxHailSize": [
+      "0.00"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "SPS"
+     ],
+     "NationalWeatherService": [
+      "SPS"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c23a951f677b46e37da37b202984e8e20f453a5.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -157.88,
+       21.27
+      ],
+      [
+       -157.98,
+       21.29
+      ],
+      [
+       -158.1,
+       21.27
+      ],
+      [
+       -158.25,
+       21.47
+      ],
+      [
+       -158.25,
+       21.52
+      ],
+      [
+       -158.3,
+       21.59
+      ],
+      [
+       -158.12,
+       21.61
+      ],
+      [
+       -158.01,
+       21.72
+      ],
+      [
+       -157.82,
+       21.54
+      ],
+      [
+       -157.82,
+       21.47
+      ],
+      [
+       -157.76,
+       21.49
+      ],
+      [
+       -157.71,
+       21.43
+      ],
+      [
+       -157.68,
+       21.35
+      ],
+      [
+       -157.63,
+       21.32
+      ],
+      [
+       -157.63,
+       21.3
+      ],
+      [
+       -157.68,
+       21.24
+      ],
+      [
+       -157.72,
+       21.23
+      ],
+      [
+       -157.75,
+       21.25
+      ],
+      [
+       -157.83,
+       21.23
+      ],
+      [
+       -157.88,
+       21.27
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4c23a951f677b46e37da37b202984e8e20f453a5.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.4c23a951f677b46e37da37b202984e8e20f453a5.001.1",
+    "areaDesc": "Oahu in Honolulu, HI",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIC003"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC003"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a6a97344b063a5eb661929f4f0d9d23699668a.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.92a6a97344b063a5eb661929f4f0d9d23699668a.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-08T10:21:00-10:00"
+     }
+    ],
+    "sent": "2026-10-08T13:10:00-10:00",
+    "effective": "2026-10-08T13:10:00-10:00",
+    "onset": "2026-10-08T13:10:00-10:00",
+    "expires": "2026-10-08T16:15:00-10:00",
+    "ends": "2026-10-08T16:15:00-10:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Immediate",
+    "event": "Flash Flood Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flash Flood Warning issued October 8 at 1:10PM HST until October 8 at 4:15PM HST by NWS Honolulu HI",
+    "description": "FFWHFO\n\nThe National Weather Service in Honolulu has extended the\n\n* Flash Flood Warning for...\nThe island of Oahu in Honolulu County\n\n* Until 415 PM HST.\n\n* At 110 PM HST, Moderate to locally heavy rain continues to develop\nand move over the island with the majority occurring over the\nwestern half of the island. Rain rates range from 0.5 to 2 inches\nper hour. Flash flooding is ongoing or expected to begin shortly.\nAdditional showers with embedded heavier rain could develop to the\nsouth and move over the island for the next few hours, especially\nthe western half.\n\nHAZARD...Flash flooding caused by heavy rain.\n\nSOURCE...Radar indicated.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nthe entire island of Oahu.",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nPlease report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFWHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW50 PHFO 082310"
+     ],
+     "flashFloodDetection": [
+      "RADAR INDICATED"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.EXT.PHFO.FF.W.0055.000000T0000Z-261009T0215Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T16:15:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFW"
+     ],
+     "NationalWeatherService": [
+      "FFW"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e7da51700d0ea02c8ec59fe364d0e69016b4fe1.001.1",
+    "replacedAt": "2026-10-08T16:06:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e14b598793e3f53027a62a438bc71989a7848e27.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -157.88,
+       21.27
+      ],
+      [
+       -157.98,
+       21.29
+      ],
+      [
+       -158.1,
+       21.27
+      ],
+      [
+       -158.25,
+       21.47
+      ],
+      [
+       -158.25,
+       21.52
+      ],
+      [
+       -158.3,
+       21.58
+      ],
+      [
+       -158.3,
+       21.59
+      ],
+      [
+       -158.12,
+       21.61
+      ],
+      [
+       -158.01,
+       21.72
+      ],
+      [
+       -157.82,
+       21.54
+      ],
+      [
+       -157.82,
+       21.47
+      ],
+      [
+       -157.76,
+       21.49
+      ],
+      [
+       -157.71,
+       21.43
+      ],
+      [
+       -157.71,
+       21.41
+      ],
+      [
+       -157.63,
+       21.32
+      ],
+      [
+       -157.63,
+       21.3
+      ],
+      [
+       -157.68,
+       21.24
+      ],
+      [
+       -157.72,
+       21.23
+      ],
+      [
+       -157.75,
+       21.25
+      ],
+      [
+       -157.83,
+       21.23
+      ],
+      [
+       -157.88,
+       21.27
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e14b598793e3f53027a62a438bc71989a7848e27.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.e14b598793e3f53027a62a438bc71989a7848e27.001.1",
+    "areaDesc": "Oahu in Honolulu, HI",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIC003"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC003"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29c65e14219f3764f36eed8bc4f9b9bb4184c20b.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.29c65e14219f3764f36eed8bc4f9b9bb4184c20b.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-08T07:56:00-10:00"
+     }
+    ],
+    "sent": "2026-10-08T10:21:00-10:00",
+    "effective": "2026-10-08T10:21:00-10:00",
+    "onset": "2026-10-08T10:21:00-10:00",
+    "expires": "2026-10-08T10:37:08-10:00",
+    "ends": "2026-10-08T11:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Cancel",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Observed",
+    "urgency": "Past",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "The Flood Advisory has been cancelled.",
+    "description": "The Flood Advisory has been cancelled and is no longer in effect.",
+    "instruction": null,
+    "response": "AllClear",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 082021"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY HAS BEEN REPLACED WITH A FLASH FLOOD WARNING"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.CAN.PHFO.FA.Y.0163.000000T0000Z-261008T2100Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T11:00:00-10:00"
+     ],
+     "expiredReferences": [
+      "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9c8ae0cb1e5d236a64f6107cea16ee9a6f81bf91.001.1,2026-10-08T04:57:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a6a97344b063a5eb661929f4f0d9d23699668a.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -157.88,
+       21.27
+      ],
+      [
+       -157.98,
+       21.29
+      ],
+      [
+       -158.1,
+       21.27
+      ],
+      [
+       -158.25,
+       21.47
+      ],
+      [
+       -158.25,
+       21.52
+      ],
+      [
+       -158.3,
+       21.59
+      ],
+      [
+       -158.12,
+       21.61
+      ],
+      [
+       -158.01,
+       21.72
+      ],
+      [
+       -157.82,
+       21.54
+      ],
+      [
+       -157.82,
+       21.47
+      ],
+      [
+       -157.76,
+       21.49
+      ],
+      [
+       -157.71,
+       21.43
+      ],
+      [
+       -157.71,
+       21.41
+      ],
+      [
+       -157.68,
+       21.35
+      ],
+      [
+       -157.63,
+       21.32
+      ],
+      [
+       -157.63,
+       21.3
+      ],
+      [
+       -157.68,
+       21.24
+      ],
+      [
+       -157.7,
+       21.23
+      ],
+      [
+       -157.75,
+       21.25
+      ],
+      [
+       -157.83,
+       21.23
+      ],
+      [
+       -157.88,
+       21.27
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.92a6a97344b063a5eb661929f4f0d9d23699668a.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.92a6a97344b063a5eb661929f4f0d9d23699668a.001.1",
+    "areaDesc": "Oahu in Honolulu, HI",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIC003"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC003"
+    ],
+    "references": [],
+    "sent": "2026-10-08T10:21:00-10:00",
+    "effective": "2026-10-08T10:21:00-10:00",
+    "onset": "2026-10-08T10:21:00-10:00",
+    "expires": "2026-10-08T13:15:00-10:00",
+    "ends": "2026-10-08T13:15:00-10:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Immediate",
+    "event": "Flash Flood Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flash Flood Warning issued October 8 at 10:21AM HST until October 8 at 1:15PM HST by NWS Honolulu HI",
+    "description": "FFWHFO\n\nThe National Weather Service in Honolulu has issued a\n\n* Flash Flood Warning for...\nThe island of Oahu in Honolulu County\n\n* Until 115 PM HST.\n\n* At 1021 AM HST, emergency management reported water flowing over\nportions of Kamehameha Highway on the North Shore between Turtle\nBay and Sharks's Cove, making passage through the area dangerous.\nModerate to locally heavy rain continues to develop and move over\nthe island with the majority occurring over the western half of the\nisland. Rain rates range from 0.5 to 2 inches per hour. Flash\nflooding is ongoing or expected to begin shortly. Additional\nshowers with embedded heavier rain are expected to move over the\nisland for the next few hours, especially the western half.\n\nHAZARD...Flash flooding caused by heavy rain.\n\nSOURCE...Emergency management reported.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\n* Some locations that will experience flash flooding include...\nthe entire island of Oahu.",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nPlease report observed flooding to local emergency services or law\nenforcement and request they pass this information to the National\nWeather Service when you can do so safely.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFWHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW50 PHFO 082021"
+     ],
+     "flashFloodDetection": [
+      "OBSERVED"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.NEW.PHFO.FF.W.0055.261008T2021Z-261008T2315Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T13:15:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFW"
+     ],
+     "NationalWeatherService": [
+      "FFW"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3e7da51700d0ea02c8ec59fe364d0e69016b4fe1.001.1",
+    "replacedAt": "2026-10-08T16:06:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29c65e14219f3764f36eed8bc4f9b9bb4184c20b.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -157.88,
+       21.27
+      ],
+      [
+       -157.98,
+       21.29
+      ],
+      [
+       -158.1,
+       21.27
+      ],
+      [
+       -158.25,
+       21.47
+      ],
+      [
+       -158.25,
+       21.52
+      ],
+      [
+       -158.3,
+       21.58
+      ],
+      [
+       -158.3,
+       21.59
+      ],
+      [
+       -158.12,
+       21.61
+      ],
+      [
+       -158.01,
+       21.72
+      ],
+      [
+       -157.82,
+       21.54
+      ],
+      [
+       -157.82,
+       21.47
+      ],
+      [
+       -157.76,
+       21.49
+      ],
+      [
+       -157.71,
+       21.43
+      ],
+      [
+       -157.71,
+       21.41
+      ],
+      [
+       -157.63,
+       21.32
+      ],
+      [
+       -157.63,
+       21.3
+      ],
+      [
+       -157.68,
+       21.24
+      ],
+      [
+       -157.72,
+       21.23
+      ],
+      [
+       -157.75,
+       21.25
+      ],
+      [
+       -157.83,
+       21.23
+      ],
+      [
+       -157.88,
+       21.27
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.29c65e14219f3764f36eed8bc4f9b9bb4184c20b.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.29c65e14219f3764f36eed8bc4f9b9bb4184c20b.001.1",
+    "areaDesc": "Oahu in Honolulu, HI",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIC003"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC003"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c8ae0cb1e5d236a64f6107cea16ee9a6f81bf91.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.9c8ae0cb1e5d236a64f6107cea16ee9a6f81bf91.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-08T04:57:00-10:00"
+     }
+    ],
+    "sent": "2026-10-08T07:56:00-10:00",
+    "effective": "2026-10-08T07:56:00-10:00",
+    "onset": "2026-10-08T07:56:00-10:00",
+    "expires": "2026-10-08T11:00:00-10:00",
+    "ends": "2026-10-08T11:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Advisory issued October 8 at 7:56AM HST until October 8 at 11:00AM HST by NWS Honolulu HI",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...The island of Oahu in Honolulu County...\n\n* WHEN...Until 1100 AM HST.\n\n* IMPACTS...Minor flooding on roads, poor drainage areas, and in\nstreams. Ponding of water in urban or other areas is occurring or\nis imminent.\n\n* ADDITIONAL DETAILS...\n- At 751 AM HST, Doppler radar indicated a band of mainly moderate\nrain continuing to move over Oahu from the south with rainfall\nrates around 0.5 to 1.5 inches per hour. The heaviest rainfall is\noccurring over the western half of the island, between Mililani\nand the North Shore, where embedded pockets of higher rainfall\nrates of 2 to 4 inches per hour continue to develop. Minor\nflooding is ongoing or expected to begin shortly.\n- Some locations that will experience flooding include...\nthe entire island of Oahu.",
+    "instruction": "Stay away from streams, drainage ditches and low lying areas prone to\nflooding.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 081756"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY NOW IN EFFECT UNTIL 11 AM HST THIS MORNING"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.EXT.PHFO.FA.Y.0163.000000T0000Z-261008T2100Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T11:00:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e14b598793e3f53027a62a438bc71989a7848e27.001.1",
+    "replacedAt": "2026-10-08T10:21:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb542d9a425d7dc201ef693d3abbd5f45e6be1ba.002.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb542d9a425d7dc201ef693d3abbd5f45e6be1ba.002.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.cb542d9a425d7dc201ef693d3abbd5f45e6be1ba.002.1",
+    "areaDesc": "Waianae Coast; Oahu North Shore; Olomana; Central Oahu; Waianae Mountains; East Honolulu; Honolulu Metro; Ewa Plain; Koolau Windward; Koolau Leeward",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIZ006",
+      "HIZ007",
+      "HIZ009",
+      "HIZ010",
+      "HIZ011",
+      "HIZ032",
+      "HIZ033",
+      "HIZ034",
+      "HIZ035",
+      "HIZ036"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/HIZ006",
+     "https://api.weather.gov/zones/forecast/HIZ007",
+     "https://api.weather.gov/zones/forecast/HIZ009",
+     "https://api.weather.gov/zones/forecast/HIZ010",
+     "https://api.weather.gov/zones/forecast/HIZ011",
+     "https://api.weather.gov/zones/forecast/HIZ032",
+     "https://api.weather.gov/zones/forecast/HIZ033",
+     "https://api.weather.gov/zones/forecast/HIZ034",
+     "https://api.weather.gov/zones/forecast/HIZ035",
+     "https://api.weather.gov/zones/forecast/HIZ036"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T01:41:00-10:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T15:07:00-10:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a378e7ae4d33b235305d5714b3fdc8318f3b5c9.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.4a378e7ae4d33b235305d5714b3fdc8318f3b5c9.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-08T01:42:00-10:00"
+     }
+    ],
+    "sent": "2026-10-08T05:08:00-10:00",
+    "effective": "2026-10-08T05:08:00-10:00",
+    "onset": "2026-10-08T05:08:00-10:00",
+    "expires": "2026-10-08T18:00:00-10:00",
+    "ends": "2026-10-08T18:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Flood Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Watch issued October 8 at 5:08AM HST until October 8 at 6:00PM HST by NWS Honolulu HI",
+    "description": "A deepening area of low pressure north of the Hawaiian Islands has\ndrawn deep tropical moisture over the area resulting in a threat for\nflooding for Oahu today.\n\n* WHAT...Flash flooding caused by excessive rainfall is possible.\n\n* WHERE...Oahu.\n\n* WHEN...Through this afternoon.\n\n* IMPACTS...Flood prone roads and other low lying areas may be closed\ndue to elevated runoff and overflowing streams. Urban areas may\nreceive more significant flooding and property damage due to rapid\nrunoff.\n\n* ADDITIONAL DETAILS...\n- Heavy showers and isolated thunderstorms will continue into this\nafternoon as deep tropical moisture is drawn northward over the\narea. Training of heavy showers containing intense rain rates is\npossible.",
+    "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFAHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW60 PHFO 081508"
+     ],
+     "NWSheadline": [
+      "FLOOD WATCH REMAINS IN EFFECT THROUGH THIS AFTERNOON"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.CON.PHFO.FA.A.0014.000000T0000Z-261009T0400Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T18:00:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFA"
+     ],
+     "NationalWeatherService": [
+      "FAA"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.571f8eb00d888037debcc0647e2d08bde1284757.001.1",
+    "replacedAt": "2026-10-08T17:03:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb542d9a425d7dc201ef693d3abbd5f45e6be1ba.001.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.cb542d9a425d7dc201ef693d3abbd5f45e6be1ba.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.cb542d9a425d7dc201ef693d3abbd5f45e6be1ba.001.1",
+    "areaDesc": "Niihau; Kauai Southwest; Kauai Mountains; Kauai North; Kauai East; Kauai South",
+    "geocode": {
+     "SAME": [
+      "015007"
+     ],
+     "UGC": [
+      "HIZ001",
+      "HIZ003",
+      "HIZ004",
+      "HIZ029",
+      "HIZ030",
+      "HIZ031"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/HIZ001",
+     "https://api.weather.gov/zones/forecast/HIZ003",
+     "https://api.weather.gov/zones/forecast/HIZ004",
+     "https://api.weather.gov/zones/forecast/HIZ029",
+     "https://api.weather.gov/zones/forecast/HIZ030",
+     "https://api.weather.gov/zones/forecast/HIZ031"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T01:41:00-10:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T15:07:00-10:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a378e7ae4d33b235305d5714b3fdc8318f3b5c9.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.4a378e7ae4d33b235305d5714b3fdc8318f3b5c9.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-08T01:42:00-10:00"
+     }
+    ],
+    "sent": "2026-10-08T05:08:00-10:00",
+    "effective": "2026-10-08T05:08:00-10:00",
+    "onset": "2026-10-08T05:08:00-10:00",
+    "expires": "2026-10-08T05:23:09-10:00",
+    "ends": "2026-10-08T18:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Cancel",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Observed",
+    "urgency": "Past",
+    "event": "Flood Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "The Flood Watch has been cancelled.",
+    "description": "The Flood Watch has been cancelled and is no longer in effect.",
+    "instruction": null,
+    "response": "AllClear",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFAHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW60 PHFO 081508"
+     ],
+     "NWSheadline": [
+      "FLOOD WATCH IS CANCELLED"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.CAN.PHFO.FA.A.0014.000000T0000Z-261009T0400Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T18:00:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFA"
+     ],
+     "NationalWeatherService": [
+      "FAA"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c8ae0cb1e5d236a64f6107cea16ee9a6f81bf91.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -157.88,
+       21.27
+      ],
+      [
+       -157.98,
+       21.29
+      ],
+      [
+       -158.1,
+       21.27
+      ],
+      [
+       -158.25,
+       21.47
+      ],
+      [
+       -158.25,
+       21.52
+      ],
+      [
+       -158.3,
+       21.58
+      ],
+      [
+       -158.3,
+       21.59
+      ],
+      [
+       -158.12,
+       21.61
+      ],
+      [
+       -158.01,
+       21.72
+      ],
+      [
+       -157.82,
+       21.54
+      ],
+      [
+       -157.82,
+       21.47
+      ],
+      [
+       -157.76,
+       21.49
+      ],
+      [
+       -157.71,
+       21.43
+      ],
+      [
+       -157.71,
+       21.41
+      ],
+      [
+       -157.63,
+       21.32
+      ],
+      [
+       -157.63,
+       21.3
+      ],
+      [
+       -157.68,
+       21.24
+      ],
+      [
+       -157.72,
+       21.23
+      ],
+      [
+       -157.75,
+       21.25
+      ],
+      [
+       -157.83,
+       21.23
+      ],
+      [
+       -157.88,
+       21.27
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9c8ae0cb1e5d236a64f6107cea16ee9a6f81bf91.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.9c8ae0cb1e5d236a64f6107cea16ee9a6f81bf91.001.1",
+    "areaDesc": "Oahu in Honolulu, HI",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIC003"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC003"
+    ],
+    "references": [],
+    "sent": "2026-10-08T04:57:00-10:00",
+    "effective": "2026-10-08T04:57:00-10:00",
+    "onset": "2026-10-08T04:57:00-10:00",
+    "expires": "2026-10-08T08:00:00-10:00",
+    "ends": "2026-10-08T08:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Advisory issued October 8 at 4:57AM HST until October 8 at 8:00AM HST by NWS Honolulu HI",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...The island of Oahu in Honolulu County...\n\n* WHEN...Until 800 AM HST.\n\n* IMPACTS...Minor flooding on roads, poor drainage areas, and in\nstreams.\n\n* ADDITIONAL DETAILS...\n- At 453 AM HST, Doppler radar indicated heavy rain over Oahu.\nMinor flooding is ongoing or expected to begin shortly. Rain was\nfalling at a rate of 0.5 to 1.5 inches per hour. In addition, a\nslow-moving band of intense rainfall containing rates of 2 to 4\ninches per hour is positioned immediately offshore to the west of\nOahu and is advancing eastward. The coverage and intensity of\nheavy rainfall is therefore expected to increase during the next\ncouple of hours, especially over western and northern portions of\nthe island.\n- Some locations that will experience flooding include...\nOahu.",
+    "instruction": "Stay away from streams, drainage ditches and low lying areas prone to\nflooding.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 081457"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY IN EFFECT UNTIL 8 AM HST THIS MORNING"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.NEW.PHFO.FA.Y.0163.261008T1457Z-261008T1800Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T08:00:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.e14b598793e3f53027a62a438bc71989a7848e27.001.1",
+    "replacedAt": "2026-10-08T10:21:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a378e7ae4d33b235305d5714b3fdc8318f3b5c9.001.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4a378e7ae4d33b235305d5714b3fdc8318f3b5c9.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.4a378e7ae4d33b235305d5714b3fdc8318f3b5c9.001.1",
+    "areaDesc": "Niihau; Kauai Southwest; Kauai Mountains; Waianae Coast; Oahu North Shore; Olomana; Central Oahu; Waianae Mountains; Kauai North; Kauai East; Kauai South; East Honolulu; Honolulu Metro; Ewa Plain; Koolau Windward; Koolau Leeward",
+    "geocode": {
+     "SAME": [
+      "015007",
+      "015003"
+     ],
+     "UGC": [
+      "HIZ001",
+      "HIZ003",
+      "HIZ004",
+      "HIZ006",
+      "HIZ007",
+      "HIZ009",
+      "HIZ010",
+      "HIZ011",
+      "HIZ029",
+      "HIZ030",
+      "HIZ031",
+      "HIZ032",
+      "HIZ033",
+      "HIZ034",
+      "HIZ035",
+      "HIZ036"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/HIZ001",
+     "https://api.weather.gov/zones/forecast/HIZ003",
+     "https://api.weather.gov/zones/forecast/HIZ004",
+     "https://api.weather.gov/zones/forecast/HIZ006",
+     "https://api.weather.gov/zones/forecast/HIZ007",
+     "https://api.weather.gov/zones/forecast/HIZ009",
+     "https://api.weather.gov/zones/forecast/HIZ010",
+     "https://api.weather.gov/zones/forecast/HIZ011",
+     "https://api.weather.gov/zones/forecast/HIZ029",
+     "https://api.weather.gov/zones/forecast/HIZ030",
+     "https://api.weather.gov/zones/forecast/HIZ031",
+     "https://api.weather.gov/zones/forecast/HIZ032",
+     "https://api.weather.gov/zones/forecast/HIZ033",
+     "https://api.weather.gov/zones/forecast/HIZ034",
+     "https://api.weather.gov/zones/forecast/HIZ035",
+     "https://api.weather.gov/zones/forecast/HIZ036"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T01:41:00-10:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T15:07:00-10:00"
+     }
+    ],
+    "sent": "2026-10-08T01:42:00-10:00",
+    "effective": "2026-10-08T01:42:00-10:00",
+    "onset": "2026-10-08T01:42:00-10:00",
+    "expires": "2026-10-08T18:00:00-10:00",
+    "ends": "2026-10-08T18:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Flood Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Watch issued October 8 at 1:42AM HST until October 8 at 6:00PM HST by NWS Honolulu HI",
+    "description": "A deepening area of low pressure north of the Hawaiian Islands will\ndraw deep tropical moisture northward, resulting in a threat for\nheavy rain over Kauai and Oahu today.\n\n* WHAT...Flash flooding caused by excessive rainfall is possible.\n\n* WHERE...Oahu, Kauai, and Niihau.\n\n* WHEN...Through this afternoon.\n\n* IMPACTS...Flood prone roads and other low lying areas may be closed\ndue to elevated runoff and overflowing streams. Urban areas may\nreceive more significant flooding and property damage due to rapid\nrunoff.\n\n* ADDITIONAL DETAILS...\n- Heavy showers and isolated thunderstorms will continue through\ntoday as deep tropical moisture is drawn northward over the\nstate. Training of heavy showers containing intense rain rates\nwill be possible.",
+    "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFAHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW60 PHFO 081142"
+     ],
+     "NWSheadline": [
+      "FLOOD WATCH REMAINS IN EFFECT THROUGH THIS AFTERNOON"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.CON.PHFO.FA.A.0014.000000T0000Z-261009T0400Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T18:00:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFA"
+     ],
+     "NationalWeatherService": [
+      "FAA"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.571f8eb00d888037debcc0647e2d08bde1284757.001.1",
+    "replacedAt": "2026-10-08T17:03:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc4182b282ceb2caf458cbcf553b5a774a44c051.001.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc4182b282ceb2caf458cbcf553b5a774a44c051.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.bc4182b282ceb2caf458cbcf553b5a774a44c051.001.1",
+    "areaDesc": "Big Island Summit",
+    "geocode": {
+     "SAME": [
+      "015001"
+     ],
+     "UGC": [
+      "HIZ028"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/HIZ028"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.22497dd32927f2252739a2fa45a33b1e64972bc8.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.22497dd32927f2252739a2fa45a33b1e64972bc8.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T15:05:00-10:00"
+     }
+    ],
+    "sent": "2026-10-08T01:40:00-10:00",
+    "effective": "2026-10-08T01:40:00-10:00",
+    "onset": "2026-10-08T01:40:00-10:00",
+    "expires": "2026-10-08T01:55:43-10:00",
+    "ends": "2026-10-08T16:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Cancel",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Observed",
+    "urgency": "Past",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "The Wind Advisory has been cancelled.",
+    "description": "The Wind Advisory has been cancelled and is no longer in effect.",
+    "instruction": null,
+    "response": "AllClear",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "NPWHFO"
+     ],
+     "WMOidentifier": [
+      "WWHW70 PHFO 081140"
+     ],
+     "NWSheadline": [
+      "WIND ADVISORY IS CANCELLED"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.CAN.PHFO.WI.Y.0020.000000T0000Z-261009T0200Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T16:00:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "WIY"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f0e15051ba3c79df3c44563427a19d4e1b3a71f.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.81,
+       22.07
+      ],
+      [
+       -159.74,
+       22.17
+      ],
+      [
+       -159.58,
+       22.25
+      ],
+      [
+       -159.53,
+       22.24
+      ],
+      [
+       -159.5,
+       22.26
+      ],
+      [
+       -159.45,
+       22.25
+      ],
+      [
+       -159.42,
+       22.26
+      ],
+      [
+       -159.4,
+       22.26
+      ],
+      [
+       -159.32,
+       22.22
+      ],
+      [
+       -159.3,
+       22.17
+      ],
+      [
+       -159.27,
+       22.15
+      ],
+      [
+       -159.32,
+       22.04
+      ],
+      [
+       -159.31,
+       21.95
+      ],
+      [
+       -159.38,
+       21.88
+      ],
+      [
+       -159.45,
+       21.84
+      ],
+      [
+       -159.61,
+       21.87
+      ],
+      [
+       -159.67,
+       21.93
+      ],
+      [
+       -159.77,
+       21.96
+      ],
+      [
+       -159.79,
+       21.98
+      ],
+      [
+       -159.81,
+       22.06
+      ],
+      [
+       -159.81,
+       22.07
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f0e15051ba3c79df3c44563427a19d4e1b3a71f.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.3f0e15051ba3c79df3c44563427a19d4e1b3a71f.001.1",
+    "areaDesc": "Kauai, HI",
+    "geocode": {
+     "SAME": [
+      "015007"
+     ],
+     "UGC": [
+      "HIC007"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC007"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d64cabbe91979d8175ec5fc2bbf8d03b51fb43c.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.9d64cabbe91979d8175ec5fc2bbf8d03b51fb43c.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T21:19:00-10:00"
+     }
+    ],
+    "sent": "2026-10-07T23:57:00-10:00",
+    "effective": "2026-10-07T23:57:00-10:00",
+    "onset": "2026-10-07T23:57:00-10:00",
+    "expires": "2026-10-08T00:12:38-10:00",
+    "ends": "2026-10-08T00:45:00-10:00",
+    "status": "Actual",
+    "messageType": "Cancel",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Observed",
+    "urgency": "Past",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "The Flood Advisory has been cancelled.",
+    "description": "The Flood Advisory has been cancelled and is no longer in effect.",
+    "instruction": null,
+    "response": "AllClear",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 080957"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY IS CANCELLED"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.CAN.PHFO.FA.Y.0161.000000T0000Z-261008T1045Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T00:45:00-10:00"
+     ],
+     "expiredReferences": [
+      "w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9ec9dc1992809a107a6816b79ce56b037c28b36b.001.1,2026-10-07T19:38:00-10:00 w-nws.webmaster@noaa.gov,urn:oid:2.49.0.1.840.0.9fa28868fc3edb450c98f0830d76f60c02c3972d.001.1,2026-10-07T18:41:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.838647bc88f22c15aa49274ad5a3e75ae15355c8.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -157.99,
+       21.3
+      ],
+      [
+       -157.82,
+       21.47
+      ],
+      [
+       -157.81,
+       21.47
+      ],
+      [
+       -157.8,
+       21.48
+      ],
+      [
+       -157.78,
+       21.49
+      ],
+      [
+       -157.74,
+       21.49
+      ],
+      [
+       -157.7,
+       21.45
+      ],
+      [
+       -157.71,
+       21.41
+      ],
+      [
+       -157.68,
+       21.35
+      ],
+      [
+       -157.64,
+       21.33
+      ],
+      [
+       -157.62,
+       21.31
+      ],
+      [
+       -157.63,
+       21.29
+      ],
+      [
+       -157.68,
+       21.24
+      ],
+      [
+       -157.73,
+       21.23
+      ],
+      [
+       -157.75,
+       21.25
+      ],
+      [
+       -157.82,
+       21.23
+      ],
+      [
+       -157.84,
+       21.23
+      ],
+      [
+       -157.88,
+       21.27
+      ],
+      [
+       -157.9,
+       21.28
+      ],
+      [
+       -157.95,
+       21.27
+      ],
+      [
+       -157.99,
+       21.3
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.838647bc88f22c15aa49274ad5a3e75ae15355c8.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.838647bc88f22c15aa49274ad5a3e75ae15355c8.001.1",
+    "areaDesc": "Oahu in Honolulu, HI",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIC003"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC003"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4838022b7004839fa9cd798e645be3674fda7da2.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.4838022b7004839fa9cd798e645be3674fda7da2.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T20:58:00-10:00"
+     }
+    ],
+    "sent": "2026-10-07T22:38:00-10:00",
+    "effective": "2026-10-07T22:38:00-10:00",
+    "onset": "2026-10-07T22:38:00-10:00",
+    "expires": "2026-10-07T22:54:03-10:00",
+    "ends": "2026-10-07T23:45:00-10:00",
+    "status": "Actual",
+    "messageType": "Cancel",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Observed",
+    "urgency": "Past",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "The Flood Advisory has been cancelled.",
+    "description": "The Flood Advisory has been cancelled and is no longer in effect.",
+    "instruction": null,
+    "response": "AllClear",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 080838"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY IS CANCELLED"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.CAN.PHFO.FA.Y.0162.000000T0000Z-261008T0945Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-07T23:45:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d64cabbe91979d8175ec5fc2bbf8d03b51fb43c.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.81,
+       22.07
+      ],
+      [
+       -159.74,
+       22.17
+      ],
+      [
+       -159.58,
+       22.25
+      ],
+      [
+       -159.53,
+       22.24
+      ],
+      [
+       -159.5,
+       22.26
+      ],
+      [
+       -159.45,
+       22.25
+      ],
+      [
+       -159.42,
+       22.26
+      ],
+      [
+       -159.4,
+       22.26
+      ],
+      [
+       -159.32,
+       22.22
+      ],
+      [
+       -159.3,
+       22.17
+      ],
+      [
+       -159.27,
+       22.15
+      ],
+      [
+       -159.32,
+       22.04
+      ],
+      [
+       -159.31,
+       21.95
+      ],
+      [
+       -159.38,
+       21.88
+      ],
+      [
+       -159.45,
+       21.84
+      ],
+      [
+       -159.61,
+       21.87
+      ],
+      [
+       -159.67,
+       21.93
+      ],
+      [
+       -159.77,
+       21.96
+      ],
+      [
+       -159.79,
+       21.98
+      ],
+      [
+       -159.81,
+       22.06
+      ],
+      [
+       -159.81,
+       22.07
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9d64cabbe91979d8175ec5fc2bbf8d03b51fb43c.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.9d64cabbe91979d8175ec5fc2bbf8d03b51fb43c.001.1",
+    "areaDesc": "Kauai, HI",
+    "geocode": {
+     "SAME": [
+      "015007"
+     ],
+     "UGC": [
+      "HIC007"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC007"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9fa28868fc3edb450c98f0830d76f60c02c3972d.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.9fa28868fc3edb450c98f0830d76f60c02c3972d.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T18:41:00-10:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ec9dc1992809a107a6816b79ce56b037c28b36b.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.9ec9dc1992809a107a6816b79ce56b037c28b36b.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T19:38:00-10:00"
+     }
+    ],
+    "sent": "2026-10-07T21:19:00-10:00",
+    "effective": "2026-10-07T21:19:00-10:00",
+    "onset": "2026-10-07T21:19:00-10:00",
+    "expires": "2026-10-08T00:45:00-10:00",
+    "ends": "2026-10-08T00:45:00-10:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Advisory issued October 7 at 9:19PM HST until October 8 at 12:45AM HST by NWS Honolulu HI",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...The island of Kauai in Kauai County...\n\n* WHEN...Until 1245 AM HST.\n\n* IMPACTS...Minor flooding on roads, poor drainage areas, and in\nstreams.\n\n* ADDITIONAL DETAILS...\n- At 915 PM HST, Doppler radar indicated bands of moderate to\nlocally heavy rain over Kauai. The heaviest rainfall has been\noccurring over south and west Kauai with rates of 0.5 to 1 inch\nper hour. Minor flooding is ongoing in the advisory area.\nAdditional bands of heavy rain will be possible over the next\nseveral hours.\n- Some locations that will experience flooding include...\nLihue, Kapaa, Kalaheo, Kekaha, Lawai, Omao, Kokee State Park and\nPoipu.",
+    "instruction": "Stay away from streams, drainage ditches and low lying areas prone to\nflooding.\n\nA Flood Watch is also in effect for Kauai through Thursday afternoon.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 080719"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY NOW IN EFFECT UNTIL 1245 AM HST THURSDAY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.EXT.PHFO.FA.Y.0161.000000T0000Z-261008T1045Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T00:45:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f0e15051ba3c79df3c44563427a19d4e1b3a71f.001.1",
+    "replacedAt": "2026-10-07T23:57:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4838022b7004839fa9cd798e645be3674fda7da2.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -157.99,
+       21.3
+      ],
+      [
+       -157.82,
+       21.47
+      ],
+      [
+       -157.81,
+       21.47
+      ],
+      [
+       -157.8,
+       21.48
+      ],
+      [
+       -157.78,
+       21.49
+      ],
+      [
+       -157.74,
+       21.49
+      ],
+      [
+       -157.7,
+       21.45
+      ],
+      [
+       -157.71,
+       21.41
+      ],
+      [
+       -157.68,
+       21.35
+      ],
+      [
+       -157.64,
+       21.33
+      ],
+      [
+       -157.62,
+       21.31
+      ],
+      [
+       -157.63,
+       21.29
+      ],
+      [
+       -157.68,
+       21.24
+      ],
+      [
+       -157.73,
+       21.23
+      ],
+      [
+       -157.75,
+       21.25
+      ],
+      [
+       -157.82,
+       21.23
+      ],
+      [
+       -157.84,
+       21.23
+      ],
+      [
+       -157.88,
+       21.27
+      ],
+      [
+       -157.9,
+       21.28
+      ],
+      [
+       -157.95,
+       21.27
+      ],
+      [
+       -157.99,
+       21.3
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.4838022b7004839fa9cd798e645be3674fda7da2.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.4838022b7004839fa9cd798e645be3674fda7da2.001.1",
+    "areaDesc": "Oahu in Honolulu, HI",
+    "geocode": {
+     "SAME": [
+      "015003"
+     ],
+     "UGC": [
+      "HIC003"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC003"
+    ],
+    "references": [],
+    "sent": "2026-10-07T20:58:00-10:00",
+    "effective": "2026-10-07T20:58:00-10:00",
+    "onset": "2026-10-07T20:58:00-10:00",
+    "expires": "2026-10-07T23:45:00-10:00",
+    "ends": "2026-10-07T23:45:00-10:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Advisory issued October 7 at 8:58PM HST until October 7 at 11:45PM HST by NWS Honolulu HI",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...The island of Oahu in Honolulu County...\n\n* WHEN...Until 1145 PM HST.\n\n* IMPACTS...Minor flooding on roads, poor drainage areas, and in\nstreams.\n\n* ADDITIONAL DETAILS...\n- At 851 PM HST, Doppler radar indicated moderate to locally heavy\nrain over the eastern half of Oahu. Rain was falling at a rate of\nup to 1.5 inches per hour with the heaviest rain around Manoa and\nOlomana. Minor flooding is ongoing or expected to begin shortly\nin the advisory area.\n- Some locations that will experience flooding include...\nHonolulu, Manoa, Maunawili, Palolo, Waimanalo, Kaneohe, Kailua,\nKalihi, Hawaii Kai, Moanalua, Ahuimanu and Kaneohe Marine Base.",
+    "instruction": "Stay away from streams, drainage ditches and low lying areas prone to\nflooding.\n\nA Flood Watch is also in effect for Oahu through Thursday afternoon.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 080658"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY IN EFFECT UNTIL 1145 PM HST THIS EVENING"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.NEW.PHFO.FA.Y.0162.261008T0658Z-261008T0945Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-07T23:45:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.838647bc88f22c15aa49274ad5a3e75ae15355c8.001.1",
+    "replacedAt": "2026-10-07T22:38:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ec9dc1992809a107a6816b79ce56b037c28b36b.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.81,
+       22.07
+      ],
+      [
+       -159.74,
+       22.17
+      ],
+      [
+       -159.58,
+       22.25
+      ],
+      [
+       -159.53,
+       22.24
+      ],
+      [
+       -159.5,
+       22.26
+      ],
+      [
+       -159.45,
+       22.25
+      ],
+      [
+       -159.42,
+       22.26
+      ],
+      [
+       -159.4,
+       22.26
+      ],
+      [
+       -159.32,
+       22.22
+      ],
+      [
+       -159.3,
+       22.17
+      ],
+      [
+       -159.27,
+       22.15
+      ],
+      [
+       -159.32,
+       22.04
+      ],
+      [
+       -159.31,
+       21.95
+      ],
+      [
+       -159.38,
+       21.88
+      ],
+      [
+       -159.45,
+       21.84
+      ],
+      [
+       -159.61,
+       21.87
+      ],
+      [
+       -159.67,
+       21.93
+      ],
+      [
+       -159.77,
+       21.96
+      ],
+      [
+       -159.79,
+       21.98
+      ],
+      [
+       -159.81,
+       22.06
+      ],
+      [
+       -159.81,
+       22.07
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9ec9dc1992809a107a6816b79ce56b037c28b36b.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.9ec9dc1992809a107a6816b79ce56b037c28b36b.001.1",
+    "areaDesc": "Kauai, HI",
+    "geocode": {
+     "SAME": [
+      "015007"
+     ],
+     "UGC": [
+      "HIC007"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC007"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9fa28868fc3edb450c98f0830d76f60c02c3972d.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.9fa28868fc3edb450c98f0830d76f60c02c3972d.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T18:41:00-10:00"
+     }
+    ],
+    "sent": "2026-10-07T19:38:00-10:00",
+    "effective": "2026-10-07T19:38:00-10:00",
+    "onset": "2026-10-07T19:38:00-10:00",
+    "expires": "2026-10-07T21:45:00-10:00",
+    "ends": "2026-10-07T21:45:00-10:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Advisory issued October 7 at 7:38PM HST until October 7 at 9:45PM HST by NWS Honolulu HI",
+    "description": "* WHAT...Flooding caused by excessive rainfall continues.\n\n* WHERE...The island of Kauai in Kauai County...\n\n* WHEN...Until 945 PM HST.\n\n* IMPACTS...Minor flooding on roads, poor drainage areas, and in\nstreams.\n\n* ADDITIONAL DETAILS...\n- At 732 PM HST, Doppler radar indicated bands of moderate to\nlocally heavy rain over Kauai. The heaviest rainfall has been\noccurring over southern coast of Kauai with rates of 0.5 to 1\ninch per hour under the heavier bands. Minor flooding is ongoing\nor expected to begin shortly in the advisory area. Additional\nbands of heavy rain with increased rain rates will be possible\nover the next several hours.\n- Some locations that will experience flooding include...\nLihue, Kapaa, Kalaheo, Kekaha, Lawai, Omao, Kokee State Park and\nPoipu.",
+    "instruction": "Stay away from streams, drainage ditches and low lying areas prone to\nflooding.\n\nA Flood Watch is also in effect for Kauai through Thursday afternoon.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 080538"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY REMAINS IN EFFECT UNTIL 945 PM HST THIS EVENING"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.CON.PHFO.FA.Y.0161.000000T0000Z-261008T0745Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-07T21:45:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f0e15051ba3c79df3c44563427a19d4e1b3a71f.001.1",
+    "replacedAt": "2026-10-07T23:57:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9fa28868fc3edb450c98f0830d76f60c02c3972d.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.81,
+       22.07
+      ],
+      [
+       -159.74,
+       22.17
+      ],
+      [
+       -159.58,
+       22.25
+      ],
+      [
+       -159.53,
+       22.24
+      ],
+      [
+       -159.5,
+       22.26
+      ],
+      [
+       -159.45,
+       22.25
+      ],
+      [
+       -159.42,
+       22.26
+      ],
+      [
+       -159.4,
+       22.26
+      ],
+      [
+       -159.32,
+       22.22
+      ],
+      [
+       -159.3,
+       22.17
+      ],
+      [
+       -159.27,
+       22.15
+      ],
+      [
+       -159.32,
+       22.04
+      ],
+      [
+       -159.31,
+       21.95
+      ],
+      [
+       -159.38,
+       21.88
+      ],
+      [
+       -159.45,
+       21.84
+      ],
+      [
+       -159.61,
+       21.87
+      ],
+      [
+       -159.67,
+       21.93
+      ],
+      [
+       -159.77,
+       21.96
+      ],
+      [
+       -159.79,
+       21.98
+      ],
+      [
+       -159.81,
+       22.06
+      ],
+      [
+       -159.81,
+       22.07
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.9fa28868fc3edb450c98f0830d76f60c02c3972d.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.9fa28868fc3edb450c98f0830d76f60c02c3972d.001.1",
+    "areaDesc": "Kauai, HI",
+    "geocode": {
+     "SAME": [
+      "015007"
+     ],
+     "UGC": [
+      "HIC007"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC007"
+    ],
+    "references": [],
+    "sent": "2026-10-07T18:41:00-10:00",
+    "effective": "2026-10-07T18:41:00-10:00",
+    "onset": "2026-10-07T18:41:00-10:00",
+    "expires": "2026-10-07T21:45:00-10:00",
+    "ends": "2026-10-07T21:45:00-10:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Flood Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Advisory issued October 7 at 6:41PM HST until October 7 at 9:45PM HST by NWS Honolulu HI",
+    "description": "* WHAT...Flooding caused by excessive rainfall is expected.\n\n* WHERE...The island of Kauai in Kauai County...\n\n* WHEN...Until 945 PM HST.\n\n* IMPACTS...Minor flooding on roads, poor drainage areas, and in\nstreams.\n\n* ADDITIONAL DETAILS...\n- At 637 PM HST, Doppler radar indicated heavy rain over Kauai.\nMinor flooding is ongoing or expected to begin shortly in the\nadvisory area. Rain was falling at a rate of 0.5 to 1.5 inches\nper hour with isolated rates up to 2 inches per hour along the\nsouthern coast from Poipu to Waimea.\n- Some locations that will experience flooding include...\nKauai.",
+    "instruction": "Stay away from streams, drainage ditches and low lying areas prone to\nflooding.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FLSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW80 PHFO 080441"
+     ],
+     "NWSheadline": [
+      "FLOOD ADVISORY IN EFFECT UNTIL 945 PM HST THIS EVENING"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.NEW.PHFO.FA.Y.0161.261008T0441Z-261008T0745Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-07T21:45:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "FAY"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.3f0e15051ba3c79df3c44563427a19d4e1b3a71f.001.1",
+    "replacedAt": "2026-10-07T23:57:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.73376c270147d7da5a53e057a100dfbf6d3f64b6.001.1",
+    "areaDesc": "Niihau; Kauai Southwest; Kauai Mountains; Waianae Coast; Oahu North Shore; Olomana; Central Oahu; Waianae Mountains; Kauai North; Kauai East; Kauai South; East Honolulu; Honolulu Metro; Ewa Plain; Koolau Windward; Koolau Leeward",
+    "geocode": {
+     "SAME": [
+      "015007",
+      "015003"
+     ],
+     "UGC": [
+      "HIZ001",
+      "HIZ003",
+      "HIZ004",
+      "HIZ006",
+      "HIZ007",
+      "HIZ009",
+      "HIZ010",
+      "HIZ011",
+      "HIZ029",
+      "HIZ030",
+      "HIZ031",
+      "HIZ032",
+      "HIZ033",
+      "HIZ034",
+      "HIZ035",
+      "HIZ036"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/HIZ001",
+     "https://api.weather.gov/zones/forecast/HIZ003",
+     "https://api.weather.gov/zones/forecast/HIZ004",
+     "https://api.weather.gov/zones/forecast/HIZ006",
+     "https://api.weather.gov/zones/forecast/HIZ007",
+     "https://api.weather.gov/zones/forecast/HIZ009",
+     "https://api.weather.gov/zones/forecast/HIZ010",
+     "https://api.weather.gov/zones/forecast/HIZ011",
+     "https://api.weather.gov/zones/forecast/HIZ029",
+     "https://api.weather.gov/zones/forecast/HIZ030",
+     "https://api.weather.gov/zones/forecast/HIZ031",
+     "https://api.weather.gov/zones/forecast/HIZ032",
+     "https://api.weather.gov/zones/forecast/HIZ033",
+     "https://api.weather.gov/zones/forecast/HIZ034",
+     "https://api.weather.gov/zones/forecast/HIZ035",
+     "https://api.weather.gov/zones/forecast/HIZ036"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-07T01:41:00-10:00"
+     }
+    ],
+    "sent": "2026-10-07T15:07:00-10:00",
+    "effective": "2026-10-07T15:07:00-10:00",
+    "onset": "2026-10-07T18:00:00-10:00",
+    "expires": "2026-10-08T05:15:00-10:00",
+    "ends": "2026-10-08T18:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Flood Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Watch issued October 7 at 3:07PM HST until October 8 at 6:00PM HST by NWS Honolulu HI",
+    "description": "A deepening area of low pressure north of the Hawaiian Islands will\ndraw deep tropical moisture northward, resulting in a threat for\nheavy rain over Kauai and Oahu tonight through Thursday.\n\n* WHAT...Flash flooding caused by excessive rainfall continues to be\npossible.\n\n* WHERE...Oahu, Kauai, and Niihau.\n\n* WHEN...Through Thursday afternoon.\n\n* IMPACTS...Flood prone roads and other low lying areas may be closed\ndue to elevated runoff and overflowing streams. Urban areas may\nreceive more significant flooding and property damage due to rapid\nrunoff.\n\n* ADDITIONAL DETAILS...\n- Heavy showers and isolated thunderstorms will develop tonight and\ncontinue through Thursday as deep tropical moisture is drawn\nnorthward over the state. Training of heavy showers containing\nintense rain rates will be possible.",
+    "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFAHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW60 PHFO 080107"
+     ],
+     "NWSheadline": [
+      "FLOOD WATCH REMAINS IN EFFECT THROUGH THURSDAY AFTERNOON"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.CON.PHFO.FA.A.0014.261008T0400Z-261009T0400Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T18:00:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFA"
+     ],
+     "NationalWeatherService": [
+      "FAA"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.571f8eb00d888037debcc0647e2d08bde1284757.001.1",
+    "replacedAt": "2026-10-08T17:03:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.22497dd32927f2252739a2fa45a33b1e64972bc8.001.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.22497dd32927f2252739a2fa45a33b1e64972bc8.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.22497dd32927f2252739a2fa45a33b1e64972bc8.001.1",
+    "areaDesc": "Big Island Summit",
+    "geocode": {
+     "SAME": [
+      "015001"
+     ],
+     "UGC": [
+      "HIZ028"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/HIZ028"
+    ],
+    "references": [],
+    "sent": "2026-10-07T15:05:00-10:00",
+    "effective": "2026-10-07T15:05:00-10:00",
+    "onset": "2026-10-07T15:05:00-10:00",
+    "expires": "2026-10-08T04:15:00-10:00",
+    "ends": "2026-10-08T16:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Moderate",
+    "certainty": "Likely",
+    "urgency": "Expected",
+    "event": "Wind Advisory",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Wind Advisory issued October 7 at 3:05PM HST until October 8 at 4:00PM HST by NWS Honolulu HI",
+    "description": "* WHAT...Southwest winds 30 to 50 mph with gusts up to 60 mph.\n\n* WHERE...Big Island Summits.\n\n* WHEN...Until 4 PM HST Thursday.\n\n* IMPACTS...Winds this strong can make driving and walking dangerous.\nThe winds can forcefully open doors and damage hinges or slam doors\nshut, possibly causing injuries.",
+    "instruction": "Use extra caution when driving, especially if operating a high\nprofile vehicle. Secure outdoor objects.",
+    "response": "Execute",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "NPWHFO"
+     ],
+     "WMOidentifier": [
+      "WWHW70 PHFO 080105"
+     ],
+     "NWSheadline": [
+      "WIND ADVISORY IN EFFECT UNTIL 4 PM HST THURSDAY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "VTEC": [
+      "/O.NEW.PHFO.WI.Y.0020.261008T0105Z-261009T0200Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T16:00:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "NWS"
+     ],
+     "NationalWeatherService": [
+      "WIY"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.bc4182b282ceb2caf458cbcf553b5a774a44c051.001.1",
+    "replacedAt": "2026-10-08T01:40:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+   "type": "Feature",
+   "geometry": null,
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.47a676cc872758220b32c99e05eb135cc34a5de5.001.1",
+    "areaDesc": "Niihau; Kauai Southwest; Kauai Mountains; Waianae Coast; Oahu North Shore; Olomana; Central Oahu; Waianae Mountains; Kauai North; Kauai East; Kauai South; East Honolulu; Honolulu Metro; Ewa Plain; Koolau Windward; Koolau Leeward",
+    "geocode": {
+     "SAME": [
+      "015007",
+      "015003"
+     ],
+     "UGC": [
+      "HIZ001",
+      "HIZ003",
+      "HIZ004",
+      "HIZ006",
+      "HIZ007",
+      "HIZ009",
+      "HIZ010",
+      "HIZ011",
+      "HIZ029",
+      "HIZ030",
+      "HIZ031",
+      "HIZ032",
+      "HIZ033",
+      "HIZ034",
+      "HIZ035",
+      "HIZ036"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/forecast/HIZ001",
+     "https://api.weather.gov/zones/forecast/HIZ003",
+     "https://api.weather.gov/zones/forecast/HIZ004",
+     "https://api.weather.gov/zones/forecast/HIZ006",
+     "https://api.weather.gov/zones/forecast/HIZ007",
+     "https://api.weather.gov/zones/forecast/HIZ009",
+     "https://api.weather.gov/zones/forecast/HIZ010",
+     "https://api.weather.gov/zones/forecast/HIZ011",
+     "https://api.weather.gov/zones/forecast/HIZ029",
+     "https://api.weather.gov/zones/forecast/HIZ030",
+     "https://api.weather.gov/zones/forecast/HIZ031",
+     "https://api.weather.gov/zones/forecast/HIZ032",
+     "https://api.weather.gov/zones/forecast/HIZ033",
+     "https://api.weather.gov/zones/forecast/HIZ034",
+     "https://api.weather.gov/zones/forecast/HIZ035",
+     "https://api.weather.gov/zones/forecast/HIZ036"
+    ],
+    "references": [],
+    "sent": "2026-10-07T01:41:00-10:00",
+    "effective": "2026-10-07T01:41:00-10:00",
+    "onset": "2026-10-07T18:00:00-10:00",
+    "expires": "2026-10-08T13:45:00-10:00",
+    "ends": "2026-10-08T18:00:00-10:00",
+    "status": "Actual",
+    "messageType": "Alert",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Possible",
+    "urgency": "Future",
+    "event": "Flood Watch",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flood Watch issued October 7 at 1:41AM HST until October 8 at 6:00PM HST by NWS Honolulu HI",
+    "description": "A developing area of low pressure north of the Hawaiian Islands will draw deep tropical moisture northward resulting in a threat for heavy rain over Kauai and Oahu tonight through Thursday.* WHAT...Flash flooding caused by excessive rainfall is possible.  * WHERE...Kauai, Niihau and Oahu.  * WHEN...From Wednesday evening through Thursday afternoon.  * IMPACTS...Flood prone roads and other low lying areas may be closed due to elevated runoff and overflowing streams. Urban areas may receive more significant flooding and property damage due to rapid runoff.  * ADDITIONAL DETAILS... - Heavy showers and isolated thunderstorms will develop tonight and continue through Thursday as deep tropical moisture is drawn northward over the state. Training of heavy showers containing intense rain rates will be possible.",
+    "instruction": "You should monitor later forecasts and be prepared to take action\nshould Flash Flood Warnings be issued.",
+    "response": "Prepare",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFAHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW60 PHFO 071141"
+     ],
+     "NWSheadline": [
+      "FLOOD WATCH IN EFFECT FROM WEDNESDAY EVENING THROUGH THURSDAY AFTERNOON"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.NEW.PHFO.FA.A.0014.261008T0400Z-261009T0400Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-08T18:00:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFA"
+     ],
+     "NationalWeatherService": [
+      "FAA"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.571f8eb00d888037debcc0647e2d08bde1284757.001.1",
+    "replacedAt": "2026-10-08T17:03:00-10:00"
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1afe365ecb6b933a98b3322b64fd81cd7837004f.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.74,
+       22.17
+      ],
+      [
+       -159.58,
+       22.25
+      ],
+      [
+       -159.53,
+       22.24
+      ],
+      [
+       -159.52,
+       22.25
+      ],
+      [
+       -159.5,
+       22.26
+      ],
+      [
+       -159.45,
+       22.25
+      ],
+      [
+       -159.42,
+       22.26
+      ],
+      [
+       -159.4,
+       22.26
+      ],
+      [
+       -159.32,
+       22.22
+      ],
+      [
+       -159.3,
+       22.17
+      ],
+      [
+       -159.28,
+       22.16
+      ],
+      [
+       -159.27,
+       22.15
+      ],
+      [
+       -159.32,
+       22.04
+      ],
+      [
+       -159.31,
+       22.01
+      ],
+      [
+       -159.81,
+       22.05
+      ],
+      [
+       -159.81,
+       22.06
+      ],
+      [
+       -159.74,
+       22.17
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1afe365ecb6b933a98b3322b64fd81cd7837004f.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.1afe365ecb6b933a98b3322b64fd81cd7837004f.001.1",
+    "areaDesc": "Kauai, HI",
+    "geocode": {
+     "SAME": [
+      "015007"
+     ],
+     "UGC": [
+      "HIC007"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC007"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb4a0d36115fbf5bba58151437c295a105d209d1.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.fb4a0d36115fbf5bba58151437c295a105d209d1.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-01T22:50:00-10:00"
+     },
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.321a0134702a6d4a7ede735c892ca993c53f53c9.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.321a0134702a6d4a7ede735c892ca993c53f53c9.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-02T00:07:00-10:00"
+     }
+    ],
+    "sent": "2026-10-02T01:21:00-10:00",
+    "effective": "2026-10-02T01:21:00-10:00",
+    "onset": "2026-10-02T01:21:00-10:00",
+    "expires": "2026-10-02T01:36:59-10:00",
+    "ends": "2026-10-02T01:45:00-10:00",
+    "status": "Actual",
+    "messageType": "Cancel",
+    "category": "Met",
+    "severity": "Minor",
+    "certainty": "Observed",
+    "urgency": "Past",
+    "event": "Flash Flood Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "The Flash Flood Warning has been cancelled.",
+    "description": "The Flash Flood Warning has been cancelled and is no longer in effect.",
+    "instruction": null,
+    "response": "AllClear",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW70 PHFO 021121"
+     ],
+     "NWSheadline": [
+      "FLASH FLOOD WARNING IS CANCELLED FOR THE ISLAND OF KAUAI IN KAUAI COUNTY"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.CAN.PHFO.FF.W.0054.000000T0000Z-261002T1145Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-02T01:45:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFS"
+     ],
+     "NationalWeatherService": [
+      "FFW"
+     ]
+    }
+   }
+  },
+  {
+   "id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.321a0134702a6d4a7ede735c892ca993c53f53c9.001.1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.74,
+       22.17
+      ],
+      [
+       -159.58,
+       22.25
+      ],
+      [
+       -159.53,
+       22.24
+      ],
+      [
+       -159.52,
+       22.25
+      ],
+      [
+       -159.5,
+       22.26
+      ],
+      [
+       -159.45,
+       22.25
+      ],
+      [
+       -159.42,
+       22.26
+      ],
+      [
+       -159.4,
+       22.26
+      ],
+      [
+       -159.32,
+       22.22
+      ],
+      [
+       -159.3,
+       22.17
+      ],
+      [
+       -159.28,
+       22.16
+      ],
+      [
+       -159.27,
+       22.15
+      ],
+      [
+       -159.32,
+       22.04
+      ],
+      [
+       -159.31,
+       22.01
+      ],
+      [
+       -159.81,
+       22.05
+      ],
+      [
+       -159.81,
+       22.06
+      ],
+      [
+       -159.74,
+       22.17
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.321a0134702a6d4a7ede735c892ca993c53f53c9.001.1",
+    "@type": "wx:Alert",
+    "id": "urn:oid:2.49.0.1.840.0.321a0134702a6d4a7ede735c892ca993c53f53c9.001.1",
+    "areaDesc": "Kauai, HI",
+    "geocode": {
+     "SAME": [
+      "015007"
+     ],
+     "UGC": [
+      "HIC007"
+     ]
+    },
+    "affectedZones": [
+     "https://api.weather.gov/zones/county/HIC007"
+    ],
+    "references": [
+     {
+      "@id": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.fb4a0d36115fbf5bba58151437c295a105d209d1.001.1",
+      "identifier": "urn:oid:2.49.0.1.840.0.fb4a0d36115fbf5bba58151437c295a105d209d1.001.1",
+      "sender": "w-nws.webmaster@noaa.gov",
+      "sent": "2026-10-01T22:50:00-10:00"
+     }
+    ],
+    "sent": "2026-10-02T00:07:00-10:00",
+    "effective": "2026-10-02T00:07:00-10:00",
+    "onset": "2026-10-02T00:07:00-10:00",
+    "expires": "2026-10-02T01:45:00-10:00",
+    "ends": "2026-10-02T01:45:00-10:00",
+    "status": "Actual",
+    "messageType": "Update",
+    "category": "Met",
+    "severity": "Severe",
+    "certainty": "Likely",
+    "urgency": "Immediate",
+    "event": "Flash Flood Warning",
+    "sender": "w-nws.webmaster@noaa.gov",
+    "senderName": "NWS Honolulu HI",
+    "headline": "Flash Flood Warning issued October 2 at 12:07AM HST until October 2 at 1:45AM HST by NWS Honolulu HI",
+    "description": "At 1207 AM HST, Doppler radar and automated rain gauges indicated\nthat heavy rain was falling over Kauai. Rain was falling at a rate of\n1 to 2 inches per hour. Flash flooding is ongoing or expected to\nbegin shortly.\n\nHAZARD...Flash flooding caused by heavy rain.\n\nSOURCE...Radar and automated gauges.\n\nIMPACT...Flash flooding of small creeks and streams, urban areas,\nhighways, streets and underpasses as well as other poor\ndrainage and low-lying areas.\n\nSome locations that will experience flash flooding include...\nKapaa, Princeville, Kilauea, Hanalei, Alakai Swamp Trails, North\nFork Wailua Trails, Wainiha, Haena, Na Pali State Park, Kokee State\nPark, Wailua Homesteads and Wailua.",
+    "instruction": "Turn around, don't drown when encountering flooded roads. Most flood\ndeaths occur in vehicles.\n\nBe especially cautious at night when it is harder to recognize the\ndangers of flooding.\n\nBe aware of your surroundings and do not drive on flooded roads.",
+    "response": "Avoid",
+    "note": null,
+    "parameters": {
+     "AWIPSidentifier": [
+      "FFSHFO"
+     ],
+     "WMOidentifier": [
+      "WGHW70 PHFO 021007"
+     ],
+     "NWSheadline": [
+      "FLASH FLOOD WARNING REMAINS IN EFFECT UNTIL 145 AM HST EARLY THIS MORNING FOR THE ISLAND OF KAUAI IN KAUAI COUNTY"
+     ],
+     "flashFloodDetection": [
+      "RADAR AND GAUGE INDICATED"
+     ],
+     "BLOCKCHANNEL": [
+      "EAS",
+      "NWEM",
+      "CMAS"
+     ],
+     "EAS-ORG": [
+      "WXR"
+     ],
+     "VTEC": [
+      "/O.CON.PHFO.FF.W.0054.000000T0000Z-261002T1145Z/"
+     ],
+     "eventEndingTime": [
+      "2026-10-02T01:45:00-10:00"
+     ]
+    },
+    "scope": "Public",
+    "code": "IPAWSv1.0",
+    "language": "en-US",
+    "web": "http://www.weather.gov",
+    "eventCode": {
+     "SAME": [
+      "FFS"
+     ],
+     "NationalWeatherService": [
+      "FFW"
+     ]
+    },
+    "replacedBy": "https://api.weather.gov/alerts/urn:oid:2.49.0.1.840.0.1afe365ecb6b933a98b3322b64fd81cd7837004f.001.1",
+    "replacedAt": "2026-10-02T01:21:00-10:00"
+   }
+  }
+ ],
+ "title": "Watches, warnings, and advisories for Hawaii",
+ "updated": "2026-10-09T07:54:05+00:00",
+ "pagination": {
+  "next": "https://api.weather.gov/alerts?area%5B0%5D=HI&limit=25&cursor=eyJ0IjoxNzkwOTM1NjIwLCJpIjoidXJuOm9pZDoyLjQ5LjAuMS44NDAuMC4zMjFhMDEzNDcwMmE2ZDRhN2VkZTczNWM4OTJjYTk5M2M1M2Y1M2M5LjAwMS4xIn0%3D"
+ }
+}

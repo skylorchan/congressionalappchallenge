@@ -1,0 +1,1937 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "id": 381,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.97407517909429,
+     21.71003211451581
+    ]
+   },
+   "properties": {
+    "objectid": 381,
+    "name": "S OF KAHUKU POINT",
+    "wave1946_f": 24,
+    "wave1952_f": 4,
+    "wave1957_f": 23,
+    "wave1960_f": 4,
+    "wave1964_f": 0,
+    "number": "01-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 382,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.94460865611208,
+     21.687155453617375
+    ]
+   },
+   "properties": {
+    "objectid": 382,
+    "name": "NEAR OF KII RESERVOIR",
+    "wave1946_f": 21,
+    "wave1952_f": 9,
+    "wave1957_f": 14,
+    "wave1960_f": 6,
+    "wave1964_f": 0,
+    "number": "01-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 383,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.93691058429678,
+     21.66864765440472
+    ]
+   },
+   "properties": {
+    "objectid": 383,
+    "name": "S OF MAKAHOA POINT",
+    "wave1946_f": 13,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "01-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 384,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.91942029429217,
+     21.64890014306386
+    ]
+   },
+   "properties": {
+    "objectid": 384,
+    "name": "N OF LANILOA POINT",
+    "wave1946_f": 13,
+    "wave1952_f": 9,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "01-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 385,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.91896176665412,
+     21.64381137486924
+    ]
+   },
+   "properties": {
+    "objectid": 385,
+    "name": "S OF LANILOA POINT",
+    "wave1946_f": 14,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "01-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 386,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.91877569979712,
+     21.636682463894665
+    ]
+   },
+   "properties": {
+    "objectid": 386,
+    "name": "S OF LANILOA POINT",
+    "wave1946_f": 9,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "01-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 387,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.90795359561093,
+     21.607839205297775
+    ]
+   },
+   "properties": {
+    "objectid": 387,
+    "name": "HAUULA",
+    "wave1946_f": 10,
+    "wave1952_f": 6,
+    "wave1957_f": 13,
+    "wave1960_f": 8,
+    "wave1964_f": 4,
+    "number": "02-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 388,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.88545907120803,
+     21.579893206080197
+    ]
+   },
+   "properties": {
+    "objectid": 388,
+    "name": "N OF PUNALUU STREAM",
+    "wave1946_f": 12,
+    "wave1952_f": 6,
+    "wave1957_f": 0,
+    "wave1960_f": 12,
+    "wave1964_f": 0,
+    "number": "02-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 389,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.87495884928882,
+     21.570255561710013
+    ]
+   },
+   "properties": {
+    "objectid": 389,
+    "name": "MAKALII POINT",
+    "wave1946_f": 11,
+    "wave1952_f": 6,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "02-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 390,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.87489665900287,
+     21.55624422784345
+    ]
+   },
+   "properties": {
+    "objectid": 390,
+    "name": "KAHANA STREAM",
+    "wave1946_f": 7,
+    "wave1952_f": 7,
+    "wave1957_f": 0,
+    "wave1960_f": 8,
+    "wave1964_f": 0,
+    "number": "02-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 391,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.86384232560684,
+     21.560553769320457
+    ]
+   },
+   "properties": {
+    "objectid": 391,
+    "name": "NEAR KAHANA STREAM",
+    "wave1946_f": 4,
+    "wave1952_f": 8,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "02-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 392,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.85407611188836,
+     21.55770357501922
+    ]
+   },
+   "properties": {
+    "objectid": 392,
+    "name": "S OF KAHANA STREAM",
+    "wave1946_f": 17,
+    "wave1952_f": 4,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "02-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 393,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.83792918330965,
+     21.5344656712301
+    ]
+   },
+   "properties": {
+    "objectid": 393,
+    "name": "KAIO POINT",
+    "wave1946_f": 10,
+    "wave1952_f": 5,
+    "wave1957_f": 14,
+    "wave1960_f": 4,
+    "wave1964_f": 0,
+    "number": "03-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 394,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.83459755671885,
+     21.526073113939326
+    ]
+   },
+   "properties": {
+    "objectid": 394,
+    "name": "S OF KAIO POINT",
+    "wave1946_f": 4,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 5,
+    "wave1964_f": 0,
+    "number": "03-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 395,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.83455753685658,
+     21.509451543919063
+    ]
+   },
+   "properties": {
+    "objectid": 395,
+    "name": "KUALOA POINT",
+    "wave1946_f": 4,
+    "wave1952_f": 5,
+    "wave1957_f": 0,
+    "wave1960_f": 5,
+    "wave1964_f": 0,
+    "number": "03-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 396,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.849306518747,
+     21.487724755820388
+    ]
+   },
+   "properties": {
+    "objectid": 396,
+    "name": "S OF WAIKEEKEE STREAM",
+    "wave1946_f": 1,
+    "wave1952_f": 1,
+    "wave1957_f": 0,
+    "wave1960_f": 2,
+    "wave1964_f": 3,
+    "number": "03-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 397,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.84393431952594,
+     21.469651635925864
+    ]
+   },
+   "properties": {
+    "objectid": 397,
+    "name": "S OF WAINU STREAM",
+    "wave1946_f": 1,
+    "wave1952_f": 1,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "03-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 398,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.8143398920038,
+     21.45012561339016
+    ]
+   },
+   "properties": {
+    "objectid": 398,
+    "name": "NEAR KAHALUU",
+    "wave1946_f": 1,
+    "wave1952_f": 1,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "03-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 399,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.77913413996566,
+     21.41175907420227
+    ]
+   },
+   "properties": {
+    "objectid": 399,
+    "name": "S OF KANEOHE",
+    "wave1946_f": 2,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "04-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 400,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.77043715632996,
+     21.414383003333455
+    ]
+   },
+   "properties": {
+    "objectid": 400,
+    "name": "NEAR KANEOHE BAY",
+    "wave1946_f": 2,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "04-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 401,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.7770204314734,
+     21.44358719441916
+    ]
+   },
+   "properties": {
+    "objectid": 401,
+    "name": "W OF PALI KILO",
+    "wave1946_f": 0,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "04-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 402,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.77757613959275,
+     21.451003087404818
+    ]
+   },
+   "properties": {
+    "objectid": 402,
+    "name": "NEAR PALI KILO",
+    "wave1946_f": 11,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "04-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 403,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.76382524930648,
+     21.460887580519902
+    ]
+   },
+   "properties": {
+    "objectid": 403,
+    "name": "PYRAMID ROCK",
+    "wave1946_f": 19,
+    "wave1952_f": 6,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "04-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 404,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.75267618864834,
+     21.45600359328772
+    ]
+   },
+   "properties": {
+    "objectid": 404,
+    "name": "S OF PYRAMID ROCK",
+    "wave1946_f": 22,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 5,
+    "wave1964_f": 0,
+    "number": "04-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 405,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.736404513515,
+     21.441577704922402
+    ]
+   },
+   "properties": {
+    "objectid": 405,
+    "name": "E OF KAPOHO POINT",
+    "wave1946_f": 17,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "04-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 406,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.73603237870807,
+     21.432839716632646
+    ]
+   },
+   "properties": {
+    "objectid": 406,
+    "name": "KAPOHO POINT",
+    "wave1946_f": 11,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "04-09"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 407,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.74287083018137,
+     21.424359372892358
+    ]
+   },
+   "properties": {
+    "objectid": 407,
+    "name": "N KAILUA BAY",
+    "wave1946_f": 3,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "04-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 408,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.73583979914366,
+     21.401424384816607
+    ]
+   },
+   "properties": {
+    "objectid": 408,
+    "name": "S OF KAILUA",
+    "wave1946_f": 5,
+    "wave1952_f": 6,
+    "wave1957_f": 0,
+    "wave1960_f": 5,
+    "wave1964_f": 0,
+    "number": "04-11"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 409,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.72042264623974,
+     21.396203194601075
+    ]
+   },
+   "properties": {
+    "objectid": 409,
+    "name": "N OF LANIKAI",
+    "wave1946_f": 6,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "04-12"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 410,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.705806208554,
+     21.379039518301607
+    ]
+   },
+   "properties": {
+    "objectid": 410,
+    "name": "WAILEA POINT",
+    "wave1946_f": 7,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 6,
+    "wave1964_f": 0,
+    "number": "05-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 411,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.67245243112382,
+     21.321154528360278
+    ]
+   },
+   "properties": {
+    "objectid": 411,
+    "name": "S WAIMANALO BAY",
+    "wave1946_f": 20,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "05-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 412,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.6528624729628,
+     21.31083088977565
+    ]
+   },
+   "properties": {
+    "objectid": 412,
+    "name": "N OF MAKAPUU HEAD",
+    "wave1946_f": 37,
+    "wave1952_f": 10,
+    "wave1957_f": 0,
+    "wave1960_f": 6,
+    "wave1964_f": 0,
+    "number": "05-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 413,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.66108421069603,
+     21.294357038234935
+    ]
+   },
+   "properties": {
+    "objectid": 413,
+    "name": "S OF MAKAPUU HEAD",
+    "wave1946_f": 15,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "05-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 414,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.67625226978532,
+     21.282241597208948
+    ]
+   },
+   "properties": {
+    "objectid": 414,
+    "name": "SW OF MAKAPUU HEAD",
+    "wave1946_f": 23,
+    "wave1952_f": 7,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "05-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 415,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.6805420095319,
+     21.278905821323345
+    ]
+   },
+   "properties": {
+    "objectid": 415,
+    "name": "NEAR KOKO CRATER",
+    "wave1946_f": 31,
+    "wave1952_f": 7,
+    "wave1957_f": 0,
+    "wave1960_f": 9,
+    "wave1964_f": 0,
+    "number": "06-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 416,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.68939701006857,
+     21.268663307844527
+    ]
+   },
+   "properties": {
+    "objectid": 416,
+    "name": "N HANAUMA BAY",
+    "wave1946_f": 11,
+    "wave1952_f": 5,
+    "wave1957_f": 10,
+    "wave1960_f": 6,
+    "wave1964_f": 0,
+    "number": "06-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 417,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.71948892030625,
+     21.284333406599895
+    ]
+   },
+   "properties": {
+    "objectid": 417,
+    "name": "S OF HAWAII KAI",
+    "wave1946_f": 4,
+    "wave1952_f": 2,
+    "wave1957_f": 4,
+    "wave1960_f": 8,
+    "wave1964_f": 0,
+    "number": "06-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 418,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.72639188805059,
+     21.281025293443
+    ]
+   },
+   "properties": {
+    "objectid": 418,
+    "name": "N OF NIU VALLEY",
+    "wave1946_f": 4,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 8,
+    "wave1964_f": 0,
+    "number": "06-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 419,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.75223535848946,
+     21.276858370833583
+    ]
+   },
+   "properties": {
+    "objectid": 419,
+    "name": "NEAR AINA HAINA",
+    "wave1946_f": 5,
+    "wave1952_f": 3,
+    "wave1957_f": 4,
+    "wave1960_f": 6,
+    "wave1964_f": 0,
+    "number": "06-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 420,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.81133282756926,
+     21.25579246408898
+    ]
+   },
+   "properties": {
+    "objectid": 420,
+    "name": "NEAR KAIMUKI",
+    "wave1946_f": 12,
+    "wave1952_f": 0,
+    "wave1957_f": 5,
+    "wave1960_f": 6,
+    "wave1964_f": 0,
+    "number": "07-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 421,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.84217601725157,
+     21.283259322816157
+    ]
+   },
+   "properties": {
+    "objectid": 421,
+    "name": "PALOLO STREAM",
+    "wave1946_f": 6,
+    "wave1952_f": 5,
+    "wave1957_f": 5,
+    "wave1960_f": 5,
+    "wave1964_f": 0,
+    "number": "07-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 422,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.8585430235071,
+     21.2909849552865
+    ]
+   },
+   "properties": {
+    "objectid": 422,
+    "name": "HONOLULU HARBOR",
+    "wave1946_f": 2,
+    "wave1952_f": 2,
+    "wave1957_f": 0,
+    "wave1960_f": 5,
+    "wave1964_f": 0,
+    "number": "07-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 423,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.94781697009282,
+     21.31643948404948
+    ]
+   },
+   "properties": {
+    "objectid": 423,
+    "name": "S OF AHUA POINT",
+    "wave1946_f": 3,
+    "wave1952_f": 3,
+    "wave1957_f": 3,
+    "wave1960_f": 3,
+    "wave1964_f": 0,
+    "number": "08-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 424,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.0304625919596,
+     21.304811343863776
+    ]
+   },
+   "properties": {
+    "objectid": 424,
+    "name": "EWA BEACH",
+    "wave1946_f": 3,
+    "wave1952_f": 5,
+    "wave1957_f": 9,
+    "wave1960_f": 9,
+    "wave1964_f": 0,
+    "number": "09-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 425,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.1033523820964,
+     21.295684008154456
+    ]
+   },
+   "properties": {
+    "objectid": 425,
+    "name": "BARBERS POINT",
+    "wave1946_f": 12,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 7,
+    "wave1964_f": 0,
+    "number": "09-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 426,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.12891612568848,
+     21.3451919970908
+    ]
+   },
+   "properties": {
+    "objectid": 426,
+    "name": "S OF KAHE POINT",
+    "wave1946_f": 0,
+    "wave1952_f": 6,
+    "wave1957_f": 0,
+    "wave1960_f": 9,
+    "wave1964_f": 0,
+    "number": "10-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 427,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.13362384296087,
+     21.362554664160555
+    ]
+   },
+   "properties": {
+    "objectid": 427,
+    "name": "S OF NANAKULI STREAM",
+    "wave1946_f": 12,
+    "wave1952_f": 3,
+    "wave1957_f": 11,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "10-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 428,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.14112571934623,
+     21.372133259878513
+    ]
+   },
+   "properties": {
+    "objectid": 428,
+    "name": "NEAR NANAKULI STREAM",
+    "wave1946_f": 12,
+    "wave1952_f": 3,
+    "wave1957_f": 11,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "10-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 429,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.14640809500162,
+     21.379328341276196
+    ]
+   },
+   "properties": {
+    "objectid": 429,
+    "name": "NEAR NANAKULI",
+    "wave1946_f": 20,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "10-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 430,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.15333378467997,
+     21.388117737251694
+    ]
+   },
+   "properties": {
+    "objectid": 430,
+    "name": "S OF ULEHAWA STREAM",
+    "wave1946_f": 19,
+    "wave1952_f": 10,
+    "wave1957_f": 12,
+    "wave1960_f": 8,
+    "wave1964_f": 0,
+    "number": "10-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 431,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.17807951785784,
+     21.40485975109777
+    ]
+   },
+   "properties": {
+    "objectid": 431,
+    "name": "NEAR MAILI POINT",
+    "wave1946_f": 16,
+    "wave1952_f": 6,
+    "wave1957_f": 11,
+    "wave1960_f": 8,
+    "wave1964_f": 0,
+    "number": "10-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 432,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.18054437211086,
+     21.427973528922767
+    ]
+   },
+   "properties": {
+    "objectid": 432,
+    "name": "MAILIILII STREAM",
+    "wave1946_f": 14,
+    "wave1952_f": 13,
+    "wave1957_f": 18,
+    "wave1960_f": 10,
+    "wave1964_f": 0,
+    "number": "10-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 433,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.15568141227268,
+     21.580917626977946
+    ]
+   },
+   "properties": {
+    "objectid": 433,
+    "name": "NEAR MOKULEIA",
+    "wave1946_f": 16,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 11,
+    "wave1964_f": 9,
+    "number": "13-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 434,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.14608988504537,
+     21.58211420716514
+    ]
+   },
+   "properties": {
+    "objectid": 434,
+    "name": "E OF MOKULEIA",
+    "wave1946_f": 14,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 10,
+    "number": "13-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 435,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.12885212884777,
+     21.582111121081763
+    ]
+   },
+   "properties": {
+    "objectid": 435,
+    "name": "NEAR WAIALUA",
+    "wave1946_f": 11,
+    "wave1952_f": 15,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 15,
+    "number": "13-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 436,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.11933382199894,
+     21.58196965002921
+    ]
+   },
+   "properties": {
+    "objectid": 436,
+    "name": "HALEMANO STREAM",
+    "wave1946_f": 8,
+    "wave1952_f": 15,
+    "wave1957_f": 0,
+    "wave1960_f": 11,
+    "wave1964_f": 10,
+    "number": "13-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 437,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.11244317943792,
+     21.58929081643031
+    ]
+   },
+   "properties": {
+    "objectid": 437,
+    "name": "NEAR HALEIWA",
+    "wave1946_f": 11,
+    "wave1952_f": 17,
+    "wave1957_f": 0,
+    "wave1960_f": 12,
+    "wave1964_f": 10,
+    "number": "13-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 438,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.1037822318513,
+     21.59831464670908
+    ]
+   },
+   "properties": {
+    "objectid": 438,
+    "name": "WAIALUA BAY",
+    "wave1946_f": 10,
+    "wave1952_f": 13,
+    "wave1957_f": 13,
+    "wave1960_f": 8,
+    "wave1964_f": 10,
+    "number": "13-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 439,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.08559724008535,
+     21.61919715706827
+    ]
+   },
+   "properties": {
+    "objectid": 439,
+    "name": "NEAR KAWAILOA",
+    "wave1946_f": 19,
+    "wave1952_f": 20,
+    "wave1957_f": 21,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "13-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 440,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.08109961499616,
+     21.623815814763876
+    ]
+   },
+   "properties": {
+    "objectid": 440,
+    "name": "NW OF KAWAILOA",
+    "wave1946_f": 17,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "13-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 441,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.07337180520307,
+     21.629437101492098
+    ]
+   },
+   "properties": {
+    "objectid": 441,
+    "name": "SW OF WAIMEA BAY",
+    "wave1946_f": 14,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "13-09"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 442,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.06489323037997,
+     21.643301604669006
+    ]
+   },
+   "properties": {
+    "objectid": 442,
+    "name": "KAIWIKOELE STREAM",
+    "wave1946_f": 14,
+    "wave1952_f": 7,
+    "wave1957_f": 22,
+    "wave1960_f": 11,
+    "wave1964_f": 16,
+    "number": "14-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 443,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.2323973838454,
+     21.53790309042565
+    ]
+   },
+   "properties": {
+    "objectid": 443,
+    "name": "S OF KAENA POINT",
+    "wave1946_f": 16,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 8,
+    "wave1964_f": 0,
+    "number": "12-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 444,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.24065734240486,
+     21.54518234840898
+    ]
+   },
+   "properties": {
+    "objectid": 444,
+    "name": "S OF KAENA POINT",
+    "wave1946_f": 34,
+    "wave1952_f": 15,
+    "wave1957_f": 15,
+    "wave1960_f": 12,
+    "wave1964_f": 0,
+    "number": "12-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 445,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.24942783161802,
+     21.555649704261697
+    ]
+   },
+   "properties": {
+    "objectid": 445,
+    "name": "S OF KAENA POINT",
+    "wave1946_f": 17,
+    "wave1952_f": 10,
+    "wave1957_f": 14,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "12-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 446,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.2784378489468,
+     21.57304877246332
+    ]
+   },
+   "properties": {
+    "objectid": 446,
+    "name": "NEAR KAENA POINT",
+    "wave1946_f": 35,
+    "wave1952_f": 8,
+    "wave1957_f": 30,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "12-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 447,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.2803682630337,
+     21.57453267782853
+    ]
+   },
+   "properties": {
+    "objectid": 447,
+    "name": "KAENA POINT",
+    "wave1946_f": 0,
+    "wave1952_f": 7,
+    "wave1957_f": 20,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "12-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 448,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.275839950063,
+     21.575527200630592
+    ]
+   },
+   "properties": {
+    "objectid": 448,
+    "name": "NEAR KAENA POINT",
+    "wave1946_f": 34,
+    "wave1952_f": 8,
+    "wave1957_f": 22,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "12-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 449,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.27042499755152,
+     21.576011990963153
+    ]
+   },
+   "properties": {
+    "objectid": 449,
+    "name": "E OF KAENA POINT",
+    "wave1946_f": 25,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "12-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 450,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.2607956304143,
+     21.577539623716138
+    ]
+   },
+   "properties": {
+    "objectid": 450,
+    "name": "E OF KAENA POINT",
+    "wave1946_f": 31,
+    "wave1952_f": 8,
+    "wave1957_f": 0,
+    "wave1960_f": 8,
+    "wave1964_f": 0,
+    "number": "12-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 451,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.24482205830552,
+     21.579166039838235
+    ]
+   },
+   "properties": {
+    "objectid": 451,
+    "name": "E OF KAENA POINT",
+    "wave1946_f": 31,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 8,
+    "number": "12-09"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 452,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.23127387362663,
+     21.579326404184826
+    ]
+   },
+   "properties": {
+    "objectid": 452,
+    "name": "E OF KAENA POINT",
+    "wave1946_f": 20,
+    "wave1952_f": 11,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 10,
+    "number": "12-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 453,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.2229799882654,
+     21.578869666245794
+    ]
+   },
+   "properties": {
+    "objectid": 453,
+    "name": "E OF KAENA POINT",
+    "wave1946_f": 13,
+    "wave1952_f": 15,
+    "wave1957_f": 24,
+    "wave1960_f": 0,
+    "wave1964_f": 8,
+    "number": "12-11"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 454,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.20533186333432,
+     21.581964046772082
+    ]
+   },
+   "properties": {
+    "objectid": 454,
+    "name": "E OF KAENA POINT",
+    "wave1946_f": 14,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 6,
+    "number": "12-12"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 455,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.17287423341696,
+     21.581418045661508
+    ]
+   },
+   "properties": {
+    "objectid": 455,
+    "name": "E OF KAENA POINT",
+    "wave1946_f": 12,
+    "wave1952_f": 9,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 9,
+    "number": "12-13"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 456,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.18474862494756,
+     21.433455401860385
+    ]
+   },
+   "properties": {
+    "objectid": 456,
+    "name": "S OF WAIANAE",
+    "wave1946_f": 14,
+    "wave1952_f": 13,
+    "wave1957_f": 18,
+    "wave1960_f": 10,
+    "wave1964_f": 0,
+    "number": "11-01"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 457,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.19204234753357,
+     21.440469992192572
+    ]
+   },
+   "properties": {
+    "objectid": 457,
+    "name": "NEAR WAIANAE",
+    "wave1946_f": 14,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 8,
+    "wave1964_f": 0,
+    "number": "11-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 458,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.2028229800892,
+     21.456580637493307
+    ]
+   },
+   "properties": {
+    "objectid": 458,
+    "name": "N OF KAUPUNI STREAM",
+    "wave1946_f": 18,
+    "wave1952_f": 7,
+    "wave1957_f": 10,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "11-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 459,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.2124593236771,
+     21.45976108233326
+    ]
+   },
+   "properties": {
+    "objectid": 459,
+    "name": "MAUNA LAHILAHI",
+    "wave1946_f": 11,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "11-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 460,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.21310061284126,
+     21.461878239090442
+    ]
+   },
+   "properties": {
+    "objectid": 460,
+    "name": "S OF MAKAHA",
+    "wave1946_f": 22,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 9,
+    "wave1964_f": 0,
+    "number": "11-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 461,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.22335616946862,
+     21.478057655173284
+    ]
+   },
+   "properties": {
+    "objectid": 461,
+    "name": "NEAR MAKAHA STREAM",
+    "wave1946_f": 12,
+    "wave1952_f": 0,
+    "wave1957_f": 13,
+    "wave1960_f": 11,
+    "wave1964_f": 0,
+    "number": "11-06"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 462,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.23101214370303,
+     21.48398747353489
+    ]
+   },
+   "properties": {
+    "objectid": 462,
+    "name": "KEPUHI POINT",
+    "wave1946_f": 17,
+    "wave1952_f": 8,
+    "wave1957_f": 7,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "11-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 463,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.2300009965095,
+     21.495651335136728
+    ]
+   },
+   "properties": {
+    "objectid": 463,
+    "name": "N OF KEPUHI POINT",
+    "wave1946_f": 15,
+    "wave1952_f": 11,
+    "wave1957_f": 17,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "11-08"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 464,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.22940068310172,
+     21.52962285974268
+    ]
+   },
+   "properties": {
+    "objectid": 464,
+    "name": "MAKUA STREAM",
+    "wave1946_f": 14,
+    "wave1952_f": 8,
+    "wave1957_f": 14,
+    "wave1960_f": 0,
+    "wave1964_f": 0,
+    "number": "11-09"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 465,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.03871568135096,
+     21.679801389130212
+    ]
+   },
+   "properties": {
+    "objectid": 465,
+    "name": "N OF PAUMALU STREAM",
+    "wave1946_f": 23,
+    "wave1952_f": 13,
+    "wave1957_f": 23,
+    "wave1960_f": 8,
+    "wave1964_f": 6,
+    "number": "14-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 466,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -158.01525210165212,
+     21.69718554761737
+    ]
+   },
+   "properties": {
+    "objectid": 466,
+    "name": "NEAR KAWELA",
+    "wave1946_f": 19,
+    "wave1952_f": 10,
+    "wave1957_f": 0,
+    "wave1960_f": 9,
+    "wave1964_f": 6,
+    "number": "14-03"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 467,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.999602990923,
+     21.70545510117787
+    ]
+   },
+   "properties": {
+    "objectid": 467,
+    "name": "OIO STREAM",
+    "wave1946_f": 20,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 0,
+    "wave1964_f": 6,
+    "number": "14-04"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 468,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.97825211234596,
+     21.709261141641377
+    ]
+   },
+   "properties": {
+    "objectid": 468,
+    "name": "E OF KAHUKU POINT",
+    "wave1946_f": 24,
+    "wave1952_f": 4,
+    "wave1957_f": 23,
+    "wave1960_f": 4,
+    "wave1964_f": 0,
+    "number": "14-05"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 469,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.82421745698488,
+     21.27234697740703
+    ]
+   },
+   "properties": {
+    "objectid": 469,
+    "name": "WAIKIKI",
+    "wave1946_f": 9,
+    "wave1952_f": 0,
+    "wave1957_f": 0,
+    "wave1960_f": 9,
+    "wave1964_f": 0,
+    "number": "07-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 470,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.70584025275153,
+     21.351189752633626
+    ]
+   },
+   "properties": {
+    "objectid": 470,
+    "name": "NEAR WAIMANALO",
+    "wave1946_f": 8,
+    "wave1952_f": 8,
+    "wave1957_f": 0,
+    "wave1960_f": 9,
+    "wave1964_f": 0,
+    "number": "05-02"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 471,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.73692916496987,
+     21.45611948377046
+    ]
+   },
+   "properties": {
+    "objectid": 471,
+    "name": "N OF MOKAPU POINT",
+    "wave1946_f": 21,
+    "wave1952_f": 9,
+    "wave1957_f": 0,
+    "wave1960_f": 7,
+    "wave1964_f": 0,
+    "number": "04-07"
+   }
+  },
+  {
+   "type": "Feature",
+   "id": 472,
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     -157.84622305270224,
+     21.54835378597266
+    ]
+   },
+   "properties": {
+    "objectid": 472,
+    "name": "KAAAWA",
+    "wave1946_f": 12,
+    "wave1952_f": 5,
+    "wave1957_f": 0,
+    "wave1960_f": 4,
+    "wave1964_f": 0,
+    "number": "02-07"
+   }
+  }
+ ]
+}

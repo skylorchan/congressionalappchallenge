@@ -1,0 +1,6758 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "id": "ab4c522b17164659a7848635d2d79ed5",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -69.88446847375951
+      ],
+      [
+       -180,
+       -69.88446847375951
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -69.88446847375951
+       ],
+       [
+        -180,
+        -69.88446847375951
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "<p>PURPOSE<br />Provides emergency shelter locations for evacuation planning and disaster response operations.</p><p>AUTHORITATIVE SOURCE<br />Source Organization: PPROEM<br />Source Contact: PPROEM GIS Administrator</p><p>SOURCE DATA CURRENCY<br />Source Data Update Frequency: As Needed<br />Source Data Status: Dynamic</p><p>DATA PROCESSING / LINEAGE<br />Source Coordinate System: <span style='background-color:rgb(255,255,255); color:rgb(74,74,74); font-family:&quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><span style='display:inline !important; float:none; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;'>NAD 1983 StatePlane Colorado Central FIPS 0502 Feet (EPSG:2232)</span></span><br />Processing Performed:</p><ul><li>Shelter locations maintained for emergency operations planning.</li></ul><p>RESULTING DATASET<br />Current Layer Coordinate System: <span style='background-color:rgb(255,255,255); color:rgb(74,74,74); font-family:&quot;Avenir Next&quot;, Avenir, &quot;Helvetica Neue&quot;, sans-serif; font-size:16px;'><span style='display:inline !important; float:none; font-style:normal; font-variant-caps:normal; font-variant-ligatures:normal; font-weight:400; letter-spacing:normal; text-align:start; text-decoration-color:initial; text-decoration-style:initial; text-indent:0px; text-transform:none; word-spacing:0px;'>NAD 1983 StatePlane Colorado Central FIPS 0502 Feet (EPSG:2232)</span></span><br />Refresh Method: Manual updates<br />Refresh Frequency: As needed</p>",
+    "licenseInfo": null,
+    "title": "Shelter",
+    "type": "Feature Service",
+    "orgId": "4RbSpZqACDsi1hHk",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1782229190000,
+    "avgRating": 0,
+    "id": "ab4c522b17164659a7848635d2d79ed5",
+    "categories": [],
+    "spatialReference": "102654",
+    "numRatings": 0,
+    "owner": "bjonesPPROEM",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1782226800000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1633469569000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services3.arcgis.com/4RbSpZqACDsi1hHk/arcgis/rest/services/Shelter/FeatureServer",
+    "tags": [
+     "PPROEM",
+     "sourceId-93c64661317f42e3b9289c522314dc9e",
+     "copied with ago-assistant"
+    ],
+    "numViews": 86413,
+    "numComments": 0,
+    "size": 589824,
+    "listed": false,
+    "scoreCompleteness": 50,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Shelter",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Pikes Peak Regional OEM",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/ab4c522b17164659a7848635d2d79ed5"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "147e285ea31743e3a86171eb0f4531e3",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -161.69675114145952,
+       80.69452318402465
+      ],
+      [
+       161.69675114145952,
+       80.69452318402465
+      ],
+      [
+       161.69675114145952,
+       -72.67267629418548
+      ],
+      [
+       -161.69675114145952,
+       -72.67267629418548
+      ],
+      [
+       -161.69675114145952,
+       80.69452318402465
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "This layer is used to note when people use the wash or its associated infrastructure as shelter. Uncertain may be used in situations where field researchers find signs of someone living there, but a person may not be present.  ",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -161.69675114145952,
+        80.69452318402465
+       ],
+       [
+        161.69675114145952,
+        80.69452318402465
+       ],
+       [
+        161.69675114145952,
+        -72.67267629418548
+       ],
+       [
+        -161.69675114145952,
+        -72.67267629418548
+       ],
+       [
+        -161.69675114145952,
+        80.69452318402465
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter",
+    "type": "Feature Service",
+    "orgId": "Ezk9fcjSUkeadg6u",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1729211961000,
+    "avgRating": 0,
+    "id": "147e285ea31743e3a86171eb0f4531e3",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "fortman9_uagis",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1729209600000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1729211360000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/Ezk9fcjSUkeadg6u/arcgis/rest/services/Shelter/FeatureServer",
+    "tags": [],
+    "numViews": 7,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Shelter",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "University of Arizona GIS",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/147e285ea31743e3a86171eb0f4531e3"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "a88f9ad5e6fd4ca48c70cb7e3177b27d",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160,
+       80
+      ],
+      [
+       160,
+       80
+      ],
+      [
+       160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       80
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160,
+        80
+       ],
+       [
+        160,
+        80
+       ],
+       [
+        160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        80
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1720463131000,
+    "avgRating": 0,
+    "id": "a88f9ad5e6fd4ca48c70cb7e3177b27d",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "metro_mlinder",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1720461600000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1720463131000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/JyZag7oO4NteHGiq/arcgis/rest/services/Public_Input_Template/FeatureServer",
+    "tags": [],
+    "numViews": 1,
+    "numComments": 0,
+    "size": 101,
+    "listed": false,
+    "scoreCompleteness": 0,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "metro_mlinder",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/a88f9ad5e6fd4ca48c70cb7e3177b27d"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "44381a167efc48a8b0f8381a3502ca90",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.15335,
+       69.44934299999998
+      ],
+      [
+       -68.007095,
+       69.44934299999998
+      ],
+      [
+       -68.007095,
+       20.88732099999999
+      ],
+      [
+       -160.15335,
+       20.88732099999999
+      ],
+      [
+       -160.15335,
+       69.44934299999998
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.15335,
+        69.44934299999998
+       ],
+       [
+        -68.007095,
+        69.44934299999998
+       ],
+       [
+        -68.007095,
+        20.88732099999999
+       ],
+       [
+        -160.15335,
+        20.88732099999999
+       ],
+       [
+        -160.15335,
+        69.44934299999998
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Master",
+    "type": "Feature Service",
+    "orgId": "SIYkiqjmENweC50g",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1776747450000,
+    "avgRating": 0,
+    "id": "44381a167efc48a8b0f8381a3502ca90",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "rherfi2585_SDSUGeo",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1776744000000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1776747436000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/SIYkiqjmENweC50g/arcgis/rest/services/Shelter_Master/FeatureServer",
+    "tags": [],
+    "numViews": 2,
+    "numComments": 0,
+    "size": 6840320,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "San Diego State University",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/44381a167efc48a8b0f8381a3502ca90"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "749ca2b27b17400eb271b4b61fb4d591",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "SHELTER BELT",
+    "type": "Feature Service",
+    "orgId": "os7RvRPUZy3MGcVF",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1739881562000,
+    "avgRating": 0,
+    "id": "749ca2b27b17400eb271b4b61fb4d591",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "fctacresal",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1739880000000,
+    "thumbnail": "thumbnail/Form_1.png",
+    "languages": [],
+    "created": 1739880118000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services6.arcgis.com/os7RvRPUZy3MGcVF/arcgis/rest/services/service_c62006fad24d47b887847b40807b329b/FeatureServer",
+    "tags": [
+     "XForm",
+     "XForms"
+    ],
+    "numViews": 4,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 41,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_c62006fad24d47b887847b40807b329b",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "FCT ACRESAL",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/749ca2b27b17400eb271b4b61fb4d591"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "eafa56a8e6784d149aa39717a03c2dbc",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -179.9999885408441,
+       89
+      ],
+      [
+       179.9999885408441,
+       89
+      ],
+      [
+       179.9999885408441,
+       -74.33333333333333
+      ],
+      [
+       -179.9999885408441,
+       -74.33333333333333
+      ],
+      [
+       -179.9999885408441,
+       89
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "SHELTER_LOCATION",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -179.9999885408441,
+        89
+       ],
+       [
+        179.9999885408441,
+        89
+       ],
+       [
+        179.9999885408441,
+        -74.33333333333333
+       ],
+       [
+        -179.9999885408441,
+        -74.33333333333333
+       ],
+       [
+        -179.9999885408441,
+        89
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "ownerId": "30869ce857f93377cdc4f4a775c81fe1",
+    "title": "Shelter_Location",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1726089141000,
+    "avgRating": 0,
+    "id": "eafa56a8e6784d149aa39717a03c2dbc",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "StJamesParish",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1791216000000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1497993718000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services7.arcgis.com/UgFir2NPOBP6GiJV/arcgis/rest/services/Shelter_Location/FeatureServer",
+    "tags": [
+     "SHELTERLOCATION"
+    ],
+    "numViews": 2078,
+    "numComments": 0,
+    "size": 147456,
+    "listed": false,
+    "scoreCompleteness": 35,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Shelter_Location",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/eafa56a8e6784d149aa39717a03c2dbc"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "4d2c0ceef4c84575a4fafc3600f8fe4e",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Hurricane Harvey",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Multilayer",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "HurricaneHarvey_Shelter",
+    "type": "Feature Service",
+    "orgId": "VZFBz62gxB8VrbIS",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1519826248000,
+    "avgRating": 0,
+    "id": "4d2c0ceef4c84575a4fafc3600f8fe4e",
+    "categories": [],
+    "spatialReference": "GCS_Sphere",
+    "numRatings": 0,
+    "owner": "tagchan@bosai",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1722769200000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1519826146000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/VZFBz62gxB8VrbIS/arcgis/rest/services/HurricaneHarvey_Shelter/FeatureServer",
+    "tags": [
+     "Harvey"
+    ],
+    "numViews": 9954,
+    "numComments": 0,
+    "size": 41631744,
+    "listed": false,
+    "scoreCompleteness": 36,
+    "culture": "ja-jp",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "HurricaneHarvey_Shelter",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "防災科学技術研究所",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/4d2c0ceef4c84575a4fafc3600f8fe4e"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "e2756d086276499ba1d028d1fe9311ea",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160,
+       80
+      ],
+      [
+       160,
+       80
+      ],
+      [
+       160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       80
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Point feature class of shelter locations during ongoing emergency response.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160,
+        80
+       ],
+       [
+        160,
+        80
+       ],
+       [
+        160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        80
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "<p>This layer to be edited when shelter locations are designated during emergency response and evacuations.</p>",
+    "licenseInfo": null,
+    "ownerId": "49a3feb9e5a14bf0ad8b5523d908a39d",
+    "title": "Shelter Locations",
+    "type": "Feature Service",
+    "orgId": "lo6DwqkHoBfbpsNX",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1786478054000,
+    "avgRating": 0,
+    "id": "e2756d086276499ba1d028d1fe9311ea",
+    "categories": [
+     "/Categories/Emergency Management"
+    ],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "CarbonGIS",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1786474800000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1776718483000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/lo6DwqkHoBfbpsNX/arcgis/rest/services/Shelter_Locations/FeatureServer",
+    "tags": [
+     "Carbon County",
+     "Carbon Alert",
+     "Emergency Management",
+     "Emergency Response"
+    ],
+    "numViews": 55916,
+    "numComments": 0,
+    "size": 65536,
+    "listed": false,
+    "scoreCompleteness": 75,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Shelter_Locations",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Carbon County Montana",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/e2756d086276499ba1d028d1fe9311ea"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "d390a96cc4c54c7780c5311aa6927793",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -158.19177958065242,
+       21.495878687980515
+      ],
+      [
+       -157.72363696134437,
+       21.495878687980515
+      ],
+      [
+       -157.72363696134437,
+       21.27189156199663
+      ],
+      [
+       -158.19177958065242,
+       21.27189156199663
+      ],
+      [
+       -158.19177958065242,
+       21.495878687980515
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -158.19177958065242,
+        21.495878687980515
+       ],
+       [
+        -157.72363696134437,
+        21.495878687980515
+       ],
+       [
+        -157.72363696134437,
+        21.27189156199663
+       ],
+       [
+        -158.19177958065242,
+        21.27189156199663
+       ],
+       [
+        -158.19177958065242,
+        21.495878687980515
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Shelter Locations",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1748384574000,
+    "avgRating": 0,
+    "id": "d390a96cc4c54c7780c5311aa6927793",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "PIC@Oahu",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1748383200000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1747193989000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services9.arcgis.com/Ooi6UVqf5oT2fIZ1/arcgis/rest/services/Shelter_Locations/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 194,
+    "numComments": 0,
+    "size": 49152,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Shelter_Locations",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "PIC@Oahu",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/d390a96cc4c54c7780c5311aa6927793"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "08f5d86c62394127a984aeb29d65a002",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Registration form used to collect personal information per family in the event of occurring disaster. ",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Multilayer",
+     "Public Data Collection",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Registration",
+    "type": "Feature Service",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 17408,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1716485527000,
+    "avgRating": 0,
+    "id": "08f5d86c62394127a984aeb29d65a002",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "gis@nemo.org.bz",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1716483600000,
+    "thumbnail": "thumbnail/defaultThumbnail.png",
+    "languages": [],
+    "created": 1714754186000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services8.arcgis.com/IXYmdkndf6VGeFte/arcgis/rest/services/service_f5fe9e2ebba3423fb675597b594a6b56/FeatureServer",
+    "tags": [
+     "Survey123"
+    ],
+    "numViews": 27,
+    "numComments": 0,
+    "size": 328704,
+    "listed": false,
+    "scoreCompleteness": 50,
+    "culture": "",
+    "industries": [],
+    "name": "service_f5fe9e2ebba3423fb675597b594a6b56",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "gis@nemo.org.bz",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/08f5d86c62394127a984aeb29d65a002"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "fca99451726645d989bd0991ca0847f8",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160,
+       80
+      ],
+      [
+       160,
+       80
+      ],
+      [
+       160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       80
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Shelter view for public maps",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160,
+        80
+       ],
+       [
+        160,
+        80
+       ],
+       [
+        160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        80
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter_view",
+    "type": "Feature Service",
+    "orgId": "AledtxqV5ouP1iUf",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1710443874000,
+    "avgRating": 0,
+    "id": "fca99451726645d989bd0991ca0847f8",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "mboeck",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1710446400000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1710443805000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services6.arcgis.com/AledtxqV5ouP1iUf/arcgis/rest/services/Shelter_view/FeatureServer",
+    "tags": [
+     "shelter",
+     "lodge"
+    ],
+    "numViews": 9,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 50,
+    "culture": "",
+    "industries": [],
+    "name": "Shelter_view",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Story County, Iowa GIS",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/fca99451726645d989bd0991ca0847f8"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "f073a4791d9e474485284c2e42cd8105",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "a75daf251aa44ea998d3f99120a00def",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "OwnerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Source",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Status",
+    "type": "Feature Service",
+    "orgId": "l7uujk4hHifqabRB",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1723564925000,
+    "avgRating": 0,
+    "id": "f073a4791d9e474485284c2e42cd8105",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "SitUnit_AZDEMA",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1770217200000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1715794415000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services6.arcgis.com/l7uujk4hHifqabRB/arcgis/rest/services/survey123_a75daf251aa44ea998d3f99120a00def/FeatureServer",
+    "tags": [
+     "Survey123"
+    ],
+    "numViews": 99879,
+    "numComments": 0,
+    "size": 779536,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_a75daf251aa44ea998d3f99120a00def",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Arizona Department of Emergency and Military Affairs",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/f073a4791d9e474485284c2e42cd8105"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "313f940d25a04c9386eb103561f694c8",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -179.99999550841466,
+       88.99999992161118
+      ],
+      [
+       179.99999550841466,
+       88.99999992161118
+      ],
+      [
+       179.99999550841466,
+       -88.99999992161119
+      ],
+      [
+       -179.99999550841466,
+       -88.99999992161119
+      ],
+      [
+       -179.99999550841466,
+       88.99999992161118
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Use the Field Notes template to capture simple, classified observations.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -179.99999550841466,
+        88.99999992161118
+       ],
+       [
+        179.99999550841466,
+        88.99999992161118
+       ],
+       [
+        179.99999550841466,
+        -88.99999992161119
+       ],
+       [
+        -179.99999550841466,
+        -88.99999992161119
+       ],
+       [
+        -179.99999550841466,
+        88.99999992161118
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Collector",
+     "Data",
+     "Environment",
+     "Feature Access",
+     "Feature Service",
+     "Feature Service Template",
+     "Field Notes",
+     "General",
+     "Layer",
+     "Layer Template",
+     "Natural Resources",
+     "Platform",
+     "Platform Template",
+     "Public Data Collection",
+     "Service",
+     "Service Template",
+     "Singlelayer",
+     "sourceId#e6a434b87aad4e5499bb27a74811b2eb",
+     "Template",
+     "Hosted Service"
+    ],
+    "description": "Field Collection 2024: Bus Shelters",
+    "licenseInfo": null,
+    "title": "Bus_Shelter",
+    "type": "Feature Service",
+    "orgId": "i75zh9vlhYUpqwjr",
+    "screenshots": [],
+    "subInfo": 2309120,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1718898846000,
+    "avgRating": 0,
+    "id": "313f940d25a04c9386eb103561f694c8",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "djack_townoftruckee",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1724166000000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1718753428000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services5.arcgis.com/i75zh9vlhYUpqwjr/arcgis/rest/services/Bus_Shelter/FeatureServer",
+    "tags": [
+     "Field Notes",
+     "Notes",
+     "Collector",
+     "QuickProject"
+    ],
+    "numViews": 191,
+    "numComments": 0,
+    "size": 2759680,
+    "listed": false,
+    "scoreCompleteness": 71,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Bus_Shelter",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Town of Truckee",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/313f940d25a04c9386eb103561f694c8"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "4194c61c05c244f5bc927867fd4ebdb5",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160,
+       80
+      ],
+      [
+       160,
+       80
+      ],
+      [
+       160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       80
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160,
+        80
+       ],
+       [
+        160,
+        80
+       ],
+       [
+        160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        80
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "Used in Animal Care Hub: https://animal-shelter-msb.hub.arcgis.com",
+    "licenseInfo": null,
+    "title": "Animal Shelter",
+    "type": "Feature Service",
+    "orgId": "fX5IGselyy1TirdY",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1712171455000,
+    "avgRating": 0,
+    "id": "4194c61c05c244f5bc927867fd4ebdb5",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "MatSuBorough",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1712170800000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1696268508000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/fX5IGselyy1TirdY/arcgis/rest/services/Animal_Shelter/FeatureServer",
+    "tags": [],
+    "numViews": 199,
+    "numComments": 0,
+    "size": 16384,
+    "listed": false,
+    "scoreCompleteness": 38,
+    "culture": "",
+    "industries": [],
+    "name": "Animal_Shelter",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Matanuska-Susitna Borough",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/4194c61c05c244f5bc927867fd4ebdb5"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "f593850dfd8c41ee803b8f908dbf7fe7",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160,
+       80
+      ],
+      [
+       160,
+       80
+      ],
+      [
+       160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       80
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Layer of shelter locations for GEOG 4570 final project",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160,
+        80
+       ],
+       [
+        160,
+        80
+       ],
+       [
+        160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        80
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Locations",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1651194120000,
+    "avgRating": 0,
+    "id": "f593850dfd8c41ee803b8f908dbf7fe7",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "CupitJonatUNT",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1651190015000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services1.arcgis.com/vdxp8SwMGji0hqly/arcgis/rest/services/Shelter_Locations/FeatureServer",
+    "tags": [
+     "GEOG 4570",
+     "Project 2",
+     "Shelter"
+    ],
+    "numViews": 47,
+    "numComments": 0,
+    "size": 16384,
+    "listed": false,
+    "scoreCompleteness": 65,
+    "culture": "en-us",
+    "industries": [],
+    "name": "Shelter_Locations",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/f593850dfd8c41ee803b8f908dbf7fe7"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "a74191ac4a1443abba110ca5d11301d3",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Shelter Report Survey",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Metadata",
+     "Hosted Service"
+    ],
+    "description": "<p>Shelter Report Survey</p>",
+    "licenseInfo": null,
+    "title": "Shelter Report Survey",
+    "type": "Feature Service",
+    "orgId": "WOCTeelWa8YfhXRF",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1705586511000,
+    "avgRating": 0,
+    "id": "a74191ac4a1443abba110ca5d11301d3",
+    "categories": [
+     "/Categories/Buildings/Structures"
+    ],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "nadim.hammoud",
+    "accessInformation": "LRC",
+    "largeThumbnail": null,
+    "lastViewed": 1724738400000,
+    "thumbnail": "thumbnail/Shelter_Report_Survey.png",
+    "languages": [],
+    "created": 1603967225000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services7.arcgis.com/WOCTeelWa8YfhXRF/arcgis/rest/services/service_c9706651ae104601b730f6d22623418d/FeatureServer",
+    "tags": [
+     "shelter",
+     "bfer",
+     "port",
+     "explosion"
+    ],
+    "numViews": 427,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 58,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_c9706651ae104601b730f6d22623418d",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Lebanese Red Cross",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/a74191ac4a1443abba110ca5d11301d3"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "25a24af7ca9a49c0bb6b0ee87dc3e845",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "c8c7106155a948fa8ce81896e8d017b8",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "OwnerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Source",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "ownerId": "d35b20e93fbb4d5eaddfcb4bcc66ced3",
+    "title": "Shelter Drill Feedback",
+    "type": "Feature Service",
+    "orgId": "EYzEZbDhXZjURPbP",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1780081784000,
+    "avgRating": 0,
+    "id": "25a24af7ca9a49c0bb6b0ee87dc3e845",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "BBerntsen@bellevuewa.gov_cobgis",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1780076193000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/EYzEZbDhXZjURPbP/arcgis/rest/services/survey123_c8c7106155a948fa8ce81896e8d017b8/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 294912,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_c8c7106155a948fa8ce81896e8d017b8",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "City of Bellevue",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/25a24af7ca9a49c0bb6b0ee87dc3e845"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "93608c1855eb47dba3deb49086dcc924",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "0bfe7cd97e084862a6d00f16e145db7c",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Registration_form",
+    "type": "Feature Service",
+    "orgId": "unH1Ms69VicTVDkO",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1776782676000,
+    "avgRating": 0,
+    "id": "93608c1855eb47dba3deb49086dcc924",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "403@wcema-ok.gov",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1776780000000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1770138216000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services6.arcgis.com/unH1Ms69VicTVDkO/arcgis/rest/services/survey123_0bfe7cd97e084862a6d00f16e145db7c_form/FeatureServer",
+    "tags": [
+     "Survey123"
+    ],
+    "numViews": 5,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_0bfe7cd97e084862a6d00f16e145db7c_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Washington County Emergency Management ",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/93608c1855eb47dba3deb49086dcc924"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "93c0f3e648b84ad9af0a369de39596cf",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter manager form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1723675643000,
+    "avgRating": 0,
+    "id": "93c0f3e648b84ad9af0a369de39596cf",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "alexandrar_USAID",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1723680000000,
+    "thumbnail": "thumbnail/Shelter_manager_interview.png",
+    "languages": [],
+    "created": 1722378501000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/Djjoop3BmZekEtDo/arcgis/rest/services/service_6c4553764619463ba436be214d60ec55/FeatureServer",
+    "tags": [
+     "XForm",
+     "XForms"
+    ],
+    "numViews": 5,
+    "numComments": 0,
+    "size": 131072,
+    "listed": false,
+    "scoreCompleteness": 41,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_6c4553764619463ba436be214d60ec55",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "alexandrar_USAID",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/93c0f3e648b84ad9af0a369de39596cf"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "ffe708550c634e85b62e5ad0a68947b1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "a75daf251aa44ea998d3f99120a00def",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "StakeholderView",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Status_results",
+    "type": "Feature Service",
+    "orgId": "l7uujk4hHifqabRB",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1715976068000,
+    "avgRating": 0,
+    "id": "ffe708550c634e85b62e5ad0a68947b1",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "SitUnit_AZDEMA",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1715979600000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1715975174000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services6.arcgis.com/l7uujk4hHifqabRB/arcgis/rest/services/survey123_a75daf251aa44ea998d3f99120a00def_results/FeatureServer",
+    "tags": [],
+    "numViews": 22,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "name": "survey123_a75daf251aa44ea998d3f99120a00def_results",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Arizona Department of Emergency and Military Affairs",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/ffe708550c634e85b62e5ad0a68947b1"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "9bde2084ef3c437cb8d78a27e2f8f7e9",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "A survey to find out if citizens need assistance with finding shelter during an evacuation.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "b1cc50caa95745929a2fabb24cb130af",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Survey_form",
+    "type": "Feature Service",
+    "orgId": "f4rR7WnIfGBdVYFd",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1779410358000,
+    "avgRating": 0,
+    "id": "9bde2084ef3c437cb8d78a27e2f8f7e9",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "svc_CitizenEngagement",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1779408000000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1777677942000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/f4rR7WnIfGBdVYFd/arcgis/rest/services/survey123_b1cc50caa95745929a2fabb24cb130af_form/FeatureServer",
+    "tags": [
+     "Survey123",
+     "shelter",
+     "emergency operations",
+     "eo"
+    ],
+    "numViews": 16,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 66,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_b1cc50caa95745929a2fabb24cb130af_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Fairbanks North Star Borough",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/9bde2084ef3c437cb8d78a27e2f8f7e9"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "c8a3b574be9d45e09b3c3e3663dbcd59",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -164.188912,
+       69.44934299999998
+      ],
+      [
+       178.338813,
+       69.44934299999998
+      ],
+      [
+       178.338813,
+       20.88732099999999
+      ],
+      [
+       -164.188912,
+       20.88732099999999
+      ],
+      [
+       -164.188912,
+       69.44934299999998
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -164.188912,
+        69.44934299999998
+       ],
+       [
+        178.338813,
+        69.44934299999998
+       ],
+       [
+        178.338813,
+        20.88732099999999
+       ],
+       [
+        -164.188912,
+        20.88732099999999
+       ],
+       [
+        -164.188912,
+        69.44934299999998
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Locations 2024",
+    "type": "Feature Service",
+    "orgId": "SIYkiqjmENweC50g",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1776670406000,
+    "avgRating": 0,
+    "id": "c8a3b574be9d45e09b3c3e3663dbcd59",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "rherfi2585_SDSUGeo",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1776670406000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/SIYkiqjmENweC50g/arcgis/rest/services/2024_V2/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 88,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "San Diego State University",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/c8a3b574be9d45e09b3c3e3663dbcd59"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "6841cc01922d49fda2ed614e8cb02281",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -164.188912,
+       69.44934299999998
+      ],
+      [
+       178.338813,
+       69.44934299999998
+      ],
+      [
+       178.338813,
+       21.304316999999994
+      ],
+      [
+       -164.188912,
+       21.304316999999994
+      ],
+      [
+       -164.188912,
+       69.44934299999998
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -164.188912,
+        69.44934299999998
+       ],
+       [
+        178.338813,
+        69.44934299999998
+       ],
+       [
+        178.338813,
+        21.304316999999994
+       ],
+       [
+        -164.188912,
+        21.304316999999994
+       ],
+       [
+        -164.188912,
+        69.44934299999998
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Shelter Locations 2021",
+    "type": "Feature Service",
+    "orgId": "SIYkiqjmENweC50g",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1776641568000,
+    "avgRating": 0,
+    "id": "6841cc01922d49fda2ed614e8cb02281",
+    "categories": [],
+    "spatialReference": "",
+    "numRatings": 0,
+    "owner": "rherfi2585_SDSUGeo",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1776639600000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1776637831000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/SIYkiqjmENweC50g/arcgis/rest/services/2021_V2/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 1,
+    "numComments": 0,
+    "size": 88,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "San Diego State University",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/6841cc01922d49fda2ed614e8cb02281"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "e8c91c1f38a04eb7a7b157becdc6037f",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "1f129abd382842ae932e4397074dd276",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Form",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Connect",
+     "xForm",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Census_form",
+    "type": "Feature Service",
+    "orgId": "kILp9lqGUeOhnDbI",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1774012234000,
+    "avgRating": 0,
+    "id": "e8c91c1f38a04eb7a7b157becdc6037f",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "aspraggins_CHAMPS",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1774011600000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1773944807000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/kILp9lqGUeOhnDbI/arcgis/rest/services/service_5114b609eb1a4de1aa07460544e5365e_form/FeatureServer",
+    "tags": [],
+    "numViews": 5,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_5114b609eb1a4de1aa07460544e5365e_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Tennessee Emergency Management Agency",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/e8c91c1f38a04eb7a7b157becdc6037f"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "34975f7b39494c7c8b02d4443d6480b1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "City of Redlands shelter information form survey. ",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "8ab4903ba280474ca1a40315464f653a",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Survey_form",
+    "type": "Feature Service",
+    "orgId": "FLM8UAw9y5MmuVTV",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1687462944000,
+    "avgRating": 0,
+    "id": "34975f7b39494c7c8b02d4443d6480b1",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "jchaconas",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1687460400000,
+    "thumbnail": null,
+    "languages": [],
+    "tokenExpirationDate": -1,
+    "created": 1687461114000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services.arcgis.com/FLM8UAw9y5MmuVTV/arcgis/rest/services/survey123_8ab4903ba280474ca1a40315464f653a_form/FeatureServer",
+    "tags": [
+     "Survey123",
+     "EOC",
+     "Shelters"
+    ],
+    "numViews": 2,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 45,
+    "culture": "",
+    "industries": [],
+    "name": "survey123_8ab4903ba280474ca1a40315464f653a_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "City of Redlands",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/34975f7b39494c7c8b02d4443d6480b1"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "98ab02ddcb9743e598cc650d59ab84a2",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Multilayer",
+     "Public Data Collection",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Inspection Form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 1220713472,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1681233497000,
+    "avgRating": 0,
+    "id": "98ab02ddcb9743e598cc650d59ab84a2",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "gis@nemo.org.bz",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1681833600000,
+    "thumbnail": "thumbnail/Damage_Assesment.jpg",
+    "languages": [],
+    "created": 1675290572000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services8.arcgis.com/IXYmdkndf6VGeFte/arcgis/rest/services/service_32a4c08ee82d4ddfbe9b74365a3b0b06/FeatureServer",
+    "tags": [
+     "XForm",
+     "XForms"
+    ],
+    "numViews": 107,
+    "numComments": 0,
+    "size": 1229872128,
+    "listed": false,
+    "scoreCompleteness": 41,
+    "culture": "",
+    "industries": [],
+    "name": "service_32a4c08ee82d4ddfbe9b74365a3b0b06",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "gis@nemo.org.bz",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/98ab02ddcb9743e598cc650d59ab84a2"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "eb6ecd5083e54dcdb5f56de86b3618a1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "9499943ce88f44f98f911f4a7fa12617",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "StakeholderView",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "SLV Shelter_stakeholder",
+    "type": "Feature Service",
+    "orgId": "mMBpeYj0vPFotzbe",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1631121799000,
+    "avgRating": 0,
+    "id": "eb6ecd5083e54dcdb5f56de86b3618a1",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "Hassan.Abdi_slcgov",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1727377200000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1631121790000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/mMBpeYj0vPFotzbe/arcgis/rest/services/survey123_9499943ce88f44f98f911f4a7fa12617_stakeholder/FeatureServer",
+    "tags": [],
+    "numViews": 2,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_9499943ce88f44f98f911f4a7fa12617_stakeholder",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Salt Lake City",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/eb6ecd5083e54dcdb5f56de86b3618a1"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "802b0420a9df4fe9abced4ce5dd42784",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       85.08831048934904
+      ],
+      [
+       180,
+       85.08831048934904
+      ],
+      [
+       180,
+       -85.08831048934906
+      ],
+      [
+       -180,
+       -85.08831048934906
+      ],
+      [
+       -180,
+       85.08831048934904
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        85.08831048934904
+       ],
+       [
+        180,
+        85.08831048934904
+       ],
+       [
+        180,
+        -85.08831048934906
+       ],
+       [
+        -180,
+        -85.08831048934906
+       ],
+       [
+        -180,
+        85.08831048934904
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Hurricane_Shelter_Sites",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 2594816,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1779302508000,
+    "avgRating": 0,
+    "id": "802b0420a9df4fe9abced4ce5dd42784",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "Tangipahoa_Trial",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1779300000000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1622747901000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services9.arcgis.com/GFjf8leC8Mas9DyE/arcgis/rest/services/Hurricane_Shelter_Sites/FeatureServer",
+    "tags": [],
+    "numViews": 69,
+    "numComments": 0,
+    "size": 2676736,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Hurricane_Shelter_Sites",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/802b0420a9df4fe9abced4ce5dd42784"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "e54b6fa0f20d4004b76a0d1507e1ffdf",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Multilayer",
+     "Public Data Collection",
+     "Service",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Registration Form_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1769373717000,
+    "avgRating": 0,
+    "id": "e54b6fa0f20d4004b76a0d1507e1ffdf",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "joshua.walter_williamsontn",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1769461200000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1769372374000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services8.arcgis.com/hkhKI6Qq7rjvBjZU/arcgis/rest/services/service_b9804fc65878460e8f8d30dd5e4795f5_form/FeatureServer",
+    "tags": [],
+    "numViews": 214,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_b9804fc65878460e8f8d30dd5e4795f5_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/e54b6fa0f20d4004b76a0d1507e1ffdf"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "c51143c7db0a402ab835bed830106b95",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160,
+       80
+      ],
+      [
+       160,
+       80
+      ],
+      [
+       160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       80
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160,
+        80
+       ],
+       [
+        160,
+        80
+       ],
+       [
+        160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        80
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Multilayer",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "3D homeless shelter",
+    "type": "Feature Service",
+    "orgId": "InH2ctI0mXwZbjMf",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1745466651000,
+    "avgRating": 0,
+    "id": "c51143c7db0a402ab835bed830106b95",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "722rbssga24",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1746910800000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1745461037000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services4.arcgis.com/InH2ctI0mXwZbjMf/arcgis/rest/services/3D_homeless_shelter/FeatureServer",
+    "tags": [],
+    "numViews": 110,
+    "numComments": 0,
+    "size": 212992,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "3D_homeless_shelter",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Robinson Secondary School",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/c51143c7db0a402ab835bed830106b95"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "20028ac1eea54d8188245aa88c93b910",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -69.88446847375951
+      ],
+      [
+       -180,
+       -69.88446847375951
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -69.88446847375951
+       ],
+       [
+        -180,
+        -69.88446847375951
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter_Public_View",
+    "type": "Feature Service",
+    "orgId": "4RbSpZqACDsi1hHk",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1739372923000,
+    "avgRating": 0,
+    "id": "20028ac1eea54d8188245aa88c93b910",
+    "categories": [],
+    "spatialReference": "102654",
+    "numRatings": 0,
+    "owner": "bjonesPPROEM",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1741899600000,
+    "thumbnail": "thumbnail/ago_downloaded.gif",
+    "languages": [],
+    "created": 1658508176000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services3.arcgis.com/4RbSpZqACDsi1hHk/arcgis/rest/services/Shelter_Public_View/FeatureServer",
+    "tags": [
+     "PPROEM",
+     "sourceId-93c64661317f42e3b9289c522314dc9e",
+     "copied with ago-assistant"
+    ],
+    "numViews": 1043,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 50,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Shelter_Public_View",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Pikes Peak Regional OEM",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/20028ac1eea54d8188245aa88c93b910"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "fcece8819b8243338ffa0abd749b3e31",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "e893a12276af47578a5a111a661b96ee",
+     "Feature Access",
+     "Feature Service",
+     "OwnerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Source",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Weekly Shelter Report",
+    "type": "Feature Service",
+    "orgId": "SCwJH1pD8WSn5T5y",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1738008319000,
+    "avgRating": 0,
+    "id": "fcece8819b8243338ffa0abd749b3e31",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "kbuckley30",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1743015600000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1677187951000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/survey123_e893a12276af47578a5a111a661b96ee/FeatureServer",
+    "tags": [],
+    "numViews": 738,
+    "numComments": 0,
+    "size": 2729632,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_e893a12276af47578a5a111a661b96ee",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "City of Tacoma GIS",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/fcece8819b8243338ffa0abd749b3e31"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "99764513f9464c97948ac3dddb04617e",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Storm Shelter Registry",
+    "type": "Feature Service",
+    "orgId": "kILp9lqGUeOhnDbI",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1731602726000,
+    "avgRating": 0,
+    "id": "99764513f9464c97948ac3dddb04617e",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "yu_TEMA",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1731600000000,
+    "thumbnail": "thumbnail/TN-Icon-Color-CMYK--_C2_AB.png",
+    "languages": [],
+    "created": 1731602622000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services1.arcgis.com/kILp9lqGUeOhnDbI/arcgis/rest/services/service_0f152ac4e1dc414d875e8517dfd163bf/FeatureServer",
+    "tags": [
+     "XForm",
+     "XForms"
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 41,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_0f152ac4e1dc414d875e8517dfd163bf",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Tennessee Emergency Management Agency",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/99764513f9464c97948ac3dddb04617e"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "33a5f6b494be45c49d5d2e5d41a949ed",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "b77faea841d44041ae1368b91e5b89c0",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Intake Form_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1727378655000,
+    "avgRating": 0,
+    "id": "33a5f6b494be45c49d5d2e5d41a949ed",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "jorgensen.jd",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1727424000000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1727353062000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services3.arcgis.com/45j8gvzBhu8XKZTH/arcgis/rest/services/survey123_b77faea841d44041ae1368b91e5b89c0_form/FeatureServer",
+    "tags": [
+     "Survey123"
+    ],
+    "numViews": 20,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_b77faea841d44041ae1368b91e5b89c0_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "jorgensen.jd",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/33a5f6b494be45c49d5d2e5d41a949ed"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "f34f098d15b84925ba45075040c1cd82",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Public View",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Multilayer",
+     "Service",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Animal Shelter_Public",
+    "type": "Feature Service",
+    "orgId": "D8HDauupPK6iHzyL",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1678398468000,
+    "avgRating": 0,
+    "id": "f34f098d15b84925ba45075040c1cd82",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "plap_mcostley",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1678388400000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1572895212000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services8.arcgis.com/D8HDauupPK6iHzyL/arcgis/rest/services/Animal_Shelter_Public/FeatureServer",
+    "tags": [
+     "animal shelter",
+     "public",
+     "gdb"
+    ],
+    "numViews": 19538,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 53,
+    "culture": "en-us",
+    "industries": [],
+    "name": "Animal_Shelter_Public",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "ArcGIS Online City of Portage la Prairie ",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/f34f098d15b84925ba45075040c1cd82"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "f0b42070cdff436a81bb93bb17321583",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -179.9999885408441,
+       83.66549110393129
+      ],
+      [
+       179.9999885408441,
+       83.66549110393129
+      ],
+      [
+       179.9999885408441,
+       -89.00000000000001
+      ],
+      [
+       -179.9999885408441,
+       -89.00000000000001
+      ],
+      [
+       -179.9999885408441,
+       83.66549110393129
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "shelter",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -179.9999885408441,
+        83.66549110393129
+       ],
+       [
+        179.9999885408441,
+        83.66549110393129
+       ],
+       [
+        179.9999885408441,
+        -89.00000000000001
+       ],
+       [
+        -179.9999885408441,
+        -89.00000000000001
+       ],
+       [
+        -179.9999885408441,
+        83.66549110393129
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Multilayer",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Port Shelter_WFL1",
+    "type": "Feature Service",
+    "orgId": "iuNbZYJOrAYBrPyC",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1652148358000,
+    "avgRating": 0,
+    "id": "f0b42070cdff436a81bb93bb17321583",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "pjoshi05_TuftsGIS",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1652148254000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services3.arcgis.com/iuNbZYJOrAYBrPyC/arcgis/rest/services/Port_Shelter_WFL1/FeatureServer",
+    "tags": [
+     "Ports"
+    ],
+    "numViews": 432,
+    "numComments": 0,
+    "size": 204079104,
+    "listed": false,
+    "scoreCompleteness": 35,
+    "culture": "en-us",
+    "industries": [],
+    "name": "Port_Shelter_WFL1",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Tufts University",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/f0b42070cdff436a81bb93bb17321583"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "66c3dbd65b5b416389ad07db6b232c68",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Animal_Shelter_Adoptions",
+    "type": "Feature Service",
+    "orgId": "dRv4mQ6ZAnginHmF",
+    "screenshots": [],
+    "subInfo": 188416,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1490208254000,
+    "avgRating": 0,
+    "id": "66c3dbd65b5b416389ad07db6b232c68",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "bwood_tpcg",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1723064400000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1490208250000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/dRv4mQ6ZAnginHmF/arcgis/rest/services/Animal_Shelter_Adoptions/FeatureServer",
+    "tags": [],
+    "numViews": 1113,
+    "numComments": 0,
+    "size": 270336,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Animal_Shelter_Adoptions",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Terrebonne Parish Consolidated Government",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/66c3dbd65b5b416389ad07db6b232c68"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "8bd5a19e7c79422eac3dc08575ffa955",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Public view of OES shelter locations",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": "<p>Public view of OES shelter locations. Used in 8a9df4df73e8461790074669bc2af3bd</p>",
+    "licenseInfo": "<p>Every reasonable effort has been made to ensure the accuracy of this data. San Bernardino County makes no warranty, representation or guaranty of the content, sequence, accuracy, timeliness or completeness of the data provided herein. The user of this data should not rely solely on the data provided herein for any reason. San Bernardino County shall assume no liability for any errors, omissions, or inaccuracies in the information provided regardless of how caused. San Bernardino County shall assume no liability for any decisions made or actions taken or not taken by the data furnished.<br />&nbsp;</p>",
+    "title": "OES_IncidentShelters public",
+    "type": "Feature Service",
+    "orgId": "aA3snZwJfFkVyDuP",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1766549691000,
+    "avgRating": 0,
+    "id": "8bd5a19e7c79422eac3dc08575ffa955",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "Allison_Muise",
+    "accessInformation": "San Bernardino County",
+    "largeThumbnail": null,
+    "lastViewed": 1766548800000,
+    "thumbnail": "thumbnail/thumbnail1751998306309.png",
+    "languages": [],
+    "created": 1751907354000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/aA3snZwJfFkVyDuP/arcgis/rest/services/OES_IncidentShelters_public/FeatureServer",
+    "tags": [
+     "san bernardino county",
+     "oes",
+     "shelters"
+    ],
+    "numViews": 779,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 83,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "OES_IncidentShelters_public",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "County of San Bernardino",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/8bd5a19e7c79422eac3dc08575ffa955"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "410fd97a279f47de8ead11901da45f0d",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -179.9999885408441,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -69.99444444444444
+      ],
+      [
+       -179.9999885408441,
+       -69.99444444444444
+      ],
+      [
+       -179.9999885408441,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Shelter locations used in planning and response emergency operations.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -179.9999885408441,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -69.99444444444444
+       ],
+       [
+        -179.9999885408441,
+        -69.99444444444444
+       ],
+       [
+        -179.9999885408441,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Multilayer",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": "Shelter locations used in planning and response emergency operations.",
+    "licenseInfo": null,
+    "title": "Oroville_Shelters",
+    "type": "Feature Service",
+    "orgId": "DO4gTjwJVIJ7O9Ca",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1487005374000,
+    "avgRating": 0,
+    "id": "410fd97a279f47de8ead11901da45f0d",
+    "categories": [],
+    "spatialReference": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+    "numRatings": 0,
+    "owner": "jpedderDRP",
+    "accessInformation": "Esri, Inc.",
+    "largeThumbnail": null,
+    "lastViewed": 1722960000000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1487005361000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/DO4gTjwJVIJ7O9Ca/arcgis/rest/services/Oroville_Shelters/FeatureServer",
+    "tags": [
+     "Emergency Management",
+     " Shelters",
+     " Response",
+     " Preparedness"
+    ],
+    "numViews": 805,
+    "numComments": 0,
+    "size": 32768,
+    "listed": false,
+    "scoreCompleteness": 71,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Oroville_Shelters",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Esri’s Disaster Response Program",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/410fd97a279f47de8ead11901da45f0d"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "da588762766846a1a0c90b04e840c6f9",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Emergency shelter records for Broward County, Florida, including shelter location, capacity, occupancy, and operational status information.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "<b>Overview</b><p>This feature service contains point-based emergency shelter records for Broward County, Florida. It supports operational tracking of shelter locations and related status information used in emergency management and response activities.</p><b>Feature Content</b><ul><li><b>Shelters2</b> includes shelter records with location, capacity, occupancy, status, type, city, and operational attributes such as power generation availability and incident references.</li></ul><b>Use Cases</b><ul><li>Support emergency shelter planning and coordination.</li><li>Track shelter capacity, occupancy, and availability during incidents.</li><li>Reference shelter locations in county emergency operations workflows.</li></ul><b>Geographic Coverage</b><p>The service covers Broward County, Florida, with shelter features managed at the local county level.</p>",
+    "licenseInfo": null,
+    "ownerId": "cef1f6930f454cabb2993b9d0e03f9c5",
+    "title": "Emergency Shelter Locations",
+    "type": "Feature Service",
+    "orgId": "JMAJrTsHNLrSsWf5",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1785860463000,
+    "avgRating": 0,
+    "id": "da588762766846a1a0c90b04e840c6f9",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "bcgisdata_BCGIS",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1785859200000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1504611445000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/JMAJrTsHNLrSsWf5/arcgis/rest/services/Shelters2/FeatureServer",
+    "tags": [
+     "Broward County",
+     "Florida shelters",
+     "emergency shelters",
+     "shelter capacity",
+     "shelter occupancy",
+     "disaster response",
+     "emergency management",
+     "Broward County Florida"
+    ],
+    "numViews": 66,
+    "numComments": 0,
+    "size": 270336,
+    "listed": false,
+    "scoreCompleteness": 81,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Shelters2",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "             Broward County GIS",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/da588762766846a1a0c90b04e840c6f9"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "843aaee78f1b455498504be4f67fd5d6",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "6c35e879ce4f4cba847ac5f1acebc609",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Registration_form",
+    "type": "Feature Service",
+    "orgId": "OAphVRUvJVpBRovs",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1781105778000,
+    "avgRating": 0,
+    "id": "843aaee78f1b455498504be4f67fd5d6",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "relee@CityOfChesapeake.Net_chesva",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1781103600000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1760462042000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/OAphVRUvJVpBRovs/arcgis/rest/services/survey123_6c35e879ce4f4cba847ac5f1acebc609_form/FeatureServer",
+    "tags": [
+     "Survey123"
+    ],
+    "numViews": 142,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_6c35e879ce4f4cba847ac5f1acebc609_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "City of Chesapeake, VA",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/843aaee78f1b455498504be4f67fd5d6"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "811367a26cb8407b929d98a9b4b1bd78",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -164.188912,
+       69.44934299999998
+      ],
+      [
+       178.338813,
+       69.44934299999998
+      ],
+      [
+       178.338813,
+       20.88732099999999
+      ],
+      [
+       -164.188912,
+       20.88732099999999
+      ],
+      [
+       -164.188912,
+       69.44934299999998
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -164.188912,
+        69.44934299999998
+       ],
+       [
+        178.338813,
+        69.44934299999998
+       ],
+       [
+        178.338813,
+        20.88732099999999
+       ],
+       [
+        -164.188912,
+        20.88732099999999
+       ],
+       [
+        -164.188912,
+        69.44934299999998
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Locations 2022",
+    "type": "Feature Service",
+    "orgId": "SIYkiqjmENweC50g",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1776641626000,
+    "avgRating": 0,
+    "id": "811367a26cb8407b929d98a9b4b1bd78",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "rherfi2585_SDSUGeo",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1776641626000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/SIYkiqjmENweC50g/arcgis/rest/services/2022_V2/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 88,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "San Diego State University",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/811367a26cb8407b929d98a9b4b1bd78"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "5977fb259b224937a51f07b7586904ee",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -179.99999550841466,
+       88.99999992161116
+      ],
+      [
+       179.99999550841466,
+       88.99999992161116
+      ],
+      [
+       179.99999550841466,
+       -88.99999992161116
+      ],
+      [
+       -179.99999550841466,
+       -88.99999992161116
+      ],
+      [
+       -179.99999550841466,
+       88.99999992161116
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Layer outputs from the shelter selection tool.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -179.99999550841466,
+        88.99999992161116
+       ],
+       [
+        179.99999550841466,
+        88.99999992161116
+       ],
+       [
+        179.99999550841466,
+        -88.99999992161116
+       ],
+       [
+        -179.99999550841466,
+        -88.99999992161116
+       ],
+       [
+        -179.99999550841466,
+        88.99999992161116
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Multilayer",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": "null",
+    "licenseInfo": "null",
+    "title": "Shelter Selection Layers",
+    "type": "Feature Service",
+    "orgId": "neT9SoYxizqTHZPH",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [
+     "null"
+    ],
+    "modified": 1766507401000,
+    "avgRating": 0,
+    "id": "5977fb259b224937a51f07b7586904ee",
+    "categories": [
+     "null"
+    ],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "HSEMA_PPD",
+    "accessInformation": "null",
+    "largeThumbnail": null,
+    "lastViewed": 1766505600000,
+    "thumbnail": "thumbnail/Shelter_Selection_Layers.png",
+    "languages": [
+     "null"
+    ],
+    "created": 1607532845000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/neT9SoYxizqTHZPH/arcgis/rest/services/Shelter_Selection_Layers/FeatureServer",
+    "tags": [
+     "shelter",
+     "selection"
+    ],
+    "numViews": 7615,
+    "numComments": 0,
+    "size": 507904,
+    "listed": false,
+    "scoreCompleteness": 70,
+    "culture": "en-us",
+    "industries": [
+     "null"
+    ],
+    "apiToken1ExpirationDate": -1,
+    "name": "Shelter_Selection_Layers",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "City of Washington, DC",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/5977fb259b224937a51f07b7586904ee"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "482c4c1d68b24de78c9baf0e60df2a76",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "LARAP Shelter Assessments",
+    "type": "Feature Service",
+    "orgId": "DSSF7DFVxfZsz379",
+    "screenshots": [],
+    "subInfo": 3031040,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1743011264000,
+    "avgRating": 0,
+    "id": "482c4c1d68b24de78c9baf0e60df2a76",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "LARAP_Admin",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1743008400000,
+    "thumbnail": "thumbnail/LARAP_ChecklistEmergencyShelters_QuickCheckAccessibleShelter_Survey.png",
+    "languages": [],
+    "created": 1742510522000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services7.arcgis.com/DSSF7DFVxfZsz379/arcgis/rest/services/service_4eeb18bc45e0413da4ea780144e603d2/FeatureServer",
+    "tags": [
+     "XForm",
+     "XForms"
+    ],
+    "numViews": 18,
+    "numComments": 0,
+    "size": 3211264,
+    "listed": false,
+    "scoreCompleteness": 41,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_4eeb18bc45e0413da4ea780144e603d2",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "City of Los Angeles Department of Recreation and Parks",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/482c4c1d68b24de78c9baf0e60df2a76"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "c774c663fb6143429cd5b50031b292ef",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter manager form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 6831104,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1723675795000,
+    "avgRating": 0,
+    "id": "c774c663fb6143429cd5b50031b292ef",
+    "categories": [],
+    "robots": [
+     "noindex",
+     "nofollow"
+    ],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "ARivadeneira",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1723672800000,
+    "thumbnail": "thumbnail/Cuestionario_para_gerentes_de_albergues.png",
+    "languages": [],
+    "created": 1715212224000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services2.arcgis.com/Qksalf42f4J9dL7w/arcgis/rest/services/service_ec265c46958346989b150d27484bd15a/FeatureServer",
+    "tags": [
+     "XForm",
+     "XForms"
+    ],
+    "numViews": 83,
+    "numComments": 0,
+    "size": 7298048,
+    "listed": false,
+    "scoreCompleteness": 41,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_ec265c46958346989b150d27484bd15a",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "ARivadeneira",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/c774c663fb6143429cd5b50031b292ef"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "c673c8d5c59142b7870fb07688ebcac6",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "7074855b7b94451191221cd57c992f53",
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "OwnerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Source",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "TRELAWNY SHELTER LOCATOR",
+    "type": "Feature Service",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 7258112,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1713991215000,
+    "avgRating": 0,
+    "id": "c673c8d5c59142b7870fb07688ebcac6",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "ricardow.TMC_GOJ",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1713988800000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1696005110000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services6.arcgis.com/3R3y1KXaPJ9BFnsU/arcgis/rest/services/survey123_7074855b7b94451191221cd57c992f53/FeatureServer",
+    "tags": [
+     "Survey123"
+    ],
+    "numViews": 430,
+    "numComments": 0,
+    "size": 7935336,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "name": "survey123_7074855b7b94451191221cd57c992f53",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/c673c8d5c59142b7870fb07688ebcac6"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "9e1fc743ce3845a99015152f0fd57c04",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "fce5b20979ab48feaf0407c8bcc1dc4e",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Multilayer",
+     "Public Data Collection",
+     "Service",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "ownerId": "efe5b7485146411c90928061f13f93b0",
+    "title": "Shelter Registration Form_form",
+    "type": "Feature Service",
+    "orgId": "f5HgUpxURgEzTccH",
+    "screenshots": [],
+    "contentStatus": "public_authoritative",
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1787167357000,
+    "avgRating": 0,
+    "id": "9e1fc743ce3845a99015152f0fd57c04",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "bts104831@bts.pinellas.gov",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1787166000000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1680207762000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/f5HgUpxURgEzTccH/arcgis/rest/services/survey123_fce5b20979ab48feaf0407c8bcc1dc4e_form/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 6380,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_fce5b20979ab48feaf0407c8bcc1dc4e_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Pinellas County eGIS",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/9e1fc743ce3845a99015152f0fd57c04"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "bbc680e5605241b1bfa9a0a1ca4171c6",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "d930ca194e7b43ca81a6028c7a5845b5",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Form",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Connect",
+     "xForm",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Stats_form",
+    "type": "Feature Service",
+    "orgId": "p0Gk2nDbPs7KEqSZ",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1767970293000,
+    "avgRating": 0,
+    "id": "bbc680e5605241b1bfa9a0a1ca4171c6",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "klmorgan_TheCityDifferent",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1767804615000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services7.arcgis.com/p0Gk2nDbPs7KEqSZ/arcgis/rest/services/service_0fff19bbfa984c3d80e8c26f533a4487_form/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_0fff19bbfa984c3d80e8c26f533a4487_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "City of Santa Fe",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/bbc680e5605241b1bfa9a0a1ca4171c6"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "bfc067df52214c52a9cec64f49e64e67",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Shelter Surveillance HEOC",
+    "type": "Feature Service",
+    "orgId": "3R3y1KXaPJ9BFnsU",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1764442312000,
+    "avgRating": 0,
+    "id": "bfc067df52214c52a9cec64f49e64e67",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "burrowesh_GOJ",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": "thumbnail/Shelter_Surveillance_HEOC.png",
+    "languages": [],
+    "created": 1764441373000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services6.arcgis.com/3R3y1KXaPJ9BFnsU/arcgis/rest/services/service_0e0908b7371145eb99bc0e087a2eb907/FeatureServer",
+    "tags": [
+     "XForm",
+     "XForms"
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 131072,
+    "listed": false,
+    "scoreCompleteness": 41,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "service_0e0908b7371145eb99bc0e087a2eb907",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Government of Jamaica",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/bfc067df52214c52a9cec64f49e64e67"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "e645958fedbc4edbaa922f6a7ba78f29",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "1e4714e852e846b1ac87ead7d2fcbccd",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "OwnerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Source",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Via Shelter Assessment",
+    "type": "Feature Service",
+    "orgId": "Iofcvp6N3fbomTLU",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1715872106000,
+    "avgRating": 0,
+    "id": "e645958fedbc4edbaa922f6a7ba78f29",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "sandy.martinez_halff_demo",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1715871600000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1715866005000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services3.arcgis.com/Iofcvp6N3fbomTLU/arcgis/rest/services/survey123_1e4714e852e846b1ac87ead7d2fcbccd/FeatureServer",
+    "tags": [],
+    "numViews": 20,
+    "numComments": 0,
+    "size": 90580,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "name": "survey123_1e4714e852e846b1ac87ead7d2fcbccd",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Halff Associates Inc - Demo/Marketing",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/e645958fedbc4edbaa922f6a7ba78f29"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  }
+ ],
+ "timestamp": "2026-10-09T10:05:04.498Z",
+ "numberMatched": 2720,
+ "numberReturned": 50,
+ "links": [
+  {
+   "rel": "self",
+   "type": "application/geo+json",
+   "title": "This document as GeoJSON",
+   "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items"
+  },
+  {
+   "rel": "next",
+   "type": "application/geo+json",
+   "title": "items (next)",
+   "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items?q=shelter&bbox=-158.33,21.22,-157.6,21.75&limit=50&startindex=51"
+  },
+  {
+   "rel": "collection",
+   "type": "application/json",
+   "title": "Dataset",
+   "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+  }
+ ]
+}

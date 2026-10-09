@@ -1,0 +1,6758 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "id": "3cbc6253ee8441aa84a67697ae5291b7",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -158.2815,
+       21.7128
+      ],
+      [
+       -157.6477,
+       21.7128
+      ],
+      [
+       -157.6477,
+       21.2546
+      ],
+      [
+       -158.2815,
+       21.2546
+      ],
+      [
+       -158.2815,
+       21.7128
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Boundaries are based on peer review of the inundation models provided by UH Researchers and the operational needs of Honolulu's First Responders and the Emergency Management Community\nUpdated 2015",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -158.2815,
+        21.7128
+       ],
+       [
+        -157.6477,
+        21.7128
+       ],
+       [
+        -157.6477,
+        21.2546
+       ],
+       [
+        -158.2815,
+        21.2546
+       ],
+       [
+        -158.2815,
+        21.7128
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service"
+    ],
+    "description": "<span style='color:rgb(51, 51, 51); font-family:&quot;Lucida Grande&quot;, &quot;Segoe UI&quot;, Arial, sans-serif; background-color:rgb(255, 255, 255);'>Boundaries are based on peer review of the inundation models provided by UH Researchers and the operational needs of Honolulu's First Responders and the Emergency Management Community</span><div><span style='color:rgb(51, 51, 51); font-family:&quot;Lucida Grande&quot;, &quot;Segoe UI&quot;, Arial, sans-serif; background-color:rgb(255, 255, 255);'><br /></span></div><div><span style='color:rgb(51, 51, 51); font-family:&quot;Lucida Grande&quot;, &quot;Segoe UI&quot;, Arial, sans-serif; background-color:rgb(255, 255, 255);'>Updated 2015</span></div>",
+    "licenseInfo": "<span style='text-decoration: underline;'><span style='font-weight: bold;'>Use Limitations </span></span><br />Information contained in these data services, maps, and applications is derived from public records that are constantly undergoing change, and does not replace a site survey.   <br /><br /><span style='text-decoration: underline;'><span style='font-weight: bold;'>Legal Constraints</span></span><br /> These data services, maps, and applications and the features therein are not legal representations and do not replace a site survey. Any implied warranties, including those of merchant-ability or fitness for a particular purpose, shall be expressly excluded.",
+    "title": "Tsunami Evacuation Zones",
+    "type": "Feature Service",
+    "orgId": "tNJpAOha4mODLkXz",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1737658564000,
+    "avgRating": 0,
+    "id": "3cbc6253ee8441aa84a67697ae5291b7",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "honolulugis",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1737651600000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1458756200000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/arcgis/rest/services/Public_Safety/FeatureServer/7",
+    "tags": [
+     "honolulu",
+     "oahu",
+     "hawaii",
+     "safety",
+     "tsunami",
+     "public safety",
+     "city county honolulu",
+     "honolulu gis",
+     "zoning"
+    ],
+    "numViews": 45941,
+    "numComments": 0,
+    "size": 91,
+    "listed": false,
+    "scoreCompleteness": 98,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "City & County of Honolulu GIS",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/3cbc6253ee8441aa84a67697ae5291b7"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "3bb321168d664112948d01f46d00c0b3",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -158.28374366852947,
+       21.716375025037244
+      ],
+      [
+       -157.64459038935368,
+       21.716375025037244
+      ],
+      [
+       -157.64459038935368,
+       21.250870606094928
+      ],
+      [
+       -158.28374366852947,
+       21.250870606094928
+      ],
+      [
+       -158.28374366852947,
+       21.716375025037244
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -158.28374366852947,
+        21.716375025037244
+       ],
+       [
+        -157.64459038935368,
+        21.716375025037244
+       ],
+       [
+        -157.64459038935368,
+        21.250870606094928
+       ],
+       [
+        -158.28374366852947,
+        21.250870606094928
+       ],
+       [
+        -158.28374366852947,
+        21.716375025037244
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Tsunami Evacuation Oahu",
+    "type": "Feature Service",
+    "orgId": "x4h61KaW16vFs7PM",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1730497326000,
+    "avgRating": 0,
+    "id": "3bb321168d664112948d01f46d00c0b3",
+    "categories": [],
+    "spatialReference": "102493",
+    "numRatings": 0,
+    "owner": "dingyi_uhm",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1730494800000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1730497302000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/x4h61KaW16vFs7PM/arcgis/rest/services/Tsunami_Evacuation_Oahu/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 1,
+    "numComments": 0,
+    "size": 1810432,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Tsunami_Evacuation_Oahu",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "University of Hawaii at Manoa AGOL",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/3bb321168d664112948d01f46d00c0b3"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "ca8f7ab4716f4f6292158d09c640ce12",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.2512,
+       22.2316
+      ],
+      [
+       -154.732,
+       22.2316
+      ],
+      [
+       -154.732,
+       19.0681
+      ],
+      [
+       -160.2512,
+       19.0681
+      ],
+      [
+       -160.2512,
+       22.2316
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.2512,
+        22.2316
+       ],
+       [
+        -154.732,
+        22.2316
+       ],
+       [
+        -154.732,
+        19.0681
+       ],
+       [
+        -160.2512,
+        19.0681
+       ],
+       [
+        -160.2512,
+        22.2316
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Tsunami Evacuation Zone",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1724098385000,
+    "avgRating": 0,
+    "id": "ca8f7ab4716f4f6292158d09c640ce12",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "ntabar_bowersandkubota",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1724097600000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1724098384000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/2",
+    "tags": [],
+    "numViews": 1,
+    "numComments": 0,
+    "size": 67,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "ntabar_bowersandkubota",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/ca8f7ab4716f4f6292158d09c640ce12"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "2b98a747d1924a379127f48c490a9146",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.79028551730931,
+       22.23638876903865
+      ],
+      [
+       -154.73202853248884,
+       22.23638876903865
+      ],
+      [
+       -154.73202853248884,
+       19.068138872070666
+      ],
+      [
+       -159.79028551730931,
+       19.068138872070666
+      ],
+      [
+       -159.79028551730931,
+       22.23638876903865
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Tsunami Evacuation Zones",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -159.79028551730931,
+        22.23638876903865
+       ],
+       [
+        -154.73202853248884,
+        22.23638876903865
+       ],
+       [
+        -154.73202853248884,
+        19.068138872070666
+       ],
+       [
+        -159.79028551730931,
+        19.068138872070666
+       ],
+       [
+        -159.79028551730931,
+        22.23638876903865
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Multilayer",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": "<span style='font-family:sans-serif;'>County of Maui:<br />Received update for Maui County from Pacific Disaster Center, August 2013.  <br /></span><br /><div><span style='font-family:sans-serif;'><span style='left: 125px; top: 123.35px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.894923);'>Layer Name:</span><span style='left: 245.001px; top: 123.35px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.900467);'>Tsunami Evacuation Zones</span></span></div><div><span style='font-family:sans-serif;'><span style='left: 245.001px; top: 123.35px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.900467);'><br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 245.001px; top: 123.35px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.900467);'></span><span style='left: 125px; top: 163.954px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.877474);'>File</span><span style='left: 148.406px; top: 163.954px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.908805);'> Name:</span><span style='left: 245.018px; top: 163.954px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.897936);'>tsun_evac_zones</span></span></div><div><span style='font-family:sans-serif;'><span style='left: 245.018px; top: 163.954px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.897936);'><br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 245.018px; top: 163.954px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.897936);'></span><span style='left: 125.017px; top: 204.756px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.894638);'>Layer Type:</span><span style='left: 245.018px; top: 204.756px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.902311);'>Polygon</span><span style='left: 125.017px; top: 245.36px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.900114);'><br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 125.017px; top: 245.36px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.900114);'><br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 125.017px; top: 245.36px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.900114);'>Status:</span><span style='left: 245.001px; top: 245.36px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.917253);'>Complete </span><span style='left: 125px; top: 286.163px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.899101);'><br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 125px; top: 286.163px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.899101);'><br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 125px; top: 286.163px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.899101);'>Geog. Extent:</span><span style='left: 245.001px; top: 286.163px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.908181);'>Islands of Niihau, </span><span style='left: 364.804px; top: 286.163px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.874262);'>Kauai, </span><span style='left: 410.005px; top: 286.163px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.890716);'>Oahu, </span><span style='left: 454.41px; top: 286.163px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.921366);'>Molokai, Lanai, Maui and Hawaii</span></span></div><div><span style='font-family:sans-serif;'><span style='left: 454.41px; top: 286.163px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.921366);'><br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 454.41px; top: 286.163px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.921366);'></span><span style='left: 125.017px; top: 326.766px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.897381);'>Pro</span><span style='left: 148.223px; top: 326.766px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.963392);'>jection:</span><span style='left: 245.018px; top: 326.766px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.922364);'>Universal Trans Mercator, Zone 4 (Meters)</span><span style='left: 125.017px; top: 367.569px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.938647);'>Datum:</span><span style='left: 245.001px; top: 367.569px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.876401);'>NAD 83 </span><span style='left: 299.997px; top: 367.569px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.844657);'>HARN</span><span style='left: 125px; top: 408.173px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.934307);'><br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 125px; top: 408.173px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.934307);'><br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 125px; top: 408.173px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.934307);'>Description:</span><span style='left: 245.001px; top: 408.173px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.912058);'>Tsunami Evacuation Zones for the islands of Niihau, </span><span style='left: 597.403px; top: 408.173px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.874262);'>Kauai, </span><span style='left: 244.985px; top: 428.574px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.894683);'>Oahu, </span><span style='left: 289.589px; top: 428.574px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.919649);'>Molokai, Lanai, Maui and Hawai</span><span style='left: 505.787px; top: 428.574px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.866046);'>i   </span><span style='left: 124.983px; top: 469.178px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.884843);'>Source:</span><span style='left: 244.968px; top: 469.178px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.895092);'>Island </span><span style='left: 288.776px; top: 469.178px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.89224);'>of Hawaii:  Pacific Disaster Center (PDC), 1998.</span></span></div><div><span style='font-family:sans-serif;'><span style='left: 288.776px; top: 469.178px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.89224);'></span><span style='left: 244.985px; top: 489.579px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.911347);'>Island of Oahu:</span><span style='left: 347.39px; top: 489.579px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.91584);'>  City and County of Honolulu, 2010.</span><span style='left: 244.985px; top: 509.981px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.922882);'>Islands of Molokai, Lanai, Maui:  County of Maui</span><span style='left: 570.776px; top: 509.981px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.902495);'>, 2013.</span><span style='left: 244.985px; top: 530.382px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.899523);'>Island of Kauai:  County of Kauai, 2014 <br /></span></span></div><div><span style='font-family:sans-serif;'><span style='left: 244.985px; top: 530.382px; font-size: 16.6px; font-family: sans-serif; transform: scaleX(0.899523);'></span><font size='3'>(Text written by PDC Staff, 1998):</font></span></div><div><font size='3'><span style='font-family:sans-serif;'></span></font></div><font size='3'><span style='font-family:sans-serif;'>Tsunami evacuation layers for the [islands of Hawaii and Kauai] were digitized from Tsunami <br />Evacuation Zone proof maps provided by  the State of Hawaii Civil Defense, andpublished in CountyTelephone Directories by GTE in 1991.  <br />These maps were produced by the Joint Institute for Marine and Atmospheric Research, at the University of Hawaii, in cooperation with the State of Hawaii Civil Defense System. <br />Data from these maps were digitized in the GIS program Arc View Version 3.0a using features from <br />island coastlines, roads, and the USGS 7.5 minute digital raster graphics (DRGs).  Specific distances given on the maps <br />(for example:  &quot;1900 feet from Farrington Highway&quot;) were incorporated into the digitization.  Where no distances were <br />given, evacuation zone boundaries were estimated by topographical characteristics, or approximated using surrounding features such as roads.  In cases where evacuation zone boundaries bordered roadways, selected roads from state DLG road layer were extracted into <br />the tsunami evacuation shape file for accuracy.  No details of scale accompanied the paper proofs.  Coastline and evacuation<br />zone shape files for each island were then made into coverages using ArcInfo Version 7.1.2, which were subsequently appended<br />into a single coverage for editing.  Arcedit was used to eliminate all dangling nodes, intersections, etc.  <br />Tolerances were set to minimize the alteration of zone boundaries.  Topology was built for each island, polygons labeled, and polygon attribute tables created.  Each polygon is associated with a particular evacuation map, with the exception of two polygons on Oahu maps which are areas <br />of high ground (map #7), and water (maps # 18-19) within evacuation zones.A coverage for the State was created from appended individual island coverages in ArcInfo.<br /><br />Other:<br />Merged all islands into one layer by OP Staff, August 2013, February 2014, October 2016.   <br />No information for fields MAPNUM and MAPNAME on Niihau, Kauai or Oahu.<br />Attributes:<br />Polygons:<br />ISLAND Island <br />Name<br />MAPNUM Map # of evacuation zone as it appears in the county telephone directory.<br />MAPNAME Geographic area covered by each numbered evacuation zone map, as it appears in the county telephone directory.<br />ZONE“1”= tsunami evacuation zone<br /><br /><span style='font-weight:bold;'>Tsunami and Extreme Tsunami Evacuation Zone Maps – Cautions and Additional Information</span><br /><br />For most Tsunami Warnings, evacuate out of the tsunami evacuation zones; in the <br />unlikely case of an “Extreme Tsunami” Warning, evacuate out of both the tsunami <br /></span></font><div><font size='3'><span style='font-family:sans-serif;'>evacuation zones and the extreme tsunami evacuation zones.<br /></span></font></div><div><br /><font size='3'><span style='font-family:sans-serif;'></span></font></div><div><font size='3'><span style='font-family:sans-serif;'></span></font></div><font size='3'><span style='font-weight:bold;'>Remember:</span><br /></font>\n<font size='3'><span style='font-family:sans-serif;'></span></font><ul><li><font size='3'>Remain at least 100 feet away from inland waterways and marinas connected to the ocean due to wave surges and possible flooding</font></li><li><font size='3'>If possible, remove or deploy vessels to at least 50 fathoms (300 \nft) deep and 2 miles away from harbor entrances; follow all directions \nfrom the Captain of the Port</font></li><li><font size='3'>Structural steel or reinforced concrete buildings of ten or more \nstories provide increased protection on or above the fourth floor</font></li><li><font size='3'>The evacuation zone is a guideline and should be considered the minimum safe evacuation distance</font></li><li><font size='3'>These maps do not consider the destructive effects of a locally \ngenerated tsunami. If you feel shaking, move inland immediately, well \naway from the evacuation zone</font></li><li><font size='3'>The evacuation zone is a guidance and should be considered the minimum safe evacuation distance</font></li></ul>",
+    "licenseInfo": "<br /><div>Terms of Use                  <div>There  are no expressed warranties associated with the release of these  databases. Specifically, no warranty is made that the GIS data or any  subsequent updates will be error free and no warranty is made regarding  the positional or thematic accuracy of the GIS data. The GIS data and  any features it depicts do not represent or confer any legal rights,  privileges, benefits, boundaries or claims of any kind.</div></div>",
+    "title": "Tsunami Evacuation Zones",
+    "type": "Feature Service",
+    "orgId": "fsrDo0QMPlK9CkZD",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1570586153000,
+    "avgRating": 0,
+    "id": "2b98a747d1924a379127f48c490a9146",
+    "categories": [],
+    "spatialReference": "WGS_1984_Web_Mercator_Auxiliary_Sphere",
+    "numRatings": 0,
+    "owner": "mrnap_mc",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1711134000000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1493242927000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services3.arcgis.com/fsrDo0QMPlK9CkZD/arcgis/rest/services/tsunevac/FeatureServer",
+    "tags": [
+     "Tsunami",
+     "Evacuation Zone",
+     "ArcGIS",
+     "Service Definition",
+     ".sd"
+    ],
+    "numViews": 6583,
+    "numComments": 0,
+    "size": 3309568,
+    "listed": false,
+    "scoreCompleteness": 88,
+    "culture": "en-us",
+    "industries": [],
+    "name": "tsunevac",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Maui County",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/2b98a747d1924a379127f48c490a9146"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "f62a91733b9342a4ab79454acceadec7",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.79028551709735,
+       22.236388768953592
+      ],
+      [
+       -154.73202853205947,
+       22.236388768953592
+      ],
+      [
+       -154.73202853205947,
+       19.068138871651698
+      ],
+      [
+       -159.79028551709735,
+       19.068138871651698
+      ],
+      [
+       -159.79028551709735,
+       22.236388768953592
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -159.79028551709735,
+        22.236388768953592
+       ],
+       [
+        -154.73202853205947,
+        22.236388768953592
+       ],
+       [
+        -154.73202853205947,
+        19.068138871651698
+       ],
+       [
+        -159.79028551709735,
+        19.068138871651698
+       ],
+       [
+        -159.79028551709735,
+        22.236388768953592
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Tsunami Evacuation Zones",
+    "type": "Feature Service",
+    "orgId": "AXaYBvnJsB5Q7sDF",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1425430278000,
+    "avgRating": 0,
+    "id": "f62a91733b9342a4ab79454acceadec7",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "Netchanoknarak",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1722560400000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1425273957000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/AXaYBvnJsB5Q7sDF/arcgis/rest/services/Archive/FeatureServer",
+    "tags": [
+     "Tsunami Evacuation Zone"
+    ],
+    "numViews": 725,
+    "numComments": 0,
+    "size": 1998848,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Cal State LA",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/f62a91733b9342a4ab79454acceadec7"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "db829ab4b17a44649eadf0db0f7379ab",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -158.2828,
+       21.7143
+      ],
+      [
+       -157.645,
+       21.7143
+      ],
+      [
+       -157.645,
+       21.2537
+      ],
+      [
+       -158.2828,
+       21.2537
+      ],
+      [
+       -158.2828,
+       21.7143
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Tsunami Evacuation Zones for the main Hawaiian islands",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -158.2828,
+        21.7143
+       ],
+       [
+        -157.645,
+        21.7143
+       ],
+       [
+        -157.645,
+        21.2537
+       ],
+       [
+        -158.2828,
+        21.2537
+       ],
+       [
+        -158.2828,
+        21.7143
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service"
+    ],
+    "description": "<div>[<a target='_blank' href='https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf' rel='nofollow ugc noopener noreferrer'>Metadata</a>]&nbsp; Description: Tsunami Evacuation Zones for the islands Niihau, Kauai, Oahu, Kahoolawe, Molokai, Lanai, Maui and Hawaii</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Source:&nbsp;</div><div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Island of Hawaii: County of Hawaii, March 2025.&nbsp;&nbsp;</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Island of Oahu: City and County of Honolulu, April 2025</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'><span>Islands of Molokai, Lanai, Maui: Pacific Disaster Center (PDC), 2013.&nbsp;</span>&nbsp;</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Island of Kauai: County of Kauai, March 2025.&nbsp;<br />&nbsp;</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>&nbsp;</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Boundaries are based on peer review of the inundation models provided by UH Researchers and the operational needs of Honolulu's First Responders and the Emergency Management Community.</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'><p><br />Note: November 2025 - Corrections to Hawaii Island Zones were provided by Hawaii County and applied to layer.</p><div><span style='color:rgb(77,77,77);'>For additional information, please refer to complete metadata at </span><a target='_blank' href='https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf' rel='nofollow ugc noopener noreferrer'><span style='color:rgb(77,77,77);'>https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf</span></a><span style='color:rgb(77,77,77);'> &nbsp;</span><span style='background-color:rgb(255,255,255); color:rgb(77,77,77); font-family:Verdana; font-size:14px;'>or contact&nbsp;</span><span style='color:rgb(77,77,77);'>Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email:&nbsp;</span><a href='mailto:gis@hawaii.gov' target='_blank' rel='nofollow ugc noopener noreferrer'>gis@hawaii.gov</a><span style='color:rgb(77,77,77);'>; Website: </span><a target='_blank' href='https://planning.hawaii.gov/gis' rel='nofollow ugc noopener noreferrer'>https://planning.hawaii.gov/gis</a><span style='color:rgb(77,77,77);'>.</span><br />&nbsp;</div></div></div>",
+    "licenseInfo": "<div><div><div><div><div><div><div><div><div><div><p style='margin-bottom:0.0001pt;'><a href='https://portal.ehawaii.gov/page/terms-of-use/' rel='nofollow ugc' target='_blank'>State of Hawaii Terms of Use. </a></p><p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>  </span></font></p>  <p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>The  contents of this web page are public domain and to the extent indicated  otherwise in the Terms of Use, are exempt from Terms of Use policy  restrictions.There are no expressed warranties associated with the  release of this data or product. Specifically, no warranty is made that  the GIS data or any subsequent updates will be error free and no  warranty is made regarding the positional or thematic accuracy of the  GIS data. The GIS data and any features depicted do not represent or  confer any legal rights, privileges, benefits, boundaries or claims of  any kind. The Office of Planning and Sustainable Development encourages users to report any  discrepancies or errors found.</span><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>   Contact: Hawaii Statewide GIS Program, Office of Planning and  Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi.  96804; (808) 587-2846; </span>email:<a href='mailto:gis@hawaii.gov' rel='nofollow ugc'><span style='color:rgb(33, 117, 155); background-color:white; background-position:initial initial; background-repeat:initial initial;'> gis@hawaii.gov. </span></a><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>Website:</span><a href='https://planning.hawaii.gov/gis' rel='nofollow ugc' target='_blank'> https://planning.hawaii.gov/gis</a><span style='background-color:white;'>.</span></font></font></p></div></div></div></div></div></div></div></div></div></div><span style='font-family:Verdana, Helvetica, sans-serif; font-size:12px; background-color:rgb(255, 255, 255);'></span>",
+    "ownerId": "f86927a08dfabb77e5f9376af2216d57",
+    "title": "Tsunami Evacuation Zones",
+    "type": "Feature Service",
+    "orgId": "HQ0xoN0EzDPBOEci",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1763678216000,
+    "avgRating": 0,
+    "id": "db829ab4b17a44649eadf0db0f7379ab",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "HawaiiStateGIS",
+    "accessInformation": "Hawaii Statewide GIS Program, C&C of Honolulu, PDC, Kauai County",
+    "largeThumbnail": null,
+    "lastViewed": 1786752000000,
+    "thumbnail": "thumbnail/GIS_feature_service_thumb.jpg",
+    "languages": [],
+    "created": 1394572223000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/2",
+    "tags": [
+     "Tsunami Evacuation Zones",
+     "Oahu",
+     "Health Safety",
+     "HawaiiStateGIS",
+     "histategis",
+     "Kauai",
+     "Molokai",
+     "Lanai",
+     "Maui",
+     "Hawaii"
+    ],
+    "numViews": 213955,
+    "numComments": 0,
+    "size": 72,
+    "listed": false,
+    "scoreCompleteness": 96,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaiʻi Statewide GIS Program",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/db829ab4b17a44649eadf0db0f7379ab"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "e77514f847154931bef93c297a450496",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.25120229708202,
+       22.236385397228187
+      ],
+      [
+       -154.73201405071765,
+       22.236385397228187
+      ],
+      [
+       -154.73201405071765,
+       19.06813538790367
+      ],
+      [
+       -160.25120229708202,
+       19.06813538790367
+      ],
+      [
+       -160.25120229708202,
+       22.236385397228187
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.25120229708202,
+        22.236385397228187
+       ],
+       [
+        -154.73201405071765,
+        22.236385397228187
+       ],
+       [
+        -154.73201405071765,
+        19.06813538790367
+       ],
+       [
+        -160.25120229708202,
+        19.06813538790367
+       ],
+       [
+        -160.25120229708202,
+        22.236385397228187
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Tsunami_Evacuation_Zones",
+    "type": "Feature Service",
+    "orgId": "aKxrz4vDVjfUwBWJ",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1746575311000,
+    "avgRating": 0,
+    "id": "e77514f847154931bef93c297a450496",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "hiema.prod",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1760562000000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1729548221000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services9.arcgis.com/aKxrz4vDVjfUwBWJ/arcgis/rest/services/Tsunami_Evacuation_Zones/FeatureServer",
+    "tags": [],
+    "numViews": 627,
+    "numComments": 0,
+    "size": 2359296,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaii Emergency Management Agency (HIEMA)",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/e77514f847154931bef93c297a450496"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "33421aca42424aab9653488a08a446c6",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "7730d8a8d64b45deb0f2308656c68c17",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Tsunami Evacuation Survey_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1773443549000,
+    "avgRating": 0,
+    "id": "33421aca42424aab9653488a08a446c6",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "jisn_UO_online",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1773442800000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1773441954000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services5.arcgis.com/W1uyphp8h2tna3qJ/arcgis/rest/services/survey123_7730d8a8d64b45deb0f2308656c68c17_form/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_7730d8a8d64b45deb0f2308656c68c17_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/33421aca42424aab9653488a08a446c6"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "481497e7522149f499678493ecf644f4",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.25120226221648,
+       22.23638146818554
+      ],
+      [
+       -154.73203436505253,
+       22.23638146818554
+      ],
+      [
+       -154.73203436505253,
+       18.893442757901134
+      ],
+      [
+       -160.25120226221648,
+       18.893442757901134
+      ],
+      [
+       -160.25120226221648,
+       22.23638146818554
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Data retrived from Hawaii Statewide GIS Program. Tsunami Evacuation Zones for the islands of Niihau, Kauai, Oahu, Kahoolawe, Molokai, Lanai, Maui and Hawaii",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.25120226221648,
+        22.23638146818554
+       ],
+       [
+        -154.73203436505253,
+        22.23638146818554
+       ],
+       [
+        -154.73203436505253,
+        18.893442757901134
+       ],
+       [
+        -160.25120226221648,
+        18.893442757901134
+       ],
+       [
+        -160.25120226221648,
+        22.23638146818554
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Tsunami_Evacuation_Zones_MG",
+    "type": "Feature Service",
+    "orgId": "x4h61KaW16vFs7PM",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1751502945000,
+    "avgRating": 0,
+    "id": "481497e7522149f499678493ecf644f4",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "jgrant87_uhm",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1751634000000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1751502933000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/x4h61KaW16vFs7PM/arcgis/rest/services/Tsunami_Evacuation_Zones_MG/FeatureServer",
+    "tags": [
+     "hawaii"
+    ],
+    "numViews": 29,
+    "numComments": 0,
+    "size": 2129920,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "University of Hawaii at Manoa AGOL",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/481497e7522149f499678493ecf644f4"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "6354a438cc124f3d8d5276035815c948",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.2471,
+       22.2364
+      ],
+      [
+       -155.9489,
+       22.2364
+      ],
+      [
+       -155.9489,
+       20.5827
+      ],
+      [
+       -160.2471,
+       20.5827
+      ],
+      [
+       -160.2471,
+       22.2364
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Extreme Tsunami Evacuation Zones for the main Hawaiian islands",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.2471,
+        22.2364
+       ],
+       [
+        -155.9489,
+        22.2364
+       ],
+       [
+        -155.9489,
+        20.5827
+       ],
+       [
+        -160.2471,
+        20.5827
+       ],
+       [
+        -160.2471,
+        22.2364
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service"
+    ],
+    "description": "<div>[<a target='_blank' href='https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf' rel='nofollow ugc noopener noreferrer'>Metadata</a>]&nbsp; Description: Extreme Tsunami Evacuation Zones for the islands Niihau, Kauai, Oahu, Kahoolawe, Molokai, Lanai and Maui.<br />&nbsp;</div><div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Source:&nbsp;</div><div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Island of Hawaii: County of Hawaii, March 2025.&nbsp;&nbsp;</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Island of Oahu: City and County of Honolulu, April 2025</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'><span>Islands of Molokai, Lanai, Maui: Pacific Disaster Center (PDC), 2013.&nbsp;</span>&nbsp;</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Island of Kauai: County of Kauai, March 2025.</div></div><p><br />Boundaries are based on peer review of the inundation models provided by UH Researchers and the operational needs of Honolulu's First Responders and the Emergency Management Community.</p><p>Note: November 2025 - Corrections to Hawaii Island Zones were provided by Hawaii County and applied to layer.</p></div></div><p><span style='color:rgb(77,77,77);'>For additional information, please refer to complete metadata at </span><a target='_blank' href='https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf' rel='nofollow ugc noopener noreferrer'>https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf</a><span style='color:rgb(77,77,77);'> </span><span style='background-color:rgb(255,255,255); color:rgb(77,77,77); font-family:Verdana; font-size:14px;'>or contact&nbsp;</span><span style='color:rgb(77,77,77);'>Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email:&nbsp;</span><a href='mailto:gis@hawaii.gov' target='_blank' rel='nofollow ugc noopener noreferrer'>gis@hawaii.gov</a><span style='color:rgb(77,77,77);'>; Website: </span><a target='_blank' href='https://planning.hawaii.gov/gis' rel='nofollow ugc noopener noreferrer'>https://planning.hawaii.gov/gis</a><span style='color:rgb(77,77,77);'>.</span></p>",
+    "licenseInfo": "<div><div><div><div><div><div><div><div><p style='margin-bottom:0.0001pt;'><a href='https://portal.ehawaii.gov/page/terms-of-use/' rel='nofollow ugc' target='_blank'>State of Hawaii Terms of Use. </a></p><p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>  </span></font></p>  <p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>The  contents of this web page are public domain and to the extent indicated  otherwise in the Terms of Use, are exempt from Terms of Use policy  restrictions.There are no expressed warranties associated with the  release of this data or product. Specifically, no warranty is made that  the GIS data or any subsequent updates will be error free and no  warranty is made regarding the positional or thematic accuracy of the  GIS data. The GIS data and any features depicted do not represent or  confer any legal rights, privileges, benefits, boundaries or claims of  any kind. The Office of Planning and Sustainable Development encourages users to report any  discrepancies or errors found.</span><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>   Contact: Hawaii Statewide GIS Program, Office of Planning and  Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi.  96804; (808) 587-2846; </span>email:<a href='mailto:gis@hawaii.gov' rel='nofollow ugc'><span style='color:rgb(33, 117, 155); background-color:white; background-position:initial initial; background-repeat:initial initial;'> gis@hawaii.gov. </span></a><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>Website:</span><a href='https://planning.hawaii.gov/gis' rel='nofollow ugc' target='_blank'> https://planning.hawaii.gov/gis</a><span style='background-color:white;'>.</span></font></font></p></div></div></div></div></div></div></div></div>",
+    "ownerId": "f86927a08dfabb77e5f9376af2216d57",
+    "title": "Extreme Tsunami Evacuation Zones",
+    "type": "Feature Service",
+    "orgId": "HQ0xoN0EzDPBOEci",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1763678240000,
+    "avgRating": 0,
+    "id": "6354a438cc124f3d8d5276035815c948",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "HawaiiStateGIS",
+    "accessInformation": "Dr Kwok Fai Cheung and the SOEST program. Hawaii State Civil Defense (Hawaii Emergency Management Agency). City and County of Honolulu.",
+    "largeThumbnail": null,
+    "lastViewed": 1786752000000,
+    "thumbnail": "thumbnail/thumbnail.jpeg",
+    "languages": [],
+    "created": 1508902170000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/12",
+    "tags": [
+     "hazards",
+     "Tsunami Evacuation Zones"
+    ],
+    "numViews": 91828,
+    "numComments": 0,
+    "size": 67,
+    "listed": false,
+    "scoreCompleteness": 90,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaiʻi Statewide GIS Program",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/6354a438cc124f3d8d5276035815c948"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "fa4337d6b74a4e9fb6180a3eebfa7f9e",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "0242012f21974968bcbe2dd95c0a7644",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Seaside Tsunami Evacuation_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1737995412000,
+    "avgRating": 0,
+    "id": "fa4337d6b74a4e9fb6180a3eebfa7f9e",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "mrhoward_UO_online",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1737993600000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1737754612000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services5.arcgis.com/W1uyphp8h2tna3qJ/arcgis/rest/services/survey123_0242012f21974968bcbe2dd95c0a7644_form/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_0242012f21974968bcbe2dd95c0a7644_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "mrhoward_UO_online",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/fa4337d6b74a4e9fb6180a3eebfa7f9e"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "3cf04836cce34d278b6624dd4e71bdbf",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.24712100637416,
+       22.236397230739794
+      ],
+      [
+       -155.94884088003377,
+       22.236397230739794
+      ],
+      [
+       -155.94884088003377,
+       20.582737922461884
+      ],
+      [
+       -160.24712100637416,
+       20.582737922461884
+      ],
+      [
+       -160.24712100637416,
+       22.236397230739794
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.24712100637416,
+        22.236397230739794
+       ],
+       [
+        -155.94884088003377,
+        22.236397230739794
+       ],
+       [
+        -155.94884088003377,
+        20.582737922461884
+       ],
+       [
+        -160.24712100637416,
+        20.582737922461884
+       ],
+       [
+        -160.24712100637416,
+        22.236397230739794
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Extreme_Tsunami_Evacuation_Zones",
+    "type": "Feature Service",
+    "orgId": "aKxrz4vDVjfUwBWJ",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1746575243000,
+    "avgRating": 0,
+    "id": "3cf04836cce34d278b6624dd4e71bdbf",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "hiema.prod",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1760389200000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1729548718000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services9.arcgis.com/aKxrz4vDVjfUwBWJ/arcgis/rest/services/Extreme_Tsunami_Evacuation_Zones/FeatureServer",
+    "tags": [],
+    "numViews": 627,
+    "numComments": 0,
+    "size": 1204224,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaii Emergency Management Agency (HIEMA)",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/3cf04836cce34d278b6624dd4e71bdbf"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "437b77f132ed416294b45bde6aef23f4",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.2512,
+       22.2364
+      ],
+      [
+       -154.732,
+       22.2364
+      ],
+      [
+       -154.732,
+       18.8934
+      ],
+      [
+       -160.2512,
+       18.8934
+      ],
+      [
+       -160.2512,
+       22.2364
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Tsunami Evacuation - All Zones for the main Hawaiian Islands",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.2512,
+        22.2364
+       ],
+       [
+        -154.732,
+        22.2364
+       ],
+       [
+        -154.732,
+        18.8934
+       ],
+       [
+        -160.2512,
+        18.8934
+       ],
+       [
+        -160.2512,
+        22.2364
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": "<p>Tsunami Evacuation Zones, Extreme Tsunami Evacuation Zones, and Tsunami Safe Zones for the main Hawaiian islands.&nbsp;</p><p>Source:&nbsp;</p><p>Island of Hawaii: County of Hawaii, March 2025;&nbsp;</p><p>Island of Oahu: City and County of Honolulu, April 2025;&nbsp;</p><p>Islands of Molokai, Lanai, Maui: County of Maui, 2013 (PDC);&nbsp;</p><p>Island of Kauai: County of Kauai, March 2025.&nbsp;</p><p>Note: November 2025 - Corrections to Hawaii Island Zones were provided by Hawaii County and applied to layer. &nbsp;</p><p>For additional information, please refer to complete metadata at https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf or contact Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email: gis@hawaii.gov; Website: https://planning.hawaii.gov/gis.</p>",
+    "licenseInfo": "<div><div><div><div><div><div><div><div><p style='margin-bottom:0.0001pt;'><a href='https://portal.ehawaii.gov/page/terms-of-use/' target='_blank' rel='nofollow ugc noopener noreferrer'>State of Hawaii Terms of Use. </a></p><p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>  </span></font></p>  <p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>The  contents of this web page are public domain and to the extent indicated  otherwise in the Terms of Use, are exempt from Terms of Use policy  restrictions.There are no expressed warranties associated with the  release of this data or product. Specifically, no warranty is made that  the GIS data or any subsequent updates will be error free and no  warranty is made regarding the positional or thematic accuracy of the  GIS data. The GIS data and any features depicted do not represent or  confer any legal rights, privileges, benefits, boundaries or claims of  any kind. The Office of Planning and Sustainable Development encourages users to report any  discrepancies or errors found.</span><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>   Contact: Hawaii Statewide GIS Program, Office of Planning and  Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi.  96804; (808) 587-2846; </span>email:<a href='mailto:gis@hawaii.gov' rel='nofollow ugc'><span style='color:rgb(33, 117, 155); background-color:white; background-position:initial initial; background-repeat:initial initial;'> gis@hawaii.gov. </span></a><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>Website:</span><a href='https://planning.hawaii.gov/gis' target='_blank' rel='nofollow ugc noopener noreferrer'> https://planning.hawaii.gov/gis</a><span style='background-color:white;'>.</span></font></font></p></div></div></div></div></div></div></div></div>",
+    "ownerId": "f86927a08dfabb77e5f9376af2216d57",
+    "title": "Tsunami Evacuation - All Zones",
+    "type": "Feature Service",
+    "orgId": "HQ0xoN0EzDPBOEci",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1763678386000,
+    "avgRating": 0,
+    "id": "437b77f132ed416294b45bde6aef23f4",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "HawaiiStateGIS",
+    "accessInformation": "City and County of Honolulu; County of Hawaii; County of Kauai; County of Maui; Hawaii Statewide GIS Program",
+    "largeThumbnail": null,
+    "lastViewed": 1786752000000,
+    "thumbnail": "thumbnail/thumbnail1746761672817.png",
+    "languages": [],
+    "created": 1746761633000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/11",
+    "tags": [
+     "tsunami",
+     "Tsunami Evacuation Zones",
+     "Extreme Tsunami Evacuation Zones",
+     "Safe Zones",
+     "Hazards",
+     "Inundation Area",
+     "Flood"
+    ],
+    "numViews": 13512,
+    "numComments": 0,
+    "size": 68,
+    "listed": false,
+    "scoreCompleteness": 100,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaiʻi Statewide GIS Program",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/437b77f132ed416294b45bde6aef23f4"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "fe45547caf664a2fae689b6264309667",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.25120229708202,
+       22.236385149797766
+      ],
+      [
+       -154.73201405071762,
+       22.236385149797766
+      ],
+      [
+       -154.73201405071762,
+       19.068135387903656
+      ],
+      [
+       -160.25120229708202,
+       19.068135387903656
+      ],
+      [
+       -160.25120229708202,
+       22.236385149797766
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Tsunami Evacuation Zones for the islands of Niihau, Kauai, Oahu, Molokai, Lanai, Maui and Hawaii",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.25120229708202,
+        22.236385149797766
+       ],
+       [
+        -154.73201405071762,
+        22.236385149797766
+       ],
+       [
+        -154.73201405071762,
+        19.068135387903656
+       ],
+       [
+        -160.25120229708202,
+        19.068135387903656
+       ],
+       [
+        -160.25120229708202,
+        22.236385149797766
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Tsunami Evacuation Zones - Tsunami Evacuation Zone",
+    "type": "Feature Service",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1713051796000,
+    "avgRating": 0,
+    "id": "fe45547caf664a2fae689b6264309667",
+    "categories": [],
+    "robots": [
+     "noindex",
+     "nofollow"
+    ],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "robinsonww",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1713052800000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1713051796000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/2",
+    "tags": [
+     "Tsunami Evacuation Zones",
+     "Oahu",
+     "Health Safety",
+     "HawaiiStateGIS",
+     "histategis",
+     "Kauai",
+     "Molokai",
+     "Lanai",
+     "Maui",
+     "Hawaii"
+    ],
+    "numViews": 5,
+    "numComments": 0,
+    "size": 67,
+    "listed": false,
+    "scoreCompleteness": 50,
+    "culture": "en-us",
+    "industries": [],
+    "name": null,
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "robinsonww",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/fe45547caf664a2fae689b6264309667"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "6e37d8d5af534f3682fb9cb00d6c2010",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -158.2823,
+       21.7121
+      ],
+      [
+       -157.655,
+       21.7121
+      ],
+      [
+       -157.655,
+       21.2531
+      ],
+      [
+       -158.2823,
+       21.2531
+      ],
+      [
+       -158.2823,
+       21.7121
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -158.2823,
+        21.7121
+       ],
+       [
+        -157.655,
+        21.7121
+       ],
+       [
+        -157.655,
+        21.2531
+       ],
+       [
+        -158.2823,
+        21.2531
+       ],
+       [
+        -158.2823,
+        21.7121
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "Data",
+     "Feature Collection",
+     "Singlelayer"
+    ],
+    "description": "This layer covers this criteria:<div><ul><li>All Extreme Tsunami Evacuation Zones</li><li>All Less-Than-Extreme Tsunami Evacuation Zones</li><li>All Fire Risk Areas rated at: Medium or High</li><li>All Flood Zones with higher than or equal to moderate rating from FEMA</li><li>All Lava Flow Zones</li></ul></div>",
+    "licenseInfo": null,
+    "title": "Hazard Zones In Oahu",
+    "type": "Feature Collection",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1653432226000,
+    "avgRating": 0,
+    "id": "6e37d8d5af534f3682fb9cb00d6c2010",
+    "categories": [],
+    "robots": [
+     "noindex",
+     "nofollow"
+    ],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "SeanNelson02",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1653432044000,
+    "documentation": null,
+    "banner": null,
+    "url": null,
+    "tags": [],
+    "numViews": 1,
+    "numComments": 0,
+    "size": 6751731,
+    "listed": false,
+    "scoreCompleteness": 45,
+    "culture": "en-us",
+    "industries": [],
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "SeanNelson02",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/6e37d8d5af534f3682fb9cb00d6c2010"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "836f51096a384fff9e6fc6050de7994c",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.2512165860846,
+       22.23638877270166
+      ],
+      [
+       -154.7320285324889,
+       22.23638877270166
+      ],
+      [
+       -154.7320285324889,
+       19.068138872070666
+      ],
+      [
+       -160.2512165860846,
+       19.068138872070666
+      ],
+      [
+       -160.2512165860846,
+       22.23638877270166
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.2512165860846,
+        22.23638877270166
+       ],
+       [
+        -154.7320285324889,
+        22.23638877270166
+       ],
+       [
+        -154.7320285324889,
+        19.068138872070666
+       ],
+       [
+        -160.2512165860846,
+        19.068138872070666
+       ],
+       [
+        -160.2512165860846,
+        22.23638877270166
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Hazards Layer - Tsunami Evacuation Zone",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1777068847000,
+    "avgRating": 0,
+    "id": "836f51096a384fff9e6fc6050de7994c",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "Aspiras",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1777068000000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1660758884000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services7.arcgis.com/PLcIUwL63jJIlLjw/arcgis/rest/services/Hazards_Layer___Tsunami_Evacuation_Zone/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 4032,
+    "numComments": 0,
+    "size": 2342912,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Hazards_Layer___Tsunami_Evacuation_Zone",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/836f51096a384fff9e6fc6050de7994c"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "818a3adbf2804647a107b40acb766386",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.24755129654162,
+       22.235884071175903
+      ],
+      [
+       -154.80666808387247,
+       22.235884071175903
+      ],
+      [
+       -154.80666808387247,
+       18.91078319224813
+      ],
+      [
+       -160.24755129654162,
+       18.91078319224813
+      ],
+      [
+       -160.24755129654162,
+       22.235884071175903
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Feature layer generated from Enrich Layers",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.24755129654162,
+        22.235884071175903
+       ],
+       [
+        -154.80666808387247,
+        22.235884071175903
+       ],
+       [
+        -154.80666808387247,
+        18.91078319224813
+       ],
+       [
+        -160.24755129654162,
+        18.91078319224813
+       ],
+       [
+        -160.24755129654162,
+        22.235884071175903
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "Feature layer generated from running the Enrich Layer analysis tool.",
+    "licenseInfo": null,
+    "title": "Population in Tsunami evacuation zones",
+    "type": "Feature Service",
+    "orgId": "x4h61KaW16vFs7PM",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1751503881000,
+    "avgRating": 0,
+    "id": "818a3adbf2804647a107b40acb766386",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "jgrant87_uhm",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1751634000000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1751503850000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/x4h61KaW16vFs7PM/arcgis/rest/services/Population%20in%20Tsunami%20evacuation%20zones/FeatureServer",
+    "tags": [],
+    "numViews": 22,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 35,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Population in Tsunami evacuation zones",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "University of Hawaii at Manoa AGOL",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/818a3adbf2804647a107b40acb766386"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "7a750df4b6c14108b8c0dc2c4588adcb",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.2512165860846,
+       22.236388772701673
+      ],
+      [
+       -154.7320285324889,
+       22.236388772701673
+      ],
+      [
+       -154.7320285324889,
+       19.068138872070666
+      ],
+      [
+       -160.2512165860846,
+       19.068138872070666
+      ],
+      [
+       -160.2512165860846,
+       22.236388772701673
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.2512165860846,
+        22.236388772701673
+       ],
+       [
+        -154.7320285324889,
+        22.236388772701673
+       ],
+       [
+        -154.7320285324889,
+        19.068138872070666
+       ],
+       [
+        -160.2512165860846,
+        19.068138872070666
+       ],
+       [
+        -160.2512165860846,
+        22.236388772701673
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Hazards Layer - Tsunami Evacuation Zone",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1692221477000,
+    "avgRating": 0,
+    "id": "7a750df4b6c14108b8c0dc2c4588adcb",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "rubi_jckunderground",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1692219600000,
+    "thumbnail": null,
+    "languages": [],
+    "tokenExpirationDate": -1,
+    "created": 1692221477000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services7.arcgis.com/PLcIUwL63jJIlLjw/arcgis/rest/services/Hazards_Layer___Tsunami_Evacuation_Zone/FeatureServer",
+    "tags": [],
+    "numViews": 2,
+    "numComments": 0,
+    "size": 120,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "en-us",
+    "industries": [],
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "rubi_jckunderground",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/7a750df4b6c14108b8c0dc2c4588adcb"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "34acef9dbbbc4bf19ab2688f393c1414",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -178.33471056137182,
+       28.402126047821483
+      ],
+      [
+       -154.80678750858382,
+       28.402126047821483
+      ],
+      [
+       -154.80678750858382,
+       18.910365040956485
+      ],
+      [
+       -178.33471056137182,
+       18.910365040956485
+      ],
+      [
+       -178.33471056137182,
+       28.402126047821483
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -178.33471056137182,
+        28.402126047821483
+       ],
+       [
+        -154.80678750858382,
+        28.402126047821483
+       ],
+       [
+        -154.80678750858382,
+        18.910365040956485
+       ],
+       [
+        -178.33471056137182,
+        18.910365040956485
+       ],
+       [
+        -178.33471056137182,
+        28.402126047821483
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Multilayer",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Government Tsunami Evacuation Zones_WFL1",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1682050501000,
+    "avgRating": 0,
+    "id": "34acef9dbbbc4bf19ab2688f393c1414",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "Bailey.Estes_FRCC",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1682258400000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1682050488000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services.arcgis.com/YseQBnl2jq0lrUV5/arcgis/rest/services/Government_Tsunami_Evacuation_Zones_WFL1/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 28,
+    "numComments": 0,
+    "size": 2015232,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "name": "Government_Tsunami_Evacuation_Zones_WFL1",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Bailey.Estes_FRCC",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/34acef9dbbbc4bf19ab2688f393c1414"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "84e32b95a0534226bed4e7d6894d2cc1",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.664169,
+       22.21194500000006
+      ],
+      [
+       -154.90249599999996,
+       22.21194500000006
+      ],
+      [
+       -154.90249599999996,
+       19.06166600000006
+      ],
+      [
+       -159.664169,
+       19.06166600000006
+      ],
+      [
+       -159.664169,
+       22.21194500000006
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -159.664169,
+        22.21194500000006
+       ],
+       [
+        -154.90249599999996,
+        22.21194500000006
+       ],
+       [
+        -154.90249599999996,
+        19.06166600000006
+       ],
+       [
+        -159.664169,
+        19.06166600000006
+       ],
+       [
+        -159.664169,
+        22.21194500000006
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Sirens Outside Tsunami Evacuation Zone 121725",
+    "type": "Feature Service",
+    "orgId": "aKxrz4vDVjfUwBWJ",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1765997474000,
+    "avgRating": 0,
+    "id": "84e32b95a0534226bed4e7d6894d2cc1",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "filippa.m.graneld@hawaii.gov_hiema",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1765994400000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1765997461000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services9.arcgis.com/aKxrz4vDVjfUwBWJ/arcgis/rest/services/Sirens_Outside_Tsunami_Evacuation_Zone_121725/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 65536,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Sirens_Outside_Tsunami_Evacuation_Zone_121725",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaii Emergency Management Agency (HIEMA)",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/84e32b95a0534226bed4e7d6894d2cc1"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "c9353f70df6b49c1b96b71e21d55fa7b",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.71722399999996,
+       22.224722000000035
+      ],
+      [
+       160.2005852000001,
+       22.224722000000035
+      ],
+      [
+       160.2005852000001,
+       19.085556000000043
+      ],
+      [
+       -159.71722399999996,
+       19.085556000000043
+      ],
+      [
+       -159.71722399999996,
+       22.224722000000035
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -159.71722399999996,
+        22.224722000000035
+       ],
+       [
+        160.2005852000001,
+        22.224722000000035
+       ],
+       [
+        160.2005852000001,
+        19.085556000000043
+       ],
+       [
+        -159.71722399999996,
+        19.085556000000043
+       ],
+       [
+        -159.71722399999996,
+        22.224722000000035
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Sirens in Tsunami Evacuation Zones 121725",
+    "type": "Feature Service",
+    "orgId": "aKxrz4vDVjfUwBWJ",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1765997373000,
+    "avgRating": 0,
+    "id": "c9353f70df6b49c1b96b71e21d55fa7b",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "filippa.m.graneld@hawaii.gov_hiema",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1765994400000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1765997362000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services9.arcgis.com/aKxrz4vDVjfUwBWJ/arcgis/rest/services/Sirens_in_Tsunami_Evacuation_Zones_121725/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 122880,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Sirens_in_Tsunami_Evacuation_Zones_121725",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaii Emergency Management Agency (HIEMA)",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/c9353f70df6b49c1b96b71e21d55fa7b"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "cd1e7ea1513b41b39fe5ad4c9c783ffc",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "a5eeb7c1e4c94a1eb37add4c716dd311",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "ownerId": "49c8aeab4bf92f4630056b4783b7132b",
+    "title": "Tsunami Evacuation 2021 - Arcgis Back up main_form",
+    "type": "Feature Service",
+    "orgId": "JHvSxvXZbTIHX54D",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1710471036000,
+    "avgRating": 0,
+    "id": "cd1e7ea1513b41b39fe5ad4c9c783ffc",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "Anthony.Edwards_WhanganuiDC",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1618786426000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services8.arcgis.com/JHvSxvXZbTIHX54D/arcgis/rest/services/survey123_a5eeb7c1e4c94a1eb37add4c716dd311_fieldworker/FeatureServer",
+    "tags": [
+     "Tsunami Evacuation 2021"
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_a5eeb7c1e4c94a1eb37add4c716dd311_fieldworker",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Whanganui District Council Maps Online",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/cd1e7ea1513b41b39fe5ad4c9c783ffc"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "3ecac9c9071048a4a1c67513a4ea7d99",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.71722399999996,
+       22.224722000000035
+      ],
+      [
+       160.2005852000001,
+       22.224722000000035
+      ],
+      [
+       160.2005852000001,
+       19.085556000000043
+      ],
+      [
+       -159.71722399999996,
+       19.085556000000043
+      ],
+      [
+       -159.71722399999996,
+       22.224722000000035
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -159.71722399999996,
+        22.224722000000035
+       ],
+       [
+        160.2005852000001,
+        22.224722000000035
+       ],
+       [
+        160.2005852000001,
+        19.085556000000043
+       ],
+       [
+        -159.71722399999996,
+        19.085556000000043
+       ],
+       [
+        -159.71722399999996,
+        22.224722000000035
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Sirens in Tsunami Evacuation Zones 121725 small symbology",
+    "type": "Feature Service",
+    "orgId": "aKxrz4vDVjfUwBWJ",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1765997904000,
+    "avgRating": 0,
+    "id": "3ecac9c9071048a4a1c67513a4ea7d99",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "filippa.m.graneld@hawaii.gov_hiema",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1765994400000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1765997896000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services9.arcgis.com/aKxrz4vDVjfUwBWJ/arcgis/rest/services/Sirens_in_Tsunami_Evacuation_Zones_121725_small_symbology/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 122880,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Sirens_in_Tsunami_Evacuation_Zones_121725_small_symbology",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaii Emergency Management Agency (HIEMA)",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/3ecac9c9071048a4a1c67513a4ea7d99"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "d5dd4a0eb82a46a59d536677eeb8f5ec",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -159.664169,
+       22.21194500000006
+      ],
+      [
+       -154.90249599999996,
+       22.21194500000006
+      ],
+      [
+       -154.90249599999996,
+       19.06166600000006
+      ],
+      [
+       -159.664169,
+       19.06166600000006
+      ],
+      [
+       -159.664169,
+       22.21194500000006
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -159.664169,
+        22.21194500000006
+       ],
+       [
+        -154.90249599999996,
+        22.21194500000006
+       ],
+       [
+        -154.90249599999996,
+        19.06166600000006
+       ],
+       [
+        -159.664169,
+        19.06166600000006
+       ],
+       [
+        -159.664169,
+        22.21194500000006
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Sirens Outside Tsunami Evacuation Zone 121725 small symbology",
+    "type": "Feature Service",
+    "orgId": "aKxrz4vDVjfUwBWJ",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1765997815000,
+    "avgRating": 0,
+    "id": "d5dd4a0eb82a46a59d536677eeb8f5ec",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "filippa.m.graneld@hawaii.gov_hiema",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1765994400000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1765997808000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services9.arcgis.com/aKxrz4vDVjfUwBWJ/arcgis/rest/services/Sirens_Outside_Tsunami_Evacuation_Zone_121725_small_symbology/FeatureServer",
+    "tags": [
+     ""
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 65536,
+    "listed": false,
+    "scoreCompleteness": 33,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Sirens_Outside_Tsunami_Evacuation_Zone_121725_small_symbology",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaii Emergency Management Agency (HIEMA)",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/d5dd4a0eb82a46a59d536677eeb8f5ec"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "609566c23d8444f8af026118e623d5ef",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.2512,
+       22.2316
+      ],
+      [
+       -154.732,
+       22.2316
+      ],
+      [
+       -154.732,
+       19.0681
+      ],
+      [
+       -160.2512,
+       19.0681
+      ],
+      [
+       -160.2512,
+       22.2316
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Spatial extent of tsunami evacuation zones and high-risk wildfire areas.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.2512,
+        22.2316
+       ],
+       [
+        -154.732,
+        22.2316
+       ],
+       [
+        -154.732,
+        19.0681
+       ],
+       [
+        -160.2512,
+        19.0681
+       ],
+       [
+        -160.2512,
+        22.2316
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Honolulu Multi-Hazard Decision Support Webmap",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1745272822000,
+    "avgRating": 0,
+    "id": "609566c23d8444f8af026118e623d5ef",
+    "categories": [],
+    "robots": [
+     "noindex",
+     "nofollow"
+    ],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "mehaffeyh",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1745272821000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/2",
+    "tags": [
+     "Honolulu",
+     "Hawaii",
+     "Hazards",
+     "Wildfire",
+     "Tsunami"
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 67,
+    "listed": false,
+    "scoreCompleteness": 66,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "mehaffeyh",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/609566c23d8444f8af026118e623d5ef"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "edaa589caef545c2a63a85433f1945fe",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.2512,
+       22.2316
+      ],
+      [
+       -154.732,
+       22.2316
+      ],
+      [
+       -154.732,
+       19.0681
+      ],
+      [
+       -160.2512,
+       19.0681
+      ],
+      [
+       -160.2512,
+       22.2316
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Spatial extent of tsunami evacuation zones and high-risk wildfire areas.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.2512,
+        22.2316
+       ],
+       [
+        -154.732,
+        22.2316
+       ],
+       [
+        -154.732,
+        19.0681
+       ],
+       [
+        -160.2512,
+        19.0681
+       ],
+       [
+        -160.2512,
+        22.2316
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Honolulu Multi-Hazard Decision Support Webmap",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1745023445000,
+    "avgRating": 0,
+    "id": "edaa589caef545c2a63a85433f1945fe",
+    "categories": [],
+    "robots": [
+     "noindex",
+     "nofollow"
+    ],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "FennerCE",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1745023444000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/2",
+    "tags": [
+     "Honolulu",
+     "Hawaii",
+     "Hazards",
+     "Wildfire",
+     "Tsunami"
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 67,
+    "listed": false,
+    "scoreCompleteness": 66,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "FennerCE",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/edaa589caef545c2a63a85433f1945fe"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "b0982c0449394e0f8424d8c539554c6b",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.2512,
+       22.2316
+      ],
+      [
+       -154.732,
+       22.2316
+      ],
+      [
+       -154.732,
+       19.0681
+      ],
+      [
+       -160.2512,
+       19.0681
+      ],
+      [
+       -160.2512,
+       22.2316
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Spatial extent of tsunami evacuation zones and high-risk wildfire areas.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.2512,
+        22.2316
+       ],
+       [
+        -154.732,
+        22.2316
+       ],
+       [
+        -154.732,
+        19.0681
+       ],
+       [
+        -160.2512,
+        19.0681
+       ],
+       [
+        -160.2512,
+        22.2316
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Honolulu Multi-Hazard Decision Support Webmap",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1733165137000,
+    "avgRating": 0,
+    "id": "b0982c0449394e0f8424d8c539554c6b",
+    "categories": [],
+    "robots": [
+     "noindex",
+     "nofollow"
+    ],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "lprice0605",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1733165136000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/2",
+    "tags": [
+     "Honolulu",
+     "Hawaii",
+     "Hazards",
+     "Wildfire",
+     "Tsunami"
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 67,
+    "listed": false,
+    "scoreCompleteness": 66,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "lprice0605",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/b0982c0449394e0f8424d8c539554c6b"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "01ea0d1b26de44438a84581abc0357f8",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160.5498,
+       22.2325
+      ],
+      [
+       -155.9489,
+       22.2325
+      ],
+      [
+       -155.9489,
+       20.4904
+      ],
+      [
+       -160.5498,
+       20.4904
+      ],
+      [
+       -160.5498,
+       22.2325
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Tsunami Safe Zones for the main Hawaiian islands",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160.5498,
+        22.2325
+       ],
+       [
+        -155.9489,
+        22.2325
+       ],
+       [
+        -155.9489,
+        20.4904
+       ],
+       [
+        -160.5498,
+        20.4904
+       ],
+       [
+        -160.5498,
+        22.2325
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service"
+    ],
+    "description": "<p>[<a target='_blank' href='https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf' rel='nofollow ugc noopener noreferrer'>Metadata</a>]&nbsp; Description: Tsunami Safe Zones for the islands Niihau, Kauai, Oahu, Kahoolawe, Molokai, Lanai and Maui.<br />&nbsp;</p><div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Source:&nbsp;</div><div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Island of Hawaii: County of Hawaii, March 2025.&nbsp;&nbsp;</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'>Island of Oahu: City and County of Honolulu, April 2025</div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'><span>Islands of Molokai, Lanai, Maui: Pacific Disaster Center (PDC), 2013.&nbsp;</span><br />&nbsp;Island of Kauai: County of Kauai, March 2025.</div></div><p><br />Boundaries are based on peer review of the inundation models provided by UH Researchers and the operational needs of Honolulu's First Responders and the Emergency Management Community.</p></div><div style='color:rgb(77, 77, 77); margin:0px; padding:0px;'><div>Note: November 2025 - Corrections to Hawaii Island Zones were provided by Hawaii County and applied to layer.</div><div>&nbsp;</div></div></div><p><span style='color:rgb(77,77,77);'>For additional information, please refer to complete metadata at </span><a target='_blank' href='https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf' rel='nofollow ugc noopener noreferrer'><span style='color:rgb(77,77,77);'>https://files.hawaii.gov/dbedt/op/gis/data/tsunevac.pdf</span></a><span style='color:rgb(77,77,77);'> </span><span style='background-color:rgb(255,255,255); color:rgb(77,77,77); font-family:Verdana; font-size:14px;'>or contact&nbsp;</span><span style='color:rgb(77,77,77);'>Hawaii Statewide GIS Program, Office of Planning and Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi. 96804; (808) 587-2846; email:&nbsp;</span><a href='mailto:gis@hawaii.gov' target='_blank' rel='nofollow ugc noopener noreferrer'>gis@hawaii.gov</a><span style='color:rgb(77,77,77);'>; Website: </span><a target='_blank' href='https://planning.hawaii.gov/gis' rel='nofollow ugc noopener noreferrer'>https://planning.hawaii.gov/gis</a><span style='color:rgb(77,77,77);'>.</span></p>",
+    "licenseInfo": "<div><div><div><div><div><div><div><div><div><p style='margin-bottom:0.0001pt;'><a href='https://portal.ehawaii.gov/page/terms-of-use/' rel='nofollow ugc' target='_blank'>State of Hawaii Terms of Use. </a></p><p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>  </span></font></p>  <p style='margin-bottom:0.0001pt;'><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>The  contents of this web page are public domain and to the extent indicated  otherwise in the Terms of Use, are exempt from Terms of Use policy  restrictions.There are no expressed warranties associated with the  release of this data or product. Specifically, no warranty is made that  the GIS data or any subsequent updates will be error free and no  warranty is made regarding the positional or thematic accuracy of the  GIS data. The GIS data and any features depicted do not represent or  confer any legal rights, privileges, benefits, boundaries or claims of  any kind. The Office of Planning and Sustainable Development encourages users to report any  discrepancies or errors found.</span><font size='2'><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>   Contact: Hawaii Statewide GIS Program, Office of Planning and  Sustainable Development, State of Hawaii; PO Box 2359, Honolulu, Hi.  96804; (808) 587-2846; </span>email:<a href='mailto:gis@hawaii.gov' rel='nofollow ugc'><span style='color:rgb(33, 117, 155); background-color:white; background-position:initial initial; background-repeat:initial initial;'> gis@hawaii.gov. </span></a><span style='background-color:white; background-position:initial initial; background-repeat:initial initial;'>Website:</span><a href='https://planning.hawaii.gov/gis' rel='nofollow ugc' target='_blank'> https://planning.hawaii.gov/gis</a><span style='background-color:white;'>.</span></font></font></p></div></div></div></div></div></div></div></div></div>",
+    "title": "Tsunami Safe Zones",
+    "type": "Feature Service",
+    "orgId": "HQ0xoN0EzDPBOEci",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1763678157000,
+    "avgRating": 0,
+    "id": "01ea0d1b26de44438a84581abc0357f8",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "HawaiiStateGIS",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1769454000000,
+    "thumbnail": "thumbnail/thumbnail.jpeg",
+    "languages": [],
+    "created": 1508903220000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/13",
+    "tags": [
+     "hazards",
+     "Tsunami Evacuation Zones"
+    ],
+    "numViews": 78896,
+    "numComments": 0,
+    "size": 67,
+    "listed": false,
+    "scoreCompleteness": 88,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": null,
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaiʻi Statewide GIS Program",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/01ea0d1b26de44438a84581abc0357f8"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "5c1e4836970a4addbdfa5ea7b1c48c85",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -160,
+       80
+      ],
+      [
+       160,
+       80
+      ],
+      [
+       160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       -80.00000000000001
+      ],
+      [
+       -160,
+       80
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "This feature layer identifies the location of all posted tsunami informational and directional signs within The British Virgin Islands.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -160,
+        80
+       ],
+       [
+        160,
+        80
+       ],
+       [
+        160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        -80.00000000000001
+       ],
+       [
+        -160,
+        80
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "gpsMetadataEnabled",
+     "Multilayer",
+     "Public Data Collection",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Tsunami Signs Location",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 100550656,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1757341859000,
+    "avgRating": 0,
+    "id": "5c1e4836970a4addbdfa5ea7b1c48c85",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "kaugust_BVIDDM",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1757340000000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1756941219000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services6.arcgis.com/o7hnApkZrr93fXLB/arcgis/rest/services/Tsunami_Signs_Location/FeatureServer",
+    "tags": [
+     "DDM",
+     "Tsunami",
+     "Signs",
+     "Multi-Hazard",
+     "Tsunami Ready",
+     "Assembly Point",
+     "Evacuation Route",
+     "Warning Sign"
+    ],
+    "numViews": 50,
+    "numComments": 0,
+    "size": 100567040,
+    "listed": false,
+    "scoreCompleteness": 66,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Tsunami_Signs_Location",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "kaugust_BVIDDM",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/5c1e4836970a4addbdfa5ea7b1c48c85"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "4154e730bee444789d873f61dacd0eb5",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "All Hazard Alert Broadcast siren locations",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Desktop",
+     "Data",
+     "Layer",
+     "Metadata",
+     "Shapefile",
+     "Template"
+    ],
+    "description": "<div>\r\n\r\n<p style='margin-bottom:6.0pt;'>This data\r\ncompiled by the Washington Military Department on August 22, 2019. The All\r\nHazards Alert Broadcasting System (AHAB) data points supply visual depiction of\r\nwhere the siren locations are along the Washington State Coast and some inland\r\nwaterways. If an actual tsunami event occurs the sirens supply not only audible\r\nbut visual warnings of the impending danger via a wailing audio sound and an\r\nintense blue light for the hearing impaired, which can also cut through fog and\r\nis visible from a long distance. The sirens further supply a 4500-watt public\r\naddress system to relay verbal information to the local populations or play\r\ndigitally pre-recorded messages. The siren design enables a 360-degree\r\ncoverage. Has the capability to make test and actual evacuation announcements\r\nin English and Spanish (These are pre-recorded on each siren’s installed micro\r\nSD card.) Using pre-programmed phrases and words, messages can be created at\r\nany control point for such things as ‘Shelter in Place’, and Hazardous Material\r\nNotification. Siren positional data is derived from the satellite transponder attached\r\nto each siren which derives its location from current GPS satellites deployed\r\nby the United States.</p><p style='margin-bottom:6.0pt;'>\r\n\r\n</p><p style='margin-bottom:6.0pt;line-height:normal'><b>Attribute Description</b></p>\r\n\r\n<p style='margin-bottom:6.0pt;line-height:normal'>RTU - Siren\r\nreference number</p>\r\n\r\n<p style='margin-bottom:6.0pt;line-height:normal'>Address -\r\nNearest address of where the siren is located</p>\r\n\r\n<p style='margin-bottom:6.0pt;line-height:normal'>Name - Name\r\nof the siren</p>\r\n\r\n<p style='margin-bottom:6.0pt;line-height:normal'>LocationReference\r\n- Description of where the siren is located in relation to address</p>\r\n\r\n<p style='margin-bottom:6.0pt;line-height:normal'>City - City\r\nwhere the siren is location</p>\r\n\r\n<p style='margin-bottom:6.0pt;line-height:normal'>County -\r\nCounty where siren is located</p>\r\n\r\n<p style='margin-bottom:6.0pt;line-height:normal'>Elevation -\r\nElevation in feet AMSL of the siren location</p>\r\n\r\n<p style='margin-bottom:6.0pt;line-height:normal'>Latitude -\r\nLatitude of siren location</p>\r\n\r\n<span style='font-size:11.0pt;line-height:107%;font-family:&quot;Calibri&quot;,sans-serif;\r\nmso-ascii-theme-font:minor-latin;mso-fareast-font-family:Calibri;mso-fareast-theme-font:\r\nminor-latin;mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;\r\nmso-bidi-theme-font:minor-bidi;mso-ansi-language:EN-US;mso-fareast-language:\r\nEN-US;mso-bidi-language:AR-SA'>Longitude - Longitude of siren location</span>\r\n\r\n</div><div>Updated: 8/22/2019<br /></div>",
+    "licenseInfo": "Limitations of use: Provided as is. The Washington State Military Department reserves the right to alter, suspend, re-host, or retire this data/ service at any time and without notice. This service can be used in custom web applications and software products. Your use of this service in these types of tools forms a dependency on the service definition (available fields, layers, etc.) If you form any dependency on this service be aware of a significant risk to your purposes and take appropriate precautions. We provide a notification dashboard at: https://geo.wa.gov for your convenience and planning purposes.",
+    "title": "AHAB Points",
+    "type": "Shapefile",
+    "orgId": "vUVXhXafpruJFs3l",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1664309442000,
+    "avgRating": 0,
+    "id": "4154e730bee444789d873f61dacd0eb5",
+    "categories": [],
+    "spatialReference": null,
+    "numRatings": 0,
+    "owner": "waseocgis",
+    "accessInformation": "Federal Signal\nWashington Military Department",
+    "largeThumbnail": null,
+    "lastViewed": 1764262800000,
+    "thumbnail": "thumbnail/ago_downloaded.png",
+    "languages": [],
+    "created": 1558557422000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": null,
+    "tags": [
+     "AHAB",
+     "Washington State",
+     "WA",
+     "Emergency Management"
+    ],
+    "numViews": 250,
+    "numComments": 0,
+    "size": 13971,
+    "listed": false,
+    "scoreCompleteness": 93,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "AHABPoints.zip",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Washington Military Department",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/4154e730bee444789d873f61dacd0eb5"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "9885ccb0a8b940eca7f944170f1142bf",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -179,
+       89
+      ],
+      [
+       179,
+       89
+      ],
+      [
+       179,
+       -89
+      ],
+      [
+       -179,
+       -89
+      ],
+      [
+       -179,
+       89
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "A feature layer used to store evacuation routes, areas, and their status.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -179,
+        89
+       ],
+       [
+        179,
+        89
+       ],
+       [
+        179,
+        -89
+       ],
+       [
+        -179,
+        -89
+       ],
+       [
+        -179,
+        89
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Multilayer",
+     "Public Data Collection",
+     "Service",
+     "source-07266ee2098f4d89801bac3ffe87a332",
+     "Hosted Service"
+    ],
+    "description": "A feature layer used to store evacuation routes, areas, and their status.",
+    "licenseInfo": "Copyright 2023 Esri<br /><br />Licensed under the Apache License, Version 2.0 (the &quot;License&quot;); you may not use this file except in compliance with the License. You may obtain a copy of the License at<br /><br /><a href='https://www.apache.org/licenses/LICENSE-2.0' target='_blank' rel='nofollow ugc noopener noreferrer'>https://www.apache.org/licenses/LICENSE-2.0</a><br /><br />Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an &quot;AS IS&quot; BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.",
+    "title": "Evacuations",
+    "type": "Feature Service",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1715367626000,
+    "avgRating": 0,
+    "id": "9885ccb0a8b940eca7f944170f1142bf",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "jdeffle1_GISandData",
+    "accessInformation": "Esri",
+    "largeThumbnail": null,
+    "lastViewed": 1715367600000,
+    "thumbnail": "thumbnail/Feature_Service.png",
+    "languages": [],
+    "created": 1689544603000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/0MSEUqKaxRlEPj5g/arcgis/rest/services/Evacuations_5b458e8c6a9f47f482dbef9e20e4bb8b/FeatureServer",
+    "tags": [
+     "Evacuations",
+     "Know Your Zone",
+     "Storm Surge",
+     "ArcGIS for Emergency Management",
+     "Response",
+     "Preparedness",
+     "Tsunami",
+     "Tropical Cyclone"
+    ],
+    "numViews": 1,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 75,
+    "culture": "en-us",
+    "industries": [],
+    "name": "Evacuations_5b458e8c6a9f47f482dbef9e20e4bb8b",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/9885ccb0a8b940eca7f944170f1142bf"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "6069e8e7035043e58472893bdac4a3b3",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "751f55172d6b494d9413663dfa514fd3",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "USVI Tsunami Tower Feedback_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1764782150000,
+    "avgRating": 0,
+    "id": "6069e8e7035043e58472893bdac4a3b3",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "10106@stanleygroup.com",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1764781200000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1763401595000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/qjUAZ50ZxfvEQdob/arcgis/rest/services/survey123_751f55172d6b494d9413663dfa514fd3_form/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_751f55172d6b494d9413663dfa514fd3_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/6069e8e7035043e58472893bdac4a3b3"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "b12e588d6fbe4a0ca7fba999a54c5d30",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -179.79799999999997,
+       70.50000000000006
+      ],
+      [
+       179.20000000000005,
+       70.50000000000006
+      ],
+      [
+       179.20000000000005,
+       -77.83299999999997
+      ],
+      [
+       -179.79799999999997,
+       -77.83299999999997
+      ],
+      [
+       -179.79799999999997,
+       70.50000000000006
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "This service contains hypothetical data for Exercise Bombora only. It contains information on sea level stations, inland max inundation and the three rounds of tsunami warnings issued by the Bureau of Meteorology.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -179.79799999999997,
+        70.50000000000006
+       ],
+       [
+        179.20000000000005,
+        70.50000000000006
+       ],
+       [
+        179.20000000000005,
+        -77.83299999999997
+       ],
+       [
+        -179.79799999999997,
+        -77.83299999999997
+       ],
+       [
+        -179.79799999999997,
+        70.50000000000006
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Multilayer",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": "Threat level information and the initial wave's estimated time of arrival at each sea level station were provided by the Bureau of Meteorology (2022). The modelled max inundation extent was produced by Geoscience Australia (2022).",
+    "licenseInfo": "<span><p style='margin-bottom:0px;'>The Australian Government (acting through the BoM and Geoscience Australia) permit this information to be shared publicly by the Queensland Government (acting through QFES) as per correspondence received on the 26 April 2023 (Geoscience Australia) and 1 May 2023 (BoM).</p><p style='margin-bottom:0px;'> </p><p style='margin-bottom:0px;'>While the data and models have been created using the best available information at the time, it cannot be guaranteed the data provided from other sources is free from error. The Australian Government and Queensland Government, to the maximum extent permitted by law, will not be liable for any loss, damage, liability or claim whatsoever suffered or incurred by any person as a result of the use or reliance on information contained in this product.</p></span>",
+    "ownerId": "151cb5ce54d71d6b18cc521fc543f528",
+    "title": "Tsunami Warnings and Inundation",
+    "type": "Feature Service",
+    "orgId": "vkTwD8kHw2woKBqV",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1683506182000,
+    "avgRating": 0,
+    "id": "b12e588d6fbe4a0ca7fba999a54c5d30",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "SDCCPlanning_Admin",
+    "accessInformation": "© Geoscience Australia 2022\n© Bureau of Meteorology 2022\n© Queensland Fire & Emergency Services 2022\n",
+    "largeThumbnail": null,
+    "lastViewed": 1784768400000,
+    "thumbnail": "thumbnail/thumbnail1667360260985.png",
+    "languages": [],
+    "created": 1660539111000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services1.arcgis.com/vkTwD8kHw2woKBqV/arcgis/rest/services/Tsunami_Warnings_and_Inundation_WFL1/FeatureServer",
+    "tags": [
+     "Exercise Bombora",
+     "Tsunami",
+     "Hypothetical",
+     "ATWS",
+     "Inundation",
+     "Evacuation Zones",
+     "Queensland",
+     "New South Wales"
+    ],
+    "numViews": 3789,
+    "numComments": 0,
+    "size": 50683904,
+    "listed": false,
+    "scoreCompleteness": 95,
+    "culture": "en-au",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Tsunami_Warnings_and_Inundation_WFL1",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Public Safety Business Agency",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/b12e588d6fbe4a0ca7fba999a54c5d30"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "3334bc0bb15646129ed513d73846b888",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "Basic survey to ascertain preparedness for potential tsunami emergencies.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Tsunami Emergency Preparedness Survey",
+    "type": "Feature Service",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1710449784000,
+    "avgRating": 0,
+    "id": "3334bc0bb15646129ed513d73846b888",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "xchin_UO_online",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1710446400000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1710449771000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services5.arcgis.com/W1uyphp8h2tna3qJ/arcgis/rest/services/Tsunami_Emergency_Preparedness_Survey/FeatureServer",
+    "tags": [
+     "Tsunami",
+     "emergency preparedness",
+     "flood"
+    ],
+    "numViews": 4,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 48,
+    "culture": "",
+    "industries": [],
+    "name": "Tsunami_Emergency_Preparedness_Survey",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "xchin_UO_online",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/3334bc0bb15646129ed513d73846b888"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "a6a40ee3d21848f9b0549d4740a6e171",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "6d4948fc921e4380b1e71c9ebfb2d157",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Caribbean Tsunami Ready_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1776791120000,
+    "avgRating": 0,
+    "id": "a6a40ee3d21848f9b0549d4740a6e171",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "SINAMOT-UNA",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1776790800000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1776787347000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services3.arcgis.com/vF5meFYES9JqHHlg/arcgis/rest/services/survey123_6d4948fc921e4380b1e71c9ebfb2d157_form/FeatureServer",
+    "tags": [],
+    "numViews": 10,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_6d4948fc921e4380b1e71c9ebfb2d157_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/a6a40ee3d21848f9b0549d4740a6e171"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "a1fd9032ee47441d98c2de6d34ff00e4",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "e7a670cbf1e84879bb99998184f91160",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "OR Coast Tsunami Awareness_form",
+    "type": "Feature Service",
+    "orgId": "CD5mKowwN6nIaqd8",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1739909395000,
+    "avgRating": 0,
+    "id": "a1fd9032ee47441d98c2de6d34ff00e4",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "godfreyg@oregonstate.edu_OSUGISci",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1739908800000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1739864500000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services1.arcgis.com/CD5mKowwN6nIaqd8/arcgis/rest/services/survey123_e7a670cbf1e84879bb99998184f91160_form/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_e7a670cbf1e84879bb99998184f91160_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Oregon State University GISci",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/a1fd9032ee47441d98c2de6d34ff00e4"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "215ef064bf0140768954da53ff4407a7",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "MVP",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": null,
+    "licenseInfo": "Internal use only - Do not share without explicit data sharing agreement ",
+    "title": "Tsunami Observation Report",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 42046464,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1684470920000,
+    "avgRating": 0,
+    "id": "215ef064bf0140768954da53ff4407a7",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "gns_rlawson",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1684468800000,
+    "thumbnail": "thumbnail/Tsunami_SDP.png",
+    "languages": [],
+    "created": 1660523095000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services2.arcgis.com/X3qSy0bYVFfbfwMe/arcgis/rest/services/service_e9c9a217e7884a07b365ce001b201549/FeatureServer",
+    "tags": [
+     "XForm",
+     "XForms"
+    ],
+    "numViews": 204,
+    "numComments": 0,
+    "size": 42546176,
+    "listed": false,
+    "scoreCompleteness": 60,
+    "culture": "",
+    "industries": [],
+    "name": "service_e9c9a217e7884a07b365ce001b201549",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": {
+     "indexJobId": "",
+     "indexJobUrl": ""
+    },
+    "source": "gns_rlawson",
+    "license": "custom"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/215ef064bf0140768954da53ff4407a7"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "7362e7ba151f40ec85f789f5496515eb",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "119cc687b93a41ffa0dcba3ca6af26da",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Tsunami Emergency Preparedness Survey - Xander Chin_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1710306379000,
+    "avgRating": 0,
+    "id": "7362e7ba151f40ec85f789f5496515eb",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "xchin_UO_online",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1710306000000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1710282920000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services5.arcgis.com/W1uyphp8h2tna3qJ/arcgis/rest/services/survey123_119cc687b93a41ffa0dcba3ca6af26da_form/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "name": "survey123_119cc687b93a41ffa0dcba3ca6af26da_form",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "xchin_UO_online",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/7362e7ba151f40ec85f789f5496515eb"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "4525a88c6abc4043946768bf48b72b95",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "119cc687b93a41ffa0dcba3ca6af26da",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "StakeholderView",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Tsunami Emergency Preparedness Survey - Xander Chin_results",
+    "type": "Feature Service",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1710282947000,
+    "avgRating": 0,
+    "id": "4525a88c6abc4043946768bf48b72b95",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "xchin_UO_online",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1710446400000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1710282933000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services5.arcgis.com/W1uyphp8h2tna3qJ/arcgis/rest/services/survey123_119cc687b93a41ffa0dcba3ca6af26da_results/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "name": "survey123_119cc687b93a41ffa0dcba3ca6af26da_results",
+    "guid": null,
+    "token1ExpirationDate": -1,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "xchin_UO_online",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/4525a88c6abc4043946768bf48b72b95"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "058dfd5c22c54eb49f8b8b76568f96b3",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "f8de606e437f4ddea2bdc01d16dd8732",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Survey - Tsunami Risk Index (TRI)_form",
+    "type": "Feature Service",
+    "orgId": "967KncBtW7Zg8zV1",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1776681196000,
+    "avgRating": 0,
+    "id": "058dfd5c22c54eb49f8b8b76568f96b3",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "soria.aster_UM3",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1776679200000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1776680421000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services2.arcgis.com/967KncBtW7Zg8zV1/arcgis/rest/services/survey123_f8de606e437f4ddea2bdc01d16dd8732_form/FeatureServer",
+    "tags": [],
+    "numViews": 4,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_f8de606e437f4ddea2bdc01d16dd8732_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Université de Montpellier Paul-Valéry",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/058dfd5c22c54eb49f8b8b76568f96b3"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "643377cf421a41a0911085c000615f11",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -158.23004012069572,
+       21.691336100614
+      ],
+      [
+       -157.6644095728886,
+       21.691336100614
+      ],
+      [
+       -157.6644095728886,
+       21.265042340614137
+      ],
+      [
+       -158.23004012069572,
+       21.265042340614137
+      ],
+      [
+       -158.23004012069572,
+       21.691336100614
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "TMK Parcels for affordable housing project.\n\nReceived from Jim Hayden, 5/24/17.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -158.23004012069572,
+        21.691336100614
+       ],
+       [
+        -157.6644095728886,
+        21.691336100614
+       ],
+       [
+        -157.6644095728886,
+        21.265042340614137
+       ],
+       [
+        -158.23004012069572,
+        21.265042340614137
+       ],
+       [
+        -158.23004012069572,
+        21.691336100614
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS API for JavaScript",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Service",
+     "Singlelayer",
+     "Hosted Service"
+    ],
+    "description": "<div style='text-align:Left;'><div><div><ul><li><span>Added GIS_Acres field</span></li><li><span>joined owndat.dbf downloaded 5/31/17</span></li><li><span>added link to Honolulu Real Property site</span></li></ul><p><strong>Steps used to create the Tier system:</strong></p><ol><li><span>Ran Onyx ETL script to join own.dat table to parcel layer</span></li><li><span>Turn on TMK, NormOwner, MajorOwner, BigstOwner, GISAcres.</span></li><li><span>Unioned with the following layers:</span><ul><li><span>TMK parcels, owndat.dbf (downloaded from County, 3/6/17)</span></li><li><span>SLUD (LUC, Feb 2016)</span></li><li><span>County Zoning (downloaded from County, 3/6/17)</span></li><li><span>1/2 mile buffer from rail station (County, 2015)</span></li><li><span>1/2 mile to 1 mile buffer from rail station (County, 2015)</span></li><li><span>1/2 mile buffer from rail route (County, 2015)</span></li><li><span>1/2 mile to 1 mile buffer from rail route (County, 2015)</span></li><li><span>1/2 mile buffer from bus stops (County, 2012)</span></li><li><span>1/2 mile to 1 mile buffer from bus stops (County, 2012)</span></li><li><span>100 yr flood zone (County, 2014)</span></li><li><span>Tsunami Zone (County, 2010)</span></li><li><span>1/2 mile buffer from sewer main (County, 11/21/2016)</span></li><li><span>1/2 mile to 1 mile buffer from sewer main (County, 11/21/2016)</span></li><li><span>1/2 mile buffer from water main (County, 2004)</span></li><li><span>1/2 mile to 1 mile buffer from water main (County, 2004)</span></li><li><span>Reserves (DLNR, Jan 2017)</span></li><li><span>SMA (County, 2011)</span></li></ul></li><li><p><span>Queried from oahu_state_county_parcels_pltis_20170425_split:</span></p><p><span>GISAcres_por &gt;= 0.23 AND smarea = 0 AND ludcode &lt;&gt; 'C' AND (ZONE_CLASS = 'A-1' OR ZONE_CLASS = 'A-2' OR ZONE_CLASS = 'A-3' OR ZONE_CLASS = 'AG-1' OR ZONE_CLASS = 'AG-2' OR ZONE_CLASS = 'Aloha' OR ZONE_CLASS = 'AMX-1' OR ZONE_CLASS = 'AMX-2' OR ZONE_CLASS = 'Apart' OR ZONE_CLASS = 'ApartMix' OR ZONE_CLASS = 'BMX-3' OR ZONE_CLASS = 'BMX-4' OR ZONE_CLASS = 'C' OR ZONE_CLASS = 'IMX-1' OR ZONE_CLASS = 'Kak' OR ZONE_CLASS = 'MU' OR ZONE_CLASS = 'PU' OR ZONE_CLASS = 'Pub' OR ZONE_CLASS = 'R-10' OR ZONE_CLASS = 'R-20' OR ZONE_CLASS = 'R-3.5' OR ZONE_CLASS = 'R-5' OR ZONE_CLASS = 'R-7.5' OR ZONE_CLASS = 'ResMix' OR ZONE_CLASS = 'Resort' OR ZONE_CLASS = 'WI') AND NormOwner &lt;&gt; 'COUNTY BOARD OF WATER SUPPLY'</span></p></li></ol><ul><li><span>polygons &gt;= 0.23 acres (or 10,000 sq ft)</span></li><li><span>parcels owned by State or County</span></li><li><span>State Land Use District Urban or Agricultural (No Conservation)</span></li><li><span>No SMA</span></li><li><span>No parcels owned by the Board of Water Supply</span></li><li><span>Includes the following County Zoning:</span><ul><li><span>AG-1</span></li><li><span>AG-2</span></li><li><span>A-1</span></li><li><span>A-2</span></li><li><span>A-3</span></li><li><span>Aloha</span></li><li><span>Apart</span></li><li><span>ApartMix</span></li><li><span>Resort</span></li><li><span>R-3.5</span></li><li><span>R-5</span></li><li><span>R-7.5</span></li><li><span>R-10</span></li><li><span>R-20</span></li><li><span>AMX-1</span></li><li><span>AMX-2</span></li><li><span>WI</span></li><li><span>ResMix</span></li><li><span>BMX-3</span></li><li><span>BMX-4</span></li><li><span>IMX-1</span></li><li><span>C</span></li><li><span>MU</span></li><li><span>PU</span></li><li><span>Pub</span></li><li><span>Kak</span></li></ul></li></ul><p><span>Attribute Info;</span></p><ul><li><span>TMK: 9 digit TMK Number (Numeric)</span></li><li><span>NormOwner: Owner name as described in owndat.dbf</span></li><li><span>MajorOwner: Owner name with Dept.</span></li><li><span>BigstOwner: State, State DHHL or County</span></li><li><span>GISAcres: Acreage of Full Parcel</span></li><li><span>TMK_txt: 9 digit TMK Number (String)</span></li><li><span>Fee_Owner: PLTIS Fee Owner (DLNR, 3/16/17)</span></li><li><span>Trust_Land_Status_s_: PLTIS Trust Land Status (DLNR, 3/16/17)</span></li><li><span>zone_class: County Zoning</span></li><li><span>rail_station_halfmile: within half mile of rail station (Yes/No)</span></li><li><span>rail_route_halfmile: within half mile of rail route (Yes/No)</span></li><li><span>bus_stop_halfmile: within half mile of bus stop (Yes/No)</span></li><li><span>fld_zone: 100 year flood zone</span></li><li><span>sewer_halfmile: within half mile of sewer main (Yes/No)</span></li><li><span>water_halfmile: within half mile of water main (Yes/No)</span></li><li><span>type: Reserve Type (Forest Reserve, State Parks, etc.)</span></li><li><span>smarea: SMA (0=No, 0=Yes)</span></li><li><span>ludcode: State Land Use Districts</span></li><li><span>GISAcres_por: Acreage of polygon (portion of full parcel)</span></li><li><span>zone: Tsunami Evacuation Zone (0=No, 1=Yes)</span></li><li><span>Tier: Tier Number</span></li><li><span>rail_route_half_to_1mile: within 1/2 to 1 mile of rail route</span></li><li><span>bus_stop_half_to_1mile: within 1/2 to 1 mile of bus stop</span></li><li><span>sewer_main_half_to1mile: within 1/2 to 1 mile of sewer main</span></li><li><span>water_main_half_to_1mile: within 1/2 to 1 mile of water main</span></li><li><span>rail_station_half_to_1mile: within 1/2 to 1 mile of rail station</span></li><li><span>Pt_Rail: Points for proximity to Rail Route</span></li><li><span>Pt_Sewer: Points for proximity to Sewer Main</span></li><li><span>Pt_Water: Points for proximity to Water Main</span></li><li><span>Pt_Owner: Points for Owner type</span></li><li><span>Pt_SLUD: Points for State Land Use District</span><ul><li><span>2 points: within 1/2 mile of rail route</span></li><li><span>1 point: within 1/2 mile of sewer main</span></li><li><span>1 point: within 1/2 mile of water main</span></li><li><span>1 point: within 1/2 mile to 1 mile of rail route</span></li><li><span>0.5 point: within 1/2 mile to 1 mile of sewer main</span></li><li><span>0.5 point: within 1/2 mile to 1 mile of water main</span></li><li><span>1 point: Non-DHHL State land or County land</span></li><li><span>1 point: State Land Use Urban District</span></li><li><span>0 point: DHHL State Land</span></li><li><span>0 point: State Land Use Agricultural District</span></li></ul></li><li><span>Pt_Bus: Not used</span></li><li><span>Score: Total Score of Pt_Rail + Pt_Sewer + Pt_Water + Pt_Owner + Pt_SLUD</span></li><li><span>Tier Scoring:</span><ul><li><span>Tier 1: Score = 6 points and \"No DHHL\" and \"Urban District Only\"</span></li><li><span>Tier 2: Score = 4 to 5.5 points and \"No DHHL\" and \"Urban District Only\"</span></li><li><span>Tier 3: Score = All other parcels (Less than 4 points, DHHL lands, State Land Use Ag and Rural)</span></li></ul></li><li><strong>Revised, 6/5/17:</strong><ul><li><span>Added field \"LandCover.\" This field is used to roughly determine the Land Cover of the parcel using latest Aerial data (ArcGIS World Imagery Basemap, WV2 imagery, and Google Earth).</span><ul><li><span>0 = Bare Land</span></li><li><span>1 = &lt;50% Structures</span></li><li><span>2 = &gt;50% Structures</span></li></ul></li><li><span>Added field \"Notes\" to describe features about the parcel.</span></li><li><span>Created a new Tier 4 for road and drainage parcels that were removed from Tier 1.</span></li></ul></li></ul></div></div></div>",
+    "licenseInfo": "",
+    "title": "Tier 1 _ Public",
+    "type": "Feature Service",
+    "orgId": "HQ0xoN0EzDPBOEci",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1767125524000,
+    "avgRating": 0,
+    "id": "643377cf421a41a0911085c000615f11",
+    "categories": [],
+    "spatialReference": "102202",
+    "numRatings": 0,
+    "owner": "bbutoaj",
+    "accessInformation": "Holis, 5/24/17",
+    "largeThumbnail": null,
+    "lastViewed": 1767124800000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1762213796000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/HQ0xoN0EzDPBOEci/arcgis/rest/services/Tier_1___Public/FeatureServer",
+    "tags": [
+     "affordable housing"
+    ],
+    "numViews": 77,
+    "numComments": 0,
+    "size": 8937472,
+    "listed": false,
+    "scoreCompleteness": 66,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Tier_1___Public",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Hawaii Statewide GIS Program",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/643377cf421a41a0911085c000615f11"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "aea464aa042b45d6911f5999aeba79e7",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "7a5878cdaad742f189a10177d4eefbd2",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Questionnaire tsunami Frontignan [GROUPE 1]_form",
+    "type": "Feature Service",
+    "orgId": "967KncBtW7Zg8zV1",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1697104517000,
+    "avgRating": 0,
+    "id": "aea464aa042b45d6911f5999aeba79e7",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "pierre.foulquier_UM3",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1697122800000,
+    "thumbnail": null,
+    "languages": [],
+    "tokenExpirationDate": -1,
+    "created": 1697104381000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services2.arcgis.com/967KncBtW7Zg8zV1/arcgis/rest/services/survey123_7a5878cdaad742f189a10177d4eefbd2_form/FeatureServer",
+    "tags": [],
+    "numViews": 2,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "name": "survey123_7a5878cdaad742f189a10177d4eefbd2_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Université Paul-Valéry Montpellier 3",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/aea464aa042b45d6911f5999aeba79e7"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "418d5720d5d341e6aa6d4c47e7d339cb",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -158.2825850001117,
+       21.712785983268528
+      ],
+      [
+       -157.64770792831752,
+       21.712785983268528
+      ],
+      [
+       -157.64770792831752,
+       21.252891735042475
+      ],
+      [
+       -158.2825850001117,
+       21.252891735042475
+      ],
+      [
+       -158.2825850001117,
+       21.712785983268528
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "These features show either the extent of a hazard or of the evacuation zone associated with a hazard. It is used in a public facing \"Know your zones\" app",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -158.2825850001117,
+        21.712785983268528
+       ],
+       [
+        -157.64770792831752,
+        21.712785983268528
+       ],
+       [
+        -157.64770792831752,
+        21.252891735042475
+       ],
+       [
+        -158.2825850001117,
+        21.252891735042475
+       ],
+       [
+        -158.2825850001117,
+        21.712785983268528
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": false,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Metadata",
+     "Multilayer",
+     "Service",
+     "Hosted Service"
+    ],
+    "description": "",
+    "licenseInfo": "",
+    "title": "Hazard Zones Public Facing",
+    "type": "Feature Service",
+    "orgId": "tNJpAOha4mODLkXz",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1746667599000,
+    "avgRating": 0,
+    "id": "418d5720d5d341e6aa6d4c47e7d339cb",
+    "categories": [],
+    "spatialReference": "102463",
+    "numRatings": 0,
+    "owner": "jhayden",
+    "accessInformation": "",
+    "largeThumbnail": null,
+    "lastViewed": 1746730800000,
+    "thumbnail": "thumbnail/thumbnail.png",
+    "languages": [],
+    "created": 1746667558000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/arcgis/rest/services/Hazard_Zones_Public_Facing/FeatureServer",
+    "tags": [
+     "Holis",
+     "Oahu",
+     "DEM",
+     "flood",
+     "tsunami",
+     "Dam Evacuation"
+    ],
+    "numViews": 178,
+    "numComments": 0,
+    "size": 10772480,
+    "listed": false,
+    "scoreCompleteness": 66,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Hazard_Zones_Public_Facing",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "City & County of Honolulu GIS",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/418d5720d5d341e6aa6d4c47e7d339cb"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "7f04c46c902641eab13e855beadc68ae",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "1500bb85dac04e10874b519b299ebf94",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Encuesta sin título_2_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1776747850000,
+    "avgRating": 0,
+    "id": "7f04c46c902641eab13e855beadc68ae",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "SINAMOT-UNA",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1776747600000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1776747403000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services3.arcgis.com/vF5meFYES9JqHHlg/arcgis/rest/services/survey123_1500bb85dac04e10874b519b299ebf94_form/FeatureServer",
+    "tags": [],
+    "numViews": 2,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_1500bb85dac04e10874b519b299ebf94_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/7f04c46c902641eab13e855beadc68ae"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "5cbc05423e2a42e7845f3d1041073d73",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "07b8525ef65946f0936eef60253df8ae",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Survey on Tsunami_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "token2ExpirationDate": -1,
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1701650063000,
+    "avgRating": 0,
+    "id": "5cbc05423e2a42e7845f3d1041073d73",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "shypatel_au",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1701648000000,
+    "thumbnail": null,
+    "languages": [],
+    "tokenExpirationDate": -1,
+    "created": 1701648887000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services6.arcgis.com/o4NCoYDzlMXHV9yU/arcgis/rest/services/survey123_07b8525ef65946f0936eef60253df8ae_form/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "name": "survey123_07b8525ef65946f0936eef60253df8ae_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "shypatel_au",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/5cbc05423e2a42e7845f3d1041073d73"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "3b9db3213bc94247b00b880bddfc7c9e",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "c235a701cf2d455db0fb88413ff78c29",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Caribwave 25 School Evaluation Form_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1741382573000,
+    "avgRating": 0,
+    "id": "3b9db3213bc94247b00b880bddfc7c9e",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "Mitigation_HMCI",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1741381200000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1741382470000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services7.arcgis.com/D3CAolV0UFiKaYR8/arcgis/rest/services/survey123_c235a701cf2d455db0fb88413ff78c29_form/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_c235a701cf2d455db0fb88413ff78c29_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "Mitigation_HMCI",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/3b9db3213bc94247b00b880bddfc7c9e"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "68de0cdd9fa44066a3d97cbd2b9dbfc4",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -161.69675114145952,
+       80.69452318402465
+      ],
+      [
+       161.69675114145952,
+       80.69452318402465
+      ],
+      [
+       161.69675114145952,
+       -72.67267629418548
+      ],
+      [
+       -161.69675114145952,
+       -72.67267629418548
+      ],
+      [
+       -161.69675114145952,
+       80.69452318402465
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "A public feature layer view used to view active evacuation routes, areas, and their status.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -161.69675114145952,
+        80.69452318402465
+       ],
+       [
+        161.69675114145952,
+        80.69452318402465
+       ],
+       [
+        161.69675114145952,
+        -72.67267629418548
+       ],
+       [
+        -161.69675114145952,
+        -72.67267629418548
+       ],
+       [
+        -161.69675114145952,
+        80.69452318402465
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Multilayer",
+     "Service",
+     "source-8c9dd3e7b7894bbca64b421e390dcbb6",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": "A public feature layer view used to view active evacuation routes, areas, and their status.",
+    "licenseInfo": null,
+    "title": "Evacuations_active_public",
+    "type": "Feature Service",
+    "orgId": "Ezk9fcjSUkeadg6u",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1645203035000,
+    "avgRating": 0,
+    "id": "68de0cdd9fa44066a3d97cbd2b9dbfc4",
+    "categories": [],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "kcamp_uagis",
+    "accessInformation": "Esri",
+    "largeThumbnail": null,
+    "thumbnail": "thumbnail/Feature_Service.png",
+    "languages": [],
+    "created": 1645203024000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services1.arcgis.com/Ezk9fcjSUkeadg6u/arcgis/rest/services/Evacuations_active_public_1c853831043a4610a628fd62e3588d10/FeatureServer",
+    "tags": [
+     "Evacuations",
+     "Know Your Zone",
+     "Storm Surge",
+     "ArcGIS for Emergency Management",
+     "Response",
+     "Preparedness",
+     "Tsunami",
+     "Tropical Cyclone"
+    ],
+    "numViews": 3,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 75,
+    "culture": "en-us",
+    "industries": [],
+    "name": "Evacuations_active_public_1c853831043a4610a628fd62e3588d10",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "University of Arizona GIS",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/68de0cdd9fa44066a3d97cbd2b9dbfc4"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "24101e1425eb4fc99828d06f8f598e70",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -161.69675114150027,
+       80.69452318404525
+      ],
+      [
+       161.69675114150027,
+       80.69452318404525
+      ],
+      [
+       161.69675114150027,
+       -72.67267629420381
+      ],
+      [
+       -161.69675114150027,
+       -72.67267629420381
+      ],
+      [
+       -161.69675114150027,
+       80.69452318404525
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": "A public feature layer view used to view active evacuation routes, areas, and their status.",
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -161.69675114150027,
+        80.69452318404525
+       ],
+       [
+        161.69675114150027,
+        80.69452318404525
+       ],
+       [
+        161.69675114150027,
+        -72.67267629420381
+       ],
+       [
+        -161.69675114150027,
+        -72.67267629420381
+       ],
+       [
+        -161.69675114150027,
+        80.69452318404525
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Multilayer",
+     "Service",
+     "source-8c9dd3e7b7894bbca64b421e390dcbb6",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": "A public feature layer view used to view active evacuation routes, areas, and their status.",
+    "licenseInfo": null,
+    "title": "Evacuations_active_public",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1736156317000,
+    "avgRating": 0,
+    "id": "24101e1425eb4fc99828d06f8f598e70",
+    "categories": [
+     "/Categories/For Migration - Not Actively Editing",
+     "/Categories/USA/West"
+    ],
+    "spatialReference": "102100",
+    "numRatings": 0,
+    "owner": "luca.matts@wsp.com_wspglobal",
+    "accessInformation": "Esri",
+    "largeThumbnail": null,
+    "lastViewed": -1,
+    "thumbnail": "thumbnail/6dfaac6515bf42b2b4273a82c159815c-thumbnail.png",
+    "languages": [],
+    "created": 1722886279000,
+    "documentation": null,
+    "banner": null,
+    "url": "https://services7.arcgis.com/TuQ8KXxdnKZCJwrs/arcgis/rest/services/Evacuations_2_view/FeatureServer",
+    "tags": [
+     "Evacuations",
+     "Know Your Zone",
+     "Storm Surge",
+     "ArcGIS for Emergency Management",
+     "Response",
+     "Preparedness",
+     "Tsunami",
+     "Tropical Cyclone"
+    ],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 75,
+    "culture": "en-us",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "Evacuations_2_view",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/24101e1425eb4fc99828d06f8f598e70"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "607f3f90b252460a977a18db77edeef6",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "631fdaa73caa40658612efa7b2020ff3",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "Service",
+     "Singlelayer",
+     "StakeholderView",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "Caribwave 26 General Evaluation Form_results",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1769193110000,
+    "avgRating": 0,
+    "id": "607f3f90b252460a977a18db77edeef6",
+    "categories": [],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "Mitigation_HMCI",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1769191200000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1741712596000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services7.arcgis.com/D3CAolV0UFiKaYR8/arcgis/rest/services/survey123_631fdaa73caa40658612efa7b2020ff3_results/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_631fdaa73caa40658612efa7b2020ff3_results",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/607f3f90b252460a977a18db77edeef6"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  },
+  {
+   "id": "4733254fcd2d45f4ad50a024434885f9",
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       -180,
+       90
+      ],
+      [
+       180,
+       90
+      ],
+      [
+       180,
+       -90
+      ],
+      [
+       -180,
+       -90
+      ],
+      [
+       -180,
+       90
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "snippet": null,
+    "extent": {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        -180,
+        90
+       ],
+       [
+        180,
+        90
+       ],
+       [
+        180,
+        -90
+       ],
+       [
+        -180,
+        -90
+       ],
+       [
+        -180,
+        90
+       ]
+      ]
+     ]
+    },
+    "commentsEnabled": true,
+    "groupDesignations": null,
+    "access": "public",
+    "apiToken2ExpirationDate": -1,
+    "typeKeywords": [
+     "91f6f420e4194a9d9599b15540bc84af",
+     "ArcGIS Server",
+     "Data",
+     "Feature Access",
+     "Feature Service",
+     "FieldworkerView",
+     "Public Data Collection",
+     "Service",
+     "Singlelayer",
+     "Survey123",
+     "Survey123 Hub",
+     "Hosted Service",
+     "View Service"
+    ],
+    "description": null,
+    "licenseInfo": null,
+    "title": "City of Rockaway Beach - Emergency Preparedness_form",
+    "type": "Feature Service",
+    "screenshots": [],
+    "subInfo": 0,
+    "advancedSettings": null,
+    "appCategories": [],
+    "modified": 1727324053000,
+    "avgRating": 0,
+    "id": "4733254fcd2d45f4ad50a024434885f9",
+    "categories": [],
+    "robots": [
+     "noindex",
+     "nofollow"
+    ],
+    "spatialReference": "4326",
+    "numRatings": 0,
+    "owner": "tjfiorelli",
+    "accessInformation": null,
+    "largeThumbnail": null,
+    "lastViewed": 1727323200000,
+    "thumbnail": null,
+    "languages": [],
+    "created": 1727322921000,
+    "documentation": null,
+    "banner": null,
+    "classification": null,
+    "url": "https://services7.arcgis.com/ieCOhWthQ0M8iodQ/arcgis/rest/services/survey123_91f6f420e4194a9d9599b15540bc84af_form/FeatureServer",
+    "tags": [],
+    "numViews": 0,
+    "numComments": 0,
+    "size": 0,
+    "listed": false,
+    "scoreCompleteness": 16,
+    "culture": "",
+    "industries": [],
+    "apiToken1ExpirationDate": -1,
+    "name": "survey123_91f6f420e4194a9d9599b15540bc84af_form",
+    "guid": null,
+    "proxyFilter": null,
+    "properties": null,
+    "source": "tjfiorelli",
+    "license": "none"
+   },
+   "time": null,
+   "links": [
+    {
+     "rel": "self",
+     "type": "application/geo+json",
+     "title": "This document as GeoJSON",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items/4733254fcd2d45f4ad50a024434885f9"
+    },
+    {
+     "rel": "collection",
+     "type": "application/json",
+     "title": "Dataset",
+     "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+    }
+   ]
+  }
+ ],
+ "timestamp": "2026-10-09T10:05:04.970Z",
+ "numberMatched": 59,
+ "numberReturned": 50,
+ "links": [
+  {
+   "rel": "self",
+   "type": "application/geo+json",
+   "title": "This document as GeoJSON",
+   "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items"
+  },
+  {
+   "rel": "next",
+   "type": "application/geo+json",
+   "title": "items (next)",
+   "href": "https://hub.arcgis.com/api/search/v1/collections/dataset/items?q=tsunami evacuation&bbox=-158.33,21.22,-157.6,21.75&limit=50&startindex=51"
+  },
+  {
+   "rel": "collection",
+   "type": "application/json",
+   "title": "Dataset",
+   "href": "https://hub.arcgis.com/api/search/v1/collections/dataset"
+  }
+ ]
+}
