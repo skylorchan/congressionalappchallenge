@@ -2,7 +2,7 @@
  {
   "name": "hazards (layer list)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/layers?f=json",
-  "retrieved": "2026-10-09T10:08:22.620Z",
+  "retrieved": "2026-10-09T21:18:24.641Z",
   "layers": [
    "0: Hazards",
    "24: DFIRM Panels",
@@ -35,7 +35,7 @@
  {
   "name": "hazards-1-tsunami-wave-heights (metadata)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/1?f=json",
-  "retrieved": "2026-10-09T10:08:23.069Z",
+  "retrieved": "2026-10-09T21:18:24.863Z",
   "layerName": "Tsunami Wave Heights",
   "editingInfo": null,
   "ok": true
@@ -43,14 +43,14 @@
  {
   "name": "hazards-1-tsunami-wave-heights",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/1/query",
-  "retrieved": "2026-10-09T10:08:23.130Z",
+  "retrieved": "2026-10-09T21:18:24.887Z",
   "features": 92,
   "ok": true
  },
  {
   "name": "hazards-11-tsunami-evacuation-all-zones (metadata)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/11?f=json",
-  "retrieved": "2026-10-09T10:08:23.215Z",
+  "retrieved": "2026-10-09T21:18:24.956Z",
   "layerName": "Tsunami Evacuation - All Zones",
   "editingInfo": null,
   "ok": true
@@ -58,14 +58,14 @@
  {
   "name": "hazards-11-tsunami-evacuation-all-zones",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/11/query",
-  "retrieved": "2026-10-09T10:08:23.273Z",
+  "retrieved": "2026-10-09T21:18:24.982Z",
   "features": 32,
   "ok": true
  },
  {
   "name": "hazards-2-tsunami-evacuation-zones (metadata)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/2?f=json",
-  "retrieved": "2026-10-09T10:08:24.523Z",
+  "retrieved": "2026-10-09T21:18:25.821Z",
   "layerName": "Tsunami Evacuation Zones",
   "editingInfo": null,
   "ok": true
@@ -73,14 +73,14 @@
  {
   "name": "hazards-2-tsunami-evacuation-zones",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/2/query",
-  "retrieved": "2026-10-09T10:08:24.579Z",
+  "retrieved": "2026-10-09T21:18:25.847Z",
   "features": 1,
   "ok": true
  },
  {
   "name": "hazards-12-extreme-tsunami-evacuation-zones (metadata)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/12?f=json",
-  "retrieved": "2026-10-09T10:08:25.134Z",
+  "retrieved": "2026-10-09T21:18:26.417Z",
   "layerName": "Extreme Tsunami Evacuation Zones",
   "editingInfo": null,
   "ok": true
@@ -88,14 +88,14 @@
  {
   "name": "hazards-12-extreme-tsunami-evacuation-zones",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/12/query",
-  "retrieved": "2026-10-09T10:08:25.189Z",
+  "retrieved": "2026-10-09T21:18:26.440Z",
   "features": 27,
   "ok": true
  },
  {
   "name": "hazards-13-tsunami-safe-zones (metadata)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/13?f=json",
-  "retrieved": "2026-10-09T10:08:25.451Z",
+  "retrieved": "2026-10-09T21:18:26.686Z",
   "layerName": "Tsunami Safe Zones",
   "editingInfo": null,
   "ok": true
@@ -103,14 +103,14 @@
  {
   "name": "hazards-13-tsunami-safe-zones",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Hazards/MapServer/13/query",
-  "retrieved": "2026-10-09T10:08:25.514Z",
+  "retrieved": "2026-10-09T21:18:26.714Z",
   "features": 4,
   "ok": true
  },
  {
   "name": "emergmgmtpubsafety (layer list)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/EmergMgmtPubSafety/MapServer/layers?f=json",
-  "retrieved": "2026-10-09T10:08:25.604Z",
+  "retrieved": "2026-10-09T21:18:26.767Z",
   "layers": [
    "0: EmergMgmtPubSafety",
    "7: Statewide Fire Stations - All Types",
@@ -124,7 +124,7 @@
  {
   "name": "humanhealthsafety (layer list)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/HumanHealthSafety/MapServer/layers?f=json",
-  "retrieved": "2026-10-09T10:08:25.669Z",
+  "retrieved": "2026-10-09T21:18:26.794Z",
   "layers": [
    "0: HumanHealthSafety",
    "1: Air Quality Monitoring Sites",
@@ -145,7 +145,7 @@
  {
   "name": "infrastructure (layer list)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Infrastructure/MapServer/layers?f=json",
-  "retrieved": "2026-10-09T10:08:25.743Z",
+  "retrieved": "2026-10-09T21:18:26.830Z",
   "layers": [
    "0: Infrastructure",
    "32: HCPT Cesspools",
@@ -189,14 +189,14 @@
  {
   "name": "society (layer list)",
   "url": "https://geodata.hawaii.gov/arcgis/rest/services/Society/MapServer/layers?f=json",
-  "retrieved": "2026-10-09T10:08:25.816Z",
+  "retrieved": "2026-10-09T21:18:26.869Z",
   "layers": [],
   "ok": true
  },
  {
   "name": "honolulu (service list)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/arcgis/rest/services?f=json",
-  "retrieved": "2026-10-09T10:08:25.875Z",
+  "retrieved": "2026-10-09T21:18:26.895Z",
   "services": [
    "100000_Trees_Oahu_Public_Map_Layer (FeatureServer)",
    "2020CensusBlockPoints (FeatureServer)",
@@ -602,14 +602,14 @@
  {
   "name": "honolulu-douglasshelters (service + item)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DouglasShelters/FeatureServer?f=json",
-  "retrieved": "2026-10-09T10:08:26.929Z",
+  "retrieved": "2026-10-09T21:18:27.739Z",
   "serviceItemId": "99ea2f775f4846e4a602d4e321af654e",
   "ok": true
  },
  {
   "name": "honolulu-douglasshelters (layer list)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DouglasShelters/FeatureServer/layers?f=json",
-  "retrieved": "2026-10-09T10:08:27.369Z",
+  "retrieved": "2026-10-09T21:18:28.014Z",
   "layers": [
    "0: Shelters"
   ],
@@ -618,7 +618,7 @@
  {
   "name": "honolulu-douglasshelters-0-shelters (metadata)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DouglasShelters/FeatureServer/0?f=json",
-  "retrieved": "2026-10-09T10:08:27.428Z",
+  "retrieved": "2026-10-09T21:18:28.058Z",
   "layerName": "Shelters",
   "editingInfo": {
    "lastEditDate": 1595726083947,
@@ -630,21 +630,21 @@
  {
   "name": "honolulu-douglasshelters-0-shelters",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DouglasShelters/FeatureServer/0/query",
-  "retrieved": "2026-10-09T10:08:27.497Z",
+  "retrieved": "2026-10-09T21:18:28.105Z",
   "features": 13,
   "ok": true
  },
  {
   "name": "honolulu-draft-veoci-to-arcgis-integration-for-shelters (service + item)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DRAFT_Veoci_to_ArcGIS_Integration_for_Shelters/FeatureServer?f=json",
-  "retrieved": "2026-10-09T10:08:27.662Z",
+  "retrieved": "2026-10-09T21:18:28.256Z",
   "serviceItemId": "a7f158e0cda043c08163d997b32dc895",
   "ok": true
  },
  {
   "name": "honolulu-draft-veoci-to-arcgis-integration-for-shelters (layer list)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DRAFT_Veoci_to_ArcGIS_Integration_for_Shelters/FeatureServer/layers?f=json",
-  "retrieved": "2026-10-09T10:08:27.922Z",
+  "retrieved": "2026-10-09T21:18:28.556Z",
   "layers": [
    "0: DRAFT Veoci to AGOL Upload"
   ],
@@ -653,7 +653,7 @@
  {
   "name": "honolulu-draft-veoci-to-arcgis-integration-for-shelters-0-draft-veoci-to-agol-upload (metadata)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DRAFT_Veoci_to_ArcGIS_Integration_for_Shelters/FeatureServer/0?f=json",
-  "retrieved": "2026-10-09T10:08:27.987Z",
+  "retrieved": "2026-10-09T21:18:28.600Z",
   "layerName": "DRAFT Veoci to AGOL Upload",
   "editingInfo": {
    "lastEditDate": 1681762506394,
@@ -665,21 +665,21 @@
  {
   "name": "honolulu-draft-veoci-to-arcgis-integration-for-shelters-0-draft-veoci-to-agol-upload",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/DRAFT_Veoci_to_ArcGIS_Integration_for_Shelters/FeatureServer/0/query",
-  "retrieved": "2026-10-09T10:08:28.048Z",
+  "retrieved": "2026-10-09T21:18:28.649Z",
   "features": 0,
   "ok": true
  },
  {
   "name": "honolulu-potential-emergency-shelter-edit-eoc (service + item)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Potential_Emergency_Shelter_Edit_EOC/FeatureServer?f=json",
-  "retrieved": "2026-10-09T10:08:28.380Z",
+  "retrieved": "2026-10-09T21:18:28.798Z",
   "serviceItemId": "5dcbab301711462e8cdaf0a3b69436d6",
   "ok": true
  },
  {
   "name": "honolulu-potential-emergency-shelter-edit-eoc (layer list)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Potential_Emergency_Shelter_Edit_EOC/FeatureServer/layers?f=json",
-  "retrieved": "2026-10-09T10:08:28.610Z",
+  "retrieved": "2026-10-09T21:18:29.086Z",
   "layers": [
    "0: Potential Oahu Hurricane Refuge Areas EDIT STATUS"
   ],
@@ -688,7 +688,7 @@
  {
   "name": "honolulu-potential-emergency-shelter-edit-eoc-0-potential-oahu-hurricane-refuge-areas-edit-status (metadata)",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Potential_Emergency_Shelter_Edit_EOC/FeatureServer/0?f=json",
-  "retrieved": "2026-10-09T10:08:28.676Z",
+  "retrieved": "2026-10-09T21:18:29.134Z",
   "layerName": "Potential Oahu Hurricane Refuge Areas EDIT STATUS",
   "editingInfo": {
    "lastEditDate": 1788896131816,
@@ -700,14 +700,14 @@
  {
   "name": "honolulu-potential-emergency-shelter-edit-eoc-0-potential-oahu-hurricane-refuge-areas-edit-status",
   "url": "https://services.arcgis.com/tNJpAOha4mODLkXz/ArcGIS/rest/services/Potential_Emergency_Shelter_Edit_EOC/FeatureServer/0/query",
-  "retrieved": "2026-10-09T10:08:28.740Z",
+  "retrieved": "2026-10-09T21:18:29.179Z",
   "features": 38,
   "ok": true
  },
  {
   "name": "hiema (service list)",
   "url": "https://services9.arcgis.com/aKxrz4vDVjfUwBWJ/arcgis/rest/services?f=json",
-  "retrieved": "2026-10-09T10:08:28.929Z",
+  "retrieved": "2026-10-09T21:18:29.324Z",
   "services": [
    "21May_docl_res_ctr_geolocations (FeatureServer)",
    "4724_Tsunami_Siren_Project_WFL1 (FeatureServer)",
@@ -828,13 +828,13 @@
  {
   "name": "honolulu-shelters-2012 (metadata)",
   "url": "https://data.honolulu.gov/api/views/gxrb-rbvm.json",
-  "retrieved": "2026-10-09T10:08:29.436Z",
+  "retrieved": "2026-10-09T21:18:29.620Z",
   "ok": true
  },
  {
   "name": "statewide tsunami item",
   "url": "https://www.arcgis.com/sharing/rest/search?q=owner:HawaiiStateGIS tsunami",
-  "retrieved": "2026-10-09T10:08:29.828Z",
+  "retrieved": "2026-10-09T21:18:30.134Z",
   "items": [
    "437b77f132ed416294b45bde6aef23f4 Tsunami Evacuation - All Zones (license text)",
    "db829ab4b17a44649eadf0db0f7379ab Tsunami Evacuation Zones (license text)",
@@ -843,8 +843,8 @@
    "01ea0d1b26de44438a84581abc0357f8 Tsunami Safe Zones (license text)",
    "e7d3448eb5434b3ca385cd33c105c1eb 1 Pct Coastal Flood Zone with 3.2 ft Sea Level Rise - Statewide (license text)",
    "4f3aa7bc459f48668e049c460e8edc66 1% Coastal Flood Zone with 3.2 ft Sea Level Rise - Oahu (license text)",
-   "cacee8d442624c719902ac599070f116 1% Coastal Flood Zone with 3.2 ft Sea Level Rise - Molokai (license text)",
    "382ee553b8bc48269af47f94a7364a53 1% Coastal Flood Zone with 3.2 ft Sea Level Rise - Maui (license text)",
+   "cacee8d442624c719902ac599070f116 1% Coastal Flood Zone with 3.2 ft Sea Level Rise - Molokai (license text)",
    "140b22b15a13485586eeb9abc0beb645 1% Coastal Flood Zone with 3.2 ft Sea Level Rise - Lanai (license text)",
    "5c163882650b4d5e89925d04e1aa2a8e SLR Exposure Area - 3.2 Ft. Scenario (license text)",
    "f62bfdad1f0b4ceabadc1869644c4370 1% Coastal Flood Zone with 3.2 ft  Sea Level Rise - Kauai (license text)",
@@ -859,15 +859,22 @@
  {
   "name": "nws-active-hi",
   "url": "https://api.weather.gov/alerts/active?area=HI",
-  "retrieved": "2026-10-09T10:08:29.896Z",
-  "features": 1,
+  "retrieved": "2026-10-09T21:18:30.297Z",
+  "features": 0,
   "ok": true
  },
  {
   "name": "nws-recent-hi",
   "url": "https://api.weather.gov/alerts?area=HI&limit=25",
-  "retrieved": "2026-10-09T10:08:30.034Z",
-  "features": 23,
+  "retrieved": "2026-10-09T21:18:30.599Z",
+  "features": 24,
   "ok": true
+ },
+ {
+  "name": "osm-walk",
+  "url": "https://overpass-api.de/api/interpreter",
+  "retrieved": "2026-10-09T21:18:30.915Z",
+  "ok": false,
+  "error": "HTTP 500 from https://overpass.kumi.systems/api/interpreter"
  }
 ]
