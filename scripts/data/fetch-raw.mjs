@@ -111,15 +111,42 @@ for (const svc of ['EmergMgmtPubSafety', 'HumanHealthSafety', 'Infrastructure', 
   await arcgisDiscover(svc.toLowerCase(), `${GEO}/${svc}/MapServer`, /shelter|refuge|evacuat/i);
 }
 
-// 3. National Shelter System facilities (FEMA / American Red Cross), HIFLD Open mirror.
-await arcgisLayer(
-  'nss-shelters',
-  'https://maps.nccs.nasa.gov/mapping/rest/services/hifld_open/emergency_services/MapServer/7',
-);
+// 3. Shelters / refuge areas published by the City & County of Honolulu GIS (org
+//    tNJpAOha4mODLkXz) and the Hawaiʻi Emergency Management Agency (org aKxrz4vDVjfUwBWJ)
+//    on ArcGIS Online. List every service in each org, keep the ones whose name mentions
+//    shelters/refuge, and download their layers plus the item record (license, dates).
+const SHELTERISH = /shelter|refuge/i;
+for (const [prefix, org] of [
+  ['honolulu', 'https://services.arcgis.com/tNJpAOha4mODLkXz/arcgis/rest/services'],
+  ['hiema', 'https://services9.arcgis.com/aKxrz4vDVjfUwBWJ/arcgis/rest/services'],
+]) {
+  let services = [];
+  await step(`${prefix} (service list)`, `${org}?f=json`, async () => {
+    const res = await get(`${org}?f=json`);
+    save(`meta/${prefix}-services.json`, res);
+    services = res.services ?? [];
+    return { services: services.map((s) => `${s.name} (${s.type})`) };
+  });
+  for (const svc of services.filter((s) => SHELTERISH.test(s.name))) {
+    const svcUrl = svc.url ?? `${org}/${svc.name}/${svc.type}`;
+    const svcPrefix = `${prefix}-${svc.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`;
+    await step(`${svcPrefix} (service + item)`, `${svcUrl}?f=json`, async () => {
+      const info = await get(`${svcUrl}?f=json`);
+      save(`meta/${svcPrefix}-service.json`, info);
+      if (info.serviceItemId) {
+        const itemUrl = `https://www.arcgis.com/sharing/rest/content/items/${info.serviceItemId}?f=json`;
+        save(`meta/${svcPrefix}-item.json`, await get(itemUrl));
+      }
+      return { serviceItemId: info.serviceItemId ?? null };
+    });
+    await arcgisDiscover(svcPrefix, svcUrl, /./);
+  }
+}
 
-// 4. City & County of Honolulu open data "Emergency Shelter" (Socrata dataset gxrb-rbvm).
+// 4. The City's older "Emergency Shelter" dataset (DEM, 2012), metadata only: the row API
+//    returns 403. Kept to document why it isn't used.
 await step(
-  'honolulu-shelters (metadata)',
+  'honolulu-shelters-2012 (metadata)',
   'https://data.honolulu.gov/api/views/gxrb-rbvm.json',
   async () => {
     save(
@@ -128,46 +155,26 @@ await step(
     );
   },
 );
+
+// 5. Item records (license, dates) for the tsunami zone layers on the state server.
 await step(
-  'honolulu-shelters',
-  'https://data.honolulu.gov/resource/gxrb-rbvm.json?$limit=5000',
+  'statewide tsunami item',
+  'https://www.arcgis.com/sharing/rest/search?q=owner:HawaiiStateGIS tsunami',
   async () => {
-    const rows = await get('https://data.honolulu.gov/resource/gxrb-rbvm.json?$limit=5000');
-    save('honolulu-shelters.json', rows);
-    return { rows: rows.length };
+    const res = await get(
+      'https://www.arcgis.com/sharing/rest/search?f=json&num=50&q=' +
+        encodeURIComponent('owner:HawaiiStateGIS tsunami'),
+    );
+    save('meta/statewide-tsunami-items.json', res);
+    return {
+      items: (res.results ?? []).map(
+        (r) => `${r.id} ${r.title} (${r.licenseInfo ? 'license text' : 'no license'})`,
+      ),
+    };
   },
 );
 
-// 5. Honolulu's ArcGIS Hub: search for any newer shelter / evacuation layers.
-for (const q of ['shelter', 'tsunami evacuation', 'refuge']) {
-  const url = `https://hub.arcgis.com/api/search/v1/collections/dataset/items?q=${encodeURIComponent(q)}&bbox=${OAHU_BBOX.join(',')}&limit=50`;
-  await step(`hub-search ${q}`, url, async () => {
-    const res = await get(url);
-    save(`meta/hub-search-${q.replace(/\s+/g, '-')}.json`, res);
-    return {
-      hits: (res.features ?? []).map(
-        (f) => `${f.properties?.title} | ${f.properties?.url ?? f.id}`,
-      ),
-    };
-  });
-}
-
-// 6. City & County of Honolulu GIS download site (has an Emergency_shelters.zip).
-await step('honolulu-gisftp (index)', 'http://gisftp.hicentral.com/', async () => {
-  const html = await get('http://gisftp.hicentral.com/', { as: 'text' });
-  save('meta/honolulu-gisftp-index.html', html);
-  const links = [...html.matchAll(/href="([^"]*(?:shelter|tsunami|evac)[^"]*)"/gi)].map(
-    (m) => m[1],
-  );
-  for (const href of links) {
-    const url = new URL(href, 'http://gisftp.hicentral.com/').href;
-    if (!/\.zip$/i.test(url)) continue;
-    save(`honolulu-gisftp/${url.split('/').pop()}`, await get(url, { as: 'buffer' }));
-  }
-  return { links };
-});
-
-// 7. NWS alerts: the live feed (often empty) and recent past alerts, as a schema sample
+// 6. NWS alerts: the live feed (often empty) and recent past alerts, as a schema sample
 //    for parser tests. Real data, labeled with its retrieval time in fetch-log.json.
 for (const [name, url] of [
   ['nws-active-hi', 'https://api.weather.gov/alerts/active?area=HI'],
