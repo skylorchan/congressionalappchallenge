@@ -8,7 +8,8 @@ export function LanguagePicker() {
     <label className="language-picker">
       <span>{t('language.label')}</span>
       <select
-        value={i18n.resolvedLanguage}
+        // The chosen language, even one with no strings yet (resolvedLanguage would say "en").
+        value={i18n.language}
         onChange={(e) => {
           if (isSupportedLanguage(e.target.value)) void setLanguage(e.target.value);
         }}
@@ -16,7 +17,7 @@ export function LanguagePicker() {
         {/* Each name is written in its own language and tagged so screen readers read it correctly. */}
         {LANGUAGES.map((l) => (
           <option key={l.code} value={l.code} lang={l.code}>
-            {l.nativeName}
+            {l.coverage === 'planned' ? `${l.nativeName} (English for now)` : l.nativeName}
           </option>
         ))}
       </select>

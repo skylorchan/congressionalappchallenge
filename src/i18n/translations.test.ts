@@ -1,6 +1,7 @@
 // Guards for the translation files. These are what stop an unflagged machine
 // translation, or a half-translated language, from reaching users.
 import { describe, expect, it } from 'vitest';
+import { LANGUAGES } from './languages';
 import status from './translation-status.json';
 
 type Json = { [k: string]: string | Json };
@@ -30,8 +31,33 @@ describe('translation files', () => {
     expect(others.length).toBeGreaterThan(0);
   });
 
-  it.each(others)('%s has exactly the same keys as English', (lang) => {
+  it('has a locale file for every listed language, and no unlisted ones', () => {
+    expect(Object.keys(locales).sort()).toEqual(LANGUAGES.map((l) => l.code).sort());
+  });
+
+  const coverage = (lang: string) => LANGUAGES.find((l) => l.code === lang)?.coverage;
+  const full = others.filter((l) => coverage(l) === 'full');
+  const notFull = others.filter((l) => coverage(l) !== 'full');
+
+  it.each(full)('%s (full) has exactly the same keys as English', (lang) => {
     expect(Object.keys(flatten(locales[lang]!)).sort()).toEqual(Object.keys(en).sort());
+  });
+
+  it.each(notFull)('%s (partial/planned) only has keys that exist in English', (lang) => {
+    const extra = Object.keys(flatten(locales[lang]!)).filter((k) => !(k in en));
+    expect(extra).toEqual([]);
+  });
+
+  it('planned languages have no translations yet (nothing guessed)', () => {
+    for (const l of LANGUAGES.filter((x) => x.coverage === 'planned'))
+      expect(Object.keys(flatten(locales[l.code]!))).toEqual([]);
+  });
+
+  it.each(full)('%s keeps every {{placeholder}} from English', (lang) => {
+    const tr = flatten(locales[lang]!);
+    const vars = (s: string) => (s.match(/{{\w+}}/g) ?? []).sort();
+    const broken = Object.keys(en).filter((k) => vars(en[k]!).join() !== vars(tr[k] ?? '').join());
+    expect(broken).toEqual([]);
   });
 
   it.each(others)('%s has no empty strings', (lang) => {
@@ -39,19 +65,20 @@ describe('translation files', () => {
     expect(empty).toEqual([]);
   });
 
-  it.each(others)('every %s key is flagged in translation-status.json', (lang) => {
+  it.each(others)('every %s string is flagged in translation-status.json', (lang) => {
     // Every non-English string must say whether it is machine output or human
     // reviewed. Run `npm run i18n:sync` to add missing entries as "machine".
     const flagged = Object.keys(statusTable[lang] ?? {});
-    const missing = Object.keys(en).filter((k) => !flagged.includes(k));
+    const missing = Object.keys(flatten(locales[lang]!)).filter((k) => !flagged.includes(k));
     expect(missing).toEqual([]);
   });
 
   it('status entries are valid and point at real keys', () => {
     for (const [lang, entries] of Object.entries(statusTable)) {
       expect(others).toContain(lang);
+      const own = flatten(locales[lang]!);
       for (const [key, entry] of Object.entries(entries)) {
-        expect(en, `${lang}: ${key} is not a real key`).toHaveProperty([key]);
+        expect(own, `${lang}: ${key} is not translated`).toHaveProperty([key]);
         expect(['machine', 'reviewed']).toContain(entry.status);
         if (entry.status === 'reviewed') {
           // A review has to be traceable to a person and a date.

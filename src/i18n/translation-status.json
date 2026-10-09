@@ -60,13 +60,7 @@
     "screens.alerts.title": {
       "status": "machine"
     },
-    "screens.alerts.body": {
-      "status": "machine"
-    },
     "screens.plan.title": {
-      "status": "machine"
-    },
-    "screens.plan.body": {
       "status": "machine"
     },
     "safety.naturalWarning": {
@@ -244,6 +238,3965 @@
       "status": "machine"
     },
     "safety.refugeNotOpen": {
+      "status": "machine"
+    },
+    "nav.settings": {
+      "status": "machine"
+    },
+    "safety.tsunamiAlertAction": {
+      "status": "machine"
+    },
+    "alerts.lastUpdated": {
+      "status": "machine"
+    },
+    "alerts.aging": {
+      "status": "machine"
+    },
+    "alerts.stale": {
+      "status": "machine"
+    },
+    "alerts.loading": {
+      "status": "machine"
+    },
+    "alerts.neverOffline": {
+      "status": "machine"
+    },
+    "alerts.fetchError": {
+      "status": "machine"
+    },
+    "alerts.refresh": {
+      "status": "machine"
+    },
+    "alerts.refreshing": {
+      "status": "machine"
+    },
+    "alerts.refreshOffline": {
+      "status": "machine"
+    },
+    "alerts.none": {
+      "status": "machine"
+    },
+    "alerts.severity.Extreme": {
+      "status": "machine"
+    },
+    "alerts.severity.Severe": {
+      "status": "machine"
+    },
+    "alerts.severity.Moderate": {
+      "status": "machine"
+    },
+    "alerts.severity.Minor": {
+      "status": "machine"
+    },
+    "alerts.severity.Unknown": {
+      "status": "machine"
+    },
+    "alerts.oahu": {
+      "status": "machine"
+    },
+    "alerts.ended": {
+      "status": "machine"
+    },
+    "alerts.until": {
+      "status": "machine"
+    },
+    "alerts.details": {
+      "status": "machine"
+    },
+    "alerts.whatToDo": {
+      "status": "machine"
+    },
+    "alerts.englishOnly": {
+      "status": "machine"
+    },
+    "alerts.tsunamiHeading": {
+      "status": "machine"
+    },
+    "alerts.checkZone": {
+      "status": "machine"
+    },
+    "alerts.source": {
+      "status": "machine"
+    },
+    "alerts.officialChannels": {
+      "status": "machine"
+    },
+    "share.heading": {
+      "status": "machine"
+    },
+    "share.body": {
+      "status": "machine"
+    },
+    "share.show": {
+      "status": "machine"
+    },
+    "share.qrLabel": {
+      "status": "machine"
+    },
+    "share.howToScan": {
+      "status": "machine"
+    },
+    "share.error": {
+      "status": "machine"
+    },
+    "share.receivedTitle": {
+      "status": "machine"
+    },
+    "share.unverified": {
+      "status": "machine"
+    },
+    "share.invalid": {
+      "status": "machine"
+    },
+    "share.downloadedBy": {
+      "status": "machine"
+    },
+    "share.backToAlerts": {
+      "status": "machine"
+    },
+    "plan.intro": {
+      "status": "machine"
+    },
+    "plan.progress": {
+      "status": "machine"
+    },
+    "plan.householdHeading": {
+      "status": "machine"
+    },
+    "plan.household": {
+      "status": "machine"
+    },
+    "plan.members": {
+      "status": "machine"
+    },
+    "plan.membersHint": {
+      "status": "machine"
+    },
+    "plan.homeAddress": {
+      "status": "machine"
+    },
+    "plan.homeLocation": {
+      "status": "machine"
+    },
+    "plan.homeSaved": {
+      "status": "machine"
+    },
+    "plan.homeNotSet": {
+      "status": "machine"
+    },
+    "plan.homeHowTo": {
+      "status": "machine"
+    },
+    "plan.useCheckedSpot": {
+      "status": "machine"
+    },
+    "plan.checkHome": {
+      "status": "machine"
+    },
+    "plan.meetingHeading": {
+      "status": "machine"
+    },
+    "plan.meetingNear": {
+      "status": "machine"
+    },
+    "plan.meetingNearHint": {
+      "status": "machine"
+    },
+    "plan.meetingAway": {
+      "status": "machine"
+    },
+    "plan.meetingAwayHint": {
+      "status": "machine"
+    },
+    "plan.contactsHeading": {
+      "status": "machine"
+    },
+    "plan.outOfArea": {
+      "status": "machine"
+    },
+    "plan.outOfAreaHint": {
+      "status": "machine"
+    },
+    "plan.contactN": {
+      "status": "machine"
+    },
+    "plan.contactName": {
+      "status": "machine"
+    },
+    "plan.contactRelation": {
+      "status": "machine"
+    },
+    "plan.contactPhone": {
+      "status": "machine"
+    },
+    "plan.call": {
+      "status": "machine"
+    },
+    "plan.removeContact": {
+      "status": "machine"
+    },
+    "plan.addContact": {
+      "status": "machine"
+    },
+    "plan.checklistHeading": {
+      "status": "machine"
+    },
+    "plan.checklistIntro": {
+      "status": "machine"
+    },
+    "plan.groups.kit": {
+      "status": "machine"
+    },
+    "plan.groups.docs": {
+      "status": "machine"
+    },
+    "plan.groups.home": {
+      "status": "machine"
+    },
+    "plan.groups.care": {
+      "status": "machine"
+    },
+    "plan.items.water": {
+      "status": "machine"
+    },
+    "plan.items.food": {
+      "status": "machine"
+    },
+    "plan.items.meds": {
+      "status": "machine"
+    },
+    "plan.items.firstAid": {
+      "status": "machine"
+    },
+    "plan.items.radio": {
+      "status": "machine"
+    },
+    "plan.items.flashlight": {
+      "status": "machine"
+    },
+    "plan.items.batteries": {
+      "status": "machine"
+    },
+    "plan.items.charger": {
+      "status": "machine"
+    },
+    "plan.items.whistle": {
+      "status": "machine"
+    },
+    "plan.items.cash": {
+      "status": "machine"
+    },
+    "plan.items.ids": {
+      "status": "machine"
+    },
+    "plan.items.insurance": {
+      "status": "machine"
+    },
+    "plan.items.medicalList": {
+      "status": "machine"
+    },
+    "plan.items.contactsPaper": {
+      "status": "machine"
+    },
+    "plan.items.knowZone": {
+      "status": "machine"
+    },
+    "plan.items.shutoffs": {
+      "status": "machine"
+    },
+    "plan.items.secureOutside": {
+      "status": "machine"
+    },
+    "plan.items.gasTank": {
+      "status": "machine"
+    },
+    "plan.items.kupuna": {
+      "status": "machine"
+    },
+    "plan.items.keiki": {
+      "status": "machine"
+    },
+    "plan.items.pets": {
+      "status": "machine"
+    },
+    "plan.items.neighbors": {
+      "status": "machine"
+    },
+    "plan.notesHeading": {
+      "status": "machine"
+    },
+    "plan.notes": {
+      "status": "machine"
+    },
+    "plan.notesHint": {
+      "status": "machine"
+    },
+    "plan.exportHeading": {
+      "status": "machine"
+    },
+    "plan.exportIntro": {
+      "status": "machine"
+    },
+    "plan.print": {
+      "status": "machine"
+    },
+    "plan.showQR": {
+      "status": "machine"
+    },
+    "plan.hideQR": {
+      "status": "machine"
+    },
+    "plan.qrLabel": {
+      "status": "machine"
+    },
+    "plan.qrHelp": {
+      "status": "machine"
+    },
+    "plan.privacy": {
+      "status": "machine"
+    },
+    "plan.printTitle": {
+      "status": "machine"
+    },
+    "plan.emergency": {
+      "status": "machine"
+    },
+    "plan.printFooter": {
+      "status": "machine"
+    },
+    "checkin.heading": {
+      "status": "machine"
+    },
+    "checkin.intro": {
+      "status": "machine"
+    },
+    "checkin.noContacts": {
+      "status": "machine"
+    },
+    "checkin.noteLabel": {
+      "status": "machine"
+    },
+    "checkin.includeLocation": {
+      "status": "machine"
+    },
+    "checkin.queue": {
+      "status": "machine"
+    },
+    "checkin.pending": {
+      "status": "machine"
+    },
+    "checkin.message": {
+      "status": "machine"
+    },
+    "checkin.near": {
+      "status": "machine"
+    },
+    "checkin.sendText": {
+      "status": "machine"
+    },
+    "checkin.share": {
+      "status": "machine"
+    },
+    "checkin.markSent": {
+      "status": "machine"
+    },
+    "checkin.bannerBackOnline": {
+      "status": "machine"
+    },
+    "settings.title": {
+      "status": "machine"
+    },
+    "settings.textSize": {
+      "status": "machine"
+    },
+    "settings.size.normal": {
+      "status": "machine"
+    },
+    "settings.size.large": {
+      "status": "machine"
+    },
+    "settings.size.xlarge": {
+      "status": "machine"
+    },
+    "settings.highContrast": {
+      "status": "machine"
+    },
+    "settings.highContrastHint": {
+      "status": "machine"
+    },
+    "settings.kupuna": {
+      "status": "machine"
+    },
+    "settings.kupunaHint": {
+      "status": "machine"
+    },
+    "settings.translationsHeading": {
+      "status": "machine"
+    },
+    "settings.translationsBody": {
+      "status": "machine"
+    },
+    "settings.aboutHeading": {
+      "status": "machine"
+    },
+    "settings.aboutBody": {
+      "status": "machine"
+    },
+    "settings.privacy": {
+      "status": "machine"
+    },
+    "kupuna.title": {
+      "status": "machine"
+    },
+    "kupuna.checkHere": {
+      "status": "machine"
+    },
+    "kupuna.status.tsunami": {
+      "status": "machine"
+    },
+    "kupuna.status.extreme": {
+      "status": "machine"
+    },
+    "kupuna.status.safe": {
+      "status": "machine"
+    },
+    "kupuna.status.no-data": {
+      "status": "machine"
+    },
+    "kupuna.goThisWay": {
+      "status": "machine"
+    },
+    "kupuna.call911": {
+      "status": "machine"
+    },
+    "kupuna.imSafe": {
+      "status": "machine"
+    },
+    "kupuna.alerts": {
+      "status": "machine"
+    },
+    "kupuna.exit": {
+      "status": "machine"
+    },
+    "share.orLink": {
+      "status": "machine"
+    }
+  },
+  "chk": {},
+  "haw": {
+    "app.name": {
+      "status": "machine"
+    },
+    "app.tagline": {
+      "status": "machine"
+    },
+    "nav.label": {
+      "status": "machine"
+    },
+    "nav.zone": {
+      "status": "machine"
+    },
+    "nav.places": {
+      "status": "machine"
+    },
+    "nav.alerts": {
+      "status": "machine"
+    },
+    "nav.plan": {
+      "status": "machine"
+    },
+    "nav.settings": {
+      "status": "machine"
+    },
+    "language.label": {
+      "status": "machine"
+    },
+    "status.reload": {
+      "status": "machine"
+    },
+    "status.dismiss": {
+      "status": "machine"
+    },
+    "compass.N": {
+      "status": "machine"
+    },
+    "compass.NE": {
+      "status": "machine"
+    },
+    "compass.E": {
+      "status": "machine"
+    },
+    "compass.SE": {
+      "status": "machine"
+    },
+    "compass.S": {
+      "status": "machine"
+    },
+    "compass.SW": {
+      "status": "machine"
+    },
+    "compass.W": {
+      "status": "machine"
+    },
+    "compass.NW": {
+      "status": "machine"
+    },
+    "screens.places.title": {
+      "status": "machine"
+    },
+    "plan.contactName": {
+      "status": "machine"
+    },
+    "plan.contactPhone": {
+      "status": "machine"
+    },
+    "plan.call": {
+      "status": "machine"
+    },
+    "plan.removeContact": {
+      "status": "machine"
+    },
+    "plan.groups.home": {
+      "status": "machine"
+    },
+    "plan.items.kupuna": {
+      "status": "machine"
+    },
+    "settings.title": {
+      "status": "machine"
+    },
+    "settings.size.normal": {
+      "status": "machine"
+    },
+    "settings.size.large": {
+      "status": "machine"
+    },
+    "settings.size.xlarge": {
+      "status": "machine"
+    },
+    "settings.aboutHeading": {
+      "status": "machine"
+    },
+    "kupuna.call911": {
+      "status": "machine"
+    },
+    "kupuna.alerts": {
+      "status": "machine"
+    }
+  },
+  "ilo": {
+    "app.name": {
+      "status": "machine"
+    },
+    "app.tagline": {
+      "status": "machine"
+    },
+    "a11y.skipToContent": {
+      "status": "machine"
+    },
+    "nav.label": {
+      "status": "machine"
+    },
+    "nav.zone": {
+      "status": "machine"
+    },
+    "nav.places": {
+      "status": "machine"
+    },
+    "nav.alerts": {
+      "status": "machine"
+    },
+    "nav.plan": {
+      "status": "machine"
+    },
+    "nav.settings": {
+      "status": "machine"
+    },
+    "language.label": {
+      "status": "machine"
+    },
+    "status.offline": {
+      "status": "machine"
+    },
+    "status.offlineReady": {
+      "status": "machine"
+    },
+    "status.updateAvailable": {
+      "status": "machine"
+    },
+    "status.reload": {
+      "status": "machine"
+    },
+    "status.dismiss": {
+      "status": "machine"
+    },
+    "i18n.unreviewed": {
+      "status": "machine"
+    },
+    "location.useMine": {
+      "status": "machine"
+    },
+    "location.locating": {
+      "status": "machine"
+    },
+    "location.orTapMap": {
+      "status": "machine"
+    },
+    "location.fromGps": {
+      "status": "machine"
+    },
+    "location.fromMap": {
+      "status": "machine"
+    },
+    "location.fromHome": {
+      "status": "machine"
+    },
+    "location.error.denied": {
+      "status": "machine"
+    },
+    "location.error.unavailable": {
+      "status": "machine"
+    },
+    "location.error.timeout": {
+      "status": "machine"
+    },
+    "location.error.unsupported": {
+      "status": "machine"
+    },
+    "compass.N": {
+      "status": "machine"
+    },
+    "compass.NE": {
+      "status": "machine"
+    },
+    "compass.E": {
+      "status": "machine"
+    },
+    "compass.SE": {
+      "status": "machine"
+    },
+    "compass.S": {
+      "status": "machine"
+    },
+    "compass.SW": {
+      "status": "machine"
+    },
+    "compass.W": {
+      "status": "machine"
+    },
+    "compass.NW": {
+      "status": "machine"
+    },
+    "direction.distanceToward": {
+      "status": "machine"
+    },
+    "direction.walk": {
+      "status": "machine"
+    },
+    "data.source": {
+      "status": "machine"
+    },
+    "data.mapped": {
+      "status": "machine"
+    },
+    "data.updated": {
+      "status": "machine"
+    },
+    "data.downloaded": {
+      "status": "machine"
+    },
+    "data.loadError": {
+      "status": "machine"
+    },
+    "map.loading": {
+      "status": "machine"
+    },
+    "map.unavailable": {
+      "status": "machine"
+    },
+    "map.zoneLabel": {
+      "status": "machine"
+    },
+    "map.placesLabel": {
+      "status": "machine"
+    },
+    "map.legend": {
+      "status": "machine"
+    },
+    "map.legendTsunami": {
+      "status": "machine"
+    },
+    "map.legendExtreme": {
+      "status": "machine"
+    },
+    "map.legendYou": {
+      "status": "machine"
+    },
+    "map.legendExit": {
+      "status": "machine"
+    },
+    "map.legendRefuge": {
+      "status": "machine"
+    },
+    "map.tapHint": {
+      "status": "machine"
+    },
+    "map.gestureDesktop": {
+      "status": "machine"
+    },
+    "map.gestureMobile": {
+      "status": "machine"
+    },
+    "zone.status.tsunami": {
+      "status": "machine"
+    },
+    "zone.status.extreme": {
+      "status": "machine"
+    },
+    "zone.status.safe": {
+      "status": "machine"
+    },
+    "zone.status.no-data": {
+      "status": "machine"
+    },
+    "zone.noDataHelp": {
+      "status": "machine"
+    },
+    "zone.exitTsunami": {
+      "status": "machine"
+    },
+    "zone.exitExtreme": {
+      "status": "machine"
+    },
+    "zone.straightLine": {
+      "status": "machine"
+    },
+    "zone.seePlaces": {
+      "status": "machine"
+    },
+    "zone.disclaimer": {
+      "status": "machine"
+    },
+    "places.tsunamiHeading": {
+      "status": "machine"
+    },
+    "places.alreadySafe": {
+      "status": "machine"
+    },
+    "places.refugeHeading": {
+      "status": "machine"
+    },
+    "places.refugeInTsunami": {
+      "status": "machine"
+    },
+    "places.refugeInExtreme": {
+      "status": "machine"
+    },
+    "screens.zone.title": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningHeading": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningSource": {
+      "status": "machine"
+    },
+    "screens.places.title": {
+      "status": "machine"
+    },
+    "screens.alerts.title": {
+      "status": "machine"
+    },
+    "screens.plan.title": {
+      "status": "machine"
+    },
+    "safety.naturalWarning": {
+      "status": "machine"
+    },
+    "safety.tsunamiZoneAction": {
+      "status": "machine"
+    },
+    "safety.extremeZoneAction": {
+      "status": "machine"
+    },
+    "safety.safeZoneAction": {
+      "status": "machine"
+    },
+    "safety.tsunamiGoUp": {
+      "status": "machine"
+    },
+    "safety.refugeNotOpen": {
+      "status": "machine"
+    },
+    "safety.tsunamiAlertAction": {
+      "status": "machine"
+    },
+    "alerts.lastUpdated": {
+      "status": "machine"
+    },
+    "alerts.aging": {
+      "status": "machine"
+    },
+    "alerts.stale": {
+      "status": "machine"
+    },
+    "alerts.loading": {
+      "status": "machine"
+    },
+    "alerts.neverOffline": {
+      "status": "machine"
+    },
+    "alerts.fetchError": {
+      "status": "machine"
+    },
+    "alerts.refresh": {
+      "status": "machine"
+    },
+    "alerts.refreshing": {
+      "status": "machine"
+    },
+    "alerts.refreshOffline": {
+      "status": "machine"
+    },
+    "alerts.none": {
+      "status": "machine"
+    },
+    "alerts.severity.Extreme": {
+      "status": "machine"
+    },
+    "alerts.severity.Severe": {
+      "status": "machine"
+    },
+    "alerts.severity.Moderate": {
+      "status": "machine"
+    },
+    "alerts.severity.Minor": {
+      "status": "machine"
+    },
+    "alerts.severity.Unknown": {
+      "status": "machine"
+    },
+    "alerts.oahu": {
+      "status": "machine"
+    },
+    "alerts.ended": {
+      "status": "machine"
+    },
+    "alerts.until": {
+      "status": "machine"
+    },
+    "alerts.details": {
+      "status": "machine"
+    },
+    "alerts.whatToDo": {
+      "status": "machine"
+    },
+    "alerts.englishOnly": {
+      "status": "machine"
+    },
+    "alerts.tsunamiHeading": {
+      "status": "machine"
+    },
+    "alerts.checkZone": {
+      "status": "machine"
+    },
+    "alerts.source": {
+      "status": "machine"
+    },
+    "alerts.officialChannels": {
+      "status": "machine"
+    },
+    "share.heading": {
+      "status": "machine"
+    },
+    "share.body": {
+      "status": "machine"
+    },
+    "share.show": {
+      "status": "machine"
+    },
+    "share.qrLabel": {
+      "status": "machine"
+    },
+    "share.howToScan": {
+      "status": "machine"
+    },
+    "share.error": {
+      "status": "machine"
+    },
+    "share.receivedTitle": {
+      "status": "machine"
+    },
+    "share.unverified": {
+      "status": "machine"
+    },
+    "share.invalid": {
+      "status": "machine"
+    },
+    "share.downloadedBy": {
+      "status": "machine"
+    },
+    "share.backToAlerts": {
+      "status": "machine"
+    },
+    "plan.intro": {
+      "status": "machine"
+    },
+    "plan.progress": {
+      "status": "machine"
+    },
+    "plan.householdHeading": {
+      "status": "machine"
+    },
+    "plan.household": {
+      "status": "machine"
+    },
+    "plan.members": {
+      "status": "machine"
+    },
+    "plan.membersHint": {
+      "status": "machine"
+    },
+    "plan.homeAddress": {
+      "status": "machine"
+    },
+    "plan.homeLocation": {
+      "status": "machine"
+    },
+    "plan.homeSaved": {
+      "status": "machine"
+    },
+    "plan.homeNotSet": {
+      "status": "machine"
+    },
+    "plan.homeHowTo": {
+      "status": "machine"
+    },
+    "plan.useCheckedSpot": {
+      "status": "machine"
+    },
+    "plan.checkHome": {
+      "status": "machine"
+    },
+    "plan.meetingHeading": {
+      "status": "machine"
+    },
+    "plan.meetingNear": {
+      "status": "machine"
+    },
+    "plan.meetingNearHint": {
+      "status": "machine"
+    },
+    "plan.meetingAway": {
+      "status": "machine"
+    },
+    "plan.meetingAwayHint": {
+      "status": "machine"
+    },
+    "plan.contactsHeading": {
+      "status": "machine"
+    },
+    "plan.outOfArea": {
+      "status": "machine"
+    },
+    "plan.outOfAreaHint": {
+      "status": "machine"
+    },
+    "plan.contactN": {
+      "status": "machine"
+    },
+    "plan.contactName": {
+      "status": "machine"
+    },
+    "plan.contactRelation": {
+      "status": "machine"
+    },
+    "plan.contactPhone": {
+      "status": "machine"
+    },
+    "plan.call": {
+      "status": "machine"
+    },
+    "plan.removeContact": {
+      "status": "machine"
+    },
+    "plan.addContact": {
+      "status": "machine"
+    },
+    "plan.checklistHeading": {
+      "status": "machine"
+    },
+    "plan.checklistIntro": {
+      "status": "machine"
+    },
+    "plan.groups.kit": {
+      "status": "machine"
+    },
+    "plan.groups.docs": {
+      "status": "machine"
+    },
+    "plan.groups.home": {
+      "status": "machine"
+    },
+    "plan.groups.care": {
+      "status": "machine"
+    },
+    "plan.items.water": {
+      "status": "machine"
+    },
+    "plan.items.food": {
+      "status": "machine"
+    },
+    "plan.items.meds": {
+      "status": "machine"
+    },
+    "plan.items.firstAid": {
+      "status": "machine"
+    },
+    "plan.items.radio": {
+      "status": "machine"
+    },
+    "plan.items.flashlight": {
+      "status": "machine"
+    },
+    "plan.items.batteries": {
+      "status": "machine"
+    },
+    "plan.items.charger": {
+      "status": "machine"
+    },
+    "plan.items.whistle": {
+      "status": "machine"
+    },
+    "plan.items.cash": {
+      "status": "machine"
+    },
+    "plan.items.ids": {
+      "status": "machine"
+    },
+    "plan.items.insurance": {
+      "status": "machine"
+    },
+    "plan.items.medicalList": {
+      "status": "machine"
+    },
+    "plan.items.contactsPaper": {
+      "status": "machine"
+    },
+    "plan.items.knowZone": {
+      "status": "machine"
+    },
+    "plan.items.shutoffs": {
+      "status": "machine"
+    },
+    "plan.items.secureOutside": {
+      "status": "machine"
+    },
+    "plan.items.gasTank": {
+      "status": "machine"
+    },
+    "plan.items.kupuna": {
+      "status": "machine"
+    },
+    "plan.items.keiki": {
+      "status": "machine"
+    },
+    "plan.items.pets": {
+      "status": "machine"
+    },
+    "plan.items.neighbors": {
+      "status": "machine"
+    },
+    "plan.notesHeading": {
+      "status": "machine"
+    },
+    "plan.notes": {
+      "status": "machine"
+    },
+    "plan.notesHint": {
+      "status": "machine"
+    },
+    "plan.exportHeading": {
+      "status": "machine"
+    },
+    "plan.exportIntro": {
+      "status": "machine"
+    },
+    "plan.print": {
+      "status": "machine"
+    },
+    "plan.showQR": {
+      "status": "machine"
+    },
+    "plan.hideQR": {
+      "status": "machine"
+    },
+    "plan.qrLabel": {
+      "status": "machine"
+    },
+    "plan.qrHelp": {
+      "status": "machine"
+    },
+    "plan.privacy": {
+      "status": "machine"
+    },
+    "plan.printTitle": {
+      "status": "machine"
+    },
+    "plan.emergency": {
+      "status": "machine"
+    },
+    "plan.printFooter": {
+      "status": "machine"
+    },
+    "checkin.heading": {
+      "status": "machine"
+    },
+    "checkin.intro": {
+      "status": "machine"
+    },
+    "checkin.noContacts": {
+      "status": "machine"
+    },
+    "checkin.noteLabel": {
+      "status": "machine"
+    },
+    "checkin.includeLocation": {
+      "status": "machine"
+    },
+    "checkin.queue": {
+      "status": "machine"
+    },
+    "checkin.pending": {
+      "status": "machine"
+    },
+    "checkin.message": {
+      "status": "machine"
+    },
+    "checkin.near": {
+      "status": "machine"
+    },
+    "checkin.sendText": {
+      "status": "machine"
+    },
+    "checkin.share": {
+      "status": "machine"
+    },
+    "checkin.markSent": {
+      "status": "machine"
+    },
+    "checkin.bannerBackOnline": {
+      "status": "machine"
+    },
+    "settings.title": {
+      "status": "machine"
+    },
+    "settings.textSize": {
+      "status": "machine"
+    },
+    "settings.size.normal": {
+      "status": "machine"
+    },
+    "settings.size.large": {
+      "status": "machine"
+    },
+    "settings.size.xlarge": {
+      "status": "machine"
+    },
+    "settings.highContrast": {
+      "status": "machine"
+    },
+    "settings.highContrastHint": {
+      "status": "machine"
+    },
+    "settings.kupuna": {
+      "status": "machine"
+    },
+    "settings.kupunaHint": {
+      "status": "machine"
+    },
+    "settings.translationsHeading": {
+      "status": "machine"
+    },
+    "settings.translationsBody": {
+      "status": "machine"
+    },
+    "settings.aboutHeading": {
+      "status": "machine"
+    },
+    "settings.aboutBody": {
+      "status": "machine"
+    },
+    "settings.privacy": {
+      "status": "machine"
+    },
+    "kupuna.title": {
+      "status": "machine"
+    },
+    "kupuna.checkHere": {
+      "status": "machine"
+    },
+    "kupuna.status.tsunami": {
+      "status": "machine"
+    },
+    "kupuna.status.extreme": {
+      "status": "machine"
+    },
+    "kupuna.status.safe": {
+      "status": "machine"
+    },
+    "kupuna.status.no-data": {
+      "status": "machine"
+    },
+    "kupuna.goThisWay": {
+      "status": "machine"
+    },
+    "kupuna.call911": {
+      "status": "machine"
+    },
+    "kupuna.imSafe": {
+      "status": "machine"
+    },
+    "kupuna.alerts": {
+      "status": "machine"
+    },
+    "kupuna.exit": {
+      "status": "machine"
+    },
+    "share.orLink": {
+      "status": "machine"
+    }
+  },
+  "ko": {
+    "app.name": {
+      "status": "machine"
+    },
+    "app.tagline": {
+      "status": "machine"
+    },
+    "a11y.skipToContent": {
+      "status": "machine"
+    },
+    "nav.label": {
+      "status": "machine"
+    },
+    "nav.zone": {
+      "status": "machine"
+    },
+    "nav.places": {
+      "status": "machine"
+    },
+    "nav.alerts": {
+      "status": "machine"
+    },
+    "nav.plan": {
+      "status": "machine"
+    },
+    "nav.settings": {
+      "status": "machine"
+    },
+    "language.label": {
+      "status": "machine"
+    },
+    "status.offline": {
+      "status": "machine"
+    },
+    "status.offlineReady": {
+      "status": "machine"
+    },
+    "status.updateAvailable": {
+      "status": "machine"
+    },
+    "status.reload": {
+      "status": "machine"
+    },
+    "status.dismiss": {
+      "status": "machine"
+    },
+    "i18n.unreviewed": {
+      "status": "machine"
+    },
+    "location.useMine": {
+      "status": "machine"
+    },
+    "location.locating": {
+      "status": "machine"
+    },
+    "location.orTapMap": {
+      "status": "machine"
+    },
+    "location.fromGps": {
+      "status": "machine"
+    },
+    "location.fromMap": {
+      "status": "machine"
+    },
+    "location.fromHome": {
+      "status": "machine"
+    },
+    "location.error.denied": {
+      "status": "machine"
+    },
+    "location.error.unavailable": {
+      "status": "machine"
+    },
+    "location.error.timeout": {
+      "status": "machine"
+    },
+    "location.error.unsupported": {
+      "status": "machine"
+    },
+    "compass.N": {
+      "status": "machine"
+    },
+    "compass.NE": {
+      "status": "machine"
+    },
+    "compass.E": {
+      "status": "machine"
+    },
+    "compass.SE": {
+      "status": "machine"
+    },
+    "compass.S": {
+      "status": "machine"
+    },
+    "compass.SW": {
+      "status": "machine"
+    },
+    "compass.W": {
+      "status": "machine"
+    },
+    "compass.NW": {
+      "status": "machine"
+    },
+    "direction.distanceToward": {
+      "status": "machine"
+    },
+    "direction.walk": {
+      "status": "machine"
+    },
+    "data.source": {
+      "status": "machine"
+    },
+    "data.mapped": {
+      "status": "machine"
+    },
+    "data.updated": {
+      "status": "machine"
+    },
+    "data.downloaded": {
+      "status": "machine"
+    },
+    "data.loadError": {
+      "status": "machine"
+    },
+    "map.loading": {
+      "status": "machine"
+    },
+    "map.unavailable": {
+      "status": "machine"
+    },
+    "map.zoneLabel": {
+      "status": "machine"
+    },
+    "map.placesLabel": {
+      "status": "machine"
+    },
+    "map.legend": {
+      "status": "machine"
+    },
+    "map.legendTsunami": {
+      "status": "machine"
+    },
+    "map.legendExtreme": {
+      "status": "machine"
+    },
+    "map.legendYou": {
+      "status": "machine"
+    },
+    "map.legendExit": {
+      "status": "machine"
+    },
+    "map.legendRefuge": {
+      "status": "machine"
+    },
+    "map.tapHint": {
+      "status": "machine"
+    },
+    "map.gestureDesktop": {
+      "status": "machine"
+    },
+    "map.gestureMobile": {
+      "status": "machine"
+    },
+    "zone.status.tsunami": {
+      "status": "machine"
+    },
+    "zone.status.extreme": {
+      "status": "machine"
+    },
+    "zone.status.safe": {
+      "status": "machine"
+    },
+    "zone.status.no-data": {
+      "status": "machine"
+    },
+    "zone.noDataHelp": {
+      "status": "machine"
+    },
+    "zone.exitTsunami": {
+      "status": "machine"
+    },
+    "zone.exitExtreme": {
+      "status": "machine"
+    },
+    "zone.straightLine": {
+      "status": "machine"
+    },
+    "zone.seePlaces": {
+      "status": "machine"
+    },
+    "zone.disclaimer": {
+      "status": "machine"
+    },
+    "places.tsunamiHeading": {
+      "status": "machine"
+    },
+    "places.alreadySafe": {
+      "status": "machine"
+    },
+    "places.refugeHeading": {
+      "status": "machine"
+    },
+    "places.refugeInTsunami": {
+      "status": "machine"
+    },
+    "places.refugeInExtreme": {
+      "status": "machine"
+    },
+    "screens.zone.title": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningHeading": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningSource": {
+      "status": "machine"
+    },
+    "screens.places.title": {
+      "status": "machine"
+    },
+    "screens.alerts.title": {
+      "status": "machine"
+    },
+    "screens.plan.title": {
+      "status": "machine"
+    },
+    "safety.naturalWarning": {
+      "status": "machine"
+    },
+    "safety.tsunamiZoneAction": {
+      "status": "machine"
+    },
+    "safety.extremeZoneAction": {
+      "status": "machine"
+    },
+    "safety.safeZoneAction": {
+      "status": "machine"
+    },
+    "safety.tsunamiGoUp": {
+      "status": "machine"
+    },
+    "safety.refugeNotOpen": {
+      "status": "machine"
+    },
+    "safety.tsunamiAlertAction": {
+      "status": "machine"
+    },
+    "alerts.lastUpdated": {
+      "status": "machine"
+    },
+    "alerts.aging": {
+      "status": "machine"
+    },
+    "alerts.stale": {
+      "status": "machine"
+    },
+    "alerts.loading": {
+      "status": "machine"
+    },
+    "alerts.neverOffline": {
+      "status": "machine"
+    },
+    "alerts.fetchError": {
+      "status": "machine"
+    },
+    "alerts.refresh": {
+      "status": "machine"
+    },
+    "alerts.refreshing": {
+      "status": "machine"
+    },
+    "alerts.refreshOffline": {
+      "status": "machine"
+    },
+    "alerts.none": {
+      "status": "machine"
+    },
+    "alerts.severity.Extreme": {
+      "status": "machine"
+    },
+    "alerts.severity.Severe": {
+      "status": "machine"
+    },
+    "alerts.severity.Moderate": {
+      "status": "machine"
+    },
+    "alerts.severity.Minor": {
+      "status": "machine"
+    },
+    "alerts.severity.Unknown": {
+      "status": "machine"
+    },
+    "alerts.oahu": {
+      "status": "machine"
+    },
+    "alerts.ended": {
+      "status": "machine"
+    },
+    "alerts.until": {
+      "status": "machine"
+    },
+    "alerts.details": {
+      "status": "machine"
+    },
+    "alerts.whatToDo": {
+      "status": "machine"
+    },
+    "alerts.englishOnly": {
+      "status": "machine"
+    },
+    "alerts.tsunamiHeading": {
+      "status": "machine"
+    },
+    "alerts.checkZone": {
+      "status": "machine"
+    },
+    "alerts.source": {
+      "status": "machine"
+    },
+    "alerts.officialChannels": {
+      "status": "machine"
+    },
+    "share.heading": {
+      "status": "machine"
+    },
+    "share.body": {
+      "status": "machine"
+    },
+    "share.show": {
+      "status": "machine"
+    },
+    "share.qrLabel": {
+      "status": "machine"
+    },
+    "share.howToScan": {
+      "status": "machine"
+    },
+    "share.error": {
+      "status": "machine"
+    },
+    "share.receivedTitle": {
+      "status": "machine"
+    },
+    "share.unverified": {
+      "status": "machine"
+    },
+    "share.invalid": {
+      "status": "machine"
+    },
+    "share.downloadedBy": {
+      "status": "machine"
+    },
+    "share.backToAlerts": {
+      "status": "machine"
+    },
+    "plan.intro": {
+      "status": "machine"
+    },
+    "plan.progress": {
+      "status": "machine"
+    },
+    "plan.householdHeading": {
+      "status": "machine"
+    },
+    "plan.household": {
+      "status": "machine"
+    },
+    "plan.members": {
+      "status": "machine"
+    },
+    "plan.membersHint": {
+      "status": "machine"
+    },
+    "plan.homeAddress": {
+      "status": "machine"
+    },
+    "plan.homeLocation": {
+      "status": "machine"
+    },
+    "plan.homeSaved": {
+      "status": "machine"
+    },
+    "plan.homeNotSet": {
+      "status": "machine"
+    },
+    "plan.homeHowTo": {
+      "status": "machine"
+    },
+    "plan.useCheckedSpot": {
+      "status": "machine"
+    },
+    "plan.checkHome": {
+      "status": "machine"
+    },
+    "plan.meetingHeading": {
+      "status": "machine"
+    },
+    "plan.meetingNear": {
+      "status": "machine"
+    },
+    "plan.meetingNearHint": {
+      "status": "machine"
+    },
+    "plan.meetingAway": {
+      "status": "machine"
+    },
+    "plan.meetingAwayHint": {
+      "status": "machine"
+    },
+    "plan.contactsHeading": {
+      "status": "machine"
+    },
+    "plan.outOfArea": {
+      "status": "machine"
+    },
+    "plan.outOfAreaHint": {
+      "status": "machine"
+    },
+    "plan.contactN": {
+      "status": "machine"
+    },
+    "plan.contactName": {
+      "status": "machine"
+    },
+    "plan.contactRelation": {
+      "status": "machine"
+    },
+    "plan.contactPhone": {
+      "status": "machine"
+    },
+    "plan.call": {
+      "status": "machine"
+    },
+    "plan.removeContact": {
+      "status": "machine"
+    },
+    "plan.addContact": {
+      "status": "machine"
+    },
+    "plan.checklistHeading": {
+      "status": "machine"
+    },
+    "plan.checklistIntro": {
+      "status": "machine"
+    },
+    "plan.groups.kit": {
+      "status": "machine"
+    },
+    "plan.groups.docs": {
+      "status": "machine"
+    },
+    "plan.groups.home": {
+      "status": "machine"
+    },
+    "plan.groups.care": {
+      "status": "machine"
+    },
+    "plan.items.water": {
+      "status": "machine"
+    },
+    "plan.items.food": {
+      "status": "machine"
+    },
+    "plan.items.meds": {
+      "status": "machine"
+    },
+    "plan.items.firstAid": {
+      "status": "machine"
+    },
+    "plan.items.radio": {
+      "status": "machine"
+    },
+    "plan.items.flashlight": {
+      "status": "machine"
+    },
+    "plan.items.batteries": {
+      "status": "machine"
+    },
+    "plan.items.charger": {
+      "status": "machine"
+    },
+    "plan.items.whistle": {
+      "status": "machine"
+    },
+    "plan.items.cash": {
+      "status": "machine"
+    },
+    "plan.items.ids": {
+      "status": "machine"
+    },
+    "plan.items.insurance": {
+      "status": "machine"
+    },
+    "plan.items.medicalList": {
+      "status": "machine"
+    },
+    "plan.items.contactsPaper": {
+      "status": "machine"
+    },
+    "plan.items.knowZone": {
+      "status": "machine"
+    },
+    "plan.items.shutoffs": {
+      "status": "machine"
+    },
+    "plan.items.secureOutside": {
+      "status": "machine"
+    },
+    "plan.items.gasTank": {
+      "status": "machine"
+    },
+    "plan.items.kupuna": {
+      "status": "machine"
+    },
+    "plan.items.keiki": {
+      "status": "machine"
+    },
+    "plan.items.pets": {
+      "status": "machine"
+    },
+    "plan.items.neighbors": {
+      "status": "machine"
+    },
+    "plan.notesHeading": {
+      "status": "machine"
+    },
+    "plan.notes": {
+      "status": "machine"
+    },
+    "plan.notesHint": {
+      "status": "machine"
+    },
+    "plan.exportHeading": {
+      "status": "machine"
+    },
+    "plan.exportIntro": {
+      "status": "machine"
+    },
+    "plan.print": {
+      "status": "machine"
+    },
+    "plan.showQR": {
+      "status": "machine"
+    },
+    "plan.hideQR": {
+      "status": "machine"
+    },
+    "plan.qrLabel": {
+      "status": "machine"
+    },
+    "plan.qrHelp": {
+      "status": "machine"
+    },
+    "plan.privacy": {
+      "status": "machine"
+    },
+    "plan.printTitle": {
+      "status": "machine"
+    },
+    "plan.emergency": {
+      "status": "machine"
+    },
+    "plan.printFooter": {
+      "status": "machine"
+    },
+    "checkin.heading": {
+      "status": "machine"
+    },
+    "checkin.intro": {
+      "status": "machine"
+    },
+    "checkin.noContacts": {
+      "status": "machine"
+    },
+    "checkin.noteLabel": {
+      "status": "machine"
+    },
+    "checkin.includeLocation": {
+      "status": "machine"
+    },
+    "checkin.queue": {
+      "status": "machine"
+    },
+    "checkin.pending": {
+      "status": "machine"
+    },
+    "checkin.message": {
+      "status": "machine"
+    },
+    "checkin.near": {
+      "status": "machine"
+    },
+    "checkin.sendText": {
+      "status": "machine"
+    },
+    "checkin.share": {
+      "status": "machine"
+    },
+    "checkin.markSent": {
+      "status": "machine"
+    },
+    "checkin.bannerBackOnline": {
+      "status": "machine"
+    },
+    "settings.title": {
+      "status": "machine"
+    },
+    "settings.textSize": {
+      "status": "machine"
+    },
+    "settings.size.normal": {
+      "status": "machine"
+    },
+    "settings.size.large": {
+      "status": "machine"
+    },
+    "settings.size.xlarge": {
+      "status": "machine"
+    },
+    "settings.highContrast": {
+      "status": "machine"
+    },
+    "settings.highContrastHint": {
+      "status": "machine"
+    },
+    "settings.kupuna": {
+      "status": "machine"
+    },
+    "settings.kupunaHint": {
+      "status": "machine"
+    },
+    "settings.translationsHeading": {
+      "status": "machine"
+    },
+    "settings.translationsBody": {
+      "status": "machine"
+    },
+    "settings.aboutHeading": {
+      "status": "machine"
+    },
+    "settings.aboutBody": {
+      "status": "machine"
+    },
+    "settings.privacy": {
+      "status": "machine"
+    },
+    "kupuna.title": {
+      "status": "machine"
+    },
+    "kupuna.checkHere": {
+      "status": "machine"
+    },
+    "kupuna.status.tsunami": {
+      "status": "machine"
+    },
+    "kupuna.status.extreme": {
+      "status": "machine"
+    },
+    "kupuna.status.safe": {
+      "status": "machine"
+    },
+    "kupuna.status.no-data": {
+      "status": "machine"
+    },
+    "kupuna.goThisWay": {
+      "status": "machine"
+    },
+    "kupuna.call911": {
+      "status": "machine"
+    },
+    "kupuna.imSafe": {
+      "status": "machine"
+    },
+    "kupuna.alerts": {
+      "status": "machine"
+    },
+    "kupuna.exit": {
+      "status": "machine"
+    },
+    "share.orLink": {
+      "status": "machine"
+    }
+  },
+  "mh": {},
+  "tl": {
+    "app.name": {
+      "status": "machine"
+    },
+    "app.tagline": {
+      "status": "machine"
+    },
+    "a11y.skipToContent": {
+      "status": "machine"
+    },
+    "nav.label": {
+      "status": "machine"
+    },
+    "nav.zone": {
+      "status": "machine"
+    },
+    "nav.places": {
+      "status": "machine"
+    },
+    "nav.alerts": {
+      "status": "machine"
+    },
+    "nav.plan": {
+      "status": "machine"
+    },
+    "nav.settings": {
+      "status": "machine"
+    },
+    "language.label": {
+      "status": "machine"
+    },
+    "status.offline": {
+      "status": "machine"
+    },
+    "status.offlineReady": {
+      "status": "machine"
+    },
+    "status.updateAvailable": {
+      "status": "machine"
+    },
+    "status.reload": {
+      "status": "machine"
+    },
+    "status.dismiss": {
+      "status": "machine"
+    },
+    "i18n.unreviewed": {
+      "status": "machine"
+    },
+    "location.useMine": {
+      "status": "machine"
+    },
+    "location.locating": {
+      "status": "machine"
+    },
+    "location.orTapMap": {
+      "status": "machine"
+    },
+    "location.fromGps": {
+      "status": "machine"
+    },
+    "location.fromMap": {
+      "status": "machine"
+    },
+    "location.fromHome": {
+      "status": "machine"
+    },
+    "location.error.denied": {
+      "status": "machine"
+    },
+    "location.error.unavailable": {
+      "status": "machine"
+    },
+    "location.error.timeout": {
+      "status": "machine"
+    },
+    "location.error.unsupported": {
+      "status": "machine"
+    },
+    "compass.N": {
+      "status": "machine"
+    },
+    "compass.NE": {
+      "status": "machine"
+    },
+    "compass.E": {
+      "status": "machine"
+    },
+    "compass.SE": {
+      "status": "machine"
+    },
+    "compass.S": {
+      "status": "machine"
+    },
+    "compass.SW": {
+      "status": "machine"
+    },
+    "compass.W": {
+      "status": "machine"
+    },
+    "compass.NW": {
+      "status": "machine"
+    },
+    "direction.distanceToward": {
+      "status": "machine"
+    },
+    "direction.walk": {
+      "status": "machine"
+    },
+    "data.source": {
+      "status": "machine"
+    },
+    "data.mapped": {
+      "status": "machine"
+    },
+    "data.updated": {
+      "status": "machine"
+    },
+    "data.downloaded": {
+      "status": "machine"
+    },
+    "data.loadError": {
+      "status": "machine"
+    },
+    "map.loading": {
+      "status": "machine"
+    },
+    "map.unavailable": {
+      "status": "machine"
+    },
+    "map.zoneLabel": {
+      "status": "machine"
+    },
+    "map.placesLabel": {
+      "status": "machine"
+    },
+    "map.legend": {
+      "status": "machine"
+    },
+    "map.legendTsunami": {
+      "status": "machine"
+    },
+    "map.legendExtreme": {
+      "status": "machine"
+    },
+    "map.legendYou": {
+      "status": "machine"
+    },
+    "map.legendExit": {
+      "status": "machine"
+    },
+    "map.legendRefuge": {
+      "status": "machine"
+    },
+    "map.tapHint": {
+      "status": "machine"
+    },
+    "map.gestureDesktop": {
+      "status": "machine"
+    },
+    "map.gestureMobile": {
+      "status": "machine"
+    },
+    "zone.status.tsunami": {
+      "status": "machine"
+    },
+    "zone.status.extreme": {
+      "status": "machine"
+    },
+    "zone.status.safe": {
+      "status": "machine"
+    },
+    "zone.status.no-data": {
+      "status": "machine"
+    },
+    "zone.noDataHelp": {
+      "status": "machine"
+    },
+    "zone.exitTsunami": {
+      "status": "machine"
+    },
+    "zone.exitExtreme": {
+      "status": "machine"
+    },
+    "zone.straightLine": {
+      "status": "machine"
+    },
+    "zone.seePlaces": {
+      "status": "machine"
+    },
+    "zone.disclaimer": {
+      "status": "machine"
+    },
+    "places.tsunamiHeading": {
+      "status": "machine"
+    },
+    "places.alreadySafe": {
+      "status": "machine"
+    },
+    "places.refugeHeading": {
+      "status": "machine"
+    },
+    "places.refugeInTsunami": {
+      "status": "machine"
+    },
+    "places.refugeInExtreme": {
+      "status": "machine"
+    },
+    "screens.zone.title": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningHeading": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningSource": {
+      "status": "machine"
+    },
+    "screens.places.title": {
+      "status": "machine"
+    },
+    "screens.alerts.title": {
+      "status": "machine"
+    },
+    "screens.plan.title": {
+      "status": "machine"
+    },
+    "safety.naturalWarning": {
+      "status": "machine"
+    },
+    "safety.tsunamiZoneAction": {
+      "status": "machine"
+    },
+    "safety.extremeZoneAction": {
+      "status": "machine"
+    },
+    "safety.safeZoneAction": {
+      "status": "machine"
+    },
+    "safety.tsunamiGoUp": {
+      "status": "machine"
+    },
+    "safety.refugeNotOpen": {
+      "status": "machine"
+    },
+    "safety.tsunamiAlertAction": {
+      "status": "machine"
+    },
+    "alerts.lastUpdated": {
+      "status": "machine"
+    },
+    "alerts.aging": {
+      "status": "machine"
+    },
+    "alerts.stale": {
+      "status": "machine"
+    },
+    "alerts.loading": {
+      "status": "machine"
+    },
+    "alerts.neverOffline": {
+      "status": "machine"
+    },
+    "alerts.fetchError": {
+      "status": "machine"
+    },
+    "alerts.refresh": {
+      "status": "machine"
+    },
+    "alerts.refreshing": {
+      "status": "machine"
+    },
+    "alerts.refreshOffline": {
+      "status": "machine"
+    },
+    "alerts.none": {
+      "status": "machine"
+    },
+    "alerts.severity.Extreme": {
+      "status": "machine"
+    },
+    "alerts.severity.Severe": {
+      "status": "machine"
+    },
+    "alerts.severity.Moderate": {
+      "status": "machine"
+    },
+    "alerts.severity.Minor": {
+      "status": "machine"
+    },
+    "alerts.severity.Unknown": {
+      "status": "machine"
+    },
+    "alerts.oahu": {
+      "status": "machine"
+    },
+    "alerts.ended": {
+      "status": "machine"
+    },
+    "alerts.until": {
+      "status": "machine"
+    },
+    "alerts.details": {
+      "status": "machine"
+    },
+    "alerts.whatToDo": {
+      "status": "machine"
+    },
+    "alerts.englishOnly": {
+      "status": "machine"
+    },
+    "alerts.tsunamiHeading": {
+      "status": "machine"
+    },
+    "alerts.checkZone": {
+      "status": "machine"
+    },
+    "alerts.source": {
+      "status": "machine"
+    },
+    "alerts.officialChannels": {
+      "status": "machine"
+    },
+    "share.heading": {
+      "status": "machine"
+    },
+    "share.body": {
+      "status": "machine"
+    },
+    "share.show": {
+      "status": "machine"
+    },
+    "share.qrLabel": {
+      "status": "machine"
+    },
+    "share.howToScan": {
+      "status": "machine"
+    },
+    "share.error": {
+      "status": "machine"
+    },
+    "share.receivedTitle": {
+      "status": "machine"
+    },
+    "share.unverified": {
+      "status": "machine"
+    },
+    "share.invalid": {
+      "status": "machine"
+    },
+    "share.downloadedBy": {
+      "status": "machine"
+    },
+    "share.backToAlerts": {
+      "status": "machine"
+    },
+    "plan.intro": {
+      "status": "machine"
+    },
+    "plan.progress": {
+      "status": "machine"
+    },
+    "plan.householdHeading": {
+      "status": "machine"
+    },
+    "plan.household": {
+      "status": "machine"
+    },
+    "plan.members": {
+      "status": "machine"
+    },
+    "plan.membersHint": {
+      "status": "machine"
+    },
+    "plan.homeAddress": {
+      "status": "machine"
+    },
+    "plan.homeLocation": {
+      "status": "machine"
+    },
+    "plan.homeSaved": {
+      "status": "machine"
+    },
+    "plan.homeNotSet": {
+      "status": "machine"
+    },
+    "plan.homeHowTo": {
+      "status": "machine"
+    },
+    "plan.useCheckedSpot": {
+      "status": "machine"
+    },
+    "plan.checkHome": {
+      "status": "machine"
+    },
+    "plan.meetingHeading": {
+      "status": "machine"
+    },
+    "plan.meetingNear": {
+      "status": "machine"
+    },
+    "plan.meetingNearHint": {
+      "status": "machine"
+    },
+    "plan.meetingAway": {
+      "status": "machine"
+    },
+    "plan.meetingAwayHint": {
+      "status": "machine"
+    },
+    "plan.contactsHeading": {
+      "status": "machine"
+    },
+    "plan.outOfArea": {
+      "status": "machine"
+    },
+    "plan.outOfAreaHint": {
+      "status": "machine"
+    },
+    "plan.contactN": {
+      "status": "machine"
+    },
+    "plan.contactName": {
+      "status": "machine"
+    },
+    "plan.contactRelation": {
+      "status": "machine"
+    },
+    "plan.contactPhone": {
+      "status": "machine"
+    },
+    "plan.call": {
+      "status": "machine"
+    },
+    "plan.removeContact": {
+      "status": "machine"
+    },
+    "plan.addContact": {
+      "status": "machine"
+    },
+    "plan.checklistHeading": {
+      "status": "machine"
+    },
+    "plan.checklistIntro": {
+      "status": "machine"
+    },
+    "plan.groups.kit": {
+      "status": "machine"
+    },
+    "plan.groups.docs": {
+      "status": "machine"
+    },
+    "plan.groups.home": {
+      "status": "machine"
+    },
+    "plan.groups.care": {
+      "status": "machine"
+    },
+    "plan.items.water": {
+      "status": "machine"
+    },
+    "plan.items.food": {
+      "status": "machine"
+    },
+    "plan.items.meds": {
+      "status": "machine"
+    },
+    "plan.items.firstAid": {
+      "status": "machine"
+    },
+    "plan.items.radio": {
+      "status": "machine"
+    },
+    "plan.items.flashlight": {
+      "status": "machine"
+    },
+    "plan.items.batteries": {
+      "status": "machine"
+    },
+    "plan.items.charger": {
+      "status": "machine"
+    },
+    "plan.items.whistle": {
+      "status": "machine"
+    },
+    "plan.items.cash": {
+      "status": "machine"
+    },
+    "plan.items.ids": {
+      "status": "machine"
+    },
+    "plan.items.insurance": {
+      "status": "machine"
+    },
+    "plan.items.medicalList": {
+      "status": "machine"
+    },
+    "plan.items.contactsPaper": {
+      "status": "machine"
+    },
+    "plan.items.knowZone": {
+      "status": "machine"
+    },
+    "plan.items.shutoffs": {
+      "status": "machine"
+    },
+    "plan.items.secureOutside": {
+      "status": "machine"
+    },
+    "plan.items.gasTank": {
+      "status": "machine"
+    },
+    "plan.items.kupuna": {
+      "status": "machine"
+    },
+    "plan.items.keiki": {
+      "status": "machine"
+    },
+    "plan.items.pets": {
+      "status": "machine"
+    },
+    "plan.items.neighbors": {
+      "status": "machine"
+    },
+    "plan.notesHeading": {
+      "status": "machine"
+    },
+    "plan.notes": {
+      "status": "machine"
+    },
+    "plan.notesHint": {
+      "status": "machine"
+    },
+    "plan.exportHeading": {
+      "status": "machine"
+    },
+    "plan.exportIntro": {
+      "status": "machine"
+    },
+    "plan.print": {
+      "status": "machine"
+    },
+    "plan.showQR": {
+      "status": "machine"
+    },
+    "plan.hideQR": {
+      "status": "machine"
+    },
+    "plan.qrLabel": {
+      "status": "machine"
+    },
+    "plan.qrHelp": {
+      "status": "machine"
+    },
+    "plan.privacy": {
+      "status": "machine"
+    },
+    "plan.printTitle": {
+      "status": "machine"
+    },
+    "plan.emergency": {
+      "status": "machine"
+    },
+    "plan.printFooter": {
+      "status": "machine"
+    },
+    "checkin.heading": {
+      "status": "machine"
+    },
+    "checkin.intro": {
+      "status": "machine"
+    },
+    "checkin.noContacts": {
+      "status": "machine"
+    },
+    "checkin.noteLabel": {
+      "status": "machine"
+    },
+    "checkin.includeLocation": {
+      "status": "machine"
+    },
+    "checkin.queue": {
+      "status": "machine"
+    },
+    "checkin.pending": {
+      "status": "machine"
+    },
+    "checkin.message": {
+      "status": "machine"
+    },
+    "checkin.near": {
+      "status": "machine"
+    },
+    "checkin.sendText": {
+      "status": "machine"
+    },
+    "checkin.share": {
+      "status": "machine"
+    },
+    "checkin.markSent": {
+      "status": "machine"
+    },
+    "checkin.bannerBackOnline": {
+      "status": "machine"
+    },
+    "settings.title": {
+      "status": "machine"
+    },
+    "settings.textSize": {
+      "status": "machine"
+    },
+    "settings.size.normal": {
+      "status": "machine"
+    },
+    "settings.size.large": {
+      "status": "machine"
+    },
+    "settings.size.xlarge": {
+      "status": "machine"
+    },
+    "settings.highContrast": {
+      "status": "machine"
+    },
+    "settings.highContrastHint": {
+      "status": "machine"
+    },
+    "settings.kupuna": {
+      "status": "machine"
+    },
+    "settings.kupunaHint": {
+      "status": "machine"
+    },
+    "settings.translationsHeading": {
+      "status": "machine"
+    },
+    "settings.translationsBody": {
+      "status": "machine"
+    },
+    "settings.aboutHeading": {
+      "status": "machine"
+    },
+    "settings.aboutBody": {
+      "status": "machine"
+    },
+    "settings.privacy": {
+      "status": "machine"
+    },
+    "kupuna.title": {
+      "status": "machine"
+    },
+    "kupuna.checkHere": {
+      "status": "machine"
+    },
+    "kupuna.status.tsunami": {
+      "status": "machine"
+    },
+    "kupuna.status.extreme": {
+      "status": "machine"
+    },
+    "kupuna.status.safe": {
+      "status": "machine"
+    },
+    "kupuna.status.no-data": {
+      "status": "machine"
+    },
+    "kupuna.goThisWay": {
+      "status": "machine"
+    },
+    "kupuna.call911": {
+      "status": "machine"
+    },
+    "kupuna.imSafe": {
+      "status": "machine"
+    },
+    "kupuna.alerts": {
+      "status": "machine"
+    },
+    "kupuna.exit": {
+      "status": "machine"
+    },
+    "share.orLink": {
+      "status": "machine"
+    }
+  },
+  "vi": {
+    "app.name": {
+      "status": "machine"
+    },
+    "app.tagline": {
+      "status": "machine"
+    },
+    "a11y.skipToContent": {
+      "status": "machine"
+    },
+    "nav.label": {
+      "status": "machine"
+    },
+    "nav.zone": {
+      "status": "machine"
+    },
+    "nav.places": {
+      "status": "machine"
+    },
+    "nav.alerts": {
+      "status": "machine"
+    },
+    "nav.plan": {
+      "status": "machine"
+    },
+    "nav.settings": {
+      "status": "machine"
+    },
+    "language.label": {
+      "status": "machine"
+    },
+    "status.offline": {
+      "status": "machine"
+    },
+    "status.offlineReady": {
+      "status": "machine"
+    },
+    "status.updateAvailable": {
+      "status": "machine"
+    },
+    "status.reload": {
+      "status": "machine"
+    },
+    "status.dismiss": {
+      "status": "machine"
+    },
+    "i18n.unreviewed": {
+      "status": "machine"
+    },
+    "location.useMine": {
+      "status": "machine"
+    },
+    "location.locating": {
+      "status": "machine"
+    },
+    "location.orTapMap": {
+      "status": "machine"
+    },
+    "location.fromGps": {
+      "status": "machine"
+    },
+    "location.fromMap": {
+      "status": "machine"
+    },
+    "location.fromHome": {
+      "status": "machine"
+    },
+    "location.error.denied": {
+      "status": "machine"
+    },
+    "location.error.unavailable": {
+      "status": "machine"
+    },
+    "location.error.timeout": {
+      "status": "machine"
+    },
+    "location.error.unsupported": {
+      "status": "machine"
+    },
+    "compass.N": {
+      "status": "machine"
+    },
+    "compass.NE": {
+      "status": "machine"
+    },
+    "compass.E": {
+      "status": "machine"
+    },
+    "compass.SE": {
+      "status": "machine"
+    },
+    "compass.S": {
+      "status": "machine"
+    },
+    "compass.SW": {
+      "status": "machine"
+    },
+    "compass.W": {
+      "status": "machine"
+    },
+    "compass.NW": {
+      "status": "machine"
+    },
+    "direction.distanceToward": {
+      "status": "machine"
+    },
+    "direction.walk": {
+      "status": "machine"
+    },
+    "data.source": {
+      "status": "machine"
+    },
+    "data.mapped": {
+      "status": "machine"
+    },
+    "data.updated": {
+      "status": "machine"
+    },
+    "data.downloaded": {
+      "status": "machine"
+    },
+    "data.loadError": {
+      "status": "machine"
+    },
+    "map.loading": {
+      "status": "machine"
+    },
+    "map.unavailable": {
+      "status": "machine"
+    },
+    "map.zoneLabel": {
+      "status": "machine"
+    },
+    "map.placesLabel": {
+      "status": "machine"
+    },
+    "map.legend": {
+      "status": "machine"
+    },
+    "map.legendTsunami": {
+      "status": "machine"
+    },
+    "map.legendExtreme": {
+      "status": "machine"
+    },
+    "map.legendYou": {
+      "status": "machine"
+    },
+    "map.legendExit": {
+      "status": "machine"
+    },
+    "map.legendRefuge": {
+      "status": "machine"
+    },
+    "map.tapHint": {
+      "status": "machine"
+    },
+    "map.gestureDesktop": {
+      "status": "machine"
+    },
+    "map.gestureMobile": {
+      "status": "machine"
+    },
+    "zone.status.tsunami": {
+      "status": "machine"
+    },
+    "zone.status.extreme": {
+      "status": "machine"
+    },
+    "zone.status.safe": {
+      "status": "machine"
+    },
+    "zone.status.no-data": {
+      "status": "machine"
+    },
+    "zone.noDataHelp": {
+      "status": "machine"
+    },
+    "zone.exitTsunami": {
+      "status": "machine"
+    },
+    "zone.exitExtreme": {
+      "status": "machine"
+    },
+    "zone.straightLine": {
+      "status": "machine"
+    },
+    "zone.seePlaces": {
+      "status": "machine"
+    },
+    "zone.disclaimer": {
+      "status": "machine"
+    },
+    "places.tsunamiHeading": {
+      "status": "machine"
+    },
+    "places.alreadySafe": {
+      "status": "machine"
+    },
+    "places.refugeHeading": {
+      "status": "machine"
+    },
+    "places.refugeInTsunami": {
+      "status": "machine"
+    },
+    "places.refugeInExtreme": {
+      "status": "machine"
+    },
+    "screens.zone.title": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningHeading": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningSource": {
+      "status": "machine"
+    },
+    "screens.places.title": {
+      "status": "machine"
+    },
+    "screens.alerts.title": {
+      "status": "machine"
+    },
+    "screens.plan.title": {
+      "status": "machine"
+    },
+    "safety.naturalWarning": {
+      "status": "machine"
+    },
+    "safety.tsunamiZoneAction": {
+      "status": "machine"
+    },
+    "safety.extremeZoneAction": {
+      "status": "machine"
+    },
+    "safety.safeZoneAction": {
+      "status": "machine"
+    },
+    "safety.tsunamiGoUp": {
+      "status": "machine"
+    },
+    "safety.refugeNotOpen": {
+      "status": "machine"
+    },
+    "safety.tsunamiAlertAction": {
+      "status": "machine"
+    },
+    "alerts.lastUpdated": {
+      "status": "machine"
+    },
+    "alerts.aging": {
+      "status": "machine"
+    },
+    "alerts.stale": {
+      "status": "machine"
+    },
+    "alerts.loading": {
+      "status": "machine"
+    },
+    "alerts.neverOffline": {
+      "status": "machine"
+    },
+    "alerts.fetchError": {
+      "status": "machine"
+    },
+    "alerts.refresh": {
+      "status": "machine"
+    },
+    "alerts.refreshing": {
+      "status": "machine"
+    },
+    "alerts.refreshOffline": {
+      "status": "machine"
+    },
+    "alerts.none": {
+      "status": "machine"
+    },
+    "alerts.severity.Extreme": {
+      "status": "machine"
+    },
+    "alerts.severity.Severe": {
+      "status": "machine"
+    },
+    "alerts.severity.Moderate": {
+      "status": "machine"
+    },
+    "alerts.severity.Minor": {
+      "status": "machine"
+    },
+    "alerts.severity.Unknown": {
+      "status": "machine"
+    },
+    "alerts.oahu": {
+      "status": "machine"
+    },
+    "alerts.ended": {
+      "status": "machine"
+    },
+    "alerts.until": {
+      "status": "machine"
+    },
+    "alerts.details": {
+      "status": "machine"
+    },
+    "alerts.whatToDo": {
+      "status": "machine"
+    },
+    "alerts.englishOnly": {
+      "status": "machine"
+    },
+    "alerts.tsunamiHeading": {
+      "status": "machine"
+    },
+    "alerts.checkZone": {
+      "status": "machine"
+    },
+    "alerts.source": {
+      "status": "machine"
+    },
+    "alerts.officialChannels": {
+      "status": "machine"
+    },
+    "share.heading": {
+      "status": "machine"
+    },
+    "share.body": {
+      "status": "machine"
+    },
+    "share.show": {
+      "status": "machine"
+    },
+    "share.qrLabel": {
+      "status": "machine"
+    },
+    "share.howToScan": {
+      "status": "machine"
+    },
+    "share.error": {
+      "status": "machine"
+    },
+    "share.receivedTitle": {
+      "status": "machine"
+    },
+    "share.unverified": {
+      "status": "machine"
+    },
+    "share.invalid": {
+      "status": "machine"
+    },
+    "share.downloadedBy": {
+      "status": "machine"
+    },
+    "share.backToAlerts": {
+      "status": "machine"
+    },
+    "plan.intro": {
+      "status": "machine"
+    },
+    "plan.progress": {
+      "status": "machine"
+    },
+    "plan.householdHeading": {
+      "status": "machine"
+    },
+    "plan.household": {
+      "status": "machine"
+    },
+    "plan.members": {
+      "status": "machine"
+    },
+    "plan.membersHint": {
+      "status": "machine"
+    },
+    "plan.homeAddress": {
+      "status": "machine"
+    },
+    "plan.homeLocation": {
+      "status": "machine"
+    },
+    "plan.homeSaved": {
+      "status": "machine"
+    },
+    "plan.homeNotSet": {
+      "status": "machine"
+    },
+    "plan.homeHowTo": {
+      "status": "machine"
+    },
+    "plan.useCheckedSpot": {
+      "status": "machine"
+    },
+    "plan.checkHome": {
+      "status": "machine"
+    },
+    "plan.meetingHeading": {
+      "status": "machine"
+    },
+    "plan.meetingNear": {
+      "status": "machine"
+    },
+    "plan.meetingNearHint": {
+      "status": "machine"
+    },
+    "plan.meetingAway": {
+      "status": "machine"
+    },
+    "plan.meetingAwayHint": {
+      "status": "machine"
+    },
+    "plan.contactsHeading": {
+      "status": "machine"
+    },
+    "plan.outOfArea": {
+      "status": "machine"
+    },
+    "plan.outOfAreaHint": {
+      "status": "machine"
+    },
+    "plan.contactN": {
+      "status": "machine"
+    },
+    "plan.contactName": {
+      "status": "machine"
+    },
+    "plan.contactRelation": {
+      "status": "machine"
+    },
+    "plan.contactPhone": {
+      "status": "machine"
+    },
+    "plan.call": {
+      "status": "machine"
+    },
+    "plan.removeContact": {
+      "status": "machine"
+    },
+    "plan.addContact": {
+      "status": "machine"
+    },
+    "plan.checklistHeading": {
+      "status": "machine"
+    },
+    "plan.checklistIntro": {
+      "status": "machine"
+    },
+    "plan.groups.kit": {
+      "status": "machine"
+    },
+    "plan.groups.docs": {
+      "status": "machine"
+    },
+    "plan.groups.home": {
+      "status": "machine"
+    },
+    "plan.groups.care": {
+      "status": "machine"
+    },
+    "plan.items.water": {
+      "status": "machine"
+    },
+    "plan.items.food": {
+      "status": "machine"
+    },
+    "plan.items.meds": {
+      "status": "machine"
+    },
+    "plan.items.firstAid": {
+      "status": "machine"
+    },
+    "plan.items.radio": {
+      "status": "machine"
+    },
+    "plan.items.flashlight": {
+      "status": "machine"
+    },
+    "plan.items.batteries": {
+      "status": "machine"
+    },
+    "plan.items.charger": {
+      "status": "machine"
+    },
+    "plan.items.whistle": {
+      "status": "machine"
+    },
+    "plan.items.cash": {
+      "status": "machine"
+    },
+    "plan.items.ids": {
+      "status": "machine"
+    },
+    "plan.items.insurance": {
+      "status": "machine"
+    },
+    "plan.items.medicalList": {
+      "status": "machine"
+    },
+    "plan.items.contactsPaper": {
+      "status": "machine"
+    },
+    "plan.items.knowZone": {
+      "status": "machine"
+    },
+    "plan.items.shutoffs": {
+      "status": "machine"
+    },
+    "plan.items.secureOutside": {
+      "status": "machine"
+    },
+    "plan.items.gasTank": {
+      "status": "machine"
+    },
+    "plan.items.kupuna": {
+      "status": "machine"
+    },
+    "plan.items.keiki": {
+      "status": "machine"
+    },
+    "plan.items.pets": {
+      "status": "machine"
+    },
+    "plan.items.neighbors": {
+      "status": "machine"
+    },
+    "plan.notesHeading": {
+      "status": "machine"
+    },
+    "plan.notes": {
+      "status": "machine"
+    },
+    "plan.notesHint": {
+      "status": "machine"
+    },
+    "plan.exportHeading": {
+      "status": "machine"
+    },
+    "plan.exportIntro": {
+      "status": "machine"
+    },
+    "plan.print": {
+      "status": "machine"
+    },
+    "plan.showQR": {
+      "status": "machine"
+    },
+    "plan.hideQR": {
+      "status": "machine"
+    },
+    "plan.qrLabel": {
+      "status": "machine"
+    },
+    "plan.qrHelp": {
+      "status": "machine"
+    },
+    "plan.privacy": {
+      "status": "machine"
+    },
+    "plan.printTitle": {
+      "status": "machine"
+    },
+    "plan.emergency": {
+      "status": "machine"
+    },
+    "plan.printFooter": {
+      "status": "machine"
+    },
+    "checkin.heading": {
+      "status": "machine"
+    },
+    "checkin.intro": {
+      "status": "machine"
+    },
+    "checkin.noContacts": {
+      "status": "machine"
+    },
+    "checkin.noteLabel": {
+      "status": "machine"
+    },
+    "checkin.includeLocation": {
+      "status": "machine"
+    },
+    "checkin.queue": {
+      "status": "machine"
+    },
+    "checkin.pending": {
+      "status": "machine"
+    },
+    "checkin.message": {
+      "status": "machine"
+    },
+    "checkin.near": {
+      "status": "machine"
+    },
+    "checkin.sendText": {
+      "status": "machine"
+    },
+    "checkin.share": {
+      "status": "machine"
+    },
+    "checkin.markSent": {
+      "status": "machine"
+    },
+    "checkin.bannerBackOnline": {
+      "status": "machine"
+    },
+    "settings.title": {
+      "status": "machine"
+    },
+    "settings.textSize": {
+      "status": "machine"
+    },
+    "settings.size.normal": {
+      "status": "machine"
+    },
+    "settings.size.large": {
+      "status": "machine"
+    },
+    "settings.size.xlarge": {
+      "status": "machine"
+    },
+    "settings.highContrast": {
+      "status": "machine"
+    },
+    "settings.highContrastHint": {
+      "status": "machine"
+    },
+    "settings.kupuna": {
+      "status": "machine"
+    },
+    "settings.kupunaHint": {
+      "status": "machine"
+    },
+    "settings.translationsHeading": {
+      "status": "machine"
+    },
+    "settings.translationsBody": {
+      "status": "machine"
+    },
+    "settings.aboutHeading": {
+      "status": "machine"
+    },
+    "settings.aboutBody": {
+      "status": "machine"
+    },
+    "settings.privacy": {
+      "status": "machine"
+    },
+    "kupuna.title": {
+      "status": "machine"
+    },
+    "kupuna.checkHere": {
+      "status": "machine"
+    },
+    "kupuna.status.tsunami": {
+      "status": "machine"
+    },
+    "kupuna.status.extreme": {
+      "status": "machine"
+    },
+    "kupuna.status.safe": {
+      "status": "machine"
+    },
+    "kupuna.status.no-data": {
+      "status": "machine"
+    },
+    "kupuna.goThisWay": {
+      "status": "machine"
+    },
+    "kupuna.call911": {
+      "status": "machine"
+    },
+    "kupuna.imSafe": {
+      "status": "machine"
+    },
+    "kupuna.alerts": {
+      "status": "machine"
+    },
+    "kupuna.exit": {
+      "status": "machine"
+    },
+    "share.orLink": {
+      "status": "machine"
+    }
+  },
+  "zh": {
+    "app.name": {
+      "status": "machine"
+    },
+    "app.tagline": {
+      "status": "machine"
+    },
+    "a11y.skipToContent": {
+      "status": "machine"
+    },
+    "nav.label": {
+      "status": "machine"
+    },
+    "nav.zone": {
+      "status": "machine"
+    },
+    "nav.places": {
+      "status": "machine"
+    },
+    "nav.alerts": {
+      "status": "machine"
+    },
+    "nav.plan": {
+      "status": "machine"
+    },
+    "nav.settings": {
+      "status": "machine"
+    },
+    "language.label": {
+      "status": "machine"
+    },
+    "status.offline": {
+      "status": "machine"
+    },
+    "status.offlineReady": {
+      "status": "machine"
+    },
+    "status.updateAvailable": {
+      "status": "machine"
+    },
+    "status.reload": {
+      "status": "machine"
+    },
+    "status.dismiss": {
+      "status": "machine"
+    },
+    "i18n.unreviewed": {
+      "status": "machine"
+    },
+    "location.useMine": {
+      "status": "machine"
+    },
+    "location.locating": {
+      "status": "machine"
+    },
+    "location.orTapMap": {
+      "status": "machine"
+    },
+    "location.fromGps": {
+      "status": "machine"
+    },
+    "location.fromMap": {
+      "status": "machine"
+    },
+    "location.fromHome": {
+      "status": "machine"
+    },
+    "location.error.denied": {
+      "status": "machine"
+    },
+    "location.error.unavailable": {
+      "status": "machine"
+    },
+    "location.error.timeout": {
+      "status": "machine"
+    },
+    "location.error.unsupported": {
+      "status": "machine"
+    },
+    "compass.N": {
+      "status": "machine"
+    },
+    "compass.NE": {
+      "status": "machine"
+    },
+    "compass.E": {
+      "status": "machine"
+    },
+    "compass.SE": {
+      "status": "machine"
+    },
+    "compass.S": {
+      "status": "machine"
+    },
+    "compass.SW": {
+      "status": "machine"
+    },
+    "compass.W": {
+      "status": "machine"
+    },
+    "compass.NW": {
+      "status": "machine"
+    },
+    "direction.distanceToward": {
+      "status": "machine"
+    },
+    "direction.walk": {
+      "status": "machine"
+    },
+    "data.source": {
+      "status": "machine"
+    },
+    "data.mapped": {
+      "status": "machine"
+    },
+    "data.updated": {
+      "status": "machine"
+    },
+    "data.downloaded": {
+      "status": "machine"
+    },
+    "data.loadError": {
+      "status": "machine"
+    },
+    "map.loading": {
+      "status": "machine"
+    },
+    "map.unavailable": {
+      "status": "machine"
+    },
+    "map.zoneLabel": {
+      "status": "machine"
+    },
+    "map.placesLabel": {
+      "status": "machine"
+    },
+    "map.legend": {
+      "status": "machine"
+    },
+    "map.legendTsunami": {
+      "status": "machine"
+    },
+    "map.legendExtreme": {
+      "status": "machine"
+    },
+    "map.legendYou": {
+      "status": "machine"
+    },
+    "map.legendExit": {
+      "status": "machine"
+    },
+    "map.legendRefuge": {
+      "status": "machine"
+    },
+    "map.tapHint": {
+      "status": "machine"
+    },
+    "map.gestureDesktop": {
+      "status": "machine"
+    },
+    "map.gestureMobile": {
+      "status": "machine"
+    },
+    "zone.status.tsunami": {
+      "status": "machine"
+    },
+    "zone.status.extreme": {
+      "status": "machine"
+    },
+    "zone.status.safe": {
+      "status": "machine"
+    },
+    "zone.status.no-data": {
+      "status": "machine"
+    },
+    "zone.noDataHelp": {
+      "status": "machine"
+    },
+    "zone.exitTsunami": {
+      "status": "machine"
+    },
+    "zone.exitExtreme": {
+      "status": "machine"
+    },
+    "zone.straightLine": {
+      "status": "machine"
+    },
+    "zone.seePlaces": {
+      "status": "machine"
+    },
+    "zone.disclaimer": {
+      "status": "machine"
+    },
+    "places.tsunamiHeading": {
+      "status": "machine"
+    },
+    "places.alreadySafe": {
+      "status": "machine"
+    },
+    "places.refugeHeading": {
+      "status": "machine"
+    },
+    "places.refugeInTsunami": {
+      "status": "machine"
+    },
+    "places.refugeInExtreme": {
+      "status": "machine"
+    },
+    "screens.zone.title": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningHeading": {
+      "status": "machine"
+    },
+    "screens.zone.naturalWarningSource": {
+      "status": "machine"
+    },
+    "screens.places.title": {
+      "status": "machine"
+    },
+    "screens.alerts.title": {
+      "status": "machine"
+    },
+    "screens.plan.title": {
+      "status": "machine"
+    },
+    "safety.naturalWarning": {
+      "status": "machine"
+    },
+    "safety.tsunamiZoneAction": {
+      "status": "machine"
+    },
+    "safety.extremeZoneAction": {
+      "status": "machine"
+    },
+    "safety.safeZoneAction": {
+      "status": "machine"
+    },
+    "safety.tsunamiGoUp": {
+      "status": "machine"
+    },
+    "safety.refugeNotOpen": {
+      "status": "machine"
+    },
+    "safety.tsunamiAlertAction": {
+      "status": "machine"
+    },
+    "alerts.lastUpdated": {
+      "status": "machine"
+    },
+    "alerts.aging": {
+      "status": "machine"
+    },
+    "alerts.stale": {
+      "status": "machine"
+    },
+    "alerts.loading": {
+      "status": "machine"
+    },
+    "alerts.neverOffline": {
+      "status": "machine"
+    },
+    "alerts.fetchError": {
+      "status": "machine"
+    },
+    "alerts.refresh": {
+      "status": "machine"
+    },
+    "alerts.refreshing": {
+      "status": "machine"
+    },
+    "alerts.refreshOffline": {
+      "status": "machine"
+    },
+    "alerts.none": {
+      "status": "machine"
+    },
+    "alerts.severity.Extreme": {
+      "status": "machine"
+    },
+    "alerts.severity.Severe": {
+      "status": "machine"
+    },
+    "alerts.severity.Moderate": {
+      "status": "machine"
+    },
+    "alerts.severity.Minor": {
+      "status": "machine"
+    },
+    "alerts.severity.Unknown": {
+      "status": "machine"
+    },
+    "alerts.oahu": {
+      "status": "machine"
+    },
+    "alerts.ended": {
+      "status": "machine"
+    },
+    "alerts.until": {
+      "status": "machine"
+    },
+    "alerts.details": {
+      "status": "machine"
+    },
+    "alerts.whatToDo": {
+      "status": "machine"
+    },
+    "alerts.englishOnly": {
+      "status": "machine"
+    },
+    "alerts.tsunamiHeading": {
+      "status": "machine"
+    },
+    "alerts.checkZone": {
+      "status": "machine"
+    },
+    "alerts.source": {
+      "status": "machine"
+    },
+    "alerts.officialChannels": {
+      "status": "machine"
+    },
+    "share.heading": {
+      "status": "machine"
+    },
+    "share.body": {
+      "status": "machine"
+    },
+    "share.show": {
+      "status": "machine"
+    },
+    "share.qrLabel": {
+      "status": "machine"
+    },
+    "share.howToScan": {
+      "status": "machine"
+    },
+    "share.error": {
+      "status": "machine"
+    },
+    "share.receivedTitle": {
+      "status": "machine"
+    },
+    "share.unverified": {
+      "status": "machine"
+    },
+    "share.invalid": {
+      "status": "machine"
+    },
+    "share.downloadedBy": {
+      "status": "machine"
+    },
+    "share.backToAlerts": {
+      "status": "machine"
+    },
+    "plan.intro": {
+      "status": "machine"
+    },
+    "plan.progress": {
+      "status": "machine"
+    },
+    "plan.householdHeading": {
+      "status": "machine"
+    },
+    "plan.household": {
+      "status": "machine"
+    },
+    "plan.members": {
+      "status": "machine"
+    },
+    "plan.membersHint": {
+      "status": "machine"
+    },
+    "plan.homeAddress": {
+      "status": "machine"
+    },
+    "plan.homeLocation": {
+      "status": "machine"
+    },
+    "plan.homeSaved": {
+      "status": "machine"
+    },
+    "plan.homeNotSet": {
+      "status": "machine"
+    },
+    "plan.homeHowTo": {
+      "status": "machine"
+    },
+    "plan.useCheckedSpot": {
+      "status": "machine"
+    },
+    "plan.checkHome": {
+      "status": "machine"
+    },
+    "plan.meetingHeading": {
+      "status": "machine"
+    },
+    "plan.meetingNear": {
+      "status": "machine"
+    },
+    "plan.meetingNearHint": {
+      "status": "machine"
+    },
+    "plan.meetingAway": {
+      "status": "machine"
+    },
+    "plan.meetingAwayHint": {
+      "status": "machine"
+    },
+    "plan.contactsHeading": {
+      "status": "machine"
+    },
+    "plan.outOfArea": {
+      "status": "machine"
+    },
+    "plan.outOfAreaHint": {
+      "status": "machine"
+    },
+    "plan.contactN": {
+      "status": "machine"
+    },
+    "plan.contactName": {
+      "status": "machine"
+    },
+    "plan.contactRelation": {
+      "status": "machine"
+    },
+    "plan.contactPhone": {
+      "status": "machine"
+    },
+    "plan.call": {
+      "status": "machine"
+    },
+    "plan.removeContact": {
+      "status": "machine"
+    },
+    "plan.addContact": {
+      "status": "machine"
+    },
+    "plan.checklistHeading": {
+      "status": "machine"
+    },
+    "plan.checklistIntro": {
+      "status": "machine"
+    },
+    "plan.groups.kit": {
+      "status": "machine"
+    },
+    "plan.groups.docs": {
+      "status": "machine"
+    },
+    "plan.groups.home": {
+      "status": "machine"
+    },
+    "plan.groups.care": {
+      "status": "machine"
+    },
+    "plan.items.water": {
+      "status": "machine"
+    },
+    "plan.items.food": {
+      "status": "machine"
+    },
+    "plan.items.meds": {
+      "status": "machine"
+    },
+    "plan.items.firstAid": {
+      "status": "machine"
+    },
+    "plan.items.radio": {
+      "status": "machine"
+    },
+    "plan.items.flashlight": {
+      "status": "machine"
+    },
+    "plan.items.batteries": {
+      "status": "machine"
+    },
+    "plan.items.charger": {
+      "status": "machine"
+    },
+    "plan.items.whistle": {
+      "status": "machine"
+    },
+    "plan.items.cash": {
+      "status": "machine"
+    },
+    "plan.items.ids": {
+      "status": "machine"
+    },
+    "plan.items.insurance": {
+      "status": "machine"
+    },
+    "plan.items.medicalList": {
+      "status": "machine"
+    },
+    "plan.items.contactsPaper": {
+      "status": "machine"
+    },
+    "plan.items.knowZone": {
+      "status": "machine"
+    },
+    "plan.items.shutoffs": {
+      "status": "machine"
+    },
+    "plan.items.secureOutside": {
+      "status": "machine"
+    },
+    "plan.items.gasTank": {
+      "status": "machine"
+    },
+    "plan.items.kupuna": {
+      "status": "machine"
+    },
+    "plan.items.keiki": {
+      "status": "machine"
+    },
+    "plan.items.pets": {
+      "status": "machine"
+    },
+    "plan.items.neighbors": {
+      "status": "machine"
+    },
+    "plan.notesHeading": {
+      "status": "machine"
+    },
+    "plan.notes": {
+      "status": "machine"
+    },
+    "plan.notesHint": {
+      "status": "machine"
+    },
+    "plan.exportHeading": {
+      "status": "machine"
+    },
+    "plan.exportIntro": {
+      "status": "machine"
+    },
+    "plan.print": {
+      "status": "machine"
+    },
+    "plan.showQR": {
+      "status": "machine"
+    },
+    "plan.hideQR": {
+      "status": "machine"
+    },
+    "plan.qrLabel": {
+      "status": "machine"
+    },
+    "plan.qrHelp": {
+      "status": "machine"
+    },
+    "plan.privacy": {
+      "status": "machine"
+    },
+    "plan.printTitle": {
+      "status": "machine"
+    },
+    "plan.emergency": {
+      "status": "machine"
+    },
+    "plan.printFooter": {
+      "status": "machine"
+    },
+    "checkin.heading": {
+      "status": "machine"
+    },
+    "checkin.intro": {
+      "status": "machine"
+    },
+    "checkin.noContacts": {
+      "status": "machine"
+    },
+    "checkin.noteLabel": {
+      "status": "machine"
+    },
+    "checkin.includeLocation": {
+      "status": "machine"
+    },
+    "checkin.queue": {
+      "status": "machine"
+    },
+    "checkin.pending": {
+      "status": "machine"
+    },
+    "checkin.message": {
+      "status": "machine"
+    },
+    "checkin.near": {
+      "status": "machine"
+    },
+    "checkin.sendText": {
+      "status": "machine"
+    },
+    "checkin.share": {
+      "status": "machine"
+    },
+    "checkin.markSent": {
+      "status": "machine"
+    },
+    "checkin.bannerBackOnline": {
+      "status": "machine"
+    },
+    "settings.title": {
+      "status": "machine"
+    },
+    "settings.textSize": {
+      "status": "machine"
+    },
+    "settings.size.normal": {
+      "status": "machine"
+    },
+    "settings.size.large": {
+      "status": "machine"
+    },
+    "settings.size.xlarge": {
+      "status": "machine"
+    },
+    "settings.highContrast": {
+      "status": "machine"
+    },
+    "settings.highContrastHint": {
+      "status": "machine"
+    },
+    "settings.kupuna": {
+      "status": "machine"
+    },
+    "settings.kupunaHint": {
+      "status": "machine"
+    },
+    "settings.translationsHeading": {
+      "status": "machine"
+    },
+    "settings.translationsBody": {
+      "status": "machine"
+    },
+    "settings.aboutHeading": {
+      "status": "machine"
+    },
+    "settings.aboutBody": {
+      "status": "machine"
+    },
+    "settings.privacy": {
+      "status": "machine"
+    },
+    "kupuna.title": {
+      "status": "machine"
+    },
+    "kupuna.checkHere": {
+      "status": "machine"
+    },
+    "kupuna.status.tsunami": {
+      "status": "machine"
+    },
+    "kupuna.status.extreme": {
+      "status": "machine"
+    },
+    "kupuna.status.safe": {
+      "status": "machine"
+    },
+    "kupuna.status.no-data": {
+      "status": "machine"
+    },
+    "kupuna.goThisWay": {
+      "status": "machine"
+    },
+    "kupuna.call911": {
+      "status": "machine"
+    },
+    "kupuna.imSafe": {
+      "status": "machine"
+    },
+    "kupuna.alerts": {
+      "status": "machine"
+    },
+    "kupuna.exit": {
+      "status": "machine"
+    },
+    "share.orLink": {
       "status": "machine"
     }
   }

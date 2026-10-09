@@ -102,7 +102,13 @@ function overlayData(user: LngLat | null | undefined, exits: MapExit[], places: 
  * bundled GeoJSON. Everything shown here is also given as text on the page, so the map
  * is a visual aid, never the only way to get the information.
  */
-export default function MapView({ zones, user, exits = [], places = [], onPick, label }: Props) {
+/** Re-creates the map when the language changes, so its built-in hints follow along. */
+export default function MapView(props: Props) {
+  const { i18n } = useTranslation();
+  return <MapViewInner key={i18n.language} {...props} />;
+}
+
+function MapViewInner({ zones, user, exits = [], places = [], onPick, label }: Props) {
   const { t } = useTranslation();
   const container = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);

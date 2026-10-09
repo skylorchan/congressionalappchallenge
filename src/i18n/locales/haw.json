@@ -1,0 +1,61 @@
+{
+  "app": {
+    "name": "Kōkua",
+    "tagline": "Ka hoʻomākaukau no ka pōpilikia ma Hawaiʻi"
+  },
+  "nav": {
+    "label": "Papa kuhikuhi",
+    "zone": "ʻĀpana",
+    "places": "Wahi palekana",
+    "alerts": "Nā kāhea",
+    "plan": "Kaʻu papahana",
+    "settings": "Nā hoʻonohonoho"
+  },
+  "language": {
+    "label": "ʻŌlelo"
+  },
+  "status": {
+    "reload": "Hoʻouka hou",
+    "dismiss": "Pani"
+  },
+  "compass": {
+    "N": "ʻākau",
+    "NE": "ʻākau hikina",
+    "E": "hikina",
+    "SE": "hema hikina",
+    "S": "hema",
+    "SW": "hema komohana",
+    "W": "komohana",
+    "NW": "ʻākau komohana"
+  },
+  "screens": {
+    "places": {
+      "title": "Nā wahi palekana kokoke loa"
+    }
+  },
+  "plan": {
+    "contactName": "Inoa",
+    "contactPhone": "Helu kelepona",
+    "call": "Kāhea",
+    "removeContact": "Holoi",
+    "groups": {
+      "home": "Hale"
+    },
+    "items": {
+      "kupuna": "Ka papahana no nā kūpuna a me ka poʻe e pono ai ke kōkua ʻia"
+    }
+  },
+  "settings": {
+    "title": "Nā hoʻonohonoho",
+    "size": {
+      "normal": "Maʻamau",
+      "large": "Nui",
+      "xlarge": "Nui loa"
+    },
+    "aboutHeading": "No Kōkua"
+  },
+  "kupuna": {
+    "call911": "Kāhea iā 911",
+    "alerts": "Nā kāhea"
+  }
+}

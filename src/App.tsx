@@ -1,27 +1,61 @@
+import { lazy, Suspense, type ReactNode } from 'react';
 import { HashRouter, Route, Routes } from 'react-router';
 import { Layout } from './app/Layout';
 import { LocationProvider } from './app/location';
+import { SettingsProvider, useSettings } from './app/settings';
 import { ZoneScreen } from './features/zone/ZoneScreen';
-import { PlacesScreen } from './features/places/PlacesScreen';
-import { AlertsScreen } from './features/alerts/AlertsScreen';
-import { PlanScreen } from './features/plan/PlanScreen';
 
-// Hash URLs (/congressionalappchallenge/#/places) because GitHub Pages can't rewrite unknown paths to
-// index.html. The part after # never reaches the server, so deep links always work.
+// The zone check is the first screen, so it's in the main bundle. The rest load on
+// demand (the service worker has already cached them, so this works offline too).
+const PlacesScreen = lazy(() =>
+  import('./features/places/PlacesScreen').then((m) => ({ default: m.PlacesScreen })),
+);
+const AlertsScreen = lazy(() =>
+  import('./features/alerts/AlertsScreen').then((m) => ({ default: m.AlertsScreen })),
+);
+const SharedAlertsScreen = lazy(() =>
+  import('./features/alerts/SharedAlertsScreen').then((m) => ({ default: m.SharedAlertsScreen })),
+);
+const PlanScreen = lazy(() =>
+  import('./features/plan/PlanScreen').then((m) => ({ default: m.PlanScreen })),
+);
+const SettingsScreen = lazy(() =>
+  import('./features/settings/SettingsScreen').then((m) => ({ default: m.SettingsScreen })),
+);
+const KupunaScreen = lazy(() =>
+  import('./features/kupuna/KupunaScreen').then((m) => ({ default: m.KupunaScreen })),
+);
+
+const page = (el: ReactNode) => <Suspense fallback={null}>{el}</Suspense>;
+
+/** In kūpuna mode the home screen is the one-screen simple view. */
+function Home() {
+  const { settings } = useSettings();
+  return settings.kupuna ? page(<KupunaScreen />) : <ZoneScreen />;
+}
+
+// Hash URLs (/congressionalappchallenge/#/places) because GitHub Pages can't rewrite
+// unknown paths to index.html. The part after # never reaches the server, so deep links
+// (including the alert-sharing QR links) always work, online or off.
 export function App() {
   return (
-    <LocationProvider>
-      <HashRouter>
-        <Routes>
-          <Route element={<Layout />}>
-            <Route index element={<ZoneScreen />} />
-            <Route path="places" element={<PlacesScreen />} />
-            <Route path="alerts" element={<AlertsScreen />} />
-            <Route path="plan" element={<PlanScreen />} />
-            <Route path="*" element={<ZoneScreen />} />
-          </Route>
-        </Routes>
-      </HashRouter>
-    </LocationProvider>
+    <SettingsProvider>
+      <LocationProvider>
+        <HashRouter>
+          <Routes>
+            <Route element={<Layout />}>
+              <Route index element={<Home />} />
+              <Route path="zone" element={<ZoneScreen />} />
+              <Route path="places" element={page(<PlacesScreen />)} />
+              <Route path="alerts" element={page(<AlertsScreen />)} />
+              <Route path="shared" element={page(<SharedAlertsScreen />)} />
+              <Route path="plan" element={page(<PlanScreen />)} />
+              <Route path="settings" element={page(<SettingsScreen />)} />
+              <Route path="*" element={<Home />} />
+            </Route>
+          </Routes>
+        </HashRouter>
+      </LocationProvider>
+    </SettingsProvider>
   );
 }

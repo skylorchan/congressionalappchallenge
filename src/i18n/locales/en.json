@@ -11,7 +11,8 @@
     "zone": "Zone",
     "places": "Safe places",
     "alerts": "Alerts",
-    "plan": "My plan"
+    "plan": "My plan",
+    "settings": "Settings"
   },
   "language": {
     "label": "Language"
@@ -107,12 +108,10 @@
       "title": "Nearest safe places"
     },
     "alerts": {
-      "title": "Weather alerts",
-      "body": "Live alerts from the National Weather Service are coming soon."
+      "title": "Weather alerts"
     },
     "plan": {
-      "title": "Family emergency plan",
-      "body": "Your household checklist, meeting points, and emergency contacts are coming soon."
+      "title": "Family emergency plan"
     }
   },
   "safety": {
@@ -121,6 +120,174 @@
     "extremeZoneAction": "Leave this area if officials issue an Extreme Tsunami Warning. For any other tsunami warning, follow official instructions.",
     "safeZoneAction": "During a tsunami warning, stay where you are unless officials tell you to move. Keep roads clear for people who are evacuating.",
     "tsunamiGoUp": "Getting out of the zone matters more than reaching a shelter. If you cannot get out in time, go to an upper floor of a tall, sturdy concrete building.",
-    "refugeNotOpen": "These are possible hurricane refuge areas, not open shelters. Officials announce which ones open, and when, on radio, TV and official social media. They are a last resort and have no supplies: bring your emergency kit, food, water and medicine."
+    "refugeNotOpen": "These are possible hurricane refuge areas, not open shelters. Officials announce which ones open, and when, on radio, TV and official social media. They are a last resort and have no supplies: bring your emergency kit, food, water and medicine.",
+    "tsunamiAlertAction": "A tsunami alert is active. If you are in a tsunami evacuation zone and officials say to evacuate, go inland or uphill now. Stay away from the shore until officials say it is safe."
+  },
+  "alerts": {
+    "lastUpdated": "Updated {{age}}",
+    "aging": "Connect to the internet to check for newer alerts.",
+    "stale": "These alerts may be out of date. Check radio or TV for the latest.",
+    "loading": "Getting the latest alerts…",
+    "neverOffline": "No saved alerts yet. Connect to the internet once to download them.",
+    "fetchError": "Couldn't reach the National Weather Service. Showing the last saved alerts.",
+    "refresh": "Check for new alerts",
+    "refreshing": "Checking…",
+    "refreshOffline": "Offline: can’t check now",
+    "none": "No active weather alerts for Hawaiʻi.",
+    "severity": {
+      "Extreme": "Extreme",
+      "Severe": "Severe",
+      "Moderate": "Moderate",
+      "Minor": "Minor",
+      "Unknown": "Severity unknown"
+    },
+    "oahu": "Includes Oʻahu",
+    "ended": "May have ended",
+    "until": "Until {{time}}",
+    "details": "Full alert text",
+    "whatToDo": "What to do",
+    "englishOnly": "Alert text comes from the National Weather Service and is shown in English.",
+    "tsunamiHeading": "Tsunami alert",
+    "checkZone": "Check if you are in a tsunami evacuation zone",
+    "source": "Source: National Weather Service, Honolulu.",
+    "officialChannels": "Also listen to local radio and TV, outdoor sirens, and Wireless Emergency Alerts on your phone."
+  },
+  "share": {
+    "heading": "Share alerts with a nearby phone",
+    "body": "No internet? Another person with Kōkua can scan this code with their camera to see a summary of these alerts.",
+    "show": "Show share code",
+    "qrLabel": "QR code with a summary of the current alerts",
+    "howToScan": "Open the camera on the other phone and point it at this code.",
+    "orLink": "You can also text this link, which works without mobile data:",
+    "error": "Couldn't make a share code on this device.",
+    "receivedTitle": "Alerts shared from another phone",
+    "unverified": "Shared by another phone. Kōkua cannot check that this is real or current. Confirm with radio, TV or official sources.",
+    "invalid": "This share code is damaged or not from Kōkua.",
+    "downloadedBy": "The other phone downloaded these alerts {{age}} ({{date}}).",
+    "backToAlerts": "Go to my own alerts"
+  },
+  "plan": {
+    "intro": "Fill this in with your household now, while things are calm. It stays on this phone only, and works offline.",
+    "progress": "{{done}} of {{total}} checklist items ready",
+    "householdHeading": "Household",
+    "household": "Household name",
+    "members": "Who lives here",
+    "membersHint": "Names, ages, and anything responders should know: medical needs, mobility, pets.",
+    "homeAddress": "Home address",
+    "homeLocation": "Home location for the zone check",
+    "homeSaved": "Home location saved:",
+    "homeNotSet": "Not set yet.",
+    "homeHowTo": "To set it, use your location or tap your home on the Zone map, then come back here.",
+    "useCheckedSpot": "Use the spot I last checked",
+    "checkHome": "Check my home’s zone",
+    "meetingHeading": "Meeting places",
+    "meetingNear": "Meeting place near home",
+    "meetingNearHint": "For example, the mailbox or a neighbor’s driveway. Used for fires.",
+    "meetingAway": "Meeting place away from the neighborhood",
+    "meetingAwayHint": "Somewhere outside the tsunami zone, like a relative’s house or a school on high ground.",
+    "contactsHeading": "Emergency contacts",
+    "outOfArea": "Out-of-state contact",
+    "outOfAreaHint": "Long-distance calls and texts often get through when local ones don’t. Everyone checks in with this person.",
+    "contactN": "Contact {{n}}",
+    "contactName": "Name",
+    "contactRelation": "Relationship",
+    "contactPhone": "Phone",
+    "call": "Call",
+    "removeContact": "Remove",
+    "addContact": "Add a contact",
+    "checklistHeading": "14-day emergency kit",
+    "checklistIntro": "Hawaiʻi emergency agencies recommend supplies for at least 14 days, because help and shipments can take weeks to arrive after a big storm.",
+    "groups": {
+      "kit": "Supplies",
+      "docs": "Documents",
+      "home": "Home",
+      "care": "People and pets"
+    },
+    "items": {
+      "water": "Water: 1 gallon per person per day, for 14 days",
+      "food": "Food that doesn’t need cooking, for 14 days, and a can opener",
+      "meds": "Medicines (2 weeks) and copies of prescriptions",
+      "firstAid": "First aid kit",
+      "radio": "Battery or hand-crank radio",
+      "flashlight": "Flashlights",
+      "batteries": "Extra batteries",
+      "charger": "Phone power bank or car charger",
+      "whistle": "Whistle to signal for help",
+      "cash": "Cash in small bills",
+      "ids": "Copies of IDs and birth certificates",
+      "insurance": "Insurance and bank papers, in a waterproof bag",
+      "medicalList": "List of medical conditions, doctors and medicines",
+      "contactsPaper": "Contact list on paper (print this plan)",
+      "knowZone": "Know if home, work and school are in a tsunami zone",
+      "shutoffs": "Know how to shut off water, power and gas",
+      "secureOutside": "Plan to secure or bring in outdoor items before a storm",
+      "gasTank": "Keep the car’s gas tank at least half full",
+      "kupuna": "Plan for kūpuna or anyone who needs help moving",
+      "keiki": "Plan for keiki: school pickup, comfort items",
+      "pets": "Pet food, water, carrier, leash and records",
+      "neighbors": "Know which neighbors might need help"
+    },
+    "notesHeading": "Notes",
+    "notes": "Other notes",
+    "notesHint": "Anything else: where the kit is stored, a spare key, insurance policy numbers.",
+    "exportHeading": "Print or share",
+    "exportIntro": "Phones die. Print a copy for the fridge and the emergency kit, or let family scan the code.",
+    "print": "Print or save as PDF",
+    "showQR": "Show QR code",
+    "hideQR": "Hide QR code",
+    "qrLabel": "QR code with the text of this family plan",
+    "qrHelp": "Scan with a phone camera to get the plan as text.",
+    "privacy": "This plan is saved only on this phone. Kōkua never uploads it.",
+    "printTitle": "Family emergency plan",
+    "emergency": "Emergency",
+    "printFooter": "Made with Kōkua. Check your tsunami zone and keep this copy with your emergency kit."
+  },
+  "checkin": {
+    "heading": "Tell family you’re safe",
+    "intro": "Kōkua writes the message and keeps it ready. Your phone’s texting app sends it. Texts often get through when calls and data don’t.",
+    "noContacts": "Add emergency contacts below so the message goes to them.",
+    "noteLabel": "Add a short note (optional)",
+    "includeLocation": "Include my location",
+    "queue": "Get my “I’m safe” message ready",
+    "pending": "Your “I’m safe” message is ready to send:",
+    "message": "I’m safe (as of {{time}}).",
+    "near": "Near {{lat}}, {{lng}}.",
+    "sendText": "Send by text message",
+    "share": "Share another way",
+    "markSent": "I sent it",
+    "bannerBackOnline": "You’re back online and your “I’m safe” message hasn’t been sent yet."
+  },
+  "settings": {
+    "title": "Settings",
+    "textSize": "Text size",
+    "size": {
+      "normal": "Normal",
+      "large": "Large",
+      "xlarge": "Extra large"
+    },
+    "highContrast": "High contrast",
+    "highContrastHint": "Black and white with strong outlines. Easier to read in bright sun.",
+    "kupuna": "Kūpuna mode (simple view)",
+    "kupunaHint": "One screen with very large buttons: check where you are, call 911, tell family you’re safe.",
+    "translationsHeading": "About translations",
+    "translationsBody": "Kōkua is available in these languages. Most translations were made by machine and are waiting for review by native speakers. Until a safety instruction has been reviewed, Kōkua shows it in English.",
+    "aboutHeading": "About Kōkua",
+    "aboutBody": "Kōkua helps Hawaiʻi households prepare for and respond to tsunamis, hurricanes and floods, even with no internet. It uses official public data. It does not replace official warnings or instructions.",
+    "privacy": "No accounts, no tracking. Everything you enter stays on this phone."
+  },
+  "kupuna": {
+    "title": "Am I safe?",
+    "checkHere": "Am I safe here?",
+    "status": {
+      "tsunami": "You are in the tsunami zone",
+      "extreme": "You are in the extreme tsunami zone",
+      "safe": "You are outside the tsunami zone",
+      "no-data": "This spot is not on Oʻahu land"
+    },
+    "goThisWay": "Nearest way out:",
+    "call911": "Call 911",
+    "imSafe": "Tell family I’m safe",
+    "alerts": "Alerts",
+    "exit": "Show the full app"
   }
 }

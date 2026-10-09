@@ -1,7 +1,7 @@
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import en from './locales/en.json';
-import { DEFAULT_LANGUAGE, detectLanguage, type LanguageCode } from './languages';
+import { contentLanguage, DEFAULT_LANGUAGE, detectLanguage, type LanguageCode } from './languages';
 
 const STORAGE_KEY = 'kokua.language';
 
@@ -48,7 +48,7 @@ export async function setLanguage(lang: LanguageCode): Promise<void> {
 export async function initI18n(): Promise<typeof i18n> {
   // Keep <html lang> in sync so screen readers pronounce text in the right language.
   i18n.on('languageChanged', (lng) => {
-    document.documentElement.lang = lng;
+    document.documentElement.lang = contentLanguage(lng);
   });
   await i18n.use(initReactI18next).init({
     resources: { en: { translation: en } },
@@ -58,7 +58,7 @@ export async function initI18n(): Promise<typeof i18n> {
   });
   const start = detectLanguage(readSaved(), navigator.languages ?? []);
   if (start !== DEFAULT_LANGUAGE) await setLanguage(start);
-  document.documentElement.lang = i18n.language;
+  document.documentElement.lang = contentLanguage(i18n.language);
   return i18n;
 }
 

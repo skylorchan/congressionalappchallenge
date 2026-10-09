@@ -1,0 +1,293 @@
+{
+  "app": {
+    "name": "Kōkua",
+    "tagline": "Ứng dụng phòng chống thiên tai cho Hawaiʻi"
+  },
+  "a11y": {
+    "skipToContent": "Chuyển đến nội dung chính"
+  },
+  "nav": {
+    "label": "Trình đơn chính",
+    "zone": "Khu sơ tán",
+    "places": "Nơi an toàn",
+    "alerts": "Cảnh báo",
+    "plan": "Kế hoạch",
+    "settings": "Cài đặt"
+  },
+  "language": {
+    "label": "Ngôn ngữ"
+  },
+  "status": {
+    "offline": "Bạn đang ngoại tuyến. Thông tin đã lưu vẫn dùng được.",
+    "offlineReady": "Kōkua đã sẵn sàng dùng ngoại tuyến.",
+    "updateAvailable": "Có phiên bản mới của Kōkua.",
+    "reload": "Tải lại",
+    "dismiss": "Đóng"
+  },
+  "i18n": {
+    "unreviewed": "Hướng dẫn an toàn này được hiển thị bằng tiếng Anh vì bản dịch chưa được kiểm tra."
+  },
+  "location": {
+    "useMine": "Dùng vị trí của tôi",
+    "locating": "Đang tìm vị trí của bạn…",
+    "orTapMap": "Hoặc chạm vào một điểm trên bản đồ bên dưới, ví dụ nhà hoặc nơi làm việc của bạn.",
+    "fromGps": "Đang kiểm tra vị trí GPS lúc {{time}} (sai số khoảng {{accuracy}}).",
+    "fromMap": "Đang kiểm tra điểm bạn đã chọn trên bản đồ.",
+    "fromHome": "Đang kiểm tra vị trí nhà bạn trong Kế hoạch.",
+    "error": {
+      "denied": "Quyền truy cập vị trí đang tắt. Hãy bật trong cài đặt trình duyệt, hoặc chạm vào bản đồ.",
+      "unavailable": "Điện thoại không tìm được vị trí. Hãy thử lại ở ngoài trời, hoặc chạm vào bản đồ.",
+      "timeout": "Tìm vị trí mất quá lâu. Hãy thử lại, hoặc chạm vào bản đồ.",
+      "unsupported": "Trình duyệt này không chia sẻ được vị trí. Hãy chạm vào bản đồ."
+    }
+  },
+  "compass": {
+    "N": "bắc",
+    "NE": "đông bắc",
+    "E": "đông",
+    "SE": "đông nam",
+    "S": "nam",
+    "SW": "tây nam",
+    "W": "tây",
+    "NW": "tây bắc"
+  },
+  "direction": {
+    "distanceToward": "{{distance}} về phía {{direction}}",
+    "walk": "đi bộ ít nhất {{minutes}} phút"
+  },
+  "data": {
+    "source": "Nguồn:",
+    "mapped": "lập bản đồ {{date}}",
+    "updated": "cập nhật {{date}}",
+    "downloaded": "tải về {{date}}",
+    "loadError": "Không tải được dữ liệu khu vực. Hãy kết nối internet một lần rồi mở lại Kōkua."
+  },
+  "map": {
+    "loading": "Đang tải bản đồ…",
+    "unavailable": "Thiết bị này không hiển thị được bản đồ, nhưng mọi thông tin ở trên vẫn dùng được.",
+    "zoneLabel": "Bản đồ các khu sơ tán sóng thần trên Oʻahu",
+    "placesLabel": "Bản đồ các nơi trú bão gần nhất",
+    "legend": "Chú giải bản đồ",
+    "legendTsunami": "Khu sơ tán sóng thần",
+    "legendExtreme": "Khu sơ tán sóng thần cực đại",
+    "legendYou": "Bạn / điểm đã chọn",
+    "legendExit": "Lối ra gần nhất",
+    "legendRefuge": "Nơi trú bão (đánh số)",
+    "tapHint": "Chạm vào bản đồ để kiểm tra điểm khác. Dùng hai ngón tay để di chuyển bản đồ.",
+    "gestureDesktop": "Giữ Ctrl và cuộn để phóng to bản đồ",
+    "gestureMobile": "Dùng hai ngón tay để di chuyển bản đồ"
+  },
+  "zone": {
+    "status": {
+      "tsunami": "Bạn đang ở trong Khu sơ tán sóng thần",
+      "extreme": "Bạn đang ở trong Khu sơ tán sóng thần cực đại",
+      "safe": "Bạn đang ở ngoài các khu sơ tán sóng thần",
+      "no-data": "Điểm này không nằm trên đất liền Oʻahu trong bản đồ"
+    },
+    "noDataHelp": "Kōkua chỉ có bản đồ khu sơ tán của Oʻahu. Hãy chọn một điểm trên đất liền, hoặc dùng vị trí của bạn khi ở Oʻahu.",
+    "exitTsunami": "Lối ra gần nhất khi có Cảnh báo sóng thần:",
+    "exitExtreme": "Lối ra gần nhất khi có Cảnh báo sóng thần cực đại:",
+    "straightLine": "Khoảng cách là đường thẳng. Hãy đi theo đường và lối đi, di chuyển vào đất liền hoặc lên cao.",
+    "seePlaces": "Xem các nơi an toàn và nơi trú gần đây",
+    "disclaimer": "Ranh giới khu vực chỉ là gần đúng. Luôn làm theo hướng dẫn của nhà chức trách."
+  },
+  "places": {
+    "tsunamiHeading": "Sóng thần: ra khỏi khu vực",
+    "alreadySafe": "Điểm này nằm ngoài các khu sơ tán sóng thần. Khi có sóng thần, hãy ở yên trừ khi nhà chức trách bảo bạn di chuyển.",
+    "refugeHeading": "Nơi trú bão gần nhất",
+    "refugeInTsunami": "Nằm trong khu sơ tán sóng thần: đừng đến đây khi có sóng thần.",
+    "refugeInExtreme": "Nằm trong khu sơ tán sóng thần cực đại: tránh khi có Cảnh báo sóng thần cực đại."
+  },
+  "screens": {
+    "zone": {
+      "title": "Tôi có ở trong khu sơ tán không?",
+      "naturalWarningHeading": "Dấu hiệu tự nhiên của sóng thần",
+      "naturalWarningSource": "Nguồn: Hướng dẫn an toàn sóng thần của Cơ quan Khí tượng Quốc gia Hoa Kỳ"
+    },
+    "places": {
+      "title": "Nơi an toàn gần nhất"
+    },
+    "alerts": {
+      "title": "Cảnh báo thời tiết"
+    },
+    "plan": {
+      "title": "Kế hoạch khẩn cấp của gia đình"
+    }
+  },
+  "safety": {
+    "naturalWarning": "Nếu bạn cảm thấy động đất mạnh hoặc thấy nước biển đột ngột rút xa, hãy đi vào đất liền hoặc lên chỗ cao ngay lập tức. Đừng chờ cảnh báo chính thức.",
+    "tsunamiZoneAction": "Nếu có Cảnh báo sóng thần, hoặc bạn cảm thấy động đất mạnh, hãy rời khu vực này ngay. Đi vào đất liền hoặc lên cao, đi bộ nếu có thể. Đừng ra bờ biển để xem.",
+    "extremeZoneAction": "Hãy rời khu vực này nếu nhà chức trách ban hành Cảnh báo sóng thần cực đại. Với các cảnh báo sóng thần khác, hãy làm theo hướng dẫn chính thức.",
+    "safeZoneAction": "Khi có cảnh báo sóng thần, hãy ở yên tại chỗ trừ khi nhà chức trách bảo bạn di chuyển. Giữ đường thông thoáng cho người đang sơ tán.",
+    "tsunamiGoUp": "Ra khỏi khu vực quan trọng hơn là đến nơi trú ẩn. Nếu không kịp ra ngoài, hãy lên tầng cao của một tòa nhà bê tông cao và vững chắc.",
+    "refugeNotOpen": "Đây là những nơi có thể dùng để trú bão, không phải nơi trú ẩn đang mở cửa. Nhà chức trách sẽ thông báo nơi nào mở và khi nào qua đài phát thanh, truyền hình và mạng xã hội chính thức. Đây là lựa chọn cuối cùng và không có đồ tiếp tế: hãy mang theo bộ đồ khẩn cấp, thức ăn, nước và thuốc men.",
+    "tsunamiAlertAction": "Đang có cảnh báo sóng thần. Nếu bạn ở trong khu sơ tán sóng thần và nhà chức trách yêu cầu sơ tán, hãy đi vào đất liền hoặc lên cao ngay bây giờ. Tránh xa bờ biển cho đến khi nhà chức trách nói đã an toàn."
+  },
+  "alerts": {
+    "lastUpdated": "Cập nhật {{age}}",
+    "aging": "Hãy kết nối internet để kiểm tra cảnh báo mới hơn.",
+    "stale": "Các cảnh báo này có thể đã cũ. Hãy nghe đài hoặc xem TV để biết tin mới nhất.",
+    "loading": "Đang lấy các cảnh báo mới nhất…",
+    "neverOffline": "Chưa có cảnh báo nào được lưu. Hãy kết nối internet một lần để tải về.",
+    "fetchError": "Không kết nối được Cơ quan Khí tượng Quốc gia. Đang hiển thị các cảnh báo đã lưu gần nhất.",
+    "refresh": "Kiểm tra cảnh báo mới",
+    "refreshing": "Đang kiểm tra…",
+    "refreshOffline": "Ngoại tuyến: không kiểm tra được lúc này",
+    "none": "Hiện không có cảnh báo thời tiết nào cho Hawaiʻi.",
+    "severity": {
+      "Extreme": "Cực kỳ nghiêm trọng",
+      "Severe": "Nghiêm trọng",
+      "Moderate": "Trung bình",
+      "Minor": "Nhẹ",
+      "Unknown": "Chưa rõ mức độ"
+    },
+    "oahu": "Bao gồm Oʻahu",
+    "ended": "Có thể đã kết thúc",
+    "until": "Đến {{time}}",
+    "details": "Toàn văn cảnh báo",
+    "whatToDo": "Cần làm gì",
+    "englishOnly": "Nội dung cảnh báo do Cơ quan Khí tượng Quốc gia cung cấp và được hiển thị bằng tiếng Anh.",
+    "tsunamiHeading": "Cảnh báo sóng thần",
+    "checkZone": "Kiểm tra xem bạn có ở trong khu sơ tán sóng thần không",
+    "source": "Nguồn: Cơ quan Khí tượng Quốc gia, Honolulu.",
+    "officialChannels": "Cũng hãy nghe đài và TV địa phương, còi báo động ngoài trời và Cảnh báo khẩn cấp không dây (WEA) trên điện thoại."
+  },
+  "share": {
+    "heading": "Chia sẻ cảnh báo với điện thoại gần đó",
+    "body": "Không có internet? Người khác có Kōkua có thể quét mã này bằng camera để xem tóm tắt các cảnh báo.",
+    "show": "Hiện mã chia sẻ",
+    "qrLabel": "Mã QR chứa tóm tắt các cảnh báo hiện tại",
+    "howToScan": "Mở camera trên điện thoại kia và hướng vào mã này.",
+    "orLink": "Bạn cũng có thể nhắn tin liên kết này, không cần dữ liệu di động:",
+    "error": "Không tạo được mã chia sẻ trên thiết bị này.",
+    "receivedTitle": "Cảnh báo được chia sẻ từ điện thoại khác",
+    "unverified": "Được chia sẻ từ điện thoại khác. Kōkua không thể kiểm tra đây có phải là thật hoặc mới nhất không. Hãy xác nhận qua đài, TV hoặc nguồn chính thức.",
+    "invalid": "Mã chia sẻ này bị hỏng hoặc không phải của Kōkua.",
+    "downloadedBy": "Điện thoại kia đã tải các cảnh báo này {{age}} ({{date}}).",
+    "backToAlerts": "Đến cảnh báo của tôi"
+  },
+  "plan": {
+    "intro": "Hãy điền cùng gia đình ngay bây giờ, khi mọi thứ còn bình yên. Thông tin chỉ lưu trên điện thoại này và dùng được khi ngoại tuyến.",
+    "progress": "Đã sẵn sàng {{done}} trong {{total}} mục",
+    "householdHeading": "Hộ gia đình",
+    "household": "Tên hộ gia đình",
+    "members": "Những người sống ở đây",
+    "membersHint": "Tên, tuổi và những điều nhân viên cứu hộ cần biết: nhu cầu y tế, khả năng đi lại, thú cưng.",
+    "homeAddress": "Địa chỉ nhà",
+    "homeLocation": "Vị trí nhà để kiểm tra khu vực",
+    "homeSaved": "Đã lưu vị trí nhà:",
+    "homeNotSet": "Chưa đặt.",
+    "homeHowTo": "Để đặt, hãy dùng vị trí của bạn hoặc chạm vào nhà bạn trên bản đồ Khu sơ tán, rồi quay lại đây.",
+    "useCheckedSpot": "Dùng điểm tôi kiểm tra gần nhất",
+    "checkHome": "Kiểm tra khu vực của nhà tôi",
+    "meetingHeading": "Nơi gặp nhau",
+    "meetingNear": "Nơi gặp nhau gần nhà",
+    "meetingNearHint": "Ví dụ hộp thư hoặc lối xe vào nhà hàng xóm. Dùng khi có hỏa hoạn.",
+    "meetingAway": "Nơi gặp nhau xa khu phố",
+    "meetingAwayHint": "Một nơi ngoài khu sóng thần, như nhà người thân hoặc trường học trên chỗ cao.",
+    "contactsHeading": "Liên lạc khẩn cấp",
+    "outOfArea": "Người liên lạc ở tiểu bang khác",
+    "outOfAreaHint": "Cuộc gọi và tin nhắn đường dài thường vẫn đi được khi liên lạc địa phương bị nghẽn. Mọi người đều báo tin cho người này.",
+    "contactN": "Người liên lạc {{n}}",
+    "contactName": "Tên",
+    "contactRelation": "Quan hệ",
+    "contactPhone": "Điện thoại",
+    "call": "Gọi",
+    "removeContact": "Xóa",
+    "addContact": "Thêm người liên lạc",
+    "checklistHeading": "Bộ đồ khẩn cấp cho 14 ngày",
+    "checklistIntro": "Các cơ quan khẩn cấp của Hawaiʻi khuyên chuẩn bị đồ dùng cho ít nhất 14 ngày, vì sau một cơn bão lớn, cứu trợ và hàng hóa có thể mất nhiều tuần mới đến.",
+    "groups": {
+      "kit": "Đồ dùng",
+      "docs": "Giấy tờ",
+      "home": "Nhà cửa",
+      "care": "Người và thú cưng"
+    },
+    "items": {
+      "water": "Nước: 1 gallon (khoảng 3,8 lít) mỗi người mỗi ngày, cho 14 ngày",
+      "food": "Thức ăn không cần nấu cho 14 ngày, và đồ khui hộp",
+      "meds": "Thuốc (2 tuần) và bản sao toa thuốc",
+      "firstAid": "Bộ sơ cứu",
+      "radio": "Radio chạy pin hoặc quay tay",
+      "flashlight": "Đèn pin",
+      "batteries": "Pin dự phòng",
+      "charger": "Sạc dự phòng hoặc sạc trên xe",
+      "whistle": "Còi để báo hiệu cầu cứu",
+      "cash": "Tiền mặt mệnh giá nhỏ",
+      "ids": "Bản sao giấy tờ tùy thân và giấy khai sinh",
+      "insurance": "Giấy tờ bảo hiểm và ngân hàng, trong túi chống nước",
+      "medicalList": "Danh sách bệnh, bác sĩ và thuốc",
+      "contactsPaper": "Danh sách liên lạc trên giấy (in kế hoạch này)",
+      "knowZone": "Biết nhà, nơi làm việc và trường học có trong khu sóng thần không",
+      "shutoffs": "Biết cách khóa nước, cắt điện và khóa ga",
+      "secureOutside": "Lên kế hoạch cố định hoặc mang đồ ngoài trời vào trước bão",
+      "gasTank": "Luôn giữ bình xăng xe đầy ít nhất một nửa",
+      "kupuna": "Kế hoạch cho người cao tuổi (kūpuna) hoặc người cần giúp di chuyển",
+      "keiki": "Kế hoạch cho trẻ em (keiki): đón ở trường, đồ vật quen thuộc",
+      "pets": "Thức ăn, nước, lồng, dây dắt và hồ sơ của thú cưng",
+      "neighbors": "Biết hàng xóm nào có thể cần giúp đỡ"
+    },
+    "notesHeading": "Ghi chú",
+    "notes": "Ghi chú khác",
+    "notesHint": "Những điều khác: nơi cất bộ đồ khẩn cấp, chìa khóa dự phòng, số hợp đồng bảo hiểm.",
+    "exportHeading": "In hoặc chia sẻ",
+    "exportIntro": "Điện thoại có thể hết pin. Hãy in một bản dán tủ lạnh và để trong bộ đồ khẩn cấp, hoặc cho gia đình quét mã.",
+    "print": "In hoặc lưu thành PDF",
+    "showQR": "Hiện mã QR",
+    "hideQR": "Ẩn mã QR",
+    "qrLabel": "Mã QR chứa nội dung kế hoạch gia đình này",
+    "qrHelp": "Quét bằng camera điện thoại để nhận kế hoạch dưới dạng văn bản.",
+    "privacy": "Kế hoạch này chỉ được lưu trên điện thoại này. Kōkua không bao giờ tải lên.",
+    "printTitle": "Kế hoạch khẩn cấp của gia đình",
+    "emergency": "Cấp cứu",
+    "printFooter": "Tạo bằng Kōkua. Hãy kiểm tra khu sóng thần của bạn và giữ bản này cùng bộ đồ khẩn cấp."
+  },
+  "checkin": {
+    "heading": "Báo cho gia đình bạn an toàn",
+    "intro": "Kōkua soạn sẵn tin nhắn và giữ sẵn sàng. Ứng dụng nhắn tin trên điện thoại của bạn sẽ gửi đi. Tin nhắn thường vẫn đi được khi cuộc gọi và dữ liệu không được.",
+    "noContacts": "Hãy thêm người liên lạc khẩn cấp bên dưới để tin nhắn được gửi đến họ.",
+    "noteLabel": "Thêm ghi chú ngắn (không bắt buộc)",
+    "includeLocation": "Kèm vị trí của tôi",
+    "queue": "Chuẩn bị tin nhắn \"Tôi an toàn\"",
+    "pending": "Tin nhắn \"Tôi an toàn\" đã sẵn sàng để gửi:",
+    "message": "Tôi an toàn (lúc {{time}}).",
+    "near": "Gần {{lat}}, {{lng}}.",
+    "sendText": "Gửi bằng tin nhắn",
+    "share": "Chia sẻ cách khác",
+    "markSent": "Tôi đã gửi",
+    "bannerBackOnline": "Bạn đã trực tuyến trở lại nhưng tin nhắn \"Tôi an toàn\" vẫn chưa được gửi."
+  },
+  "settings": {
+    "title": "Cài đặt",
+    "textSize": "Cỡ chữ",
+    "size": {
+      "normal": "Bình thường",
+      "large": "Lớn",
+      "xlarge": "Rất lớn"
+    },
+    "highContrast": "Độ tương phản cao",
+    "highContrastHint": "Đen trắng với viền đậm. Dễ đọc hơn dưới nắng gắt.",
+    "kupuna": "Chế độ kūpuna (giao diện đơn giản)",
+    "kupunaHint": "Một màn hình với nút rất lớn: kiểm tra nơi bạn đang ở, gọi 911, báo gia đình bạn an toàn.",
+    "translationsHeading": "Về bản dịch",
+    "translationsBody": "Kōkua có các ngôn ngữ sau. Phần lớn bản dịch do máy thực hiện và đang chờ người bản ngữ kiểm tra. Cho đến khi một hướng dẫn an toàn được kiểm tra, Kōkua hiển thị nó bằng tiếng Anh.",
+    "aboutHeading": "Về Kōkua",
+    "aboutBody": "Kōkua giúp các gia đình ở Hawaiʻi chuẩn bị và ứng phó với sóng thần, bão và lũ lụt, kể cả khi không có internet. Ứng dụng dùng dữ liệu công khai chính thức. Ứng dụng không thay thế cảnh báo hay hướng dẫn chính thức.",
+    "privacy": "Không cần tài khoản, không theo dõi. Mọi thứ bạn nhập chỉ ở trên điện thoại này."
+  },
+  "kupuna": {
+    "title": "Tôi có an toàn không?",
+    "checkHere": "Ở đây có an toàn không?",
+    "status": {
+      "tsunami": "Bạn đang ở trong khu sóng thần",
+      "extreme": "Bạn đang ở trong khu sóng thần cực đại",
+      "safe": "Bạn đang ở ngoài khu sóng thần",
+      "no-data": "Điểm này không nằm trên đất liền Oʻahu"
+    },
+    "goThisWay": "Lối ra gần nhất:",
+    "call911": "Gọi 911",
+    "imSafe": "Báo gia đình tôi an toàn",
+    "alerts": "Cảnh báo",
+    "exit": "Hiện toàn bộ ứng dụng"
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "app": {
+    "name": "Kōkua",
+    "tagline": "夏威夷防災應用程式"
+  },
+  "a11y": {
+    "skipToContent": "跳到主要內容"
+  },
+  "nav": {
+    "label": "主選單",
+    "zone": "疏散區",
+    "places": "安全地點",
+    "alerts": "警報",
+    "plan": "家庭計劃",
+    "settings": "設定"
+  },
+  "language": {
+    "label": "語言"
+  },
+  "status": {
+    "offline": "您目前離線。已儲存的資訊仍可使用。",
+    "offlineReady": "Kōkua 現在可以離線使用。",
+    "updateAvailable": "Kōkua 有新版本。",
+    "reload": "重新載入",
+    "dismiss": "關閉"
+  },
+  "i18n": {
+    "unreviewed": "此安全指示以英文顯示，因為其翻譯尚未經過審核。"
+  },
+  "location": {
+    "useMine": "使用我的位置",
+    "locating": "正在尋找您的位置…",
+    "orTapMap": "或在下方地圖上點選一個地點，例如您的住家或工作地點。",
+    "fromGps": "正在檢查您 {{time}} 的 GPS 位置（誤差約 {{accuracy}}）。",
+    "fromMap": "正在檢查您在地圖上選擇的地點。",
+    "fromHome": "正在檢查「家庭計劃」中的住家位置。",
+    "error": {
+      "denied": "位置權限已關閉。請在瀏覽器設定中開啟，或改為點選地圖。",
+      "unavailable": "您的手機找不到位置。請到戶外再試一次，或改為點選地圖。",
+      "timeout": "尋找位置花費太久。請再試一次，或改為點選地圖。",
+      "unsupported": "此瀏覽器無法分享您的位置。請改為點選地圖。"
+    }
+  },
+  "compass": {
+    "N": "北",
+    "NE": "東北",
+    "E": "東",
+    "SE": "東南",
+    "S": "南",
+    "SW": "西南",
+    "W": "西",
+    "NW": "西北"
+  },
+  "direction": {
+    "distanceToward": "往{{direction}} {{distance}}",
+    "walk": "步行至少 {{minutes}} 分鐘"
+  },
+  "data": {
+    "source": "資料來源：",
+    "mapped": "繪製於 {{date}}",
+    "updated": "更新於 {{date}}",
+    "downloaded": "下載於 {{date}}",
+    "loadError": "無法載入疏散區資料。請連上網路一次，然後重新開啟 Kōkua。"
+  },
+  "map": {
+    "loading": "正在載入地圖…",
+    "unavailable": "此裝置無法顯示地圖，但上方的資訊仍可使用。",
+    "zoneLabel": "歐胡島海嘯疏散區地圖",
+    "placesLabel": "最近的颶風避難處地圖",
+    "legend": "地圖圖例",
+    "legendTsunami": "海嘯疏散區",
+    "legendExtreme": "極端海嘯疏散區",
+    "legendYou": "您／選擇的地點",
+    "legendExit": "最近的離開點",
+    "legendRefuge": "颶風避難處（編號）",
+    "tapHint": "點選地圖可檢查其他地點。用兩根手指移動地圖。",
+    "gestureDesktop": "按住 Ctrl 並捲動即可縮放地圖",
+    "gestureMobile": "用兩根手指移動地圖"
+  },
+  "zone": {
+    "status": {
+      "tsunami": "您在海嘯疏散區內",
+      "extreme": "您在極端海嘯疏散區內",
+      "safe": "您在海嘯疏散區外",
+      "no-data": "此地點不在地圖上的歐胡島陸地"
+    },
+    "noDataHelp": "Kōkua 只有歐胡島的疏散區地圖。請選擇陸地上的地點，或在歐胡島上使用您的位置。",
+    "exitTsunami": "海嘯警報時最近的離開點：",
+    "exitExtreme": "極端海嘯警報時最近的離開點：",
+    "straightLine": "距離為直線距離。請沿著道路和小徑，往內陸或高處移動。",
+    "seePlaces": "查看附近的安全地點和避難處",
+    "disclaimer": "疏散區界線僅為大概位置。請一律遵從官方指示。"
+  },
+  "places": {
+    "tsunamiHeading": "海嘯：離開疏散區",
+    "alreadySafe": "此地點在海嘯疏散區外。海嘯期間，除非官方要求移動，否則請留在原地。",
+    "refugeHeading": "最近的颶風避難處",
+    "refugeInTsunami": "位於海嘯疏散區內：海嘯期間請勿前往。",
+    "refugeInExtreme": "位於極端海嘯疏散區內：極端海嘯警報期間請避開。"
+  },
+  "screens": {
+    "zone": {
+      "title": "我在疏散區內嗎？",
+      "naturalWarningHeading": "海嘯的自然警訊",
+      "naturalWarningSource": "資料來源：美國國家氣象局海嘯安全指南"
+    },
+    "places": {
+      "title": "最近的安全地點"
+    },
+    "alerts": {
+      "title": "天氣警報"
+    },
+    "plan": {
+      "title": "家庭緊急計劃"
+    }
+  },
+  "safety": {
+    "naturalWarning": "如果感覺到強烈地震，或看到海水突然退去，請立即往內陸或高處移動。不要等待官方警報。",
+    "tsunamiZoneAction": "如果發布海嘯警報，或感覺到強烈地震，請立即離開此區域。盡可能步行前往內陸或高處。不要到海邊觀看。",
+    "extremeZoneAction": "如果官方發布極端海嘯警報，請離開此區域。其他海嘯警報時，請遵從官方指示。",
+    "safeZoneAction": "海嘯警報期間，除非官方要求移動，否則請留在原地。請讓出道路給正在疏散的人。",
+    "tsunamiGoUp": "離開疏散區比到達避難處更重要。如果來不及離開，請到高大堅固的混凝土建築物的高樓層。",
+    "refugeNotOpen": "這些是可能的颶風避難處，並非已開放的避難所。官方會透過廣播、電視和官方社群媒體宣布哪些地點開放以及開放時間。這些是最後的選擇，沒有提供物資：請攜帶您的緊急物資包、食物、水和藥物。",
+    "tsunamiAlertAction": "目前有海嘯警報。如果您在海嘯疏散區內且官方要求疏散，請立即前往內陸或高處。在官方宣布安全之前，請遠離海岸。"
+  },
+  "alerts": {
+    "lastUpdated": "{{age}}更新",
+    "aging": "請連上網路檢查是否有更新的警報。",
+    "stale": "這些警報可能已過時。請透過廣播或電視查看最新消息。",
+    "loading": "正在取得最新警報…",
+    "neverOffline": "尚無已儲存的警報。請連上網路一次以下載。",
+    "fetchError": "無法連線到國家氣象局。顯示最後儲存的警報。",
+    "refresh": "檢查新警報",
+    "refreshing": "檢查中…",
+    "refreshOffline": "離線：目前無法檢查",
+    "none": "夏威夷目前沒有生效中的天氣警報。",
+    "severity": {
+      "Extreme": "極端",
+      "Severe": "嚴重",
+      "Moderate": "中等",
+      "Minor": "輕微",
+      "Unknown": "嚴重程度不明"
+    },
+    "oahu": "包含歐胡島",
+    "ended": "可能已結束",
+    "until": "至 {{time}}",
+    "details": "警報全文",
+    "whatToDo": "應採取的行動",
+    "englishOnly": "警報內容來自美國國家氣象局，以英文顯示。",
+    "tsunamiHeading": "海嘯警報",
+    "checkZone": "檢查您是否在海嘯疏散區內",
+    "source": "資料來源：美國國家氣象局檀香山辦公室。",
+    "officialChannels": "也請收聽本地廣播和電視、戶外警報器，以及手機上的無線緊急警報（WEA）。"
+  },
+  "share": {
+    "heading": "與附近的手機分享警報",
+    "body": "沒有網路？其他有 Kōkua 的人可以用相機掃描此代碼，查看這些警報的摘要。",
+    "show": "顯示分享代碼",
+    "qrLabel": "含有目前警報摘要的 QR 碼",
+    "howToScan": "在另一支手機上開啟相機，對準此代碼。",
+    "orLink": "您也可以用簡訊傳送此連結，不需要行動數據：",
+    "error": "此裝置無法產生分享代碼。",
+    "receivedTitle": "從另一支手機分享的警報",
+    "unverified": "由另一支手機分享。Kōkua 無法確認其真實性或是否為最新。請透過廣播、電視或官方來源確認。",
+    "invalid": "此分享代碼已損壞或不是來自 Kōkua。",
+    "downloadedBy": "另一支手機在{{age}}（{{date}}）下載了這些警報。",
+    "backToAlerts": "前往我自己的警報"
+  },
+  "plan": {
+    "intro": "趁現在一切平靜，與家人一起填寫。資料只會儲存在這支手機上，離線也能使用。",
+    "progress": "檢查清單 {{total}} 項中已準備 {{done}} 項",
+    "householdHeading": "家庭",
+    "household": "家庭名稱",
+    "members": "同住的人",
+    "membersHint": "姓名、年齡，以及救援人員需要知道的事項：醫療需求、行動不便、寵物。",
+    "homeAddress": "住家地址",
+    "homeLocation": "用於檢查疏散區的住家位置",
+    "homeSaved": "已儲存住家位置：",
+    "homeNotSet": "尚未設定。",
+    "homeHowTo": "要設定，請使用您的位置或在「疏散區」地圖上點選您的住家，然後回到這裡。",
+    "useCheckedSpot": "使用我最後檢查的地點",
+    "checkHome": "檢查我家的疏散區",
+    "meetingHeading": "集合地點",
+    "meetingNear": "住家附近的集合地點",
+    "meetingNearHint": "例如信箱或鄰居的車道。用於火災時。",
+    "meetingAway": "遠離社區的集合地點",
+    "meetingAwayHint": "海嘯疏散區外的地點，例如親戚家或位於高處的學校。",
+    "contactsHeading": "緊急聯絡人",
+    "outOfArea": "州外聯絡人",
+    "outOfAreaHint": "本地電話不通時，長途電話和簡訊往往仍能接通。每個人都向這位聯絡人報平安。",
+    "contactN": "聯絡人 {{n}}",
+    "contactName": "姓名",
+    "contactRelation": "關係",
+    "contactPhone": "電話",
+    "call": "撥打",
+    "removeContact": "移除",
+    "addContact": "新增聯絡人",
+    "checklistHeading": "14 天緊急物資包",
+    "checklistIntro": "夏威夷緊急管理機構建議準備至少 14 天的物資，因為大型風暴後，救援和貨運可能要幾週才會到達。",
+    "groups": {
+      "kit": "物資",
+      "docs": "文件",
+      "home": "住家",
+      "care": "家人與寵物"
+    },
+    "items": {
+      "water": "水：每人每天 1 加侖（約 3.8 公升），共 14 天",
+      "food": "不需烹煮的食物 14 天份，以及開罐器",
+      "meds": "藥物（2 週份）和處方影本",
+      "firstAid": "急救包",
+      "radio": "電池式或手搖式收音機",
+      "flashlight": "手電筒",
+      "batteries": "備用電池",
+      "charger": "行動電源或車用充電器",
+      "whistle": "求救用哨子",
+      "cash": "小額鈔票現金",
+      "ids": "身分證件和出生證明影本",
+      "insurance": "保險和銀行文件（放在防水袋中）",
+      "medicalList": "疾病、醫生和藥物清單",
+      "contactsPaper": "紙本聯絡人清單（列印此計劃）",
+      "knowZone": "知道住家、工作地點和學校是否在海嘯疏散區內",
+      "shutoffs": "知道如何關閉水、電和瓦斯",
+      "secureOutside": "計劃在風暴前固定或收進戶外物品",
+      "gasTank": "讓汽車油箱至少保持半滿",
+      "kupuna": "為長者（kūpuna）或行動需要協助的人做計劃",
+      "keiki": "為孩子（keiki）做計劃：學校接送、安撫物品",
+      "pets": "寵物食物、水、外出籠、牽繩和紀錄",
+      "neighbors": "知道哪些鄰居可能需要幫助"
+    },
+    "notesHeading": "備註",
+    "notes": "其他備註",
+    "notesHint": "其他事項：物資包存放位置、備用鑰匙、保單號碼。",
+    "exportHeading": "列印或分享",
+    "exportIntro": "手機會沒電。列印一份貼在冰箱上並放進緊急物資包，或讓家人掃描代碼。",
+    "print": "列印或儲存為 PDF",
+    "showQR": "顯示 QR 碼",
+    "hideQR": "隱藏 QR 碼",
+    "qrLabel": "含有此家庭計劃內容的 QR 碼",
+    "qrHelp": "用手機相機掃描，即可取得計劃文字。",
+    "privacy": "此計劃只儲存在這支手機上。Kōkua 絕不會上傳。",
+    "printTitle": "家庭緊急計劃",
+    "emergency": "緊急電話",
+    "printFooter": "以 Kōkua 製作。請確認您的海嘯疏散區，並將此份與緊急物資包放在一起。"
+  },
+  "checkin": {
+    "heading": "告訴家人您平安",
+    "intro": "Kōkua 會寫好訊息並準備好。由您手機的簡訊應用程式傳送。電話和數據不通時，簡訊往往仍能送達。",
+    "noContacts": "請在下方新增緊急聯絡人，訊息才能傳給他們。",
+    "noteLabel": "加上簡短備註（選填）",
+    "includeLocation": "包含我的位置",
+    "queue": "準備我的「我平安」訊息",
+    "pending": "您的「我平安」訊息已準備好可以傳送：",
+    "message": "我平安（截至 {{time}}）。",
+    "near": "位置在 {{lat}}, {{lng}} 附近。",
+    "sendText": "用簡訊傳送",
+    "share": "用其他方式分享",
+    "markSent": "我已傳送",
+    "bannerBackOnline": "您已恢復連線，但您的「我平安」訊息尚未傳送。"
+  },
+  "settings": {
+    "title": "設定",
+    "textSize": "文字大小",
+    "size": {
+      "normal": "標準",
+      "large": "大",
+      "xlarge": "特大"
+    },
+    "highContrast": "高對比",
+    "highContrastHint": "黑白配色加上明顯外框。在強烈陽光下更容易閱讀。",
+    "kupuna": "長者模式（簡易畫面）",
+    "kupunaHint": "只有超大按鈕的單一畫面：檢查所在位置、撥打 911、告訴家人您平安。",
+    "translationsHeading": "關於翻譯",
+    "translationsBody": "Kōkua 提供以下語言。大部分翻譯由機器產生，正在等待母語人士審核。在安全指示經過審核前，Kōkua 會以英文顯示。",
+    "aboutHeading": "關於 Kōkua",
+    "aboutBody": "Kōkua 協助夏威夷家庭為海嘯、颶風和洪水做準備並應變，即使沒有網路也能使用。它使用官方公開資料，但不能取代官方警報或指示。",
+    "privacy": "不需帳號，沒有追蹤。您輸入的所有內容都只留在這支手機上。"
+  },
+  "kupuna": {
+    "title": "我安全嗎？",
+    "checkHere": "我在這裡安全嗎？",
+    "status": {
+      "tsunami": "您在海嘯疏散區內",
+      "extreme": "您在極端海嘯疏散區內",
+      "safe": "您在海嘯疏散區外",
+      "no-data": "此地點不在歐胡島陸地上"
+    },
+    "goThisWay": "最近的離開點：",
+    "call911": "撥打 911",
+    "imSafe": "告訴家人我平安",
+    "alerts": "警報",
+    "exit": "顯示完整應用程式"
+  }
+}
